@@ -1,0 +1,2 @@
+formula = '70.0/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))';
+print( eval( formula ) );

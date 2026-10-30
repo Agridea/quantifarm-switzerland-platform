@@ -1,0 +1,4 @@
+- [Maria Poveda-Villalon](https://w3id.org/people/mpoveda/) ([Universidad Politécnica de Madrid](http://www.oeg-upm.net/))
+- [Raúl Garcia-Castro](http://www.garcia-castro.com/foaf.rdf#me) ([Universidad Politécnica de Madrid](http://www.oeg-upm.net/))
+- [Laura Daniele](https://www.linkedin.com/in/lauradaniele) ([TNO](https://tno.nl/))
+- [Mike de Roode](https://www.linkedin.com/in/mderoode) ([TNO](https://tno.nl/))

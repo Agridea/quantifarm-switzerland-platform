@@ -1,0 +1,1384 @@
+{
+   "testcaseNumber": 8,
+   "testcaseLeader": "AgroSmart",
+   "cultivationType": "Silos",
+   "datsInformation": [
+      {
+         "datsName": "AgroSmart for Silos",
+         "datsInitialInvestmentCosts": 30000,
+         "datsAnnualFees": null,
+         "datsMaintenanceCosts": null,
+         "datsExpectedLifespan": null,
+         "datsInstallationTime": 4,
+         "datsTrainingTime": 20,
+         "datsTrainers": 3,
+         "datsTrainingCosts": 0
+      }
+   ],
+   "yearlyAssessmentInformation": [
+      {
+         "cultivationYear": 2023,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "farmInformation": {
+                     "farmNumber": 8,
+                     "biogeographicalRegion": null,
+                     "totalFarmSize": null
+                  },
+                  "parcelInformation": {
+                     "parcelName": "’’RĒZEKNES DZIRNAVNIEKS’’ RSEZ AS ",
+                     "parcelDimension": null,
+                     "startMonth": null,
+                     "endMonth": null,
+                     "productType": "Grain (wheat)",
+                     "numberOfEmployees": 12,
+                     "numberOfFulltimeEmployees": 5,
+                     "numberOfSeasonalEmployees": 7,
+                     "soilFractionSand": null,
+                     "soilFractionClay": null,
+                     "soilFractionSilt": null,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": null,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [
+                     "AgroSmart for Silos"
+                  ],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": null,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": null,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": null,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [],
+                  "fertilizersUsageInformation": [],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": null,
+                     "labourForPesticides": null,
+                     "labourForFertilisation": null,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": null,
+                     "labourForFieldVisits": null,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": 300,
+                     "labourForGrainQualityAssessment": 450,
+                     "labourForControllingPricesAndQuantities": 46,
+                     "labourForOrganisingLogistics": 3200,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": null,
+                     "labourForStorage": 192,
+                     "labourForAdministration": 15840
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": 275,
+                     "numberOfOrdersReceived": 2920,
+                     "numberOfWrongOrders": 47,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": null,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": 64000,
+                     "productMarketPrice": 240,
+                     "cropMarketPrice": null,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 0,
+                     "totalNumberOfLostWorkingHours": 0,
+                     "totalNumberOfWorkingHours": 40,
+                     "numberOfWorkingWeeks": 43,
+                     "numberOfNewLocalEmployeesHired": 7,
+                     "numberOfNewEmployeesHired": 7
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "parcelAssessmentWithoutDATS": {
+                  "farmInformation": {
+                     "farmNumber": 8,
+                     "biogeographicalRegion": null,
+                     "totalFarmSize": null
+                  },
+                  "parcelInformation": {
+                     "parcelName": "Goldkorn SIA",
+                     "parcelDimension": null,
+                     "startMonth": null,
+                     "endMonth": null,
+                     "productType": "Grain (wheat)",
+                     "numberOfEmployees": 7,
+                     "numberOfFulltimeEmployees": 4,
+                     "numberOfSeasonalEmployees": 3,
+                     "soilFractionSand": null,
+                     "soilFractionClay": null,
+                     "soilFractionSilt": null,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": null,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": null,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": null,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": null,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [],
+                  "fertilizersUsageInformation": [],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": null,
+                     "labourForPesticides": null,
+                     "labourForFertilisation": null,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": null,
+                     "labourForFieldVisits": null,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": 400,
+                     "labourForGrainQualityAssessment": 600,
+                     "labourForControllingPricesAndQuantities": 27,
+                     "labourForOrganisingLogistics": 1360,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": null,
+                     "labourForStorage": 56,
+                     "labourForAdministration": 6400
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": 80,
+                     "numberOfOrdersReceived": 360,
+                     "numberOfWrongOrders": 0,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": null,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": 10000,
+                     "productMarketPrice": 240,
+                     "cropMarketPrice": null,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 0,
+                     "totalNumberOfLostWorkingHours": 0,
+                     "totalNumberOfWorkingHours": 4,
+                     "numberOfWorkingWeeks": 20,
+                     "numberOfNewLocalEmployeesHired": 3,
+                     "numberOfNewEmployeesHired": 3
+                  },
+                  "additionalFieldsInformation": []
+               }
+            }
+         ],
+         "marketInformation": {
+            "waterPrice": null,
+            "fuelPrice": 0.9,
+            "electricityPrice": 0.153,
+            "averageSalary": null,
+            "averageProfessionalSalary": null
+         }
+      },
+      {
+         "cultivationYear": 2024,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "farmInformation": {
+                     "farmNumber": 8,
+                     "biogeographicalRegion": null,
+                     "totalFarmSize": null
+                  },
+                  "parcelInformation": {
+                     "parcelName": "’’RĒZEKNES DZIRNAVNIEKS’’ RSEZ AS ",
+                     "parcelDimension": null,
+                     "startMonth": null,
+                     "endMonth": null,
+                     "productType": "Grain (wheat)",
+                     "numberOfEmployees": 10,
+                     "numberOfFulltimeEmployees": 5,
+                     "numberOfSeasonalEmployees": 5,
+                     "soilFractionSand": null,
+                     "soilFractionClay": null,
+                     "soilFractionSilt": null,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": null,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [
+                     "AgroSmart for Silos"
+                  ],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": null,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": null,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": null,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [],
+                  "fertilizersUsageInformation": [],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": null,
+                     "labourForPesticides": null,
+                     "labourForFertilisation": null,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": null,
+                     "labourForFieldVisits": null,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": 300,
+                     "labourForGrainQualityAssessment": 450,
+                     "labourForControllingPricesAndQuantities": 54,
+                     "labourForOrganisingLogistics": 3200,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": null,
+                     "labourForStorage": 192,
+                     "labourForAdministration": 14400
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": 325,
+                     "numberOfOrdersReceived": 3250,
+                     "numberOfWrongOrders": 23,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": null,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": 74000,
+                     "productMarketPrice": 220,
+                     "cropMarketPrice": null,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 0,
+                     "totalNumberOfLostWorkingHours": 0,
+                     "totalNumberOfWorkingHours": 40,
+                     "numberOfWorkingWeeks": 43,
+                     "numberOfNewLocalEmployeesHired": 5,
+                     "numberOfNewEmployeesHired": 5
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "parcelAssessmentWithoutDATS": {
+                  "farmInformation": {
+                     "farmNumber": 8,
+                     "biogeographicalRegion": null,
+                     "totalFarmSize": null
+                  },
+                  "parcelInformation": {
+                     "parcelName": "Grain (wheat)",
+                     "parcelDimension": null,
+                     "startMonth": null,
+                     "endMonth": null,
+                     "productType": "Goldkorn SIA",
+                     "numberOfEmployees": 8,
+                     "numberOfFulltimeEmployees": 4,
+                     "numberOfSeasonalEmployees": 4,
+                     "soilFractionSand": null,
+                     "soilFractionClay": null,
+                     "soilFractionSilt": null,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": null,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": null,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": null,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": null,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [],
+                  "fertilizersUsageInformation": [],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": null,
+                     "labourForPesticides": null,
+                     "labourForFertilisation": null,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": null,
+                     "labourForFieldVisits": null,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": 440,
+                     "labourForGrainQualityAssessment": 600,
+                     "labourForControllingPricesAndQuantities": 30,
+                     "labourForOrganisingLogistics": 1360,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": null,
+                     "labourForStorage": 56,
+                     "labourForAdministration": 6400
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": 90,
+                     "numberOfOrdersReceived": 410,
+                     "numberOfWrongOrders": 2,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": null,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": 11000,
+                     "productMarketPrice": 220,
+                     "cropMarketPrice": null,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 0,
+                     "totalNumberOfLostWorkingHours": 0,
+                     "totalNumberOfWorkingHours": 32,
+                     "numberOfWorkingWeeks": 20,
+                     "numberOfNewLocalEmployeesHired": 4,
+                     "numberOfNewEmployeesHired": 4
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Labour for tracking the quantity of grain available in the silo ",
+                     "indicatorUnit": "€/t",
+                     "absoluteDifference": -0.21208108108108106,
+                     "percentageDifference": -89.86486486486487
+                  },
+                  {
+                     "indicatorName": "Labour for assessing grain quality",
+                     "indicatorUnit": "€/t",
+                     "absoluteDifference": -0.28593980343980346,
+                     "percentageDifference": -88.85135135135135
+                  },
+                  {
+                     "indicatorName": "Labour for controlling purchase and sale prices and quantities",
+                     "indicatorUnit": "€/t",
+                     "absoluteDifference": -0.011785503685503684,
+                     "percentageDifference": -73.24324324324324
+                  },
+                  {
+                     "indicatorName": "Labour for organise logistics ",
+                     "indicatorUnit": "€/t",
+                     "absoluteDifference": -0.47431941031941044,
+                     "percentageDifference": -65.02384737678855
+                  },
+                  {
+                     "indicatorName": "Labour for administrative activities, data collection, etc. ",
+                     "indicatorUnit": "€/t",
+                     "absoluteDifference": -2.2846191646191647,
+                     "percentageDifference": -66.55405405405406
+                  },
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/t",
+                     "absoluteDifference": -3.283473218673219,
+                     "percentageDifference": -68.89184931048537
+                  },
+                  {
+                     "indicatorName": "NET BENEFIT",
+                     "indicatorUnit": "€/t",
+                     "absoluteDifference": 3.283473218673219,
+                     "percentageDifference": null
+                  },
+                  {
+                     "indicatorName": "Labour productivity (arable and horticulture or silos)",
+                     "indicatorUnit": "t / h",
+                     "absoluteDifference": 2.741448079681607,
+                     "percentageDifference": 221.4591603277342
+                  },
+                  {
+                     "indicatorName": "Rate of time for quality analysis",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": -4.332319221213016,
+                     "percentageDifference": -64.16164766616477
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": -0.5565208845208844,
+                     "percentageDifference": -68.89184931048536
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 105.85112665371742
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 0.0
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 68.89184931048536
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 68.89184931048537,
+                     "aggregatedImpactMaxRangeValue": 68.89184931048537
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 142.81040399694947,
+                     "aggregatedImpactMaxRangeValue": 100.0
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 68.89184931048536,
+                     "aggregatedImpactMaxRangeValue": 68.89184931048536
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/t",
+                     "absoluteDifference": -3.283473218673219,
+                     "percentageDifference": -68.89184931048537,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "REDUCED COSTS",
+                     "mainImpactSubtitle": "due to more efficient silo management "
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/t",
+                     "absoluteDifference": 3.283473218673219,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT",
+                     "mainImpactSubtitle": "due to labor cost savings rather than increased revenue"
+                  },
+                  {
+                     "mainImpactName": "PAYBACK PERIOD",
+                     "mainImpactUnit": "years (n)",
+                     "absoluteDifference": 0.12346846720108808,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "PAYBACK PERIOD ",
+                     "mainImpactSubtitle": "Less than oune year"
+                  },
+                  {
+                     "mainImpactName": "Labour productivity (arable and horticulture or silos)",
+                     "mainImpactUnit": "t / h",
+                     "absoluteDifference": 2.741448079681607,
+                     "percentageDifference": 221.4591603277342,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "INCREASED LABOUR PRODUCTIVITY",
+                     "mainImpactSubtitle": "Due to a better ratio between the amount of product handled and total working hours "
+                  },
+                  {
+                     "mainImpactName": "Rate of time for quality analysis",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": -4.332319221213016,
+                     "percentageDifference": -64.16164766616477,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED QUALITY CONTROL TIME RATIO",
+                     "mainImpactSubtitle": "Due to a better ratio of the amount of time to control the quality of the product to the total amount of time "
+                  },
+                  {
+                     "mainImpactName": "Working time",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": -0.5565208845208844,
+                     "percentageDifference": -68.89184931048536,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "REDUCED WORKING TIME",
+                     "mainImpactSubtitle": "due to optimization of activities in the silo "
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": 0.40540540540540543,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for tracking the quantity of grain available in the silo ",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": -0.21208108108108106,
+                     "percentageDifference": -89.86486486486487,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for tracking the quantity of grain available in the silo: The DATS allows an easier and faster grain reception and unloading, giving more accurate information about the balance of products stored"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for assessing grain quality",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": -0.28593980343980346,
+                     "percentageDifference": -88.85135135135135,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for assessing grain quality: The DATS allows an easier laboratory data entry and grain quality monitoring"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for controlling purchase and sale prices and quantities",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": -0.011785503685503684,
+                     "percentageDifference": -73.24324324324324,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for controlling purchase and sale prices and quantities: Tha DATS allows a better management of contracts and bills and also a better monitoring of prices of each product "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for organise logistics ",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": -0.47431941031941044,
+                     "percentageDifference": -65.02384737678855,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for organise logistics: The DATS helps streamline logistics by improving inventory control, forecasting, and communication across different logistics stages "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for storage ",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": -0.014728255528255529,
+                     "percentageDifference": -49.034749034749034,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for storage: The DATSs optimizes the storage management "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": -2.2846191646191647,
+                     "percentageDifference": -66.55405405405406,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Administrati ve activities, data collection, etc.: The main impact of the DATS seems to be on the better management of administrative activities, Thanks to the fact that it allows having all data and documents in one place"
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": 3.283473218673219,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Net Benefit: The net benefit of the DATS comes from labour cost savings rather than an increase in revenue"
+                  }
+               ]
+            }
+         ],
+         "marketInformation": {
+            "waterPrice": null,
+            "fuelPrice": 0.8,
+            "electricityPrice": 0.135,
+            "averageSalary": null,
+            "averageProfessionalSalary": null
+         }
+      },
+      {
+         "cultivationYear": 2025,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "parcelInformation": {
+                     "productType": "Grain (wheat)"
+                  }
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/t",
+                     "absoluteDifference": -3.4254816306239126,
+                     "percentageDifference": -70.64413197794521
+                  },
+                  {
+                     "indicatorName": "NET BENEFIT",
+                     "indicatorUnit": "€/t",
+                     "absoluteDifference": 3.4254816306239126,
+                     "percentageDifference": null
+                  },
+                  {
+                     "indicatorName": "Labour productivity (arable and horticulture or silos)",
+                     "indicatorUnit": "t / h",
+                     "absoluteDifference": 2.9281116236546776,
+                     "percentageDifference": 240.6473960329529
+                  },
+                  {
+                     "indicatorName": "Rate of time for quality analysis",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": -4.256185377777415,
+                     "percentageDifference": -62.96316902192056
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/t",
+                     "absoluteDifference": -0.5805901068854089,
+                     "percentageDifference": -70.64413197794521
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 111.22470725269096
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 0.0
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 70.64413197794521
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 70.64413197794521,
+                     "aggregatedImpactMaxRangeValue": 70.64413197794521
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 151.80528252743673,
+                     "aggregatedImpactMaxRangeValue": 100.0
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 70.64413197794521,
+                     "aggregatedImpactMaxRangeValue": 70.64413197794521
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/t",
+                     "absoluteDifference": -3.4254816306239126,
+                     "percentageDifference": -70.64413197794521,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED COSTS",
+                     "mainImpactSubtitle": "due to more efficient silo management"
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/t",
+                     "absoluteDifference": 3.4254816306239126,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT",
+                     "mainImpactSubtitle": "due to labor cost savings rather than increased revenue"
+                  },
+                  {
+                     "mainImpactName": "Labour productivity (arable and horticulture or silos)",
+                     "mainImpactUnit": "t / h",
+                     "absoluteDifference": 2.9281116236546776,
+                     "percentageDifference": 240.6473960329529,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "INCREASED LABOUR PRODUCTIVITY",
+                     "mainImpactSubtitle": "Thanks to a better ratio between the amount of product handled and total working hours"
+                  },
+                  {
+                     "mainImpactName": "Rate of time for quality analysis",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": -4.256185377777415,
+                     "percentageDifference": -62.96316902192056,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED RATE OF TIME FOR QUALITY ANALYSIS",
+                     "mainImpactSubtitle": "Thanks to more efficient task management"
+                  },
+                  {
+                     "mainImpactName": "Working time",
+                     "mainImpactUnit": "h/t",
+                     "absoluteDifference": -0.5805901068854089,
+                     "percentageDifference": -70.64413197794521,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "REDUCED WORKING TIME",
+                     "mainImpactSubtitle": "due to optimization of activities in the silo"
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": 0.40268456375838924,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for tracking the quantity of grain available in the silo ",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": -0.21114901814566242,
+                     "percentageDifference": -89.88606211955673,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATS allows an easier and faster grain reception and unloading, giving more accurate information about the balance of products stored "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for assessing grain quality",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": -0.2921401938851603,
+                     "percentageDifference": -89.12751677852349,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The integration of automated quality monitoring tools in the DATS system reduces the time spent on manual quality checks, resulting in lower labour costs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for controlling purchase and sale prices and quantities",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": -0.012270768083519762,
+                     "percentageDifference": -74.87248322147651,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Tha DATS allows a better management of contracts and bills and also a better monitoring of prices of each product "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for organise logistics ",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": -0.4895401441710167,
+                     "percentageDifference": -65.89024871693644,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATS helps streamline logistics by improving inventory control, forecasting, and communication across different logistics stages"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for storage ",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": -0.015387223465075813,
+                     "percentageDifference": -50.297219558964514,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "With DATS, storage management is optimized through realtime data, reducing the manual effort required to oversee inventory and improving operational efficiency "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": -2.404994282873478,
+                     "percentageDifference": -68.78691275167786,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The main impact of the DATS seems to be on the better management of administrative activities, Thanks to the fact that it allows having all data and documents in one place"
+                  }
+               ]
+            }
+         ],
+         "marketInformation": {
+            "waterPrice": null,
+            "fuelPrice": null,
+            "electricityPrice": null,
+            "averageSalary": null,
+            "averageProfessionalSalary": null
+         }
+      },
+      {
+         "cultivationYear": 2026,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "parcelInformation": {
+                     "productType": "Grain (wheat)"
+                  }
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/t",
+                     "absoluteDifference": -3.03,
+                     "percentageDifference": -70.0
+                  },
+                  {
+                     "indicatorName": "NET BENEFIT",
+                     "indicatorUnit": "€/t",
+                     "absoluteDifference": 2.24,
+                     "percentageDifference": null
+                  },
+                  {
+                     "indicatorName": "Labour productivity (arable and horticulture or silos)",
+                     "indicatorUnit": "t / h",
+                     "absoluteDifference": null,
+                     "percentageDifference": 230.0
+                  },
+                  {
+                     "indicatorName": "Rate of time for quality analysis",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": null,
+                     "percentageDifference": -47.0
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/t",
+                     "absoluteDifference": null,
+                     "percentageDifference": -78.0
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 104.25
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 0.0
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 78.0
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 70.0,
+                     "aggregatedImpactMaxRangeValue": 70.0
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 138.5,
+                     "aggregatedImpactMaxRangeValue": 100.0
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 78.0,
+                     "aggregatedImpactMaxRangeValue": 78.0
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/t",
+                     "absoluteDifference": -3.03,
+                     "percentageDifference": -70.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "REDUCED COSTS",
+                     "mainImpactSubtitle": "due to more efficient silo management "
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/t",
+                     "absoluteDifference": 2.24,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT",
+                     "mainImpactSubtitle": "due to labour cost savings"
+                  },
+                  {
+                     "mainImpactName": "PAYBACK PERIOD",
+                     "mainImpactUnit": "years (n)",
+                     "absoluteDifference": 0.2,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "SHORT PBP",
+                     "mainImpactSubtitle": "indicating that the investment is recovered quickly"
+                  },
+                  {
+                     "mainImpactName": "NPV 5 years",
+                     "mainImpactUnit": "€/t",
+                     "absoluteDifference": 9.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "POSITIVE NPV",
+                     "mainImpactSubtitle": "as the expected benefits outweigh the running and investments costs"
+                  },
+                  {
+                     "mainImpactName": "ROI",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": 100.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "ROI larger than 100%",
+                     "mainImpactSubtitle": "demonstrating the strong financial performance of DATS"
+                  },
+                  {
+                     "mainImpactName": "Labour productivity (arable and horticulture or silos)",
+                     "mainImpactUnit": "t / h",
+                     "absoluteDifference": null,
+                     "percentageDifference": 230.0,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "INCREASED LABOUR PRODUCTIVITY",
+                     "mainImpactSubtitle": "Thanks to a better ratio between the amount of product handled and total working hours"
+                  },
+                  {
+                     "mainImpactName": "Rate of time for quality analysis",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": null,
+                     "percentageDifference": -47.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "DECREASED QUALITY CONTROL TIME RATIO",
+                     "mainImpactSubtitle": "Due to an easier and automated control of the quality of the product"
+                  },
+                  {
+                     "mainImpactName": "Working time",
+                     "mainImpactUnit": "h/t",
+                     "absoluteDifference": null,
+                     "percentageDifference": -78.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "REDUCED WORKING TIME",
+                     "mainImpactSubtitle": "due to optimization of activities in the silo"
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": 0.40268456375838924,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for tracking the quantity of grain available in the silo ",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": -0.14,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATS allows an easier and faster grain reception and unloading, giving more accurate information about the balance of products stored "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for assessing grain quality",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": -0.2,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The integration of automated quality monitoring tools in the DATS system reduces the time spent on manual quality checks, resulting in lower labour costs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for controlling purchase and sale prices and quantities",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": -0.01,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Tha DATS allows a better management of contracts and bills and also a better monitoring of prices of each product "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for organise logistics ",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": -0.32,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATS helps streamline logistics by improving inventory control, forecasting, and communication across different logistics stages"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for storage ",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": -0.02,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATS optimizes the storage management "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/t",
+                     "absoluteDifference": -2.34,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The main impact of the DATS is on the better management of administrative activities, allowing to have all data and documents in one place"
+                  }
+               ]
+            }
+         ],
+         "marketInformation": {
+            "waterPrice": null,
+            "fuelPrice": null,
+            "electricityPrice": null,
+            "averageSalary": null,
+            "averageProfessionalSalary": null
+         }
+      }
+   ]
+}

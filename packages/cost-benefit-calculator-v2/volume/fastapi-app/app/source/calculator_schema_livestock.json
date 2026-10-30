@@ -1,0 +1,60 @@
+{
+  "meat_productivity": [
+    { "name": "depreciation", "column": "T3", "function": "=0 if (U3<500) else (U3/M3)" },
+    { "name": "total_intial_cost_of_dat", "column": "U3", "function": "=N3+(Q3*L3)" },
+    { "name": "current_revenue_without_dats", "column": "Y3", "function": "=W3*X3" },
+    { "name": "meat_productivity_with_dats", "column": "Z3", "function": "=X3*(1+V3/100)" },
+    { "name": "meat_price_with_dats", "column": "AA3", "function": "=Z3*W3" },
+    { "name": "revenue_impact_with_dats", "column": "AB3", "function": "=AA3-Y3" }
+  ],
+  "oyster": [
+    { "name": "current_revenue_without_dats", "column": "AF3", "function": "=AD3*AE3" },
+    { "name": "oysters_productivity_with_dats", "column": "AG3", "function": "=AE3*(1+AC3/100)" },
+    { "name": "oyster_price_with_dats", "column": "AH3", "function": "=AG3*AD3" },
+    { "name": "revenue_impact_with_dats", "column": "AI3", "function": "=AH3-AF3" }
+  ],
+  "honey": [
+    { "name": "current_revenue_without_dat", "column": "AM3", "function": "=AK3*AL3" },
+    { "name": "honey_productivity_with_dats", "column": "AN3", "function": "=AL3*(1+AJ3/100)" },
+    { "name": "honey_price_with_dats", "column": "AO3", "function": "=AN3*AK3" }
+  ],
+  "livestock_revenue_impact": [
+    { "name": "revenue_impact_with_dats", "column": "AP3", "function": "=AO3-AM3" }
+  ],
+  "milk": [
+    { "name": "current_revenue_without_dats", "column": "AT3", "function": "=AS3*L3*AR3*365" },
+    { "name": "average_liters_of_milk_produced_per_animal", "column": "AU3", "function": "=AS3*(1+AQ3/100)" },
+    { "name": "price_of_milk_yield_with_dat_s", "column": "AV3", "function": "=AU3*AR3*L3*365" }
+  ],
+  "revenue_impact": [
+    { "name": "revenue_impact_with_dats", "column": "AW3", "function": "=AV3-AT3" }
+  ],
+  "electricity_cost": [
+    { "name": "current_cost_of_electricity_without_dats", "column": "BA3", "function": "=AY3*AZ3" },
+    { "name": "elecricity_cost_with_dats", "column": "BB3", "function": "=BA3*(1+AX3/100)" }
+  ],
+  "labor_cost": [
+    { "name": "labor_cost_with_dat", "column": "BE3", "function": "=(BD3*(1+BC3/100))" }
+  ],
+  "feed_cost": [
+    { "name": "feed_cost_with_dats", "column": "BH3", "function": "=(BG3*(1+BF3/100))" }
+  ],
+  "mortality_cost": [
+    { "name": "mortality_cost_with_dats", "column": "BK3", "function": "=BJ3*(1+BI3/100)" }
+  ],
+  "fuel_cost": [
+    { "name": "fuel_cost_with_dat_s", "column": "BN3", "function": "=BM3*(1+BL3/100)" }
+  ],
+  "drug_cost": [
+    { "name": "drug_cost_with_dat_s", "column": "BQ3", "function": "=BP3*(1+BO3/100)" }
+  ],
+  "water_cost": [
+    { "name": "water_cost_with_dats", "column": "BT3", "function": "=BS3*(1+BR3/100)" }
+  ],
+  "livestock_tc_dats_investment_decision": [
+    { "name": "annual_change_in_net_income", "column": "BU3", "function": "=AB3+AI3+AP3+AW3+(BA3-BB3)+(BD3-BE3)+(BG3-BH3)+(BJ3-BK3)+(BM3-BN3)+(BP3-BQ3)+(BS3-BT3)-O3-P3-(R3*L3)+(S3*L3)-T3" },
+    { "name": "annual_roi", "column": "BV3", "function": "=0 if (U3=0) else ((BU3/U3)*100)" },
+    { "name": "payback_period", "column": "BW3", "function": "=(U3/BU3)" },
+    { "name": "is_the_dat_beneficial", "column": "BX3", "function": "=1 if (0<BW3<6) else -1" }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/LabourInformation.schema.json",
+  "title": "QuantiFarm labour information",
+  "description": "Information about the amount of labour used for various tasks during the cultivation in the specific year",
+  "type": "object",
+  "properties": {
+    "labourForIrrigation": {
+      "description": "The amount of labour in hours that was used for irrigation during the cultivation in the specific year",
+      "type": "number"
+    },
+    "labourForPesticides": {
+      "description": "The amount of labour in hours that was used for pesticides during the cultivation in the specific year",
+      "type": "number"
+    },
+    "labourForFertilisation": {
+      "description": "The amount of labour in hours that was used for fertilization during the cultivation in the specific year",
+      "type": "number"
+    },
+    "labourForSowingOrPlanting": {
+      "description": "The amount of labour in hours that was used for sowing or planting during the cultivation in the specific year",
+      "type": "number"
+    },
+    "labourForPruning": {
+      "description": "The amount of labour in hours that was used for pruning during the cultivation in the specific year",
+      "type": "number"
+    },
+    "labourForFieldVisits": {
+      "description": "The amount of labour in hours that was used for field visits during the cultivation in the specific year",
+      "type": "number"
+    },
+    "labourForGreenhouseManagement": {
+      "description": "The amount of labour in hours that was used for greenhouse management during the cultivation in the specific year",
+      "type": "number"
+    },
+    "labourForQuantityTracking": {
+      "description": "The amount of labour in hours that was used for tracking the quantity of grain available in a silo during the cultivation in the specific year",
+      "type": "number"
+    },
+    "labourForGrainQualityAssessment": {
+      "description": "The amount of labour in hours that was used for assessing grain quality during the cultivation in the specific year",
+      "type": "number"
+    },
+    "labourForControllingPricesAndQuantities": {
+      "description": "The amount of labour in hours that was used for controlling purchase and sale prices and quantities during the cultivation in the specific year",
+      "type": "number"
+    },
+    "labourForOrganisingLogistics": {
+      "description": "The amount of labour in hours that was used for organizing logistics during the cultivation in the specific year",
+      "type": "number"
+    },
+    "labourForCleaning": {
+      "description": "The amount of labour in hours that was used for cleaning during the cultivation in the specific year",
+      "type": "number"
+    },
+    "labourForStableVisits": {
+      "description": "The amount of labour in hours that was used for stable visits during the cultivation in the specific year",
+      "type": "number"
+    },
+    "labourForHeatDetection": {
+      "description": "The amount of labour in hours that was used for heat detection during the cultivation in the specific year",
+      "type": "number"
+    },
+    "labourForCalvingDetection": {
+      "description": "The amount of labour in hours that was used for calving detection during the cultivation in the specific year",
+      "type": "number"
+    },
+    "labourForPigstyManagement": {
+      "description": "The amount of labour in hours that was used for pigsty management during the cultivation in the specific year",
+      "type": "number"
+    },
+    "labourForMilking": {
+      "description": "The amount of labour in hours that was used for milking during the cultivation in the specific year",
+      "type": "number"
+    },
+    "labourForMilkQualityAssessment": {
+      "description": "The amount of labour in hours that was used for assessing milk quality during the cultivation in the specific year",
+      "type": "number"
+    },
+    "labourForFeeding": {
+      "description": "The amount of labour in hours that was used for feeding during the cultivation in the specific year",
+      "type": "number"
+    },
+    "labourForBeehiveVisits": {
+      "description": "The amount of labour in hours that was used for beehive visits during the cultivation in the specific year",
+      "type": "number"
+    },
+    "labourForOysterSampling": {
+      "description": "The amount of labour in hours that was used for sampling of oysters during the cultivation in the specific year",
+      "type": "number"
+    },
+    "labourForOysterTransportation": {
+      "description": "The amount of labour in hours that was used for transporting oysters to the laboratory during the cultivation in the specific year",
+      "type": "number"
+    },
+    "labourForHarvesting": {
+      "description": "The amount of labour in hours that was used for harvesting during the cultivation in the specific year",
+      "type": "number"
+    },
+    "labourForStorage": {
+      "description": "The amount of labour in hours that was used for storage during the cultivation in the specific year",
+      "type": "number"
+    },
+    "labourForAdministration": {
+      "description": "The amount of labour in hours that was used for administrative activities, data collection etc. during the cultivation in the specific year",
+      "type": "number"
+    }
+  },
+  "required": []
+}

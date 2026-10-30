@@ -1,0 +1,43 @@
+[
+  {
+    "total_area_ha": 10,
+    "years_of_usage": 3,
+    "current_yield_tonsha": 5,
+    "market_price1ton": 200,
+    "current_fertilizer_usage_kg_ha": 130,
+    "current_fertilizer_cost1_kg": 0.5,
+    "current_water_usage_m3ha": 0,
+    "current_water_costm3": 0,
+    "current_pestcide_usage_kg_or_lt_ha": 4,
+    "current_pesticide_costkg_or_lt": 10,
+    "current_labor_costin_1_year": 2000,
+    "current_fuel_costin_1_year": 300,
+    "current_electricity_costin_1_year": 0,
+    "user_id": "amanos"
+  }
+]
+
+[
+  {
+    "years_of_usage": 10,
+    "number_of_animals": 1200,
+    "number_of_units_sensors_etc": 0,
+    "average_meat_price_per_kg": 0,
+    "average_meat_produced_per_year_kg": 0,
+    "average_oyster_price_per_kg": 0,
+    "average_oysters_produced_per_year_kg": 0,
+    "average_honey_price_per_kg": 0,
+    "average_honey_produced_per_year_kg": 0,
+    "average_milk_price_per_literliter": 0,
+    "average_liters_of_milk_produced_per_cow_per_day_l": 0,
+    "current_electricity_consumptionin_kwh": 0,
+    "cost_of_electricity_per_kwh": 0,
+    "current_labor_costin_1_year":0,
+    "current_feed_waste_costin_1_year": 0,
+    "current_mortality_costin_1_year": 14400,
+    "current_fuel_costin_1_year": 3000,
+    "current_drug_costin_1_year": 65000,
+    "current_water_costin_1_year": 4500,
+    "user_id": "amanos"
+  }
+]

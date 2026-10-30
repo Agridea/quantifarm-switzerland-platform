@@ -1,0 +1,1550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>QuantiFarm - Test case data</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XH06Z9BF5S"></script>
+    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-XH06Z9BF5S');</script>
+
+    <!-- Favicons -->
+    <link href="assets/img/QuantiFarm-element-60x60.png" rel="icon" sizes="32x32">
+    <link href="assets/img/QuantiFarm-element-60x60.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Sofia+Sans:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- DigiAgriFoodCH Theme -->
+    <link href="assets/css/digiagrifood-theme.css" rel="stylesheet">
+
+    <!--custom style-->
+    <style>
+        .tc-data-err {
+            background-color: #FFA500;
+        }
+    </style>
+
+</head>
+
+<body class="">
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center notranslate">
+
+        <a href="index.html" class="logo d-flex xalign-items-center">
+            <span>Toolkit</span>
+        </a>
+
+        <nav class="navbar navbar-expand-md d-none d-md-flex align-items-center position-absolute start-0 end-0 h-100" style="pointer-events: none;">
+            <div class="container-fluid d-flex align-items-center" style="pointer-events: auto;">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-2 pt-3 h-100 ">
+                        <a class="nav-link text-primary pe-0 pb-3" href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item pe-2 pt-3 h-100">
+                        <a class="nav-link text-primary pe-0 pb-3" href="toolkit.html">
+                            Toolkit
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown pt-3 h-100">
+                        <a class="nav-link text-primary dropdown-toggle pb-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Test cases
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a id="mnuResults" class="dropdown-item" href="results.html">
+                                    Results
+                                </a>
+                            </li>
+                            <li>
+                                <a id="mnuMethodology" class="dropdown-item" href="methodology.html">
+                                    Methodology
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item pe-2 pt-3 h-100">
+                        <a class="nav-link text-primary pe-0 pb-3" href="faq.html">
+                            FAQ
+                        </a>
+                    </li>
+                    <li class="nav-item pe-2 pt-3 h-100" hidden>
+                            Contacts
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown pt-3 h-100">
+                        <a class="nav-link text-primary dropdown-toggle pb-3" href="#" id="lngDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">DE</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="lngDropdown">
+                            <li><a class="dropdown-item" href="#" onclick="setLanguage('DE');return false;">DE – Deutsch</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="setLanguage('FR');return false;">FR – Français</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="setLanguage('IT');return false;">IT – Italiano</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                <li class="nav-item dropdown pe-2 pt-3 h-100" id="mnuLogin">
+                    <a class="nav-link d-flex align-items-center text-primary px-4 " href="login.html">
+                        <i class="ri-login-box-line" style="font-size: 26px"></i>
+                        <span>Login</span>
+                    </a>
+                </li>
+
+                <li class="nav-item dropdown pe-2 pt-3 h-100" id="mnuUser" hidden>
+
+                    <a class="nav-link d-flex align-items-center text-primary px-4 " href="#" data-bs-toggle="dropdown">
+                        <i class="bi bi-gear" style="font-size: 26px"></i>
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                        <li class="dropdown-header">
+                            <h6 id="mnuUserName"></h6>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="profile.html">
+                                <i class="bi bi-person"></i>
+                                <span>My Profile</span>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="php/api.php?c=out">
+                                <i class="bi bi-box-arrow-right"></i>
+                                <span>Log out</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="header-nav ms-auto h-100 d-md-none d-sm-block">
+            <ul class="d-flex align-items-center h-100">
+
+                <li class="nav-item dropdown pe-1 pt-2 h-100">
+
+                    <a class="nav-link d-flex align-items-center text-primary px-4 " href="#" data-bs-toggle="dropdown">
+                        <i class="bi bi-list" style="font-size: 32px"></i>
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                        <li>
+                            <a class="dropdown-item" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="toolkit.html">Toolkit</a>
+                        </li>
+                        <li>
+                            <a id="mnuResults" class="dropdown-item" href="results.html">Test cases</a>
+                        </li>
+                        <li>
+                            <a id="mnuMethodology" class="dropdown-item" href="methodology.html">Methodology</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="faq.html">FAQ</a>
+                        </li>
+                        <li hidden>
+                            <a class="dropdown-item" target="_blank" href="https://quantifarm.eu/contact-us/">Contacts</a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li id="mnuLogin2">
+                            <a class="dropdown-item" href="login.html">Login</a>
+                        </li>
+                        <li id="mnuProfile2">
+                            <a class="dropdown-item" href="profile.html">My Profile</a>
+                        </li>
+                        <li id="mnuLogout2">
+                            <a class="dropdown-item" href="php/api.php?c=out">Log out</a>
+                        </li>
+
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+    </header><!-- End Header -->
+
+    <main class="d-flex justify-content-center">
+
+        <div class="" style="width: 1450px;">
+            <div class="row text-center">
+                <h2 class="card-title lh-lg">TEST CASE DATA</h2>
+            </div>
+
+            <div class="position-fixed top-0 start-0" style="padding:80px 0 0 20px;">
+                <div class="toast" id="toast1">
+                    <div class="toast-header">
+                        <strong class="me-auto"></strong>
+                        <a role="button" data-bs-dismiss="toast"><i class="ri-close-fill"></i></a>
+                    </div>
+                    <div class="toast-body text-danger">
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center mb-2">
+                <div class="mx-3">
+                    <select class="form-select w-auto" id="cboTC" onchange="NewTC()" aria-label="">
+                        <option value="" selected>Create new TC data</option>
+                        <option value="1">TC 1</option>
+                        <option value="2">TC 2</option>
+                        <option value="3">TC 3</option>
+                        <option value="4">TC 4</option>
+                        <option value="5">TC 5</option>
+                        <option value="6">TC 6</option>
+                        <option value="7">TC 7</option>
+                        <option value="8">TC 8</option>
+                        <option value="9">TC 9</option>
+                        <option value="10">TC 10</option>
+                        <option value="11">TC 11</option>
+                        <option value="12">TC 12</option>
+                        <option value="13">TC 13</option>
+                        <option value="14">TC 14</option>
+                        <option value="15">TC 15</option>
+                        <option value="16">TC 16</option>
+                        <option value="17">TC 17</option>
+                        <option value="18">TC 18</option>
+                        <option value="19">TC 19</option>
+                        <option value="20">TC 20</option>
+                        <option value="21">TC 21</option>
+                        <option value="22">TC 22</option>
+                        <option value="23">TC 23</option>
+                        <option value="24">TC 24</option>
+                        <option value="25">TC 25</option>
+                        <option value="26">TC 26</option>
+                        <option value="27">TC 27</option>
+                        <option value="28">TC 28</option>
+                        <option value="29">TC 29</option>
+                        <option value="30">TC 30</option>
+                    </select>
+                </div>
+                <div class="mx-3">
+                    <button type="button" class="btn btn-primary" onclick="OpenFile()" id="btnLoad">Load from file</button>
+                </div>
+                <div class="mx-3">
+                    <button type="button" class="btn btn-primary me-4" onclick="SaveTC()" id="btnSave">Save to file</button>
+                </div>
+            </div>
+            <hr>
+            <ul class="nav nav-tabs" id="myTab1" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="butInfo" data-bs-toggle="tab" data-bs-target="#tabInfo" type="button" role="tab" aria-controls="tabInfo" aria-selected="true">Instructions</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="butGeneral" data-bs-toggle="tab" data-bs-target="#tabGeneral" type="button" role="tab" aria-controls="tabGeneral" aria-selected="false" tabindex="-1" hidden>General data</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="but2023" data-bs-toggle="tab" data-bs-target="#tabYearly" type="button" role="tab" aria-controls="tabYearly" aria-selected="false" tabindex="-1" onclick="ChangeYear(2023)" hidden>Testing period 2023</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="but2024" data-bs-toggle="tab" data-bs-target="#tabYearly" type="button" role="tab" aria-controls="tabYearly" aria-selected="false" tabindex="-1" onclick="ChangeYear(2024)" hidden>Testing period 2024</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="but2025" data-bs-toggle="tab" data-bs-target="#tabYearly" type="button" role="tab" aria-controls="tabYearly" aria-selected="false" tabindex="-1" onclick="ChangeYear(2025)" hidden>Testing period 2025</button>
+                </li>
+
+            </ul>
+
+            <div class="tab-content pt-2" id="Tab1Content">
+                <div class="tab-pane fade active show" id="tabInfo" role="tabpanel" aria-labelledby="butInfo">
+                    <p>Please use Chrome, MS Edge, Opera, Brave or other Chromium based browser.</p>
+
+                    <p>How-tos:</p>
+                    <ul>
+                        <li>To start entering data, first select one TC from the dropdown. There are 30 TC.</li>
+                        <li>TC data is grouped in several tabs: one ?General? and 3 testing periods: 2023, 2024 and 2025.</li>
+                        <li>To enter data for one parcel, first select "Testing period YYYY" tab, then ?Parcel Comparison X? tab, then ?Parcel with DATS? or ?Parcel without DATS? tab.</li>
+                        <li>Click on ?(add new)? button to add new ?Parcel Comparison X? tab. To delete a ?Parcel Comparison X?, delete the data in all ?Parcel with DATS? and ?Parcel without DATS? fields.</li>
+                        <li>Click on ?+? button to add new row in data tables. To delete a row, delete the data in all row fields.</li>
+                        <li>Click "Save to file" to save data to local file system and to continue input later. The file format is JSON.</li>
+                        <li>Click "Load from file" to load data from file. The file format is JSON.</li>
+                        <li>
+                            Click "Validate current data" to validate data for the current parcel. Important information about validation:
+                            <ul>
+                                <li>Data validation causes only a warning. The user will be able to save data, regardless of the validation warning. </li>
+                                <li>Entering the required fields (marked with <i class="bi bi-asterisk"></i>) is highly recommended in order to receive the most complete evaluation possible.</li>
+                                <li>All numeric data is non-negative.</li>
+                                <li>Percentage data is from 0 to 100. </li>
+                            </ul>
+                        </li>
+                        <li>When you're done, upload the file to Nextcloud in the dedicated folder.</li>
+                    </ul>
+
+                </div>
+
+
+                <div class="tab-pane fade" id="tabGeneral" role="tabpanel" aria-labelledby="butGeneral">
+                    <div class="row text-center mb-1">
+                        <h2 class="card-title lh-lg">General information</h2>
+                    </div>
+
+                    <div class="row mb-1">
+                        <label for="testcaseNumber" class="col-sm-8 col-form-label">The unique number of the QuantiFarm testcase<i class="bi bi-asterisk ms-2"></i></label>
+                        <div class="col-sm-4">
+                            <input type="number" min=1 class="form-control" tc_field="_main.testcaseNumber" id="testcaseNumber" readonly>
+                        </div>
+                    </div>
+                    <div class="row mb-1">
+                        <label for="testcaseLeader" class="col-sm-8 col-form-label">The name of the leader of the QuantiFarm testcase<i class="bi bi-asterisk ms-2"></i></label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" tc_field="_main.testcaseLeader" id="testcaseLeader" readonly>
+                        </div>
+                    </div>
+                    <div class="row mb-1">
+                        <label for="cultivationType" class="col-sm-8 col-form-label">The type of agricultural production that is executed in the QuantiFarm testcase<i class="bi bi-asterisk ms-2"></i></label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" tc_field="_main.cultivationType" id="cultivationType" readonly>
+                        </div>
+                    </div>
+
+                    <table class="table table-sm table-borderless" tc_field="_main.datsInformation" id="datsInformation">
+                        <caption style="caption-side: top; text-align: center"><h2 class="card-title lh-lg">List of the DATSs being applied in the QuantiFarm testcase</h2></caption>
+                        <thead>
+                            <tr>
+                                <th scope="col" style="width:20%">unique DATS name</th>
+                                <th scope="col" style="width:10%">initial costs for purchasing the DATS in Euros</th>
+                                <th scope="col" style="width:10%">annual fees to remain using the DATS in Euros per year</th>
+                                <th scope="col" style="width:10%">costs for maintaining the DATS in Euros per year</th>
+                                <th scope="col" style="width:10%">expected life span for using the DATS in whole years</th>
+                                <th scope="col" style="width:10%">expected time needed to install the DATS in hours</th>
+                                <th scope="col" style="width:10%">expected time needed to train the users of the DATS in hours</th>
+                                <th scope="col" style="width:10%">number of people involved in the training of users of the DATS</th>
+                                <th scope="col" style="width:10%">costs for training the users of the DATS in Euros per year</th>
+                                <th scope="col" style="width:3%"><button type="button" class="btn btn-success" onclick="AddNewTableRow(event)">+</button></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <select class="form-select" required tc_field2="datsName" aria-label="">
+                                        <option></option>
+                                        <option>Acerva</option>
+                                        <option>Agro exact sencrop</option>
+                                        <option>Agrosmart for silos</option>
+                                        <option>Agrovision</option>
+                                        <option>Allflex Livestock Intelligence</option>
+                                        <option>ART 21</option>
+                                        <option>Augmenta HA VRA</option>
+                                        <option>Aurea Imaging</option>
+                                        <option>BENCO</option>
+                                        <option>Boumatic milking</option>
+                                        <option>DeLaval Dairy Services</option>
+                                        <option>Delphy QMS system</option>
+                                        <option>Digital blossom map</option>
+                                        <option>Digital vigour map</option>
+                                        <option>Estede</option>
+                                        <option>Farm manager</option>
+                                        <option>fms.agricloud.ro</option>
+                                        <option>gaiasense</option>
+                                        <option>Graintuit</option>
+                                        <option>granoduro.net</option>
+                                        <option>Innoval</option>
+                                        <option>Irristrat</option>
+                                        <option>Kathari UF1</option>
+                                        <option>Lely</option>
+                                        <option>MSD & Lely</option>
+                                        <option>NADIA</option>
+                                        <option>NETAJET</option>
+                                        <option>NetFLOX</option>
+                                        <option>NMC pro system</option>
+                                        <option>OvaCyte</option>
+                                        <option>PigUp</option>
+                                        <option>pomodoro.net</option>
+                                        <option>QMS Root pruning</option>
+                                        <option>QMS Tomatos (Delphy)</option>
+                                        <option>QMS Water Software</option>
+                                        <option>Raven</option>
+                                        <option>RIMpro</option>
+                                        <option>SATIVUM</option>
+                                        <option>SF DSS</option>
+                                        <option>Signum</option>
+                                        <option>Trapview</option>
+                                        <option>Vite.net</option>
+                                    </select>
+                                </td>
+                                <td><input type="number" min=0 step="any" required class="form-control" tc_field2="datsInitialInvestmentCosts"></td>
+                                <td><input type="number" min=0 step="any" required class="form-control" tc_field2="datsAnnualFees"></td>
+                                <td><input type="number" min=0 step="any" required class="form-control" tc_field2="datsMaintenanceCosts"></td>
+                                <td><input type="number" min=0 step="any" required class="form-control" tc_field2="datsExpectedLifespan"></td>
+                                <td><input type="number" min=0 step="any" required class="form-control" tc_field2="datsInstallationTime"></td>
+                                <td><input type="number" min=0 step="any" required class="form-control" tc_field2="datsTrainingTime"></td>
+                                <td><input type="number" min=0 required class="form-control" tc_field2="datsTrainers"></td>
+                                <td><input type="number" min=0 step="any" required class="form-control" tc_field2="datsTrainingCosts"></td>
+                            </tr>
+                        </tbody>
+                        <caption class="text-danger" style="caption-side: bottom; text-align: center">All fields in the table are required</caption>
+
+                    </table>
+
+                </div>
+
+                <div class="tab-pane fade" id="tabYearly" role="tabpanel" aria-labelledby="but2023">
+                    <form id="formMain" class="needs-validation" novalidate>
+
+                        <div class="row justify-content-md-end">
+                            <button class="btn btn-primary w-auto" type="submit">Validate current data</button>
+                        </div>
+
+                        <div class="row text-center mb-1">
+                            <h2 class="card-title lh-lg">General market information that influences the costs and benefits of the production in the specific year</h2>
+                        </div>
+
+                        <div class="row mb-1">
+                            <label for="cultivationYear" class="col-sm-8 col-form-label">The calendar year for which the assessment has been done<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 required class="form-control" tc_field="_year.cultivationYear" id="cultivationYear" readonly>
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="waterPrice" class="col-sm-8 col-form-label">The average price of water in Euros per m<sup>3</sup> in the specific year<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" inputmode="numeric" pattern="\d*" required class="form-control" tc_field="_year.marketInformation.waterPrice" id="waterPrice">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">?/m<sup>3</sup></div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="fuelPrice" class="col-sm-8 col-form-label">The average price of fuel in Euros per liter in the specific year<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" inputmode="numeric" pattern="[0-9.]*" required class="form-control" tc_field="_year.marketInformation.fuelPrice" id="fuelPrice">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">?/l</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="electricityPrice" class="col-sm-8 col-form-label">The average price of electricity in Euros per kWh in the specific<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" required class="form-control" tc_field="_year.marketInformation.electricityPrice" id="electricityPrice">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">?/kWh</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="averageSalary" class="col-sm-8 col-form-label">The average salary of an employee in Euros per hour in the specific year<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" required class="form-control" tc_field="_year.marketInformation.averageSalary" id="averageSalary">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">?/h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="averageProfessionalSalary" class="col-sm-8 col-form-label">The average salary of a professional (agronomist, veterinary) in Euros per hour in the specific year<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" required class="form-control" tc_field="_year.marketInformation.averageProfessionalSalary" id="averageProfessionalSalary">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">?/h</div>
+                        </div>
+
+                        <div class="row text-center mb-1">
+                            <h2 class="card-title lh-lg">Parcel comparison data</h2>
+                        </div>
+
+                        <ul class="nav nav-tabs d-flex mb-2" id="myTabPC" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="butmyTabPC1" data-bs-toggle="tab" data-bs-target="" type="button" role="tab" aria-controls="" aria-selected="false" tabindex="-1" onclick="ChangeComparison(1)"><b>Parcel Comparison 1</b></button>
+                            </li>
+                            <li xclass="nav-item" xrole="presentation">
+                                <button class="nav-link" id="butAddPC" data-bs-toggle="tab" data-bs-target="" type="button" role="tab" aria-controls="" aria-selected="false" tabindex="-1" onclick="AddNewPC('myTabPC')"><span class="text-info fst-italic">(add new)</span></button>
+                            </li>
+                        </ul>
+
+                        <ul class="nav nav-tabs d-flex mb-2" id="myTab3" role="tablist">
+                            <li class="nav-item flex-fill" role="presentation">
+                                <button class="nav-link w-100 active" id="butWith" data-bs-toggle="tab" data-bs-target="" type="button" role="tab" aria-controls="" aria-selected="false" tabindex="-1" onclick="ChangeWith(1)">Parcel with DATS</button>
+                            </li>
+                            <li class="nav-item flex-fill" role="presentation">
+                                <button class="nav-link w-100" id="butWithout" data-bs-toggle="tab" data-bs-target="" type="button" role="tab" aria-controls="" aria-selected="false" tabindex="-1" onclick="ChangeWith(0)">Parcel without DATS</button>
+                            </li>
+                        </ul>
+
+                        <div class="alert alert-primary alert-dismissible fade show text-center fw-bold sticky-top" role="alert" id="alert1">
+                        </div>
+
+                        <div class="row text-center mb-1">
+                            <h2 class="card-title lh-lg">Generic information of the farm at which the parcel that is assessed is situated</h2>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="farmNumber" class="col-sm-8 col-form-label">Number of the farm unique in the QuantiFarm testcase</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=1 class="form-control" tc_field="_parcel.farmInformation.farmNumber" id="farmNumber">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="biogeographicalRegion" class="col-sm-8 col-form-label">The biogeographical region in which the farm is located</label>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" tc_field="_parcel.farmInformation.biogeographicalRegion" id="biogeographicalRegion">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">text</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="totalFarmSize" class="col-sm-8 col-form-label">The total size of the farm area in hectares</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" inputmode="numeric" class="form-control" tc_field="_parcel.farmInformation.totalFarmSize" id="totalFarmSize">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">ha</div>
+                        </div>
+
+
+                        <div class="row text-center mb-1">
+                            <h2 class="card-title lh-lg">Generic information of the parcel that is assessed</h2>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="parcelName" class="col-sm-8 col-form-label">The unique name or ID within the TC of the parcel<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" required tc_field="_parcel.parcelInformation.parcelName" id="parcelName">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">text</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="parcelDimension" class="col-sm-8 col-form-label">The dimension or area of the parcel in hectares<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" required class="form-control" tc_field="_parcel.parcelInformation.parcelDimension" id="parcelDimension">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">ha</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="startMonth" class="col-sm-8 col-form-label">The month in the calendar year in which the cultivation/production started</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 class="form-control" tc_field="_parcel.parcelInformation.startMonth" id="startMonth">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="endMonth" class="col-sm-8 col-form-label">The month in the calendar year in which the cultivation/production ended</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 class="form-control" tc_field="_parcel.parcelInformation.endMonth" id="endMonth">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="productType" class="col-sm-8 col-form-label">The type of product/crop/animal that is cultivated/produced during the year on the parcel<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="text" required class="form-control" tc_field="_parcel.parcelInformation.productType" id="productType">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">text</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="numberOfEmployees" class="col-sm-8 col-form-label">The number of employees that worked on the parcel</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 class="form-control" tc_field="_parcel.parcelInformation.numberOfEmployees" id="numberOfEmployees">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="numberOfFulltimeEmployees" class="col-sm-8 col-form-label">The number of full-time employees that worked on the parcel</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 class="form-control" tc_field="_parcel.parcelInformation.numberOfFulltimeEmployees" id="numberOfFulltimeEmployees">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="numberOfSeasonalEmployees" class="col-sm-8 col-form-label">The number of seasonal employees that worked on the parcel</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 class="form-control" tc_field="_parcel.parcelInformation.numberOfSeasonalEmployees" id="numberOfSeasonalEmployees">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="soilFractionSand" class="col-sm-8 col-form-label">The percentage of sand in the soil of the parcel</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 max=100 step="any" class="form-control" tc_field="_parcel.parcelInformation.soilFractionSand" id="soilFractionSand">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">%</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="soilFractionClay" class="col-sm-8 col-form-label">The percentage of clay in the soil of the parcel</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 max=100 step="any" class="form-control" tc_field="_parcel.parcelInformation.soilFractionClay" id="soilFractionClay">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">%</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="soilFractionSilt" class="col-sm-8 col-form-label">The percentage of silt in the soil of the parcel</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 max=100 step="any" class="form-control" tc_field="_parcel.parcelInformation.soilFractionSilt" id="soilFractionSilt">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">%</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="bulkDensity" class="col-sm-8 col-form-label">The bulk density of the parcel in g/cm<sup>3</sup></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.parcelInformation.bulkDensity" id="bulkDensity">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">g/cm<sup>3</sup></div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="soilOrganicCarbon" class="col-sm-8 col-form-label">The percentage of organic carbon in the soil of the parcel</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 max=100 step="any" class="form-control" tc_field="_parcel.parcelInformation.soilOrganicCarbon" id="soilOrganicCarbon">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">%</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="numberOfAnimals" class="col-sm-8 col-form-label">The number of animals on the parcel<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 required class="form-control" tc_field="_parcel.parcelInformation.numberOfAnimals" id="numberOfAnimals">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="numberOfAnimals" class="col-sm-8 col-form-label">The number of plants/trees on the parcel</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 class="form-control" tc_field="_parcel.parcelInformation.numberOfPlants" id="numberOfPlants">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="livestockUnits" class="col-sm-8 col-form-label">The livestock units on the parcel per hectare</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 class="form-control" tc_field="_parcel.parcelInformation.livestockUnits" id="livestockUnits">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">LSU/ha</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="numberOfBeehives" class="col-sm-8 col-form-label">The number of beehives on the parcel<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 required class="form-control" tc_field="_parcel.parcelInformation.numberOfBeehives" id="numberOfBeehives">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="aquacultureArea" class="col-sm-8 col-form-label">The area on the parcel used for aquaculture in square meters<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" required class="form-control" tc_field="_parcel.parcelInformation.aquacultureArea" id="aquacultureArea">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">m<sup>2</sup></div>
+                        </div>
+
+                        <div class="row text-center justify-content-center mb-1">
+
+                            <table class="table table-sm table-borderless" style="width:30%" tc_field="_parcel.datsUsed" id="datsUsed">
+                                <caption style="caption-side: top; text-align: center"><h2 class="card-title lh-lg">List of DATSs being used on the parcel</h2></caption>
+                                <thead>
+                                    <tr>
+                                        <th scope="col">DATS name<i class="bi bi-asterisk ms-2"></i></th>
+                                        <th scope="col" style="width:3%"><button type="button" class="btn btn-success" onclick="AddNewTableRow(event)">+</button></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <select class="form-select" required tc_field2="" aria-label="" onfocus="FillDatsUsed(event)"></select>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <hr>
+
+                        <div class="row text-center mb-1" tc_field="" id="_ui.waterTitle">
+                            <h2 class="card-title lh-lg">Information about the usage of water during the cultivation/production in the specific year</h2>
+                        </div>
+                        <div class="row mb-1" tc_field="" id="_ui.waterTotal">
+                            <div class="col-sm-8">
+                            </div>
+                            <div class="col-sm-4">
+                                in total:
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="totalWaterUsage" class="col-sm-8 col-form-label">The total amount of water used in m<sup>3</sup> in the specific year<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" required class="form-control" tc_field="_parcel.waterUsageInformation.totalWaterUsage" id="totalWaterUsage">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">m<sup>3</sup></div>
+                        </div>
+                        <div class="row mb-1" tc_field="" id="_ui.waterActivity">
+                            <div class="col-sm-8">
+                            </div>
+                            <div class="col-sm-4">
+                                per activity:
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="waterUsageForIrrigation" class="col-sm-8 col-form-label">The amount of water used for irrigation in m<sup>3</sup> in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.waterUsageInformation.waterUsageForIrrigation" id="waterUsageForIrrigation">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">m<sup>3</sup></div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="waterUsageForFertigation" class="col-sm-8 col-form-label">The amount of water used for fertigation in m<sup>3</sup> in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.waterUsageInformation.waterUsageForFertigation" id="waterUsageForFertigation">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">m<sup>3</sup></div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="waterUsageForPestDilution" class="col-sm-8 col-form-label">The amount of water used for pest dilution in m<sup>3</sup> in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.waterUsageInformation.waterUsageForPestDilution" id="waterUsageForPestDilution">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">m<sup>3</sup></div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="waterUsageForCleaning" class="col-sm-8 col-form-label">The amount of water used for cleaning in m<sup>3</sup> in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.waterUsageInformation.waterUsageForCleaning" id="waterUsageForCleaning">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">m<sup>3</sup></div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="waterUsageForDrinking" class="col-sm-8 col-form-label">The amount of water used for drinking in m<sup>3</sup> in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.waterUsageInformation.waterUsageForDrinking" id="waterUsageForDrinking">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">m<sup>3</sup></div>
+                        </div>
+
+                        <div class="row text-center mb-1">
+                            <h2 class="card-title lh-lg">Information about the usage of fuel during the cultivation/production in the specific year</h2>
+                        </div>
+                        <div class="row mb-1">
+                            <div class="col-sm-8">
+                            </div>
+                            <div class="col-sm-4">
+                                in total:
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="totalFuelUsage" class="col-sm-8 col-form-label">The total amount of fuel used in liters in the specific year<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" required class="form-control" tc_field="_parcel.fuelUsageInformation.totalFuelUsage" id="totalFuelUsage">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">l</div>
+                        </div>
+                        <div class="row mb-1" tc_field="" id="_ui.fuelActivity">
+                            <div class="col-sm-8">
+                            </div>
+                            <div class="col-sm-4">
+                                per activity:
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="fuelUsageForFertilisation" class="col-sm-8 col-form-label">The amount of fuel used for fertilisation in liters in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.fuelUsageInformation.fuelUsageForFertilisation" id="fuelUsageForFertilisation">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">l</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="fuelUsageForPesticides" class="col-sm-8 col-form-label">The amount of fuel used for pesticides in liters in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.fuelUsageInformation.fuelUsageForPesticides" id="fuelUsageForPesticides">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">l</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="fuelUsageForIrrigation" class="col-sm-8 col-form-label">The amount of fuel used for irrigation in liters in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.fuelUsageInformation.fuelUsageForIrrigation" id="fuelUsageForIrrigation">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">l</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="fuelUsageForSowing" class="col-sm-8 col-form-label">The amount of fuel used for sowing or planting in liters in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.fuelUsageInformation.fuelUsageForSowing" id="fuelUsageForSowing">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">l</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="fuelUsageForPruning" class="col-sm-8 col-form-label">The amount of fuel used for pruning in liters in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.fuelUsageInformation.fuelUsageForPruning" id="fuelUsageForPruning">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">l</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="fuelUsageForTemperatureHumidityControl" class="col-sm-8 col-form-label">The amount of fuel used for temperature and humidity control in liters in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.fuelUsageInformation.fuelUsageForTemperatureHumidityControl" id="fuelUsageForTemperatureHumidityControl">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">l</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="fuelUsageForBeehivesVisits" class="col-sm-8 col-form-label">The amount of fuel used for beehives visits in liters in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.fuelUsageInformation.fuelUsageForBeehivesVisits" id="fuelUsageForBeehivesVisits">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">l</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="fuelUsageForTransportingOysters" class="col-sm-8 col-form-label">The amount of fuel used for transporting oysters to the laboratory in liters in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.fuelUsageInformation.fuelUsageForTransportingOysters" id="fuelUsageForTransportingOysters">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">l</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="fuelUsageForMilking" class="col-sm-8 col-form-label">The amount of fuel used for milking in liters in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.fuelUsageInformation.fuelUsageForMilking" id="fuelUsageForMilking">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">l</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="fuelUsageForFeeding" class="col-sm-8 col-form-label">The amount of fuel used for feeding in liters in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.fuelUsageInformation.fuelUsageForFeeding" id="fuelUsageForFeeding">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">l</div>
+                        </div>
+
+                        <div class="row text-center mb-1" tc_field="" id="_ui.electricityTitle">
+                            <h2 class="card-title lh-lg">Information about the usage of electricity during the cultivation/production in the specific year</h2>
+                        </div>
+                        <div class="row mb-1" tc_field="" id="_ui.electricityTotal">
+                            <div class="col-sm-8">
+                            </div>
+                            <div class="col-sm-4">
+                                in total:
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="totalElectricityUsage" class="col-sm-8 col-form-label">The total amount of electricity used in kWh in the specific year<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" required class="form-control" tc_field="_parcel.electricityUsageInformation.totalElectricityUsage" id="totalElectricityUsage">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">kWh</div>
+                        </div>
+                        <div class="row mb-1" tc_field="" id="_ui.electricityActivity">
+                            <div class="col-sm-8">
+                            </div>
+                            <div class="col-sm-4">
+                                per activity:
+                            </div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="electricityUsageForTemperatureHumidityControl" class="col-sm-8 col-form-label">The amount of electricity used for temperature and humidity control in kWh in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.electricityUsageInformation.electricityUsageForTemperatureHumidityControl" id="electricityUsageForTemperatureHumidityControl">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">kWh</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="electricityUsageForIrrigation" class="col-sm-8 col-form-label">The amount of electricity used for irrigation in kWh in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.electricityUsageInformation.electricityUsageForIrrigation" id="electricityUsageForIrrigation">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">kWh</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="electricityUsageForMilking" class="col-sm-8 col-form-label">The amount of electricity used for milking in kWh in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.electricityUsageInformation.electricityUsageForMilking" id="electricityUsageForMilking">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">kWh</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="electricityUsageForHeatDetection" class="col-sm-8 col-form-label">The amount of electricity used for heat detection in kWh in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.electricityUsageInformation.electricityUsageForHeatDetection" id="electricityUsageForHeatDetection">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">kWh</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="electricityUsageForCalvingDetection" class="col-sm-8 col-form-label">The amount of electricity used for calving/farrowing detection in kWh in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.electricityUsageInformation.electricityUsageForCalvingDetection" id="electricityUsageForCalvingDetection">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">kWh</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="electricityUsageForFeeding" class="col-sm-8 col-form-label">The amount of electricity used for feeding in kWh in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.electricityUsageInformation.electricityUsageForFeeding" id="electricityUsageForFeeding">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">kWh</div>
+                        </div>
+
+                        <table class="table table-sm table-borderless" tc_field="_parcel.fuelForTemperatureControlInformation" id="fuelForTemperatureControlInformation">
+                            <caption style="caption-side: top; text-align: center"><h2 class="card-title lh-lg">List of one or more fuels used for greenhouse temperature control during the cultivation in the specific year</h2></caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col">name of the fuel</th>
+                                    <th scope="col" style="width:20%">quantity of the fuel in m<sup>3</sup> that is used during the cultivation in the specific year</th>
+                                    <th scope="col" style="width:20%">price of the fuel in Euros per m<sup>3</sup></th>
+                                    <th scope="col" style="width:3%"><button type="button" class="btn btn-success" onclick="AddNewTableRow(event)">+</button></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="text" class="form-control" tc_field2="productName"></td>
+                                    <td><input type="number" min=0 step="any" class="form-control" tc_field2="quantity"></td>
+                                    <td><input type="number" min=0 step="any" class="form-control" tc_field2="productPrice"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+                        <table class="table table-sm table-borderless" tc_field="_parcel.pesticidesUsageInformation" id="pesticidesUsageInformation">
+                            <caption style="caption-side: top; text-align: center"><h2 class="card-title lh-lg">List of one or more pesticides used during the cultivation in the specific year</h2></caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col" style="width:37%">name of the pesticide product<i class="bi bi-asterisk ms-1"></i></th>
+                                    <th scope="col" style="width:20%">number of treatments with the pesticide on the parcel in the specific year of the cultivation<i class="bi bi-asterisk ms-1"></i></th>
+                                    <th scope="col" style="width:20%">average quantity of the pesticide in kg per hectare that is used during one treatment<i class="bi bi-asterisk ms-1"></i></th>
+                                    <th scope="col" style="width:20%">price of the product in Euros per kg<i class="bi bi-asterisk ms-1"></i></th>
+                                    <th scope="col" style="width:3%"><button type="button" class="btn btn-success" onclick="AddNewTableRow(event)">+</button></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="text" required class="form-control" tc_field2="productName"></td>
+                                    <td><input type="number" min=0 required class="form-control" tc_field2="numberOfTreatments"></td>
+                                    <td><input type="number" min=0 step="any" required class="form-control" tc_field2="averageQuantity"></td>
+                                    <td><input type="number" min=0 step="any" required class="form-control" tc_field2="productPrice"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <table class="table table-sm table-borderless" tc_field="_parcel.fertilizersUsageInformation" id="fertilizersUsageInformation">
+                            <caption style="caption-side: top; text-align: center"><h2 class="card-title lh-lg">List of one or more fertilizers used during the cultivation in the specific year</h2></caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col" style="width:27%">name of the fertilizer product<i class="bi bi-asterisk ms-1"></i></th>
+                                    <th scope="col" style="width:10%">mineral / organic</th>
+                                    <th scope="col" style="width:10%">number of treatments with the fertilizer on the parcel in the specific year of the cultivation<i class="bi bi-asterisk ms-1"></i></th>
+                                    <th scope="col" style="width:10%">average quantity of the fertilizer in ton per hectare that is used during one treatment<i class="bi bi-asterisk ms-1"></i></th>
+                                    <th scope="col" style="width:10%">nitrogen (N) concentration in % </th>
+                                    <th scope="col" style="width:10%">phosphorus (P) concentration in % </th>
+                                    <th scope="col" style="width:10%">postassium (K) concentration in % </th>
+                                    <th scope="col" style="width:10%">price of the product in Euros per kg<i class="bi bi-asterisk ms-1"></i></th>
+                                    <th scope="col" style="width:3%"><button type="button" class="btn btn-success" onclick="AddNewTableRow(event)">+</button></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="text" required class="form-control" tc_field2="productName"></td>
+                                    <td>
+                                        <select class="form-select" tc_field2="productType">
+                                            <option></option>
+                                            <option>Mineral</option>
+                                            <option>Organic</option>
+                                        </select>
+                                    </td>
+                                    <td><input type="number" min=0 required class="form-control" tc_field2="numberOfTreatments"></td>
+                                    <td><input type="number" min=0 step="any" required class="form-control" tc_field2="averageQuantity"></td>
+                                    <td><input type="number" min=0 max=100 step="any" class="form-control" tc_field2="averageNitrogenQuantity"></td>
+                                    <td><input type="number" min=0 max=100 step="any" class="form-control" tc_field2="averagePhosphorusQuantity"></td>
+                                    <td><input type="number" min=0 max=100 step="any" class="form-control" tc_field2="averagePotassiumQuantity"></td>
+                                    <td><input type="number" min=0 step="any" required class="form-control" tc_field2="productPrice"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+                        <table class="table table-sm table-borderless" tc_field="_parcel.feedUsageInformation" id="feedUsageInformation">
+                            <caption style="caption-side: top; text-align: center"><h2 class="card-title lh-lg">List of one or more feeds used during the production in the specific year</h2></caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col">name of the feed product<i class="bi bi-asterisk ms-1"></i></th>
+                                    <th scope="col" style="width:20%">quantity of the feed in tons that is used during the production in the specific year<i class="bi bi-asterisk ms-1"></i></th>
+                                    <th scope="col" style="width:20%">price of the product in Euros per ton<i class="bi bi-asterisk ms-1"></i></th>
+                                    <th scope="col" style="width:3%"><button type="button" class="btn btn-success" onclick="AddNewTableRow(event)">+</button></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="text" required class="form-control" tc_field2="productName"></td>
+                                    <td><input type="number" min=0 step="any" required class="form-control" tc_field2="quantity"></td>
+                                    <td><input type="number" min=0 step="any" required class="form-control" tc_field2="productPrice"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+                        <table class="table table-sm table-borderless" tc_field="_parcel.drugsUsageInformation" id="drugsUsageInformation">
+                            <caption style="caption-side: top; text-align: center"><h2 class="card-title lh-lg">List of one or more drugs used during the production in the specific year</h2></caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col">name of the drugs product<i class="bi bi-asterisk ms-1"></i></th>
+                                    <th scope="col" style="width:20%">quantity of the drugs in grams that is used during the production in the specific year<i class="bi bi-asterisk ms-1"></i></th>
+                                    <th scope="col" style="width:20%">price of the product in Euros per gram<i class="bi bi-asterisk ms-1"></i></th>
+                                    <th scope="col" style="width:3%"><button type="button" class="btn btn-success" onclick="AddNewTableRow(event)">+</button></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="text" required class="form-control" tc_field2="productName"></td>
+                                    <td><input type="number" min=0 step="any" required class="form-control" tc_field2="quantity"></td>
+                                    <td><input type="number" min=0 step="any" required class="form-control" tc_field2="productPrice"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+                        <div class="row text-center mb-1">
+                            <h2 class="card-title lh-lg">Information about the amount of labour used for various tasks during the cultivation/production in the specific year</h2>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForIrrigation" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for irrigation during the cultivation in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForIrrigation" id="labourForIrrigation">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForPesticides" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for pesticides during the cultivation in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForPesticides" id="labourForPesticides">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForFertilisation" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for fertilization during the cultivation in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForFertilisation" id="labourForFertilisation">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForSowingOrPlanting" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for sowing or planting during the cultivation in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForSowingOrPlanting" id="labourForSowingOrPlanting">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForPruning" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for pruning during the cultivation in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForPruning" id="labourForPruning">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForFieldVisits" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for field visits during the cultivation in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForFieldVisits" id="labourForFieldVisits">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForGreenhouseManagement" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for greenhouse management during the cultivation in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForGreenhouseManagement" id="labourForGreenhouseManagement">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForQuantityTracking" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for tracking the quantity of grain available in a silo during the production in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForQuantityTracking" id="labourForQuantityTracking">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForGrainQualityAssessment" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for assessing grain quality during the production in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForGrainQualityAssessment" id="labourForGrainQualityAssessment">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForControllingPricesAndQuantities" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for controlling purchase and sale prices and quantities during the production in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForControllingPricesAndQuantities" id="labourForControllingPricesAndQuantities">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForOrganisingLogistics" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for organizing logistics during the production in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForOrganisingLogistics" id="labourForOrganisingLogistics">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForCleaning" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for cleaning during the production in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForCleaning" id="labourForCleaning">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForStableVisits" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for stable visits during the production in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForStableVisits" id="labourForStableVisits">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForHeatDetection" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for heat detection during the cultivation in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForHeatDetection" id="labourForHeatDetection">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForCalvingDetection" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for calving/farrowing detection during the production in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForCalvingDetection" id="labourForCalvingDetection">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForPigstyManagement" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for pigsty management during the production in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForPigstyManagement" id="labourForPigstyManagement">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForMilking" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for milking during the production in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForMilking" id="labourForMilking">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForMilkQualityAssessment" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for assessing milk quality during the production in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForMilkQualityAssessment" id="labourForMilkQualityAssessment">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForFeeding" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for feeding during the production in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForFeeding" id="labourForFeeding">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForBeehiveVisits" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for beehive visits during the production in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForBeehiveVisits" id="labourForBeehiveVisits">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForOysterSampling" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for sampling of oysters during the production in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForOysterSampling" id="labourForOysterSampling">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForOysterTransportation" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for transporting oysters to the laboratory during the production in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForOysterTransportation" id="labourForOysterTransportation">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForHarvesting" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for harvesting during the production in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForHarvesting" id="labourForHarvesting">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForStorage" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for storage during the production in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForStorage" id="labourForStorage">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="labourForAdministration" class="col-sm-8 col-form-label">The amount of labour in hours for the parcel that was used for administrative activities, data collection etc. during the production in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.labourInformation.labourForAdministration" id="labourForAdministration">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+
+
+                        <div class="row text-center mb-1" tc_field="" id="_ui.performanceTitle">
+                            <h2 class="card-title lh-lg">Economic information about the performance of the cultivation/production in the specific year</h2>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="numberOfFulfilledOrders" class="col-sm-8 col-form-label">The number of on-time fulfilled orders in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 class="form-control" tc_field="_parcel.economicInformation.numberOfFulfilledOrders" id="numberOfFulfilledOrders">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="numberOfOrdersReceived" class="col-sm-8 col-form-label">The number of orders received in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 class="form-control" tc_field="_parcel.economicInformation.numberOfOrdersReceived" id="numberOfOrdersReceived">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="numberOfWrongOrders" class="col-sm-8 col-form-label">The number of wrong orders received in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 class="form-control" tc_field="_parcel.economicInformation.numberOfWrongOrders" id="numberOfWrongOrders">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="additionalRevenues" class="col-sm-8 col-form-label">Additional revenues in Euros per hectare generated during the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.economicInformation.additionalRevenues" id="additionalRevenues">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">?/ha</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="percentageProteinInDryMatter" class="col-sm-8 col-form-label">The percentage protein achieved in dry matter produced during the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 max=100 step="any" class="form-control" tc_field="_parcel.economicInformation.percentageProteinInDryMatter" id="percentageProteinInDryMatter">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">%</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="humidity" class="col-sm-8 col-form-label">The percentage of humidity in the product</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 max=100 step="any" class="form-control" tc_field="_parcel.economicInformation.humidity" id="humidity">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">%</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="testWeight" class="col-sm-8 col-form-label">Test weight of the product in kg per hectoliter during the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.economicInformation.testWeight" id="testWeight">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">kg/hl</div>
+                        </div>
+
+
+                        <div class="row text-center mb-1">
+                            <h2 class="card-title lh-lg">Information about the output production of the cultivation/production in the specific year</h2>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="cropProduction" class="col-sm-8 col-form-label">The crop production in tons in the specific year<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" required class="form-control" tc_field="_parcel.outputInformation.cropProduction" id="cropProduction">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">t</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="milkProduction" class="col-sm-8 col-form-label">The milk production in liters in the specific year<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" required class="form-control" tc_field="_parcel.outputInformation.milkProduction" id="milkProduction">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">l</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="meatProduction" class="col-sm-8 col-form-label">The meat production in tons in the specific year<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" required class="form-control" tc_field="_parcel.outputInformation.meatProduction" id="meatProduction">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">t</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="oysterProduction" class="col-sm-8 col-form-label">The oyster production as the number of oysters in the specific year<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 required class="form-control" tc_field="_parcel.outputInformation.oysterProduction" id="oysterProduction">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="honeyProduction" class="col-sm-8 col-form-label">The honey production in kg in the specific year<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" required class="form-control" tc_field="_parcel.outputInformation.honeyProduction" id="honeyProduction">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">kg</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="silosProduction" class="col-sm-8 col-form-label">The silos product management in tons in the specific year<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" required class="form-control" tc_field="_parcel.outputInformation.silosProduction" id="silosProduction">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">t</div>
+                        </div>
+
+                        <div class="row mb-1">
+                            <label for="productMarketPrice" class="col-sm-8 col-form-label">The price for which the product can be sold on the market in Euros per ton in the specific year<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" required class="form-control" tc_field="_parcel.outputInformation.productMarketPrice" id="productMarketPrice">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">?/t</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="cropMarketPrice" class="col-sm-8 col-form-label">The price for which the crop can be sold on the market in Euros per ton in the specific year<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" required class="form-control" tc_field="_parcel.outputInformation.cropMarketPrice" id="cropMarketPrice">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">?/t</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="meatMarketPrice" class="col-sm-8 col-form-label">The price for which the meat can be sold on the market in Euros per ton in the specific year<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" required class="form-control" tc_field="_parcel.outputInformation.meatMarketPrice" id="meatMarketPrice">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">?/t</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="milkMarketPrice" class="col-sm-8 col-form-label">The price for which the milk can be sold on the market in Euros per liters in the specific year<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" required class="form-control" tc_field="_parcel.outputInformation.milkMarketPrice" id="milkMarketPrice">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">?/l</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="oysterMarketPrice" class="col-sm-8 col-form-label">The price for which the oysters can be sold on the market in Euros per piece in the specific year<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" required class="form-control" tc_field="_parcel.outputInformation.oysterMarketPrice" id="oysterMarketPrice">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">?/piece</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="honeyMarketPrice" class="col-sm-8 col-form-label">The price for which the honey can be sold on the market in Euros per kg in the specific year<i class="bi bi-asterisk ms-2"></i></label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" required class="form-control" tc_field="_parcel.outputInformation.honeyMarketPrice" id="honeyMarketPrice">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">?/kg</div>
+                        </div>
+
+
+                        <div class="row text-center mb-1" tc_field="" id="_ui.animalTitle">
+                            <h2 class="card-title lh-lg">Additional animal information that influences the assessment of the performance of the production in the specific year</h2>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="numberOfDeathAnimals" class="col-sm-8 col-form-label">The number of death animals during the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 class="form-control" tc_field="_parcel.additionalAnimalInformation.numberOfDeathAnimals" id="numberOfDeathAnimals">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="calvesDiedInFirst24Hours" class="col-sm-8 col-form-label">The number of animals that died in the first 24 hours after birth in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 class="form-control" tc_field="_parcel.additionalAnimalInformation.calvesDiedInFirst24Hours" id="calvesDiedInFirst24Hours">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="totalNumberOfCalvesBorn" class="col-sm-8 col-form-label">The total number of animals born in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 class="form-control" tc_field="_parcel.additionalAnimalInformation.totalNumberOfCalvesBorn" id="totalNumberOfCalvesBorn">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="numberOfDaysWithPastureAccess" class="col-sm-8 col-form-label">The number of days during the year with access to pasture</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 class="form-control" tc_field="_parcel.additionalAnimalInformation.numberOfDaysWithPastureAccess" id="numberOfDaysWithPastureAccess">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="outdoorLoafingArea" class="col-sm-8 col-form-label">The outdoor loafing area in ha during the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.additionalAnimalInformation.outdoorLoafingArea" id="outdoorLoafingArea">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">ha</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="herdSize" class="col-sm-8 col-form-label">The average herd size during the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 class="form-control" tc_field="_parcel.additionalAnimalInformation.herdSize" id="herdSize">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="numberOfCowsWithHighSCCMilk" class="col-sm-8 col-form-label">The number of cows producing high SCC milk</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 class="form-control" tc_field="_parcel.additionalAnimalInformation.numberOfCowsWithHighSCCMilk" id="numberOfCowsWithHighSCCMilk">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+
+
+                        <div class="row text-center mb-1">
+                            <h2 class="card-title lh-lg">Additional labour-related information that influences the assessment of the performance of the cultivation/production in the specific year</h2>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="numberOfNewInjuryCases" class="col-sm-8 col-form-label">The number of new injury cases that occurred during the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 class="form-control" tc_field="_parcel.additionalLabourInformation.numberOfNewInjuryCases" id="numberOfNewInjuryCases">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="totalNumberOfLostWorkingHours" class="col-sm-8 col-form-label">The total number of hours that were lost due to occupational injuries during the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.additionalLabourInformation.totalNumberOfLostWorkingHours" id="totalNumberOfLostWorkingHours">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="totalNumberOfWorkingHours" class="col-sm-8 col-form-label">The total number of working hours in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.additionalLabourInformation.totalNumberOfWorkingHours" id="totalNumberOfWorkingHours">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">h</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="numberOfWorkingWeeks" class="col-sm-8 col-form-label">The number of working weeks in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 step="any" class="form-control" tc_field="_parcel.additionalLabourInformation.numberOfWorkingWeeks" id="numberOfWorkingWeeks">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="numberOfNewLocalEmployeesHired" class="col-sm-8 col-form-label">The number of new local employees hired in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 class="form-control" tc_field="_parcel.additionalLabourInformation.numberOfNewLocalEmployeesHired" id="numberOfNewLocalEmployeesHired">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+                        <div class="row mb-1">
+                            <label for="numberOfNewEmployeesHired" class="col-sm-8 col-form-label">The number of new employees hired in the specific year</label>
+                            <div class="col-sm-3">
+                                <input type="number" min=0 class="form-control" tc_field="_parcel.additionalLabourInformation.numberOfNewEmployeesHired" id="numberOfNewEmployeesHired">
+                            </div>
+                            <div class="col-sm-1 text-left ps-0">n</div>
+                        </div>
+
+                        <table class="table table-sm table-borderless" tc_field="_parcel.additionalFieldsInformation" id="additionalFieldsInformation">
+                            <caption style="caption-side: top; text-align: center"><h2 class="card-title lh-lg">List of additional quality indicators measured in the specific year</h2></caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col">description of the indicator, including unit</th>
+                                    <th scope="col" style="width:20%">value of the indicator</th>
+                                    <th scope="col" style="width:3%"><button type="button" class="btn btn-success" onclick="AddNewTableRow(event)">+</button></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><input type="text" class="form-control" tc_field2="fieldName"></td>
+                                    <td><input type="number" min=0 step="any" class="form-control" tc_field2="fieldValue"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <div class="row justify-content-md-end my-3">
+                            <button class="btn btn-primary w-auto" type="submit">Validate current data</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+            <br><br><br><br>
+
+        </div>
+
+    </main><!-- End #main -->
+    <!-- ======= Footer ======= -->
+    <div class="d-flex justify-content-center px-3">
+        <footer class="footer py-2 w-100" style="max-width: 1300px;">
+            <div class="d-flex flex-column gap-2">
+                <div class="d-flex align-items-center justify-content-center gap-3">
+                    <img src="assets/img/EN-Funded-by-the-EU.png" style="max-height:51px;">
+                    <img src="assets/img/QuantiFarm.svg" style="max-height:51px;">
+                    <img src="assets/img/BLW.jpg" style="max-height:51px; mix-blend-mode:multiply;">
+                </div>
+                <div class="d-flex align-items-center justify-content-center gap-3">
+                    <img src="assets/img/Agroscope.png" style="max-height:51px; mix-blend-mode:multiply;">
+                    <img src="assets/img/AGRIDEA.png" style="max-height:51px; max-width:130px;">
+                    <img src="assets/img/LZSG.jpg" style="max-height:51px; mix-blend-mode:multiply;">
+                </div>
+            </div>
+            <hr class="my-2">
+            <div class="d-flex justify-content-between">
+                <div class="credits mx-2">
+                    Copyright &copy; 2023-2026 <a href="https://quantifarm.eu/" target="_blank">The QuantiFarm Consortium</a>. All Rights Reserved.
+                </div>
+                <div class="credits">
+                    <a class="mx-2" href="cookies.html">Cookies Policy</a>
+                    <a class="mx-2" href="privacy.html">Privacy Policy</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+    <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/testcasedata.js"></script>
+    <script src="js/tcdata.js"></script>
+
+    <!-- Google Translate Widget (hidden - controlled via setLanguage in app.js) -->
+    <div id="google_translate_element" style="position:absolute;left:-9999px;visibility:hidden;"></div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                autoDisplay: false
+            }, 'google_translate_element');
+
+            function __gtSuppress() {
+                document.body.style.setProperty('top', '0', 'important');
+                document.body.style.setProperty('margin-top', '0', 'important');
+                document.documentElement.style.setProperty('top', '0', 'important');
+                document.documentElement.style.setProperty('margin-top', '0', 'important');
+                ['goog-te-banner-frame'].forEach(function(id) {
+                    var el = document.getElementById(id);
+                    if (el) el.style.setProperty('display', 'none', 'important');
+                });
+                document.querySelectorAll('.goog-te-banner-frame, .skiptranslate > iframe').forEach(function(el) {
+                    el.style.setProperty('display', 'none', 'important');
+                });
+            }
+
+            var __gtLock = false;
+            var __gtObs = new MutationObserver(function() {
+                if (__gtLock) return;
+                __gtLock = true;
+                __gtSuppress();
+                setTimeout(function() { __gtLock = false; }, 200);
+            });
+            __gtObs.observe(document.body, { attributes: true, attributeFilter: ['style', 'class'] });
+            __gtObs.observe(document.documentElement, { attributes: true, attributeFilter: ['style', 'class'] });
+            __gtObs.observe(document.body, { childList: true });
+
+            setTimeout(function() {
+                var lng = localStorage.getItem(qf_lang_storage_key);
+                if (lng && lng !== 'EN') triggerGoogleTranslate(lng);
+            }, 800);
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+
+</html>
+
+

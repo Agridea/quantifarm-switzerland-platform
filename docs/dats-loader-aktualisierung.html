@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATs mit dem DAT-Loader aktualisieren</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #1a1a2e;
+            --heading: #16213e;
+            --accent: #0f3460;
+            --border: #d0d7de;
+            --code-bg: #f6f8fa;
+            --pre-bg: #1e1e2e;
+            --pre-text: #cdd6f4;
+            --link: #0969da;
+            --subtle: #57606a;
+            --warn-bg: #fff8c5;
+            --warn-border: #e3b341;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            color: var(--text);
+            background: var(--bg);
+            line-height: 1.6;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+        h1 { font-size: 2rem; color: var(--heading); margin-bottom: 0.5rem; border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; }
+        h2 { font-size: 1.5rem; color: var(--accent); margin: 2rem 0 0.75rem; }
+        p, li { margin-bottom: 0.5rem; }
+        ul, ol { padding-left: 1.5rem; margin-bottom: 1rem; }
+        code {
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+            background: var(--code-bg);
+            padding: 0.15em 0.4em;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+        pre {
+            background: var(--pre-bg);
+            color: var(--pre-text);
+            padding: 1rem 1.25rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 1rem 0;
+            font-size: 0.85rem;
+            line-height: 1.5;
+        }
+        pre code { background: none; padding: 0; font-size: inherit; color: inherit; }
+        strong { color: var(--heading); }
+        hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+        a { color: var(--link); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1rem 0;
+            font-size: 0.9rem;
+        }
+        th, td {
+            border: 1px solid var(--border);
+            padding: 0.5rem 0.75rem;
+            text-align: left;
+        }
+        th {
+            background: var(--accent);
+            color: #fff;
+            font-weight: 600;
+        }
+        tr:nth-child(even) { background: #f6f8fa; }
+        .mermaid { text-align: center; margin: 1.5rem 0; }
+        .warning {
+            background: var(--warn-bg);
+            border-left: 4px solid var(--warn-border);
+            padding: 0.75rem 1rem;
+            border-radius: 4px;
+            margin: 1rem 0;
+        }
+        .warning strong { color: #9a6700; }
+    </style>
+</head>
+<body>
+
+<h1>DATs mit dem DAT-Loader aktualisieren</h1>
+<p>Diese Anleitung beschreibt, wie die DAT-Daten im QuantiFarm-Dreifachspeicher aktualisiert werden.</p>
+
+<h2>Grundsatz</h2>
+<p>Der DAT-Loader ruft beim normalen Lauf keine Daten von <code>https://quantifarm.eu/</code> ab. Er liest lokale Quelldateien, erzeugt daraus einen RDF-Graphen und schreibt diesen in den benannten Graphen:</p>
+<pre><code>https://quantifarm.eu/graphs/dats</code></pre>
+<p>Der Schreibvorgang verwendet HTTP <code>PUT</code>. Dadurch wird der bisherige Inhalt dieses DAT-Graphs vollständig durch den neu erzeugten Graphen ersetzt.</p>
+
+<h2>Ablauf</h2>
+
+<div class="mermaid">
+flowchart TD
+   FairshareApi["FAIRshare API"] -. "optionaler manueller Abruf" .-> FairshareJson["FAIRshare JSON"]
+   WebsiteExcel["website-registered-dats.xls"]
+   TestcaseExcel["testcase-dats.xls"]
+   CostBenefitArable["cost-benefit-arable-dats.xls"]
+   CostBenefitLivestock["cost-benefit-lifestock-dats.xls"]
+   Countries["ISO3166-country-code-name.json"]
+
+   FairshareJson --> DatsLoader[DAT-Loader]
+   WebsiteExcel --> DatsLoader
+   TestcaseExcel --> DatsLoader
+   CostBenefitArable --> DatsLoader
+   CostBenefitLivestock --> DatsLoader
+   Countries --> DatsLoader
+
+   DatsLoader --> BuildGraph["RDF-DAT-Graph erzeugen"]
+   BuildGraph --> PutGraph["HTTP PUT an Fuseki"]
+   PutGraph --> DatsGraph["Benannter Graph: quantifarm.eu/graphs/dats"]
+   PutGraph --> Replace["Vorherigen DAT-Graph vollständig ersetzen"]
+   DatsGraph --> RecommendationTool["Recommendation Tool nach Neustart"]
+
+   TestcaseJson["TCNN.json"] --> TestcaseLoader["Testcase-Loader"]
+   TestcaseLoader --> TestcaseGraph["Eigener benannter Graph: testcaseNN"]
+   TestcaseGraph --> RecommendationTool
+</div>
+
+<h2>Quelldateien aktualisieren</h2>
+<p>Vor dem Laden müssen die folgenden Dateien im Ordner <code>packages/data-platform/dats-loader/</code> aktuell sein:</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Quelle</th>
+            <th>Datei</th>
+            <th>Inhalt</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>FAIRshare</td>
+            <td><code>fairshare-dats-06-2024.json</code> oder neuerer Export</td>
+            <td>Allgemeiner FAIRshare-DAT-Katalog</td>
+        </tr>
+        <tr>
+            <td>QuantiFarm Website-Export</td>
+            <td><code>website-registered-dats.xls</code></td>
+            <td>Auf der QuantiFarm-Website registrierte DATs</td>
+        </tr>
+        <tr>
+            <td>Fälle</td>
+            <td><code>testcase-dats.xls</code></td>
+            <td>Allgemeine DAT-Metadaten und Zuordnung zu Testfallnummern</td>
+        </tr>
+        <tr>
+            <td>Kosten-Nutzen, Ackerbau</td>
+            <td><code>cost-benefit-arable-dats.xls</code></td>
+            <td>DATs und Kosteninformationen für Ackerbau</td>
+        </tr>
+        <tr>
+            <td>Kosten-Nutzen, Tierhaltung</td>
+            <td><code>cost-benefit-lifestock-dats.xls</code></td>
+            <td>DATs und Kosteninformationen für Tierhaltung</td>
+        </tr>
+        <tr>
+            <td>Länder</td>
+            <td><code>ISO3166-country-code-name.json</code></td>
+            <td>Zuordnung von Ländernamen zu ISO-Codes</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>Der Loader verarbeitet diese Quellen in dieser Reihenfolge: FAIRshare, Testfall-Excel, Website-Excel sowie beide Kosten-Nutzen-Excel-Dateien. Haben mehrere Quellen denselben DAT-Namen, werden sie über die daraus erzeugte DAT-URI zusammengeführt; einzelne Eigenschaften können dabei aus einer späteren Quelle ergänzt werden.</p>
+
+<h2>Neues FAIRshare-JSON erzeugen</h2>
+<p>Im Code existiert eine Hilfsfunktion, die die FAIRshare-API abfragt:</p>
+<pre><code>https://api.fairshare-pnf.eu/api/tools</code></pre>
+<p>Sie ist nicht Bestandteil des normalen DAT-Loader-Laufs. Nach Installation von Python und der Python-Abhängigkeiten kann sie manuell ausgeführt werden:</p>
+<pre><code>cd packages/data-platform/dats-loader
+py -c "from dats_loader.__main__ import check_fairshare; check_fairshare()"</code></pre>
+<p>Die Funktion erzeugt im aktuellen Ordner die Datei <code>data.json</code>. Sie verändert den Triple Store nicht.</p>
+<p>Die Datei sollte vor einer Verwendung geprüft und versioniert abgelegt werden, beispielsweise:</p>
+<pre><code>Rename-Item data.json fairshare-dats-2026-09-03.json</code></pre>
+<p>Der DAT-Loader erwartet standardmäßig <code>fairshare-dats-06-2024.json</code>. Entweder wird der geprüfte neue Export bewusst unter diesem Namen abgelegt, oder beim Start des Loaders wird <code>FAIRSHARE_FILE_PATH</code> auf die neue Datei gesetzt.</p>
+
+<div class="warning">
+    <strong>Wichtig:</strong> Vor dem Einlesen prüfen, ob die API weiterhin die erwarteten Felder liefert, insbesondere <code>name</code>, <code>title</code>, <code>desc</code>, <code>launchYear</code>, <code>updateYear</code>, <code>keywords</code>, <code>sector</code>, <code>benefits</code>, <code>languages</code>, <code>countries</code> und <code>providerName</code>.
+</div>
+
+<h2>DAT-Graph neu laden</h2>
+<p>Nach einer Änderung an einer JSON- oder Excel-Quelldatei muss das Docker-Image des Loaders neu gebaut werden. Der Dockerfile kopiert die Quelldateien beim Build in das Image.</p>
+<ol>
+    <li>
+        Sicherstellen, dass die Data Platform konfiguriert ist. In <code>packages/data-platform/.env</code> muss mindestens stehen:
+        <pre><code>TRIPLE_STORE_ENDPOINT=http://triple-store:3030</code></pre>
+    </li>
+    <li>
+        Triple Store starten, falls er nicht bereits läuft:
+        <pre><code>cd packages/data-platform
+docker compose up -d triple-store</code></pre>
+    </li>
+    <li>
+        Loader mit den aktualisierten Quelldateien neu bauen und ausführen:
+        <pre><code>docker compose build dats-loader
+docker compose up dats-loader</code></pre>
+    </li>
+    <li>
+        Die Ausgabe kontrollieren. Der Loader meldet die Anzahl verarbeiteter DATs und schreibt anschließend den neu erzeugten Graphen nach:
+        <pre><code>/quantifarm/data?graph=https://quantifarm.eu/graphs/dats</code></pre>
+    </li>
+</ol>
+
+<h2>Auswirkungen auf das Recommendation Tool</h2>
+<p>Das Recommendation Tool fragt beim Start den DAT-Graphen über den konfigurierten SPARQL-Endpunkt ab und lädt ihn in seinen Arbeitsspeicher. Nach einem erfolgreichen DAT-Loader-Lauf muss das Recommendation Tool daher neu gestartet werden, damit es den aktualisierten Graphen verwendet.</p>
+
+<h2>Testcase-Daten</h2>
+<p><code>testcase-dats.xls</code> gehört zum DAT-Loader und beschreibt allgemeine DAT-Metadaten sowie die Verknüpfung eines DAT mit einer Testcase-Nummer. Die konkreten Versuchsdaten liegen hingegen in einer separaten Testcase-JSON-Datei, zum Beispiel <code>TC14.json</code>.</p>
+<p>Diese JSON-Datei wird nicht durch den DAT-Loader verarbeitet. Sie wird durch den separaten <code>testcase-loader</code> in einen eigenen Graphen wie <code>https://quantifarm.eu/graphs/testcase14</code> geladen. Die Testfallnummer und die DAT-Namen müssen in Excel und JSON konsistent sein.</p>
+
+<script>
+    mermaid.initialize({ startOnLoad: true, theme: 'default' });
+</script>
+
+</body>
+</html>

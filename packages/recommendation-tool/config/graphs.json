@@ -1,0 +1,138 @@
+{
+    "graphs": {
+        "dats": {
+            "name": "DATS",
+            "uri": "<https://quantifarm.eu/graphs/dats>"
+        },
+        "dats_translations": {
+            "name": "DATSTranslations",
+            "uri": "<https://quantifarm.eu/graphs/dats-translations>"
+        },
+        "test_cases": [
+            {
+                "name": "TestCase1",
+                "uri": "<https://quantifarm.eu/graphs/testcase1>"
+            },
+            {
+                "name": "TestCase2",
+                "uri": "<https://quantifarm.eu/graphs/testcase2>"
+            },
+            {
+                "name": "TestCase3",
+                "uri": "<https://quantifarm.eu/graphs/testcase3>"
+            },
+            {
+                "name": "TestCase4",
+                "uri": "<https://quantifarm.eu/graphs/testcase4>"
+            },
+            {
+                "name": "TestCase5",
+                "uri": "<https://quantifarm.eu/graphs/testcase5>"
+            },
+            {
+                "name": "TestCase6",
+                "uri": "<https://quantifarm.eu/graphs/testcase6>"
+            },
+            {
+                "name": "TestCase7",
+                "uri": "<https://quantifarm.eu/graphs/testcase7>"
+            },
+            {
+                "name": "TestCase8",
+                "uri": "<https://quantifarm.eu/graphs/testcase8>"
+            },
+            {
+                "name": "TestCase9",
+                "uri": "<https://quantifarm.eu/graphs/testcase9>"
+            },
+            {
+                "name": "TestCase10",
+                "uri": "<https://quantifarm.eu/graphs/testcase10>"
+            },
+            {
+                "name": "TestCase11",
+                "uri": "<https://quantifarm.eu/graphs/testcase11>"
+            },
+            {
+                "name": "TestCase12",
+                "uri": "<https://quantifarm.eu/graphs/testcase12>"
+            },
+            {
+                "name": "TestCase13",
+                "uri": "<https://quantifarm.eu/graphs/testcase13>"
+            },
+            {
+                "name": "TestCase14",
+                "uri": "<https://quantifarm.eu/graphs/testcase14>"
+            },
+            {
+                "name": "TestCase15",
+                "uri": "<https://quantifarm.eu/graphs/testcase15>"
+            },
+            {
+                "name": "TestCase16",
+                "uri": "<https://quantifarm.eu/graphs/testcase16>"
+            },
+            {
+                "name": "TestCase17",
+                "uri": "<https://quantifarm.eu/graphs/testcase17>"
+            },
+            {
+                "name": "TestCase18",
+                "uri": "<https://quantifarm.eu/graphs/testcase18>"
+            },
+            {
+                "name": "TestCase19",
+                "uri": "<https://quantifarm.eu/graphs/testcase19>"
+            },
+            {
+                "name": "TestCase20",
+                "uri": "<https://quantifarm.eu/graphs/testcase20>"
+            },
+            {
+                "name": "TestCase21",
+                "uri": "<https://quantifarm.eu/graphs/testcase21>"
+            },
+            {
+                "name": "TestCase22",
+                "uri": "<https://quantifarm.eu/graphs/testcase22>"
+            },
+            {
+                "name": "TestCase23",
+                "uri": "<https://quantifarm.eu/graphs/testcase23>"
+            },
+            {
+                "name": "TestCase24",
+                "uri": "<https://quantifarm.eu/graphs/testcase24>"
+            },
+            {
+                "name": "TestCase25",
+                "uri": "<https://quantifarm.eu/graphs/testcase25>"
+            },
+            {
+                "name": "TestCase26",
+                "uri": "<https://quantifarm.eu/graphs/testcase26>"
+            },
+            {
+                "name": "TestCase27",
+                "uri": "<https://quantifarm.eu/graphs/testcase27>"
+            },
+            {
+                "name": "TestCase28",
+                "uri": "<https://quantifarm.eu/graphs/testcase28>"
+            },
+            {
+                "name": "TestCase29",
+                "uri": "<https://quantifarm.eu/graphs/testcase29>"
+            },
+            {
+                "name": "TestCase30",
+                "uri": "<https://quantifarm.eu/graphs/testcase30>"
+            }
+        ],
+        "testcase_translations": {
+            "name": "TestcaseTranslations",
+            "uri": "<https://quantifarm.eu/graphs/testcase-translations>"
+        }
+    }
+}

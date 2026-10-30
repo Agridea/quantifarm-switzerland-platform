@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/ParcelComparison.schema.json",
+  "title": "QuantiFarm parcel comparison information",
+  "description": "Assessment information of two parcels, one with using the DATSs and one without using the DATSs",
+  "type": "object",
+  "properties": {
+    "parcelAssessmentWithDATS": {
+      "description": "The assessment information of the parcel with using the DATSs",
+      "$ref": "https://quantifarm.eu/ontology/AssessmentInformation.schema.json"
+    },
+    "parcelAssessmentWithoutDATS": {
+      "description": "The assessment information of the parcel with using the DATSs",
+      "$ref": "https://quantifarm.eu/ontology/AssessmentInformation.schema.json"
+    },
+    "calculatedIndicatorInformation": {
+      "description": "List of indicators used to calculate aggregated impact parameters for the use of the DATSs",
+      "type": "array",
+      "items": {
+        "description": "An indicator used to calculate aggregated impact parameters",
+        "uniqueItems": true,
+        "$ref": "https://quantifarm.eu/ontology/CalculatedIndicatorInformation.schema.json"
+      }
+    },
+    "calculatedSustainabilityInformation": {
+      "description": "List of calculated sustainability parameters that indicate how sustainable the use of the DATSs is compared to not using the DATSs",
+      "type": "array",
+      "items": {
+        "description": "A calculated sustainability parameter indicating sustainability for using the DATs on a parcel compared with not using the DATSs",
+        "uniqueItems": true,
+        "$ref": "https://quantifarm.eu/ontology/CalculatedSustainabilityInformation.schema.json"
+      }
+    },
+    "aggregatedImpactInformation": {
+      "description": "List of aggregated impact parameters that indicate how well the DATSs perform with respect to not using the DATSs",
+      "type": "array",
+      "items": {
+        "description": "An aggregated impact parameter that indicates how well the DATSs perform with respect to not using the DATSs",
+        "uniqueItems": true,
+        "$ref": "https://quantifarm.eu/ontology/AggregatedImpactInformation.schema.json"
+      }
+    },
+    "mainImpactInformation": {
+      "description": "List of main impact parameters that indicate how well the DATSs perform with respect to not using the DATSs",
+      "type": "array",
+      "items": {
+        "description": "A main impact parameter that indicates how well the DATSs perform with respect to not using the DATSs",
+        "uniqueItems": true,
+        "$ref": "https://quantifarm.eu/ontology/MainImpactInformation.schema.json"
+      }
+    },
+    "costRevenueImpactInformation": {
+      "description": "List of cost revenue impact parameters that indicate how well the DATSs perform with respect to not using the DATSs",
+      "type": "array",
+      "items": {
+        "description": "A cost revenue impact parameter that indicates how well the DATSs perform with respect to not using the DATSs",
+        "uniqueItems": true,
+        "$ref": "https://quantifarm.eu/ontology/CostRevenueImpactInformation.schema.json"
+      }
+    }
+  },
+  "$comment": "The productType field in both assessment information properties should be identical!!",
+  "required": [ "parcelAssessmentWithDATS", "parcelAssessmentWithoutDATS" ]
+}

@@ -1,0 +1,26 @@
+packages/cost-benefit-calculator-v2/volume/fastapi-app/app/resources/logs/log.log
+packages/cost-benefit-calculator-v1/volume/fastapi-app/app/resources/logs/log.log
+__pycache__/
+*.pyc
+packages/policymonitoring-tool/
+
+# Docker database volumes — runtime data, not source code
+packages/databases/
+
+# Environment secrets
+.env
+.env.local
+
+# Office lock files
+~$*
+
+# Visual Studio local state
+.vs/
+
+# VS Code local settings (extension-managed, machine-specific)
+.vscode/
+
+# Runtime artifacts
+packages/data-platform/backups/
+packages/*/volume/fastapi-app/app/resources/uploads/*.log
+

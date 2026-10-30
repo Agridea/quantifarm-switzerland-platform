@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATs Loading Process - Export View</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: white;
+            padding: 40px;
+        }
+        
+        .page {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #0066cc;
+            padding-bottom: 20px;
+        }
+        
+        h1 {
+            color: #0066cc;
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 18px;
+            font-weight: 300;
+        }
+        
+        .diagram-container {
+            background: #f9f9f9;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            padding: 30px;
+            margin: 30px 0;
+        }
+        
+        .mermaid {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        
+        .info-section {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin-top: 30px;
+        }
+        
+        .info-box {
+            background: #f0f7ff;
+            border-left: 4px solid #0066cc;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        
+        .info-box h3 {
+            color: #0066cc;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        
+        .info-box ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .info-box li {
+            padding: 5px 0;
+            color: #333;
+            font-size: 14px;
+        }
+        
+        .info-box li::before {
+            content: "▸ ";
+            color: #0066cc;
+            font-weight: bold;
+        }
+        
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+            padding: 15px;
+            background: white;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .legend-color {
+            width: 30px;
+            height: 20px;
+            border-radius: 3px;
+            border: 1px solid #999;
+        }
+        
+        .export-controls {
+            text-align: center;
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff3cd;
+            border-radius: 5px;
+            border: 2px solid #ffc107;
+        }
+        
+        .export-controls button {
+            background: #0066cc;
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            margin: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        
+        .export-controls button:hover {
+            background: #0052a3;
+        }
+        
+        .export-controls p {
+            margin-bottom: 15px;
+            color: #856404;
+            font-weight: 500;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #ddd;
+            color: #666;
+            font-size: 12px;
+        }
+
+        @media print {
+            body {
+                padding: 0;
+            }
+            .export-controls {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <div class="header">
+            <h1>📊 DATs Loading Process</h1>
+            <p class="subtitle">QuantiFarm Switzerland - Digital Agriculture Technologies ETL Pipeline</p>
+        </div>
+
+        <div class="export-controls" id="exportControls">
+            <p>💾 To save as JPEG: Use Windows Snipping Tool (Win+Shift+S) or press Ctrl+P and save as PDF, then convert to JPEG</p>
+            <button onclick="window.print()">🖨️ Print / Save as PDF</button>
+            <button onclick="captureAsImage()">📸 Capture High-Res Screenshot</button>
+        </div>
+
+        <div class="diagram-container">
+            <div class="mermaid">
+flowchart TD
+    Start([Start DATs Loader]) --> CheckTS{Triple Store<br/>Available?}
+    CheckTS -->|No| Wait[Wait & Ping<br/>Triple Store]
+    Wait --> CheckTS
+    CheckTS -->|Yes| LoadCountries[Load ISO3166<br/>Country Codes]
+    
+    LoadCountries --> CreateGraph[Create RDF Graph]
+    
+    CreateGraph --> FS[Process FAIRshare DATs]
+    
+    FS --> ReadFS[Read fairshare-dats-06-2024.json]
+    ReadFS --> LoopFS{For Each<br/>FAIRshare DAT}
+    
+    LoopFS -->|Next DAT| ParseFS[Parse DAT Data:<br/>- Name, Title, Description<br/>- Launch/Update Year<br/>- Keywords, Sectors<br/>- Benefits, Functionalities<br/>- Languages, Countries<br/>- Web Pages, Costs]
+    
+    ParseFS --> CheckExistFS{DAT URI<br/>Exists?}
+    CheckExistFS -->|No| AddFS[Add to Graph:<br/>- RDF triples<br/>- Provider info<br/>- Country mappings<br/>- Source: 'fairshare']
+    CheckExistFS -->|Yes| SkipFS[Skip: DAT Already Exists]
+    
+    AddFS --> LoopFS
+    SkipFS --> LoopFS
+    LoopFS -->|Done| TC[Process Test Case DATs]
+    
+    TC --> ReadTC[Read testcase-dats.xls<br/>Sheet 6]
+    ReadTC --> LoopTC{For Each<br/>Row > 1}
+    
+    LoopTC -->|Next Row| ParseTC[Parse DAT Data:<br/>- Name, Title<br/>- Description<br/>- Provider<br/>- Test Case Link]
+    
+    ParseTC --> CheckExistTC{DAT URI<br/>Exists?}
+    CheckExistTC -->|No| AddTC[Add to Graph:<br/>- Basic RDF triples<br/>- Test case reference<br/>- Source: 'testcase']
+    CheckExistTC -->|Yes| LinkTC[Add Test Case Link Only]
+    
+    AddTC --> LoopTC
+    LinkTC --> LoopTC
+    LoopTC -->|Done| CB[Process Cost-Benefit DATs]
+    
+    CB --> ReadCB[Read Excel Files:<br/>- cost-benefit-arable-dats.xls<br/>- cost-benefit-lifestock-dats.xls]
+    
+    ReadCB --> LoopCB{For Each<br/>File & Row}
+    
+    LoopCB -->|Next Row| ParseCB[Parse DAT Data:<br/>- Name, Provider, Description<br/>- Web Page, Functionalities<br/>- Cultivation Types, Costs<br/>- Digital Forms, Benefits]
+    
+    ParseCB --> CheckExistCB{DAT URI<br/>Exists?}
+    CheckExistCB -->|No| AddCB[Add to Graph:<br/>- Full RDF triples<br/>- Cost structure details<br/>- Source: 'costbenefit']
+    CheckExistCB -->|Yes| EnrichCB[Enrich Existing DAT:<br/>- Add functionalities<br/>- Add digital forms<br/>- Add benefits]
+    
+    AddCB --> LoopCB
+    EnrichCB --> LoopCB
+    LoopCB -->|Done| Serialize[Serialize Graph<br/>to N-Triples]
+    
+    Serialize --> PUT[HTTP PUT to Triple Store<br/>Endpoint: /quantifarm/data<br/>Graph: https://quantifarm.eu/graphs/dats]
+    
+    PUT --> Replace[Replace Entire<br/>DATs Graph]
+    
+    Replace --> Verify[Run Verification<br/>SPARQL Query]
+    
+    Verify --> End([End])
+    
+    style Start fill:#90EE90
+    style End fill:#FFB6C1
+    style FS fill:#87CEEB
+    style TC fill:#87CEEB
+    style CB fill:#87CEEB
+    style PUT fill:#FFD700
+    style Replace fill:#FFD700
+            </div>
+        </div>
+
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-color" style="background: #90EE90;"></div>
+                <span>Start/End</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #87CEEB;"></div>
+                <span>Data Sources</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: #FFD700;"></div>
+                <span>Storage Operations</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color" style="background: white; border: 2px solid #666;"></div>
+                <span>Processing Steps</span>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <div class="info-box">
+                <h3>📁 Data Sources</h3>
+                <ul>
+                    <li>FAIRshare Platform (JSON)</li>
+                    <li>Test Case Data (Excel)</li>
+                    <li>Cost-Benefit Arable (Excel)</li>
+                    <li>Cost-Benefit Livestock (Excel)</li>
+                </ul>
+            </div>
+            
+            <div class="info-box">
+                <h3>🎯 Key Features</h3>
+                <ul>
+                    <li>Deduplication across sources</li>
+                    <li>Enrichment strategy for existing DATs</li>
+                    <li>RDF/Semantic Web compliant</li>
+                    <li>Destructive loading (full replace)</li>
+                </ul>
+            </div>
+            
+            <div class="info-box">
+                <h3>🔧 Technical Stack</h3>
+                <ul>
+                    <li>Python 3.11+ (Loader)</li>
+                    <li>Apache Jena Fuseki (Triple Store)</li>
+                    <li>RDFLib (RDF Processing)</li>
+                    <li>QCSM Ontology (Data Model)</li>
+                </ul>
+            </div>
+            
+            <div class="info-box">
+                <h3>📊 Output</h3>
+                <ul>
+                    <li>Graph: quantifarm.eu/graphs/dats</li>
+                    <li>Format: N-Triples</li>
+                    <li>Protocol: SPARQL Graph Store</li>
+                    <li>Method: HTTP PUT (Replace)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>QuantiFarm Switzerland | Data Platform Documentation | Generated: January 2026</p>
+        </div>
+    </div>
+
+    <script>
+        mermaid.initialize({ 
+            startOnLoad: true,
+            theme: 'default',
+            flowchart: {
+                curve: 'basis',
+                padding: 20,
+                nodeSpacing: 50,
+                rankSpacing: 80
+            }
+        });
+
+        function captureAsImage() {
+            alert('To capture as JPEG:\n\n1. Press Windows Key + Shift + S\n2. Select the area to capture\n3. The screenshot will be copied to clipboard\n4. Paste into Paint or any image editor\n5. Save as JPEG\n\nOR\n\nUse the Print button to save as PDF first, then convert to JPEG using an online converter.');
+        }
+
+        // Wait for diagram to render before allowing print
+        setTimeout(() => {
+            const exportControls = document.getElementById('exportControls');
+            if (exportControls) {
+                exportControls.style.background = '#d4edda';
+                exportControls.style.borderColor = '#28a745';
+                const p = exportControls.querySelector('p');
+                if (p) {
+                    p.style.color = '#155724';
+                    p.textContent = '✅ Diagram loaded successfully! Ready to export as JPEG';
+                }
+            }
+        }, 2000);
+    </script>
+</body>
+</html>

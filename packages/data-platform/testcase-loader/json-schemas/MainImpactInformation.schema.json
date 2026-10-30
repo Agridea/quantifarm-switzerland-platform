@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/MainImpactInformation.schema.json",
+  "title": "QuantiFarm main impact parameter for the performance of a DATS on a parcel",
+  "description": "Main impact parameter that indicates how well the DATS performed in the specific year",
+  "type": "object",
+  "properties": {
+    "mainImpactName": {
+      "description": "The name of the main impact parameter",
+      "type": "string"
+    },
+    "mainImpactUnit": {
+      "description": "The unit of the main impact parameter",
+      "type": "string"
+    },
+    "absoluteDifference": {
+      "description": "The absolute difference of the main impact parameter",
+      "type": "number"
+    },
+    "percentageDifference": {
+      "description": "The percentage difference of the main impact parameter",
+      "type": "number"
+    },
+    "higherIsBetterMeaning": {
+      "description": "The meaning whether a higher value is a better one",
+      "type": "boolean"
+    },
+    "impactLevel": {
+      "description": "The level of the impact of the parameter, 0=negative, 1=positive, 2=neutral, 3=DATS",
+      "type": "number"
+    },
+    "mainImpactTitle": {
+      "description": "The title of the main impact parameter",
+      "type": "string"
+    },
+    "mainImpactSubtitle": {
+      "description": "The subtitle of the main impact parameter",
+      "type": "string"
+    }
+  },
+  "required": [ "aggregatedImpactName", "aggregatedImpactUnit", "aggregatedImpactValue"]
+}

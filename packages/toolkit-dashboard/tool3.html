@@ -1,0 +1,1269 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>QuantiFarm - Benchmarking Tool</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XH06Z9BF5S"></script>
+    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-XH06Z9BF5S');</script>
+
+    <!-- Favicons -->
+    <link href="assets/img/QuantiFarm-element-60x60.png" rel="icon" sizes="32x32">
+    <link href="assets/img/QuantiFarm-element-60x60.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Sofia+Sans:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/leaflet/leaflet.css" rel="stylesheet">
+    <link href="assets/vendor/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="assets/vendor/fontawesome/css/fontawesome-all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- DigiAgriFoodCH Theme -->
+    <link href="assets/css/digiagrifood-theme.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+
+        <div class="d-flex align-items-center justify-content-between">
+            <a href="index.html" class="logo d-flex align-items-center">
+                <span>Toolkit</span>
+            </a>
+            <i class="bi bi-list toggle-sidebar-btn"></i>
+        </div><!-- End Logo -->
+
+        <nav class="header-nav ms-auto h-100">
+            <ul class="d-flex align-items-center h-100">
+
+                <li class="nav-item dropdown pe-2 pt-3 h-100" id="mnuLogin">
+                    <a class="nav-link d-flex align-items-center text-primary px-4 " href="login.html?url=tool3.html">
+                        <i class="ri-login-box-line" style="font-size: 26px"></i>
+                        <span>Login</span>
+                    </a>
+                </li>
+
+                <li class="nav-item dropdown pe-2 pt-3 h-100" id="mnuUser" hidden>
+
+                    <a class="nav-link d-flex align-items-center text-primary px-4 " href="#" data-bs-toggle="dropdown">
+                        <i class="bi bi-gear" style="font-size: 26px"></i>
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                        <li class="dropdown-header">
+                            <h6 id="mnuUserName"></h6>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="profile.html">
+                                <i class="bi bi-person"></i>
+                                <span>My Profile</span>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="php/api.php?c=out">
+                                <i class="bi bi-box-arrow-right"></i>
+                                <span>Log out</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+    </header><!-- End Header -->
+    <!-- ======= Sidebar ======= -->
+    <aside id="sidebar" class="sidebar">
+
+        <ul class="sidebar-nav" id="sidebar-nav">
+        </ul>
+
+    </aside><!-- End Sidebar-->
+
+    <main id="main" class="main" style="min-height: 80vh;">
+
+        <div class="pagetitle d-flex justify-content-between">
+            <h1>Benchmarking Tool</h1>
+            <div id="lnkLogin" class="me-3 text-danger" hidden><i class="bx bxs-lock-alt me-1"></i>Login needed</div>
+        </div><!-- End Page Title -->
+
+        <section class="section dashboard">
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <!-- Default Tabs -->
+                    <ul class="nav nav-tabs d-flex" id="tab1" role="tablist">
+                        <li class="nav-item flex-fill" role="presentation">
+                            <button class="nav-link w-100 active fw-bold" id="btnTabDescr" data-bs-toggle="tab"
+                                data-bs-target="#tabDescr" type="button" role="tab">Description</button>
+                        </li>
+                        <li class="nav-item flex-fill" role="presentation">
+                            <button class="nav-link w-100 fw-bold" id="btnTabParcels" data-bs-toggle="tab"
+                                data-bs-target="#tabParcels" type="button" role="tab"><i
+                                    class="bx bxs-lock-alt me-1 text-danger" id="lockParcels"
+                                    hidden></i>Parcels</button>
+                        </li>
+                        <li class="nav-item flex-fill" role="presentation">
+                            <button class="nav-link w-100 fw-bold" id="btnTabEvents" data-bs-toggle="tab"
+                                data-bs-target="#tabEvents" type="button" role="tab"><i
+                                    class="bx bxs-lock-alt me-1 text-danger" id="lockEvents" hidden></i>Events</button>
+                        </li>
+                        <li class="nav-item flex-fill" role="presentation">
+                            <button class="nav-link w-100 fw-bold" id="btnTabMeteo" data-bs-toggle="tab"
+                                data-bs-target="#tabMeteo" type="button" role="tab"><i
+                                    class="bx bxs-lock-alt me-1 text-danger" id="lockMeteo"
+                                    hidden></i>Measurements</button>
+                        </li>
+                        <li class="nav-item flex-fill" role="presentation">
+                            <button class="nav-link w-100 fw-bold" id="btnTabResult" data-bs-toggle="tab"
+                                data-bs-target="#tabResult" type="button" role="tab"><i
+                                    class="bx bxs-lock-alt me-1 text-danger" id="lockResults"
+                                    hidden></i>Results</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content pt-2" id="tab1Content">
+                        <div class="tab-pane fade show active" id="tabDescr" role="tabpanel"
+                            aria-labelledby="btnTabDescr">
+
+                            <div class="d-flex justify-content-center">
+                                <ul class="nav nav-tabs nav-tabs-bordered" id="lngTabs" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="lngBtnEN" data-bs-toggle="tab"
+                                            data-bs-target="#lngTabEN" type="button" role="tab" aria-controls="lngTabEN"
+                                            aria-selected="true" title="EN"><img src="assets/img/uk.png"
+                                                width="32"></button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="lngBtnFR" data-bs-toggle="tab"
+                                            data-bs-target="#lngTabFR" type="button" role="tab" aria-controls="lngTabFR"
+                                            aria-selected="false" tabindex="-1" title="FR"
+                                            onclick="LoadLanguageContent('FR')"><img src="assets/img/france.png"
+                                                width="32"></button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="lngBtnIT" data-bs-toggle="tab"
+                                            data-bs-target="#lngTabIT" type="button" role="tab" aria-controls="lngTabIT"
+                                            aria-selected="false" tabindex="-1" title="IT"
+                                            onclick="LoadLanguageContent('IT')"><img src="assets/img/italy.png"
+                                                width="32"></button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="lngBtnDE" data-bs-toggle="tab"
+                                            data-bs-target="#lngTabDE" type="button" role="tab" aria-controls="lngTabDE"
+                                            aria-selected="false" tabindex="-1" title="DE"
+                                            onclick="LoadLanguageContent('DE')"><img src="assets/img/germany.png"
+                                                width="32"></button>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-content d-flex justify-content-center" id="lngTabsContent">
+                                <div class="tab-pane fade active show" id="lngTabEN" role="tabpanel"
+                                    aria-labelledby="lngBtnEN">
+                                    <p>
+                                        The "Benchmarking tool" aims to assist farmers and advisors in recording
+                                        digitally the cultivation practices and to automate the calculation of important
+                                        and useful performance indicators. It also offers the option to compare
+                                        calculated indicators from different farms and/or for different cultivation
+                                        periods. The tool also includes information about the DATSs that have been
+                                        utilised and are associated with specific farming activities allowing the user
+                                        of the "Benchmarking tool" to correlate performance with agricultural
+                                        technology solutions. This allows the extraction of conclusions on the
+                                        usefulness and the applicability of DAT in specific contexts and specifically
+                                        the user can perform:
+                                    </p>
+                                    <ol type="a">
+                                        <li>Side by side comparisons - analyse performance indicators for two different
+                                            parcels or groups of parcels or compare the same parcel across different
+                                            seasons. </li>
+                                        <li>Reference benchmarking - compare the results with anonymised farm calendar
+                                            datasets supplied by Test Cases, which reflect real world practices and
+                                            environmental conditions.</li>
+                                    </ol>
+                                    <p>The new release adds richer aggregate calculations, factors in key weather data,
+                                        and includes ready to import pilot CSVs for fast benchmarking and demos.</p>
+                                    <p><i>Please note: Use of the tool requires registration and login.</i></p>
+
+                                    <div class="row text-center">
+                                        <h5>
+                                            <a href="https://www.youtube.com/watch?v=-iSUNUIkfOM" target="_blank">Watch
+                                                Video<i class="fas fa-play ms-2"></i></a>
+                                        </h5>
+                                        <h5>
+                                            <a href="downloads/Benchmarking-Tool-Manual.pdf" target="_blank"><i
+                                                    class="bi bi-download me-2"></i>Download User Manual</a>
+                                        </h5>
+                                        <h5>
+                                            <a href="downloads/benchmarking_example_datasets.zip?v=2"><i
+                                                    class="bi bi-download me-2"></i>Download example files</a>
+                                        </h5>
+                                    </div>
+
+
+                                </div>
+                                <div class="tab-pane fade" id="lngTabFR" role="tabpanel" aria-labelledby="lngBtnFR">
+                                </div>
+
+                                <div class="tab-pane fade" id="lngTabIT" role="tabpanel" aria-labelledby="lngBtnIT">
+                                </div>
+
+                                <div class="tab-pane fade" id="lngTabDE" role="tabpanel" aria-labelledby="lngBtnDE">
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tabParcels" role="tabpanel" aria-labelledby="btnTabParcels">
+
+                            <div class="row my-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="parcelDAT" aria-label="DATS name"
+                                            onchange="LoadParcelsFilter()">
+                                        </select>
+                                        <label for="parcelDAT">DATS name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 text-end">
+                                    <button type="button" class="btn btn-primary" onclick="OpenParcel()">New
+                                        Parcel</button>
+                                    <button type="button" class="btn btn-primary" onclick="OpenImport('parcel')">Import
+                                        Parcels</button>
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Name</th>
+                                            <th scope="col">ha</th>
+                                            <th scope="col">Country</th>
+                                            <th scope="col">Region</th>
+                                            <th scope="col" class="text-end">Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="parcelListBody">
+                                    </tbody>
+                                </table>
+                                <div id="parcelListBodyErr"></div>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="tabEvents" role="tabpanel" aria-labelledby="btnTabEvents">
+
+                            <div class="row my-3">
+                                <div class="col-md-3">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="eventParcelName" aria-label="Parcel name"
+                                            onchange="LoadEvents()">
+                                        </select>
+                                        <label for="eventParcelName">Parcel name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="eventType" aria-label="Event type"
+                                            onchange="LoadEvents()">
+                                        </select>
+                                        <label for="eventType">Event type</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="form-floating">
+                                        <input type="date" class="form-control" id="eventDate1"
+                                            placeholder="Event start" onchange="LoadEvents()">
+                                        <label for="eventDate1">Event start</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="form-floating">
+                                        <input type="date" class="form-control" id="eventDate2" placeholder="Event end"
+                                            onchange="LoadEvents()">
+                                        <label for="eventDate2">Event end</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 text-end">
+                                    <button type="button" class="btn btn-primary" onclick="OpenEvent()">New
+                                        Event</button>
+                                    <button type="button" class="btn btn-primary" onclick="OpenImport('event')">Import
+                                        Events</button>
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <!-- <th scope="col">Parcel name</th> -->
+                                            <th scope="col">Type</th>
+                                            <th scope="col">Event start</th>
+                                            <th scope="col">Event end</th>
+                                            <th scope="col">Substance</th>
+                                            <th scope="col" class="text-end">Amount</th>
+                                            <th scope="col">Unit</th>
+                                            <th scope="col" class="text-end">Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="eventListBody">
+                                    </tbody>
+                                </table>
+                                <div id="eventListBodyErr"></div>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="tabMeteo" role="tabpanel" aria-labelledby="btnTabMeteo">
+
+                            <div class="row my-3">
+                                <div class="col-md-3">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="meteoParcelName" aria-label="Parcel name"
+                                            onchange="LoadMeteos()">
+                                        </select>
+                                        <label for="meteoParcelName">Parcel name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="form-floating">
+                                        <input type="date" class="form-control" id="meteoDate1" placeholder="Date from"
+                                            onchange="LoadMeteos()">
+                                        <label for="meteoDate1">Date from</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="form-floating">
+                                        <input type="date" class="form-control" id="meteoDate2" placeholder="Date to"
+                                            onchange="LoadMeteos()">
+                                        <label for="meteoDate2">Date to</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-5 text-end">
+                                    <button type="button" class="btn btn-primary" onclick="OpenMeteo()">New
+                                        Measurement</button>
+                                    <button type="button" class="btn btn-primary" onclick="OpenImport('meteo')">Import
+                                        Measurements</button>
+                                </div>
+                            </div>
+                            <div class="row mb-2">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Date</th>
+                                            <th scope="col" class="text-end">Temperature (°C)</th>
+                                            <th scope="col" class="text-end">Humidity (%)</th>
+                                            <th scope="col" class="text-end">Wind strength (km/h)</th>
+                                            <th scope="col" class="text-end">Leaf wetness (0/1)</th>
+                                            <th scope="col" class="text-end">Rain (mm)</th>
+                                            <!-- <th scope="col">Parcel name</th> -->
+                                            <th scope="col" class="text-end">Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="meteoListBody">
+                                    </tbody>
+                                </table>
+                                <div id="meteoListBodyErr"></div>
+                            </div>
+
+                        </div>
+                        <div class="tab-pane fade" id="tabResult" role="tabpanel" aria-labelledby="btnTabResult">
+                            <p>The user will be able to compare with the use of the calculated performance indicators:
+                            </p>
+                            <ol type="a">
+                                <li>two different parcels or groups of parcels (please note that the parcel id textbox
+                                    may get as input comma separated values and calculate the indicators with the use of
+                                    farm calendars from these parcels), </li>
+                                <li>the same parcel for different time periods.</li>
+                            </ol>
+
+                            <div class="row my-0 gx-0 justify-content-center">
+                                <div class="col-12 col-lg-3 gx-1">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="resultType" aria-label="Result type"
+                                            onchange="ResultTypeChange()">
+                                            <option value="1">Aggregated farming practices</option>
+                                            <option value="2">Agro-Environmental Indicators</option>
+                                            <option value="3">Meteorological Indicators</option>
+                                        </select>
+                                        <label for="resultType">Result type</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <form id="formResult1" onsubmit="return false;">
+                                <div class="row my-1 gx-0 justify-content-center">
+                                    <div class="col-12 col-lg-3 gx-1">
+                                        <div class="form-floating">
+                                            <select class="form-select" id="resultEventType" aria-label="Event type"
+                                                required>
+                                            </select>
+                                            <label for="resultEventType">Event type</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row my-1 gx-0 justify-content-center">
+                                    <div class="col-12 col-lg-3 gx-1">
+                                        <div class="form-floating">
+                                            <select class="form-select" id="resultAggr" aria-label="Aggregation">
+                                                <option value="sum">Summary</option>
+                                                <option value="avg">Average</option>
+                                                <option value="min">Minimum</option>
+                                                <option value="max">Maximum</option>
+                                            </select>
+                                            <label for="resultAggr">Aggregation</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row my-1 gx-0">
+                                    <div
+                                        class="col-md-6 gx-1 border border-2 border-top-0 border-bottom-0 border-start-0 ">
+                                        <div class="row mb-1 gx-0">
+                                            <div class="dropdown">
+                                                <div class="form-floating">
+                                                    <input type="text" class="form-select qf-cursor-def"
+                                                        id="result1Parcel1" data-bs-toggle="dropdown"
+                                                        aria-expanded="false" onkeydown="return false;"
+                                                        style="caret-color: transparent !important;" autocomplete="off">
+                                                    <label for="result1Parcel1">Parcels group 1</label>
+                                                    <ul class="dropdown-menu qf-max-h-300" style="min-width: 100%;"
+                                                        qf-multiselect>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-1 gx-0 justify-content-center">
+                                            <div class="col-6 col-lg-3 gx-1">
+                                                <div class="form-floating">
+                                                    <input type="date" class="form-control" id="result1Date11"
+                                                        placeholder="Event start">
+                                                    <label for="result1Date11">Event start</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-lg-3 gx-1">
+                                                <div class="form-floating">
+                                                    <input type="date" class="form-control" id="result1Date12"
+                                                        placeholder="Event end">
+                                                    <label for="result1Date12">Event end</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 gx-1">
+                                        <div class="row mb-1 gx-0">
+                                            <div class="dropdown">
+                                                <div class="form-floating">
+                                                    <input type="text" class="form-select qf-cursor-def"
+                                                        id="result1Parcel2" data-bs-toggle="dropdown"
+                                                        aria-expanded="false" onkeydown="return false;"
+                                                        style="caret-color: transparent !important;" autocomplete="off">
+                                                    <label for="result1Parcel2">Parcels group 2</label>
+                                                    <ul class="dropdown-menu qf-max-h-300" style="min-width: 100%;"
+                                                        qf-multiselect>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-1 gx-0 justify-content-center">
+                                            <div class="col-6 col-lg-3 gx-1">
+                                                <div class="form-floating">
+                                                    <input type="date" class="form-control" id="result1Date21"
+                                                        placeholder="Event start">
+                                                    <label for="result1Date21">Event start</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-lg-3 gx-1">
+                                                <div class="form-floating ">
+                                                    <input type="date" class="form-control" id="result1Date22"
+                                                        placeholder="Event end">
+                                                    <label for="result1Date22">Event end</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="my-2 text-center">
+                                    <button type="submit" class="btn btn-primary" style="width: 200px;"
+                                        id="btnShowResult1" onclick="LoadArrg()">Calculate</button>
+                                </div>
+                            </form>
+
+                            <form id="formResult2" onsubmit="return false;" hidden>
+                                <div class="row my-1 gx-0 justify-content-center">
+                                    <div class="col-12 col-lg-3 gx-1">
+                                        <div class="form-floating">
+                                            <select class="form-select" id="resultIndicator" aria-label="Indicator"
+                                                onchange="">
+                                                <option value="1">Chilling Hours</option>
+                                            </select>
+                                            <label for="resultIndicator">Indicator</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row my-1 gx-0 justify-content-center">
+                                    <div class="col-12 col-lg-3 gx-1">
+                                        <div class="row gx-1">
+                                            <div class="col-6 gx-1">
+                                                <div class="form-floating">
+                                                    <input type="number" class="form-control" id="resultLow"
+                                                        placeholder="Low threshold" step="any">
+                                                    <label for="resultLow">Low threshold</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 gx-1">
+                                                <div class="form-floating">
+                                                    <input type="number" class="form-control" id="resultHigh"
+                                                        placeholder="High threshold" step="any">
+                                                    <label for="resultHigh">High threshold</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row my-1 gx-0">
+                                    <div
+                                        class="col-md-6 gx-1 border border-2 border-top-0 border-bottom-0 border-start-0 ">
+                                        <div class="row mb-1 gx-0">
+                                            <div class="dropdown">
+                                                <div class="form-floating">
+                                                    <select class="form-select" id="result2Parcel1"
+                                                        aria-label="Parcel 1">
+                                                    </select>
+                                                    <label for="result2Parcel1">Parcel 1</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-1 gx-0 justify-content-center">
+                                            <div class="col-6 col-lg-3 gx-1">
+                                                <div class="form-floating">
+                                                    <input type="date" class="form-control" id="result2Date11"
+                                                        placeholder="Date from">
+                                                    <label for="result2Date11">Date from</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-lg-3 gx-1">
+                                                <div class="form-floating">
+                                                    <input type="date" class="form-control" id="result2Date12"
+                                                        placeholder="Date to">
+                                                    <label for="result2Date12">Date to</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 gx-1">
+                                        <div class="row mb-1 gx-0">
+                                            <div class="dropdown">
+                                                <div class="form-floating">
+                                                    <select class="form-select" id="result2Parcel2"
+                                                        aria-label="Parcel 2">
+                                                    </select>
+                                                    <label for="result2Parcel2">Parcel 2</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-1 gx-0 justify-content-center">
+                                            <div class="col-6 col-lg-3 gx-1">
+                                                <div class="form-floating">
+                                                    <input type="date" class="form-control" id="result2Date21"
+                                                        placeholder="Date from">
+                                                    <label for="result2Date21">Date from</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-lg-3 gx-1">
+                                                <div class="form-floating ">
+                                                    <input type="date" class="form-control" id="result2Date22"
+                                                        placeholder="Date to">
+                                                    <label for="resultDate22">Date to</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="my-2 text-center">
+                                    <button type="submit" class="btn btn-primary" style="width: 200px;"
+                                        id="btnShowResult2" onclick="LoadChill()">Calculate</button>
+                                </div>
+                            </form>
+
+                            <form id="formResult3" onsubmit="return false;" hidden>
+                                <div class="row my-1 gx-0 justify-content-center">
+                                    <div class="col-12 col-lg-3 gx-1">
+                                        <div class="form-floating">
+                                            <select class="form-select" id="result3EventType"
+                                                aria-label="Measurement type" required>
+                                                <option value="temperature">Temperature</option>
+                                                <option value="humidity">Humidity</option>
+                                                <option value="windstrength">Wind strength</option>
+                                                <option value="leafwetness">Leaf wetness</option>
+                                                <option value="rain">Rain</option>
+                                            </select>
+                                            <label for="result3EventType">Measurement type</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row my-1 gx-0 justify-content-center">
+                                    <div class="col-12 col-lg-3 gx-1">
+                                        <div class="form-floating">
+                                            <select class="form-select" id="result3Aggr" aria-label="Aggregation">
+                                                <option value="sum">Summary</option>
+                                                <option value="avg">Average</option>
+                                                <option value="min">Minimum</option>
+                                                <option value="max">Maximum</option>
+                                            </select>
+                                            <label for="result3Aggr">Aggregation</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row my-1 gx-0">
+                                    <div
+                                        class="col-md-6 gx-1 border border-2 border-top-0 border-bottom-0 border-start-0 ">
+                                        <div class="row mb-1 gx-0">
+                                            <div class="dropdown">
+                                                <div class="form-floating">
+                                                    <input type="text" class="form-select qf-cursor-def"
+                                                        id="result3Parcel1" data-bs-toggle="dropdown"
+                                                        aria-expanded="false" onkeydown="return false;"
+                                                        style="caret-color: transparent !important;" autocomplete="off">
+                                                    <label for="result3Parcel1">Parcels group 1</label>
+                                                    <ul class="dropdown-menu qf-max-h-300" style="min-width: 100%;"
+                                                        qf-multiselect>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-1 gx-0 justify-content-center">
+                                            <div class="col-6 col-lg-3 gx-1">
+                                                <div class="form-floating">
+                                                    <input type="date" class="form-control" id="result3Date11"
+                                                        placeholder="Event start">
+                                                    <label for="result3Date11">Event start</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-lg-3 gx-1">
+                                                <div class="form-floating">
+                                                    <input type="date" class="form-control" id="result3Date12"
+                                                        placeholder="Event end">
+                                                    <label for="result3Date12">Event end</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 gx-1">
+                                        <div class="row mb-1 gx-0">
+                                            <div class="dropdown">
+                                                <div class="form-floating">
+                                                    <input type="text" class="form-select qf-cursor-def"
+                                                        id="result3Parcel2" data-bs-toggle="dropdown"
+                                                        aria-expanded="false" onkeydown="return false;"
+                                                        style="caret-color: transparent !important;" autocomplete="off">
+                                                    <label for="result3Parcel2">Parcels group 2</label>
+                                                    <ul class="dropdown-menu qf-max-h-300" style="min-width: 100%;"
+                                                        qf-multiselect>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row mb-1 gx-0 justify-content-center">
+                                            <div class="col-6 col-lg-3 gx-1">
+                                                <div class="form-floating">
+                                                    <input type="date" class="form-control" id="result3Date21"
+                                                        placeholder="Event start">
+                                                    <label for="result3Date21">Event start</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-6 col-lg-3 gx-1">
+                                                <div class="form-floating ">
+                                                    <input type="date" class="form-control" id="result3Date22"
+                                                        placeholder="Event end">
+                                                    <label for="result3Date22">Event end</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="my-2 text-center">
+                                    <button type="submit" class="btn btn-primary" style="width: 200px;"
+                                        id="btnShowResult3" onclick="LoadMeteoArrg()">Calculate</button>
+                                </div>
+                            </form>
+
+                            <div id="divResult1" class="row my-1 gx-0">
+                                <div class="col-md-6 gx-1 border border-2 border-top-0 border-bottom-0 border-start-0 ">
+                                    <div class="row m-3 gx-0 justify-content-center">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Substance name / Type</th>
+                                                    <th scope="col" class="text-end">Total</th>
+                                                    <th scope="col" class="text-end">Unit</th>
+                                                    <th scope="col" class="text-end">per ha</th>
+                                                    <th scope="col" class="text-end">ha</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="result1ListBody1">
+                                            </tbody>
+                                        </table>
+                                        <div id="result1ListDATs1">
+                                        </div>
+                                        <div id="result1ListTCs1">
+                                        </div>
+                                        <div id="result1ListBodyErr1"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 gx-1">
+                                    <div class="row m-3 gx-0 justify-content-center">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Substance name / Type</th>
+                                                    <th scope="col" class="text-end">Total</th>
+                                                    <th scope="col" class="text-end">Unit</th>
+                                                    <th scope="col" class="text-end">per ha</th>
+                                                    <th scope="col" class="text-end">ha</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody id="result1ListBody2">
+                                            </tbody>
+                                        </table>
+                                        <div id="result1ListDATs2">
+                                        </div>
+                                        <div id="result1ListTCs2">
+                                        </div>
+                                        <div id="result1ListBodyErr2"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="divResult2" class="row my-1 gx-0" hidden>
+                                <div class="col-md-6 gx-1 border border-2 border-top-0 border-bottom-0 border-start-0 ">
+                                    <div class="row m-3 gx-0 justify-content-center">
+                                        <div id="result2Chart1" class="text-center"></div>
+                                        <div id="result2ListBodyErr1"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 gx-1">
+                                    <div class="row m-3 gx-0 justify-content-center">
+                                        <div id="result2Chart2" class="text-center"></div>
+                                        <div id="result2ListBodyErr2"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="divResult3" class="row my-1 gx-0" hidden>
+                                <div class="col-md-6 gx-1 border border-2 border-top-0 border-bottom-0 border-start-0 ">
+                                    <div class="row m-3 gx-0 justify-content-center">
+                                        <div id="result3Chart1" class="text-center"></div>
+                                        <div id="result3ListBodyErr1"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 gx-1">
+                                    <div class="row m-3 gx-0 justify-content-center">
+                                        <div id="result3Chart2" class="text-center"></div>
+                                        <div id="result3ListBodyErr2"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- End Default Tabs -->
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Modal forms -->
+        <div class="modal fade" id="modalParcel" tabindex="-1" data-bs-backdrop="false" style="display: none;"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <form id="formParcel" onsubmit="return false;">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalParcelTitle">Edit Parcel</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <input type="hidden" id="txtParcelID">
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div id="map" style="width:100%; height:500px; "></div>
+                                    <div class="d-flex flex-row mt-1">
+                                        <button type="button" class="btn btn-sm btn-outline-primary"
+                                            onclick="StartDrawing()">Start drawing</button>
+                                        <button type="button" class="btn btn-sm btn-outline-primary"
+                                            onclick="FinishDrawing()">Finish drawing</button>
+                                        <button type="button" class="btn btn-sm btn-outline-primary"
+                                            onclick="DeleteDrawing()">Delete drawing</button>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="row mb-1 gx-0">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="txtParcelName"
+                                                placeholder="Parcel name" required>
+                                            <label for="txtParcelName">Parcel name</label>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-1 gx-0">
+                                        <div class="form-floating">
+                                            <textarea class="form-control" id="txtParcelPoly" style="height: 440px"
+                                                placeholder="Polygon" required></textarea>
+                                            <label for="txtParcelPoly">Polygon</label>
+                                            <button type="button" class="btn btn-sm btn-outline-primary mt-1"
+                                                onclick="SetMap()">Update map</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer justify-content-between">
+                            <div id="parcelEditErr">
+                                <span class="text-warning">All fields are required</span>
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary" id="btnSaveParcel"
+                                    onclick="SaveParcel()">Save</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modalEvent" tabindex="-1" data-bs-backdrop="false" style="display: none;"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <form id="formEvent" onsubmit="return false;">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalEventTitle">Edit Event</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <input type="hidden" id="txtEventID">
+                            <row class="row">
+                                <div class="col-md-12">
+                                    <div class="row mb-1 gx-0">
+                                        <div class="col-md-6 gx-1">
+                                            <div class="form-floating">
+                                                <select class="form-select" id="cboEventParcel" aria-label="Parcel *"
+                                                    required>
+                                                </select>
+                                                <label for="cboEventParcel">Parcel *</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 gx-1">
+                                            <div class="form-floating">
+                                                <select class="form-select" id="cboEventDats" aria-label="DATS name">
+                                                </select>
+                                                <label for="cboEventDats">DATS name</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-1 gx-0">
+                                        <div class="col-md-5 gx-1">
+                                            <div class="form-floating">
+                                                <input type="datetime-local" class="form-control" id="txtEventDate1"
+                                                    placeholder="Event start *" required>
+                                                <label for="txtEventDate1">Event start *</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5 gx-1">
+                                            <div class="form-floating">
+                                                <input type="datetime-local" class="form-control" id="txtEventDate2"
+                                                    placeholder="Event end">
+                                                <label for="txtEventDate2">Event end</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 gx-1">
+                                            <div class="form-floating">
+                                                <input type="number" class="form-control" id="txtEventDur"
+                                                    placeholder="Duration" min="0" step="any">
+                                                <label for="txtEventDur">Duration</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-1 gx-0">
+                                        <div class="col-md-4 gx-1">
+                                            <div class="form-floating">
+                                                <select class="form-select" id="cboEventType" aria-label="Type *"
+                                                    required>
+                                                </select>
+                                                <label for="cboEventType">Type *</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 gx-1">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="txtEventCrop"
+                                                    list="txtEventCropList" placeholder="Crop *" required>
+                                                <datalist id="txtEventCropList">
+                                                    <option value="Apples">
+                                                    <option value="Bananas">
+                                                    <option value="Barley">
+                                                    <option value="Bees">
+                                                    <option value="Blueberries">
+                                                    <option value="Corn">
+                                                    <option value="Cotton">
+                                                    <option value="Cows">
+                                                    <option value="Grapes">
+                                                    <option value="Olives">
+                                                    <option value="Onion">
+                                                    <option value="Oysters">
+                                                    <option value="Pigs">
+                                                    <option value="Potatoes">
+                                                    <option value="Poultry">
+                                                    <option value="Strawberries">
+                                                    <option value="Tomatoes">
+                                                    <option value="Wheat">
+                                                </datalist>
+                                                <label for="txtEventCrop">Crop *</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 gx-1">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="txtEventVar"
+                                                    placeholder="Variety">
+                                                <label for="txtEventVar">Variety</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-1 gx-0">
+                                        <div class="col-md-4 gx-1">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="txtEventTarget"
+                                                    placeholder="Target">
+                                                <label for="txtEventTarget">Target</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 gx-1">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="txtEventProduct"
+                                                    placeholder="Product">
+                                                <label for="txtEventProduct">Product</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 gx-1">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="txtEventStage"
+                                                    placeholder="Stage">
+                                                <label for="txtEventStage">Stage</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-1 gx-0">
+                                        <div class="col-md-3 gx-1">
+                                            <div class="form-floating">
+                                                <input type="number" class="form-control" id="txtEventAmount"
+                                                    placeholder="Amount *" min="0" step="any" required>
+                                                <label for="txtEventAmount">Amount *</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 gx-1">
+                                            <div class="form-floating">
+                                                <select class="form-select" id="cboEventAmountUnit" aria-label="Unit *"
+                                                    required>
+                                                </select>
+                                                <label for="cboEventAmountUnit">Unit *</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2 gx-1">
+                                            <div class="form-floating">
+                                                <select class="form-select" id="cboEventAmountUnitRef"
+                                                    aria-label="Ref *" required>
+                                                </select>
+                                                <label for="cboEventAmountUnitRef">Ref *</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5 gx-1">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control" id="txtEventSubstance"
+                                                    placeholder="Substance *" required>
+                                                <label for="txtEventSubstance">Substance *</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-1 gx-0">
+                                        <div class="col-md-3 gx-1">
+                                            <div class="form-floating">
+                                                <input type="number" class="form-control" id="txtEventFuelConsum"
+                                                    placeholder="Fuel consumption" min="0" step="any">
+                                                <label for="txtEventFuelConsum">Fuel consumption</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 gx-1">
+                                            <div class="form-floating">
+                                                <select class="form-select" id="cboEventFuelType"
+                                                    aria-label="Fuel type">
+                                                </select>
+                                                <label for="cboEventFuelType">Fuel type</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 gx-1">
+                                            <div class="form-floating">
+                                                <select class="form-select" id="cboEventFuelUnit" aria-label="Unit">
+                                                </select>
+                                                <label for="cboEventFuelUnit">Unit</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-3 gx-1">
+                                            <div class="form-floating">
+                                                <select class="form-select" id="cboEventFuelUnitRef" aria-label="Ref">
+                                                </select>
+                                                <label for="cboEventFuelUnitRef">Ref</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-1 gx-0">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="txtEventComm"
+                                                placeholder="Comments">
+                                            <label for="txtEventComm">Comments</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </row>
+                        </div>
+                        <div class="modal-footer justify-content-between">
+                            <div id="eventEditErr">
+                                <span class="text-warning">Fields marked with * are required</span>
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary" id="btnSaveEvent"
+                                    onclick="SaveEvent()">Save</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modalMeteo" tabindex="-1" data-bs-backdrop="false" style="display: none;"
+            aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <form id="formMeteo" onsubmit="return false;">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalMeteoTitle">Edit Meteo</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <input type="hidden" id="txtMeteoID">
+                            <row class="row">
+                                <div class="col-md-12">
+                                    <div class="row mb-1 gx-0">
+                                        <div class="col-md-6 gx-1">
+                                            <div class="form-floating">
+                                                <select class="form-select" id="cboMeteoParcel" aria-label="Parcel"
+                                                    required>
+                                                </select>
+                                                <label for="cboMeteoParcel">Parcel</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 gx-1">
+                                            <div class="form-floating">
+                                                <input type="datetime-local" class="form-control" id="txtMeteoDate"
+                                                    placeholder="Date" required>
+                                                <label for="txtMeteoDate">Date</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-1 gx-0">
+                                        <div class="col-md-6 gx-1">
+                                            <div class="form-floating">
+                                                <input type="number" class="form-control" id="txtMeteoTemperature"
+                                                    placeholder="Temperature (°C)" step="any" required>
+                                                <label for="txtMeteoTemperature">Temperature (°C)</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 gx-1">
+                                            <div class="form-floating">
+                                                <input type="number" class="form-control" id="txtMeteoWindstrength"
+                                                    placeholder="Wind strength (km/h)" min="0" step="any" required>
+                                                <label for="txtMeteoWindstrength">Wind strength (km/h)</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-1 gx-0">
+                                        <div class="col-md-4 gx-1">
+                                            <div class="form-floating">
+                                                <input type="number" class="form-control" id="txtMeteoHumidity"
+                                                    placeholder="Humidity (%)" min="0" step="any" required>
+                                                <label for="txtMeteoHumidity">Humidity (%)</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 gx-1">
+                                            <div class="form-floating">
+                                                <input type="number" class="form-control" id="txtMeteoLeafwetness"
+                                                    placeholder="Leaf wetness (0/1)" min="0" step="any" required>
+                                                <label for="txtMeteoLeafwetness">Leaf wetness (0/1)</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 gx-1">
+                                            <div class="form-floating">
+                                                <input type="number" class="form-control" id="txtMeteoRain"
+                                                    placeholder="Rain (mm)" min="0" step="any" required>
+                                                <label for="txtMeteoRain">Rain (mm)</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </row>
+                        </div>
+                        <div class="modal-footer justify-content-between">
+                            <div id="meteoEditErr">
+                                <span class="text-warning">All fields are required</span>
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary" id="btnSaveMeteo"
+                                    onclick="SaveMeteo()">Save</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modalImport" tabindex="-1" data-bs-backdrop="false" style="display: none;"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <form id="formImport" enctype="multipart/form-data" onsubmit="return false;">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalImportTitle">Import</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row m-1">
+                                <input type="hidden" name="MAX_FILE_SIZE" value="5242880" />
+                                <input type="hidden" id="importObjType" name="objType" value="" />
+                                <label class="col-form-label text-primary mb-1">Supported file type: CSV; max size
+                                    5MB.</label>
+                                <input class="form-control" type="file" id="inputFile" name="inputFile" required>
+                            </div>
+                            <div class="row m-1 mt-3" id="divImportParcel">
+                                <div class="col-md-12 gx-1">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="cboImportParcel" name="importParcel"
+                                            aria-label="Parcel">
+                                        </select>
+                                        <label for="cboImportParcel">Parcel</label>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <div id="importErr">
+                            </div>
+                            <div>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="submit" class="btn btn-primary" id="btnImport"
+                                    onclick="SaveImport()">Import</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modalDAT" tabindex="-1" data-bs-backdrop="false" style="display: none;"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalDATTitle"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" id="divDatDetail">
+
+                    </div>
+                    <div class="modal-footer">
+                        <div>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Modal forms -->
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <div class="d-flex justify-content-center px-3">
+        <footer class="footer py-2 w-100" style="max-width: 1300px;">
+            <div class="d-flex flex-column gap-2">
+                <div class="d-flex align-items-center justify-content-center gap-3">
+                    <img src="assets/img/EN-Funded-by-the-EU.png" style="max-height:51px;">
+                    <img src="assets/img/QuantiFarm.svg" style="max-height:51px;">
+                    <img src="assets/img/BLW.jpg" style="max-height:51px; mix-blend-mode:multiply;">
+                </div>
+                <div class="d-flex align-items-center justify-content-center gap-3">
+                    <img src="assets/img/Agroscope.png" style="max-height:51px; mix-blend-mode:multiply;">
+                    <img src="assets/img/AGRIDEA.png" style="max-height:51px; max-width:130px;">
+                    <img src="assets/img/LZSG.jpg" style="max-height:51px; mix-blend-mode:multiply;">
+                </div>
+            </div>
+            <hr class="my-2">
+            <div class="d-flex justify-content-between">
+                <div class="credits mx-2">
+                    Copyright &copy; 2023-2026 <a href="https://quantifarm.eu/" target="_blank">The QuantiFarm Consortium</a>. All Rights Reserved.
+                </div>
+                <div class="credits">
+                    <a class="mx-2" href="cookies.html">Cookies Policy</a>
+                    <a class="mx-2" href="privacy.html">Privacy Policy</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/vendor/leaflet/leaflet.js"></script>
+    <script src="assets/vendor/leaflet/Leaflet.Editable.js"></script>
+    <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+    <script src="js/uistrings.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/testcasedata.js"></script>
+    <script src="js/datinfo.js"></script>
+    <script src="js/tool3.js"></script>
+
+</body>
+
+</html>

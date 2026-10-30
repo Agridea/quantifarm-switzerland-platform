@@ -1,0 +1,5455 @@
+[
+    {
+        "countries": [
+            "Austria",
+            "Netherlands"
+        ],
+        "languages": [
+            "Danish",
+            "Many"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "goat",
+            "Flowers"
+        ],
+        "delivery": [
+            "Spreadsheet"
+        ],
+        "source": [],
+        "benefits": [
+            "Effective operational management",
+            "Efficient strategy planning"
+        ],
+        "challenges": [
+            "Automated Feeding ",
+            "Multipurpose-FMIS"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat0",
+        "name": "generated_dat0",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Croatia",
+            "Spain",
+            "Italy"
+        ],
+        "languages": [
+            "German",
+            "Finnish"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "olive"
+        ],
+        "delivery": [
+            "Spreadsheet"
+        ],
+        "source": [],
+        "benefits": [
+            "Labour saving / Limit stress / Increase farmer\u2019s leisure time"
+        ],
+        "challenges": [
+            "Automatic Littering System",
+            "Digitally controlled dimmable led lights"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat1",
+        "name": "generated_dat1",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Slovenia",
+            "Luxembourg",
+            "Slovakia"
+        ],
+        "languages": [
+            "Hungarian",
+            "Ukranian",
+            "Greek"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "cabbage"
+        ],
+        "delivery": [
+            "Paper"
+        ],
+        "source": [],
+        "benefits": [
+            "Better interaction between farmer and advisor"
+        ],
+        "challenges": [
+            "Post-harvest management",
+            "Automated monitoring"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat2",
+        "name": "generated_dat2",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Serbia",
+            "Malta",
+            "Finland"
+        ],
+        "languages": [
+            "Ukranian",
+            "Slovak",
+            "Many"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "row crop",
+            "Apiculture"
+        ],
+        "delivery": [
+            "Web app"
+        ],
+        "source": [],
+        "benefits": [
+            "Limit number or severity of property damage and related accidents",
+            "Effective operational management"
+        ],
+        "challenges": [
+            "Monitoring-FMIS",
+            "heat and movement patterns  etection and warning"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat3",
+        "name": "generated_dat3",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Belgium",
+            "Portugal"
+        ],
+        "languages": [
+            "Polish",
+            "Danish"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "walnut"
+        ],
+        "delivery": [
+            "Paper"
+        ],
+        "source": [],
+        "benefits": [
+            "Effective operational management"
+        ],
+        "challenges": [
+            "Management Zones & VRA Maps",
+            "Robotic Milking"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat4",
+        "name": "generated_dat4",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Cyprus",
+            "Sweden",
+            "Albania"
+        ],
+        "languages": [
+            "Armenian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Fishing/Aquaculture"
+        ],
+        "delivery": [
+            "Mobile app"
+        ],
+        "source": [],
+        "benefits": [
+            "Task scheduling / Time management",
+            "Limit human exposure to chemicals"
+        ],
+        "challenges": [
+            "Feeding robot",
+            "Autosteering-VRA seed and fertilizer "
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat5",
+        "name": "generated_dat5",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Czech Republic",
+            "Turkey"
+        ],
+        "languages": [
+            "German"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "fennel"
+        ],
+        "delivery": [
+            "Stand-alone software"
+        ],
+        "source": [],
+        "benefits": [
+            "Environmental protection"
+        ],
+        "challenges": [
+            "heat and movement patterns  etection and warning"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat6",
+        "name": "generated_dat6",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Finland"
+        ],
+        "languages": [
+            "Czech",
+            "Spanish"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "small ruminant",
+            "fennel"
+        ],
+        "delivery": [
+            "Paper"
+        ],
+        "source": [],
+        "benefits": [
+            "Enhanced adaptation & resilience to climate change",
+            "Better interaction between farmer and advisor"
+        ],
+        "challenges": [
+            "Finance and budgeting"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat7",
+        "name": "generated_dat7",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Armenia"
+        ],
+        "languages": [
+            "Norwegian",
+            "Ukranian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "poultry",
+            "Plant production in general"
+        ],
+        "delivery": [
+            "Webapp"
+        ],
+        "source": [],
+        "benefits": [
+            "Limit number or severity of human injuries",
+            "Limit human exposure to chemicals"
+        ],
+        "challenges": [
+            "Strategic planning",
+            "heat and movement patterns  etection and warning"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat8",
+        "name": "generated_dat8",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "North Macedonia"
+        ],
+        "languages": [
+            "Ukranian",
+            "Finnish"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Arable"
+        ],
+        "delivery": [
+            "Web app"
+        ],
+        "source": [],
+        "benefits": [
+            "Limit number or severity of property damage and related accidents",
+            "Labour saving / Limit stress / Increase farmer\u2019s leisure time"
+        ],
+        "challenges": [
+            "FMIS "
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat9",
+        "name": "generated_dat9",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Finland",
+            "San Marino"
+        ],
+        "languages": [
+            "Estonian",
+            "Many"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Vegetables",
+            "sheep"
+        ],
+        "delivery": [
+            "Paper"
+        ],
+        "source": [],
+        "benefits": [
+            "Increase of productivity"
+        ],
+        "challenges": [
+            "to keep animals moving",
+            "CAP management"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat10",
+        "name": "generated_dat10",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Russian Federation",
+            "Sweden"
+        ],
+        "languages": [
+            "Hungarian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "small ruminant",
+            "vegetable"
+        ],
+        "delivery": [
+            "Stand-alone software"
+        ],
+        "source": [],
+        "benefits": [
+            "Control of animal health problems "
+        ],
+        "challenges": [
+            "Digital vigour map"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat11",
+        "name": "generated_dat11",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "North Macedonia"
+        ],
+        "languages": [
+            "Estonian",
+            "Romanian",
+            "Portuguese"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "arable",
+            "Animal production in general"
+        ],
+        "delivery": [
+            "Stand-alone software"
+        ],
+        "source": [],
+        "benefits": [
+            "Effective operational management"
+        ],
+        "challenges": [
+            "Monitoring",
+            "Management Zones & VRA Maps"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat12",
+        "name": "generated_dat12",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "North Macedonia",
+            "Azerbaijan"
+        ],
+        "languages": [
+            "Romanian",
+            "Finnish",
+            "Turkish"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Arable",
+            "Plant production in general"
+        ],
+        "delivery": [
+            "Spreadsheet"
+        ],
+        "source": [],
+        "benefits": [
+            "Better interaction between farmer and advisor"
+        ],
+        "challenges": [
+            "seed and fertilizer application",
+            "Nutrition/Fertilisation management"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat13",
+        "name": "generated_dat13",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Finland",
+            "Croatia",
+            "Greece"
+        ],
+        "languages": [
+            "Many",
+            "Bulgarian",
+            "Latvian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Herbs"
+        ],
+        "delivery": [
+            "Stand-alone software"
+        ],
+        "source": [],
+        "benefits": [
+            "Minimization of input costs",
+            "Compliance records management"
+        ],
+        "challenges": [
+            "Heat Checking",
+            "Autosteering-VRA seed and fertilizer "
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat14",
+        "name": "generated_dat14",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Serbia",
+            "Montenegro",
+            "Monaco"
+        ],
+        "languages": [
+            "Swedish",
+            "Portuguese"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "walnut"
+        ],
+        "delivery": [
+            "Webapp"
+        ],
+        "source": [],
+        "benefits": [
+            "Minimization of input costs",
+            "Limit number or severity of human injuries"
+        ],
+        "challenges": [
+            "Robotic Milking",
+            "Feeding Robot"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat15",
+        "name": "generated_dat15",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Germany",
+            "Serbia"
+        ],
+        "languages": [
+            "Swedish"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Vegetables",
+            "arable"
+        ],
+        "delivery": [
+            "Paper"
+        ],
+        "source": [],
+        "benefits": [
+            "Limit number or severity of human injuries"
+        ],
+        "challenges": [
+            "Monitoring-FMIS ",
+            "health monitoring"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat16",
+        "name": "generated_dat16",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Switzerland"
+        ],
+        "languages": [
+            "Armenian",
+            "Lithuanian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Fishing/Aquaculture",
+            "Forestry"
+        ],
+        "delivery": [
+            "Web app"
+        ],
+        "source": [],
+        "benefits": [
+            "Better interaction between farmer and advisor"
+        ],
+        "challenges": [
+            "Precision fertigation"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat17",
+        "name": "generated_dat17",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Georgia",
+            "Andorra"
+        ],
+        "languages": [
+            "Spanish",
+            "Turkish"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Apiculture"
+        ],
+        "delivery": [
+            "Webapp"
+        ],
+        "source": [],
+        "benefits": [
+            "Limit number or severity of property damage and related accidents",
+            "Control of animal health problems "
+        ],
+        "challenges": [
+            "multipurpose",
+            "Monitoring-FMIS"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat18",
+        "name": "generated_dat18",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Cyprus"
+        ],
+        "languages": [
+            "English",
+            "Swedish",
+            "German"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Communication/dissemination"
+        ],
+        "delivery": [
+            "Stand-alone software"
+        ],
+        "source": [],
+        "benefits": [
+            "Limit human exposure to chemicals",
+            "Biodiversity preservation"
+        ],
+        "challenges": [
+            "heat detection"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat19",
+        "name": "generated_dat19",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Ireland",
+            "Latvia",
+            "Kosovo"
+        ],
+        "languages": [
+            "Greek",
+            "Hungarian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "fennel"
+        ],
+        "delivery": [
+            "Paper"
+        ],
+        "source": [],
+        "benefits": [
+            "Control of animal health problems ",
+            "Compliance records management"
+        ],
+        "challenges": [
+            "Logistics"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat20",
+        "name": "generated_dat20",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Denmark"
+        ],
+        "languages": [
+            "Bulgarian",
+            "Norwegian",
+            "Many"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Aquaculture",
+            "pig"
+        ],
+        "delivery": [
+            "Paper"
+        ],
+        "source": [],
+        "benefits": [
+            "Environmental protection",
+            "Biodiversity preservation"
+        ],
+        "challenges": [
+            "automatic liquid feeding",
+            "planting and fertilization"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat21",
+        "name": "generated_dat21",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Slovakia"
+        ],
+        "languages": [
+            "Italian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "row crop",
+            "lettuce"
+        ],
+        "delivery": [
+            "Webapp"
+        ],
+        "source": [],
+        "benefits": [
+            "Effective operational management",
+            "Environmental protection"
+        ],
+        "challenges": [
+            "Multipurpose-FMIS"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat22",
+        "name": "generated_dat22",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Monaco"
+        ],
+        "languages": [
+            "Basque",
+            "Croatian",
+            "Slovenian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Poultry egg production"
+        ],
+        "delivery": [
+            "Paper"
+        ],
+        "source": [],
+        "benefits": [
+            "Increase of profit/farm income"
+        ],
+        "challenges": [
+            "heat and movement patterns  etection and warning",
+            "Plant protection management"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat23",
+        "name": "generated_dat23",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Czech Republic"
+        ],
+        "languages": [
+            "Italian",
+            "Polish"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Fruit"
+        ],
+        "delivery": [
+            "Mobile app"
+        ],
+        "source": [],
+        "benefits": [
+            "Control of animal health problems "
+        ],
+        "challenges": [
+            "Sustainable food production and healthy diets"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat24",
+        "name": "generated_dat24",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Ireland",
+            "Slovakia",
+            "Netherlands"
+        ],
+        "languages": [
+            "Turkish"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Meat (cattle, pigs, sheep, goats, poultry, rabbits, snails) (cattle, sheep, goats)",
+            "pig"
+        ],
+        "delivery": [
+            "Spreadsheet"
+        ],
+        "source": [],
+        "benefits": [
+            "Increase of productivity",
+            "Limit number or severity of property damage and related accidents"
+        ],
+        "challenges": [
+            "Livestock Green House Gas (GHG) measurement and management",
+            "Strategic planning"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat25",
+        "name": "generated_dat25",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Netherlands",
+            "Georgia",
+            "United Kingdom"
+        ],
+        "languages": [
+            "Croatian",
+            "Polish"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Fruit"
+        ],
+        "delivery": [
+            "Mobile app"
+        ],
+        "source": [],
+        "benefits": [
+            "Optimization of resources use",
+            "Increase of profit/farm income"
+        ],
+        "challenges": [
+            "Autosteering"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat26",
+        "name": "generated_dat26",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Latvia"
+        ],
+        "languages": [
+            "Portuguese",
+            "Catalan",
+            "Japanese"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "strawberry"
+        ],
+        "delivery": [
+            "Mobile app"
+        ],
+        "source": [],
+        "benefits": [
+            "Optimization of resources use",
+            "Increase of productivity"
+        ],
+        "challenges": [
+            "GPS Integration"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat27",
+        "name": "generated_dat27",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Estonia",
+            "Andorra"
+        ],
+        "languages": [
+            "Norwegian",
+            "Portuguese",
+            "Catalan"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "fruit",
+            "Arable"
+        ],
+        "delivery": [
+            "Webapp"
+        ],
+        "source": [],
+        "benefits": [
+            "Limit human exposure to chemicals",
+            "Control of animal health problems "
+        ],
+        "challenges": [
+            "Finance and budgeting"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat28",
+        "name": "generated_dat28",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Azerbaijan",
+            "Kazakhstan"
+        ],
+        "languages": [
+            "Ukranian",
+            "Many",
+            "Danish"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Plant production in general",
+            "Apiculture"
+        ],
+        "delivery": [
+            "Spreadsheet"
+        ],
+        "source": [],
+        "benefits": [
+            "Labour saving / Limit stress / Increase farmer\u2019s leisure time",
+            "Limit human exposure to chemicals"
+        ],
+        "challenges": [
+            "Multipurpose-DSS/FMIS",
+            "Monitoring-FMIS "
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat29",
+        "name": "generated_dat29",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Belgium"
+        ],
+        "languages": [
+            "French",
+            "German",
+            "Slovenian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "walnut"
+        ],
+        "delivery": [
+            "Webapp"
+        ],
+        "source": [],
+        "benefits": [
+            "Increase of profit/farm income",
+            "Optimization of resources use"
+        ],
+        "challenges": [
+            "Multipurpose-FMIS"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat30",
+        "name": "generated_dat30",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Hungary",
+            "Cyprus"
+        ],
+        "languages": [
+            "Spanish"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "arable",
+            "all"
+        ],
+        "delivery": [
+            "Web app"
+        ],
+        "source": [],
+        "benefits": [
+            "Optimization of resources use",
+            "Efficient strategy planning"
+        ],
+        "challenges": [
+            "Heat detector",
+            "Digital pest control"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat31",
+        "name": "generated_dat31",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Moldova Republic of"
+        ],
+        "languages": [
+            "Danish",
+            "Hungarian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "olive",
+            "Fruit"
+        ],
+        "delivery": [
+            "Stand-alone software"
+        ],
+        "source": [],
+        "benefits": [
+            "Effective operational management"
+        ],
+        "challenges": [
+            "planting and fertilization",
+            "Heat detector"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat32",
+        "name": "generated_dat32",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "San Marino",
+            "Montenegro",
+            "Hungary"
+        ],
+        "languages": [
+            "Japanese"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Insects/Apiculture"
+        ],
+        "delivery": [
+            "Paper"
+        ],
+        "source": [],
+        "benefits": [
+            "Compliance records management"
+        ],
+        "challenges": [
+            "Precision Irrigation",
+            "Strategic planning"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat33",
+        "name": "generated_dat33",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Hungary",
+            "Germany",
+            "Poland"
+        ],
+        "languages": [
+            "Slovak",
+            "Japanese"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "cow"
+        ],
+        "delivery": [
+            "Spreadsheet"
+        ],
+        "source": [],
+        "benefits": [
+            "Improvement of yield quality"
+        ],
+        "challenges": [
+            "Autosteering-VRA seed and fertilizer ",
+            "water disinfection system for recirculation of irrigation water"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat34",
+        "name": "generated_dat34",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Armenia",
+            "Poland"
+        ],
+        "languages": [
+            "Japanese"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "row crop",
+            "Insects/Apiculture"
+        ],
+        "delivery": [
+            "Spreadsheet"
+        ],
+        "source": [],
+        "benefits": [
+            "Labour saving / Limit stress / Increase farmer\u2019s leisure time"
+        ],
+        "challenges": [
+            "Compliance with legislation and standards"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat35",
+        "name": "generated_dat35",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Kazakhstan",
+            "Norway"
+        ],
+        "languages": [
+            "Romanian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "all"
+        ],
+        "delivery": [
+            "Webapp"
+        ],
+        "source": [],
+        "benefits": [
+            "Effective operational management",
+            "Increase of profit/farm income"
+        ],
+        "challenges": [
+            "Logistics",
+            "Automatic Feeding"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat36",
+        "name": "generated_dat36",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Azerbaijan"
+        ],
+        "languages": [
+            "Catalan"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "potato"
+        ],
+        "delivery": [
+            "Spreadsheet"
+        ],
+        "source": [],
+        "benefits": [
+            "Control of animal health problems ",
+            "Limit number or severity of property damage and related accidents"
+        ],
+        "challenges": [
+            "Management Zones & VRA Maps",
+            "CAP management"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat37",
+        "name": "generated_dat37",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Croatia",
+            "Romania"
+        ],
+        "languages": [
+            "Portuguese"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "grape"
+        ],
+        "delivery": [
+            "Webapp"
+        ],
+        "source": [],
+        "benefits": [
+            "Labour saving / Limit stress / Increase farmer\u2019s leisure time",
+            "Limit number or severity of property damage and related accidents"
+        ],
+        "challenges": [
+            "Sustainable food production and healthy diets",
+            "Lighting "
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat38",
+        "name": "generated_dat38",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "San Marino"
+        ],
+        "languages": [
+            "Turkish",
+            "Dutch"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Meat (cattle, pigs, sheep, goats, poultry, rabbits, snails)"
+        ],
+        "delivery": [
+            "Paper"
+        ],
+        "source": [],
+        "benefits": [
+            "Biodiversity preservation"
+        ],
+        "challenges": [
+            "automatic liquid feeding"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat39",
+        "name": "generated_dat39",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Denmark",
+            "Monaco"
+        ],
+        "languages": [
+            "Latvian",
+            "English",
+            "Italian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Meat (cattle, pigs, sheep, goats, poultry, rabbits, snails)",
+            "Arable farming"
+        ],
+        "delivery": [
+            "Mobile app"
+        ],
+        "source": [],
+        "benefits": [
+            "Minimization of input costs",
+            "Biodiversity preservation"
+        ],
+        "challenges": [
+            "Multipurpose-DSS/FMIS",
+            "Improving animal care"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat40",
+        "name": "generated_dat40",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Luxembourg",
+            "Iceland"
+        ],
+        "languages": [
+            "Norwegian",
+            "Catalan",
+            "Armenian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "grape",
+            "Plant production in general"
+        ],
+        "delivery": [
+            "Stand-alone software"
+        ],
+        "source": [],
+        "benefits": [
+            "Improvement of yield quality",
+            "Task scheduling / Time management"
+        ],
+        "challenges": [
+            "Automatic Littering System"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat41",
+        "name": "generated_dat41",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "San Marino",
+            "Italy"
+        ],
+        "languages": [
+            "Greek",
+            "French"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "fruit"
+        ],
+        "delivery": [
+            "Stand-alone software"
+        ],
+        "source": [],
+        "benefits": [
+            "Task scheduling / Time management",
+            "Limit number or severity of human injuries"
+        ],
+        "challenges": [
+            "Lighting "
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat42",
+        "name": "generated_dat42",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "United Kingdom",
+            "Serbia",
+            "Liechtenstein"
+        ],
+        "languages": [
+            "Serbian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Herbs"
+        ],
+        "delivery": [
+            "Paper"
+        ],
+        "source": [],
+        "benefits": [
+            "Increase of profit/farm income"
+        ],
+        "challenges": [
+            "Autosteering-VRA seed and fertilizer ",
+            "Milking Robot"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat43",
+        "name": "generated_dat43",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Montenegro"
+        ],
+        "languages": [
+            "Finnish"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "piglet"
+        ],
+        "delivery": [
+            "Stand-alone software"
+        ],
+        "source": [],
+        "benefits": [
+            "Limit human exposure to chemicals"
+        ],
+        "challenges": [
+            "automated rotary milking"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat44",
+        "name": "generated_dat44",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "North Macedonia",
+            "Portugal",
+            "Lithuania"
+        ],
+        "languages": [
+            "Italian",
+            "Croatian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "cow",
+            "Poultry egg production"
+        ],
+        "delivery": [
+            "Paper"
+        ],
+        "source": [],
+        "benefits": [
+            "Effective operational management"
+        ],
+        "challenges": [
+            "Heat detector"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat45",
+        "name": "generated_dat45",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Latvia",
+            "Serbia"
+        ],
+        "languages": [
+            "Armenian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Farm-based added-value processes",
+            "fruit"
+        ],
+        "delivery": [
+            "Mobile app"
+        ],
+        "source": [],
+        "benefits": [
+            "Limit number or severity of human injuries"
+        ],
+        "challenges": [
+            "automatic liquid feeding",
+            "Livestock management"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat46",
+        "name": "generated_dat46",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Slovenia",
+            "Serbia"
+        ],
+        "languages": [
+            "French"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Dairy",
+            "All agricultural sectors"
+        ],
+        "delivery": [
+            "Mobile app"
+        ],
+        "source": [],
+        "benefits": [
+            "Improvement of yield quality",
+            "Limit human exposure to chemicals"
+        ],
+        "challenges": [
+            "Virtual fencing"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat47",
+        "name": "generated_dat47",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Portugal",
+            "Belarus",
+            "Greece"
+        ],
+        "languages": [
+            "Russian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Farm-based added-value processes"
+        ],
+        "delivery": [
+            "Webapp"
+        ],
+        "source": [],
+        "benefits": [
+            "Effective operational management"
+        ],
+        "challenges": [
+            "Sensors and Weather Stations"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat48",
+        "name": "generated_dat48",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Montenegro",
+            "Belgium"
+        ],
+        "languages": [
+            "Romanian",
+            "Armenian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "onion",
+            "Flowers"
+        ],
+        "delivery": [
+            "Webapp"
+        ],
+        "source": [],
+        "benefits": [
+            "Limit human exposure to chemicals",
+            "Financial assessment / Reporting"
+        ],
+        "challenges": [
+            "Multipurpose-FMIS"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat49",
+        "name": "generated_dat49",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Slovakia"
+        ],
+        "languages": [
+            "German"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "goat",
+            "arable"
+        ],
+        "delivery": [
+            "Mobile app"
+        ],
+        "source": [],
+        "benefits": [
+            "Financial assessment / Reporting",
+            "Enhanced adaptation & resilience to climate change"
+        ],
+        "challenges": [
+            "GPS Guidance System",
+            "Milking robot"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat50",
+        "name": "generated_dat50",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Czech Republic",
+            "Serbia",
+            "France"
+        ],
+        "languages": [
+            "Slovenian",
+            "Dutch",
+            "Italian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Apiculture",
+            "Meat (cattle, pigs, sheep, goats, poultry, rabbits, snails) (cattle, sheep, goats)"
+        ],
+        "delivery": [
+            "Webapp"
+        ],
+        "source": [],
+        "benefits": [
+            "Minimization of input costs"
+        ],
+        "challenges": [
+            "VRA"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat51",
+        "name": "generated_dat51",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Hungary",
+            "Netherlands",
+            "Belarus"
+        ],
+        "languages": [
+            "Finnish",
+            "Turkish",
+            "English"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "All agricultural sectors"
+        ],
+        "delivery": [
+            "Webapp"
+        ],
+        "source": [],
+        "benefits": [
+            "Limit number or severity of property damage and related accidents",
+            "Enhanced adaptation & resilience to climate change"
+        ],
+        "challenges": [
+            "planting and fertilization",
+            "pruning"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat52",
+        "name": "generated_dat52",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "United Kingdom",
+            "Cyprus",
+            "Moldova Republic of"
+        ],
+        "languages": [
+            "Finnish"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "potato",
+            "Post-harvest"
+        ],
+        "delivery": [
+            "Spreadsheet"
+        ],
+        "source": [],
+        "benefits": [
+            "Increase of productivity",
+            "Financial assessment / Reporting"
+        ],
+        "challenges": [
+            "Lighting ",
+            "Rotary milking"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat53",
+        "name": "generated_dat53",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Sweden"
+        ],
+        "languages": [
+            "English",
+            "Russian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "All agricultural sectors",
+            "Communication/dissemination"
+        ],
+        "delivery": [
+            "Stand-alone software"
+        ],
+        "source": [],
+        "benefits": [
+            "Labour saving / Limit stress / Increase farmer\u2019s leisure time"
+        ],
+        "challenges": [
+            "Digital pest control"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat54",
+        "name": "generated_dat54",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Belgium",
+            "Italy",
+            "Kosovo"
+        ],
+        "languages": [
+            "Croatian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Plant production in general",
+            "Poultry egg production"
+        ],
+        "delivery": [
+            "Stand-alone software"
+        ],
+        "source": [],
+        "benefits": [
+            "Increase of profit/farm income",
+            "Financial assessment / Reporting"
+        ],
+        "challenges": [
+            "Harvest prediction",
+            "automated rotary milking"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat55",
+        "name": "generated_dat55",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Monaco"
+        ],
+        "languages": [
+            "Russian",
+            "Croatian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Meat (cattle, pigs, sheep, goats, poultry, rabbits, snails) (cattle, sheep, goats)"
+        ],
+        "delivery": [
+            "Mobile app"
+        ],
+        "source": [],
+        "benefits": [
+            "Environmental protection",
+            "Control of animal health problems "
+        ],
+        "challenges": [
+            "farrowing feeding",
+            "pig sorting"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat56",
+        "name": "generated_dat56",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Switzerland",
+            "Armenia",
+            "Finland"
+        ],
+        "languages": [
+            "Finnish",
+            "Portuguese",
+            "Russian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Flowers",
+            "Fruit"
+        ],
+        "delivery": [
+            "Spreadsheet"
+        ],
+        "source": [],
+        "benefits": [
+            "Limit number or severity of human injuries",
+            "Task scheduling / Time management"
+        ],
+        "challenges": [
+            "Feeding robot"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat57",
+        "name": "generated_dat57",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Belarus",
+            "Denmark"
+        ],
+        "languages": [
+            "Latvian",
+            "French"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Agrotourism",
+            "sheep"
+        ],
+        "delivery": [
+            "Paper"
+        ],
+        "source": [],
+        "benefits": [
+            "Better interaction between farmer and advisor"
+        ],
+        "challenges": [
+            "automated rotary milking",
+            "Strategic planning"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat58",
+        "name": "generated_dat58",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Liechtenstein",
+            "Latvia"
+        ],
+        "languages": [
+            "Croatian",
+            "Slovak"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "onion",
+            "Arable farming"
+        ],
+        "delivery": [
+            "Webapp"
+        ],
+        "source": [],
+        "benefits": [
+            "Enhanced adaptation & resilience to climate change"
+        ],
+        "challenges": [
+            "virtual fencing"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat59",
+        "name": "generated_dat59",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Armenia",
+            "Greece"
+        ],
+        "languages": [
+            "Bulgarian",
+            "French"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "all"
+        ],
+        "delivery": [
+            "Spreadsheet"
+        ],
+        "source": [],
+        "benefits": [
+            "Efficient strategy planning"
+        ],
+        "challenges": [
+            "Virtual fencing"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat60",
+        "name": "generated_dat60",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Croatia"
+        ],
+        "languages": [
+            "Japanese",
+            "Ukranian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "fruit"
+        ],
+        "delivery": [
+            "Web app"
+        ],
+        "source": [],
+        "benefits": [
+            "Minimization of input costs",
+            "Control of animal health problems "
+        ],
+        "challenges": [
+            "Operational management focus",
+            "Calving detectors"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat61",
+        "name": "generated_dat61",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Latvia",
+            "Ukraine",
+            "Lithuania"
+        ],
+        "languages": [
+            "Slovenian",
+            "Many",
+            "German"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Arboriculture",
+            "Fruit"
+        ],
+        "delivery": [
+            "Mobile app"
+        ],
+        "source": [],
+        "benefits": [
+            "Minimization of input costs",
+            "Enhanced adaptation & resilience to climate change"
+        ],
+        "challenges": [
+            "lighting arrangement"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat62",
+        "name": "generated_dat62",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Germany"
+        ],
+        "languages": [
+            "Danish",
+            "French",
+            "German"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Post-harvest"
+        ],
+        "delivery": [
+            "Webapp"
+        ],
+        "source": [],
+        "benefits": [
+            "Biodiversity preservation"
+        ],
+        "challenges": [
+            "Autosteering-FMIS ",
+            "Monitoring-FMIS"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat63",
+        "name": "generated_dat63",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Greece",
+            "Monaco"
+        ],
+        "languages": [
+            "Catalan"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Arboriculture",
+            "Insects/Apiculture"
+        ],
+        "delivery": [
+            "Spreadsheet"
+        ],
+        "source": [],
+        "benefits": [
+            "Increase of profit/farm income"
+        ],
+        "challenges": [
+            "automated rotary milking",
+            "fertilization"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat64",
+        "name": "generated_dat64",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Malta"
+        ],
+        "languages": [
+            "Italian",
+            "Greek"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "cattle",
+            "Dairy"
+        ],
+        "delivery": [
+            "Web app"
+        ],
+        "source": [],
+        "benefits": [
+            "Financial assessment / Reporting"
+        ],
+        "challenges": [
+            "farrowing feeding"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat65",
+        "name": "generated_dat65",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Georgia",
+            "United Kingdom"
+        ],
+        "languages": [
+            "Romanian",
+            "Polish",
+            "German"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Animal production in general",
+            "cow"
+        ],
+        "delivery": [
+            "Spreadsheet"
+        ],
+        "source": [],
+        "benefits": [
+            "Compliance records management"
+        ],
+        "challenges": [
+            "water disinfection system for recirculation of irrigation water",
+            "pruning"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat66",
+        "name": "generated_dat66",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Iceland"
+        ],
+        "languages": [
+            "Dutch",
+            "Hungarian",
+            "Portuguese"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Animal production in general"
+        ],
+        "delivery": [
+            "Spreadsheet"
+        ],
+        "source": [],
+        "benefits": [
+            "Improvement of yield quality"
+        ],
+        "challenges": [
+            "automated rotary milking"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat67",
+        "name": "generated_dat67",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Azerbaijan",
+            "Serbia"
+        ],
+        "languages": [
+            "Russian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "row crop",
+            "Dairy"
+        ],
+        "delivery": [
+            "Web app"
+        ],
+        "source": [],
+        "benefits": [
+            "Limit number or severity of human injuries",
+            "Limit number or severity of property damage and related accidents"
+        ],
+        "challenges": [
+            "Improving animal care",
+            "connection"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat68",
+        "name": "generated_dat68",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Slovakia",
+            "Belarus",
+            "Greece"
+        ],
+        "languages": [
+            "Serbian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Flowers"
+        ],
+        "delivery": [
+            "Stand-alone software"
+        ],
+        "source": [],
+        "benefits": [
+            "Limit human exposure to chemicals"
+        ],
+        "challenges": [
+            "Agri-environmental Monitoring",
+            "Virtual fencing"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat69",
+        "name": "generated_dat69",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Lithuania"
+        ],
+        "languages": [
+            "Czech"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Farm-based added-value processes",
+            "Vegetables"
+        ],
+        "delivery": [
+            "Stand-alone software"
+        ],
+        "source": [],
+        "benefits": [
+            "Efficient strategy planning",
+            "Labour saving / Limit stress / Increase farmer\u2019s leisure time"
+        ],
+        "challenges": [
+            "heat detection",
+            "Digital pest control"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat70",
+        "name": "generated_dat70",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Armenia",
+            "Ukraine",
+            "Georgia"
+        ],
+        "languages": [
+            "Swedish",
+            "Danish",
+            "Estonian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Plant production in general",
+            "Forestry"
+        ],
+        "delivery": [
+            "Stand-alone software"
+        ],
+        "source": [],
+        "benefits": [
+            "Biodiversity preservation",
+            "Improvement of yield quality"
+        ],
+        "challenges": [
+            "Digital vigour map",
+            "Logistics"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat71",
+        "name": "generated_dat71",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Portugal",
+            "Slovenia",
+            "Liechtenstein"
+        ],
+        "languages": [
+            "Polish",
+            "Turkish"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Meat",
+            "grape"
+        ],
+        "delivery": [
+            "Webapp"
+        ],
+        "source": [],
+        "benefits": [
+            "Better interaction between farmer and advisor"
+        ],
+        "challenges": [
+            "Drone Flights and Elevation Maps",
+            "pruning"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat72",
+        "name": "generated_dat72",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Switzerland"
+        ],
+        "languages": [
+            "Slovenian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Dairy",
+            "Meat"
+        ],
+        "delivery": [
+            "Web app"
+        ],
+        "source": [],
+        "benefits": [
+            "Limit number or severity of human injuries",
+            "Increase of profit/farm income"
+        ],
+        "challenges": [
+            "pesticide application"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat73",
+        "name": "generated_dat73",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Latvia",
+            "Spain"
+        ],
+        "languages": [
+            "Spanish"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "small ruminant",
+            "Meat (cattle, pigs, sheep, goats, poultry, rabbits, snails)"
+        ],
+        "delivery": [
+            "Web app"
+        ],
+        "source": [],
+        "benefits": [
+            "Minimization of input costs"
+        ],
+        "challenges": [
+            "Irrigation-DSS"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat74",
+        "name": "generated_dat74",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Bosnia and Herzegovina"
+        ],
+        "languages": [
+            "Finnish",
+            "Lithuanian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "almond"
+        ],
+        "delivery": [
+            "Web app"
+        ],
+        "source": [],
+        "benefits": [
+            "Limit human exposure to chemicals",
+            "Labour saving / Limit stress / Increase farmer\u2019s leisure time"
+        ],
+        "challenges": [
+            "connection"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat75",
+        "name": "generated_dat75",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "United Kingdom"
+        ],
+        "languages": [
+            "Lithuanian",
+            "Many"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "goat"
+        ],
+        "delivery": [
+            "Paper"
+        ],
+        "source": [],
+        "benefits": [
+            "Control of animal health problems "
+        ],
+        "challenges": [
+            "Strategic planning"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat76",
+        "name": "generated_dat76",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Hungary",
+            "Czech Republic",
+            "Portugal"
+        ],
+        "languages": [
+            "Romanian",
+            "Croatian",
+            "Hungarian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "cow",
+            "Meat (cattle, pigs, sheep, goats, poultry, rabbits, snails) (cattle, sheep, goats)"
+        ],
+        "delivery": [
+            "Mobile app"
+        ],
+        "source": [],
+        "benefits": [
+            "Labour saving / Limit stress / Increase farmer\u2019s leisure time"
+        ],
+        "challenges": [
+            "Automated monitoring"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat77",
+        "name": "generated_dat77",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "North Macedonia",
+            "Spain"
+        ],
+        "languages": [
+            "Croatian",
+            "Czech",
+            "Norwegian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Fruit",
+            "all"
+        ],
+        "delivery": [
+            "Web app"
+        ],
+        "source": [],
+        "benefits": [
+            "Increase of profit/farm income"
+        ],
+        "challenges": [
+            "Management Zones & VRA Maps",
+            "Work safety"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat78",
+        "name": "generated_dat78",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Poland",
+            "Azerbaijan"
+        ],
+        "languages": [
+            "Spanish",
+            "Russian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "fennel",
+            "Post-harvest"
+        ],
+        "delivery": [
+            "Stand-alone software"
+        ],
+        "source": [],
+        "benefits": [
+            "Enhanced adaptation & resilience to climate change",
+            "Increase of profit/farm income"
+        ],
+        "challenges": [
+            "Automatic Milking "
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat79",
+        "name": "generated_dat79",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Malta"
+        ],
+        "languages": [
+            "Swedish"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Meat (cattle, pigs, sheep, goats, poultry, rabbits, snails)"
+        ],
+        "delivery": [
+            "Webapp"
+        ],
+        "source": [],
+        "benefits": [
+            "Increase of profit/farm income",
+            "Limit number or severity of property damage and related accidents"
+        ],
+        "challenges": [
+            "automated rotary milking",
+            "Heat detection"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat80",
+        "name": "generated_dat80",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Czech Republic",
+            "Lithuania"
+        ],
+        "languages": [
+            "Slovak",
+            "French"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Fishing/Aquaculture"
+        ],
+        "delivery": [
+            "Mobile app"
+        ],
+        "source": [],
+        "benefits": [
+            "Limit number or severity of property damage and related accidents",
+            "Control of animal health problems "
+        ],
+        "challenges": [
+            "Automatic Littering System",
+            "Digital vigour map"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat81",
+        "name": "generated_dat81",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Bulgaria",
+            "Latvia",
+            "Malta"
+        ],
+        "languages": [
+            "Slovak",
+            "Lithuanian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "all"
+        ],
+        "delivery": [
+            "Stand-alone software"
+        ],
+        "source": [],
+        "benefits": [
+            "Minimization of input costs"
+        ],
+        "challenges": [
+            "GPS Integration"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat82",
+        "name": "generated_dat82",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Ireland",
+            "Portugal"
+        ],
+        "languages": [
+            "Russian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "potato",
+            "dairy cow"
+        ],
+        "delivery": [
+            "Web app"
+        ],
+        "source": [],
+        "benefits": [
+            "Labour saving / Limit stress / Increase farmer\u2019s leisure time",
+            "Biodiversity preservation"
+        ],
+        "challenges": [
+            "Improving animal care"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat83",
+        "name": "generated_dat83",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Armenia",
+            "Netherlands"
+        ],
+        "languages": [
+            "Norwegian",
+            "Polish"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "potato",
+            "cabbage"
+        ],
+        "delivery": [
+            "Paper"
+        ],
+        "source": [],
+        "benefits": [
+            "Task scheduling / Time management"
+        ],
+        "challenges": [
+            "irrigation ",
+            "seed and fertilizer application"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat84",
+        "name": "generated_dat84",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Georgia"
+        ],
+        "languages": [
+            "Croatian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "almond",
+            "Aquaculture"
+        ],
+        "delivery": [
+            "Mobile app"
+        ],
+        "source": [],
+        "benefits": [
+            "Labour saving / Limit stress / Increase farmer\u2019s leisure time",
+            "Enhanced adaptation & resilience to climate change"
+        ],
+        "challenges": [
+            "Digital  lossom map",
+            "to keep animals moving"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat85",
+        "name": "generated_dat85",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Montenegro"
+        ],
+        "languages": [
+            "Armenian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "onion",
+            "Meat (cattle, pigs, sheep, goats, poultry, rabbits, snails)"
+        ],
+        "delivery": [
+            "Paper"
+        ],
+        "source": [],
+        "benefits": [
+            "Financial assessment / Reporting",
+            "Better interaction between farmer and advisor"
+        ],
+        "challenges": [
+            "Logistics",
+            "multipurpose"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat86",
+        "name": "generated_dat86",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Netherlands"
+        ],
+        "languages": [
+            "Polish"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "arable"
+        ],
+        "delivery": [
+            "Paper"
+        ],
+        "source": [],
+        "benefits": [
+            "Environmental protection",
+            "Limit number or severity of human injuries"
+        ],
+        "challenges": [
+            "Multipurpose-DSS/FMIS"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat87",
+        "name": "generated_dat87",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Cyprus",
+            "Netherlands",
+            "Portugal"
+        ],
+        "languages": [
+            "Portuguese"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "almond",
+            "Dairy (cattle, sheep, goats)"
+        ],
+        "delivery": [
+            "Web app"
+        ],
+        "source": [],
+        "benefits": [
+            "Enhanced adaptation & resilience to climate change",
+            "Efficient strategy planning"
+        ],
+        "challenges": [
+            "Nutrition/Fertilisation management",
+            "Fever Detection"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat88",
+        "name": "generated_dat88",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Montenegro"
+        ],
+        "languages": [
+            "Ukranian",
+            "Basque",
+            "Romanian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Insects/Apiculture"
+        ],
+        "delivery": [
+            "Webapp"
+        ],
+        "source": [],
+        "benefits": [
+            "Minimization of input costs",
+            "Task scheduling / Time management"
+        ],
+        "challenges": [
+            "weeding",
+            "lighting arrangement"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat89",
+        "name": "generated_dat89",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Slovakia",
+            "Spain",
+            "Bosnia and Herzegovina"
+        ],
+        "languages": [
+            "English"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Arboriculture"
+        ],
+        "delivery": [
+            "Webapp"
+        ],
+        "source": [],
+        "benefits": [
+            "Increase of profit/farm income"
+        ],
+        "challenges": [
+            "connection",
+            "pesticide application"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat90",
+        "name": "generated_dat90",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Serbia",
+            "Sweden"
+        ],
+        "languages": [
+            "Croatian",
+            "German",
+            "Many"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "dairy cow"
+        ],
+        "delivery": [
+            "Webapp"
+        ],
+        "source": [],
+        "benefits": [
+            "Increase of productivity"
+        ],
+        "challenges": [
+            "heat detection",
+            "Sensors for quality assessment"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat91",
+        "name": "generated_dat91",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Slovenia",
+            "Finland",
+            "Croatia"
+        ],
+        "languages": [
+            "Many",
+            "Ukranian",
+            "Turkish"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "lettuce"
+        ],
+        "delivery": [
+            "Stand-alone software"
+        ],
+        "source": [],
+        "benefits": [
+            "Limit number or severity of property damage and related accidents"
+        ],
+        "challenges": [
+            "spraying"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat92",
+        "name": "generated_dat92",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Bulgaria"
+        ],
+        "languages": [
+            "Turkish",
+            "Greek",
+            "Spanish"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Flowers"
+        ],
+        "delivery": [
+            "Spreadsheet"
+        ],
+        "source": [],
+        "benefits": [
+            "Limit number or severity of property damage and related accidents",
+            "Improvement of yield quality"
+        ],
+        "challenges": [
+            "multipurpose"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat93",
+        "name": "generated_dat93",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Serbia",
+            "Azerbaijan"
+        ],
+        "languages": [
+            "Japanese",
+            "German",
+            "Turkish"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "row crop"
+        ],
+        "delivery": [
+            "Spreadsheet"
+        ],
+        "source": [],
+        "benefits": [
+            "Minimization of input costs"
+        ],
+        "challenges": [
+            "Weeding and thinning",
+            "Multipurpose-FMIS"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat94",
+        "name": "generated_dat94",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Austria",
+            "Cyprus",
+            "Portugal"
+        ],
+        "languages": [
+            "Latvian",
+            "Russian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Flowers"
+        ],
+        "delivery": [
+            "Mobile app"
+        ],
+        "source": [],
+        "benefits": [
+            "Better interaction between farmer and advisor",
+            "Labour saving / Limit stress / Increase farmer\u2019s leisure time"
+        ],
+        "challenges": [
+            "Livestock stock management",
+            "Multipurpose-FMIS"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat95",
+        "name": "generated_dat95",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Montenegro",
+            "Bulgaria"
+        ],
+        "languages": [
+            "Basque"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Arable",
+            "Poultry egg production"
+        ],
+        "delivery": [
+            "Paper"
+        ],
+        "source": [],
+        "benefits": [
+            "Enhanced adaptation & resilience to climate change"
+        ],
+        "challenges": [
+            "Sound Monitoring",
+            "Nutrition/Fertilisation management"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat96",
+        "name": "generated_dat96",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Serbia"
+        ],
+        "languages": [
+            "Slovenian",
+            "Estonian"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Dairy (cattle, sheep, goats)"
+        ],
+        "delivery": [
+            "Mobile app"
+        ],
+        "source": [],
+        "benefits": [
+            "Effective operational management"
+        ],
+        "challenges": [
+            "FMIS/ Financial Modelling"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat97",
+        "name": "generated_dat97",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Estonia",
+            "Romania",
+            "Lithuania"
+        ],
+        "languages": [
+            "Danish"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Meat (cattle, pigs, sheep, goats, poultry, rabbits, snails)",
+            "Farm-based added-value processes"
+        ],
+        "delivery": [
+            "Spreadsheet"
+        ],
+        "source": [],
+        "benefits": [
+            "Better interaction between farmer and advisor"
+        ],
+        "challenges": [
+            "Rotary Parlor"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat98",
+        "name": "generated_dat98",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    },
+    {
+        "countries": [
+            "Slovakia",
+            "Albania",
+            "Serbia"
+        ],
+        "languages": [
+            "Portuguese",
+            "French"
+        ],
+        "category": [],
+        "target": [],
+        "sector": [
+            "Meat"
+        ],
+        "delivery": [
+            "Webapp"
+        ],
+        "source": [],
+        "benefits": [
+            "Efficient strategy planning",
+            "Increase of productivity"
+        ],
+        "challenges": [
+            "Milking robot",
+            "Operational management focus"
+        ],
+        "imagePath": [],
+        "documentPath": [],
+        "_id": "generated_dat99",
+        "name": "generated_dat99",
+        "website": "null",
+        "cost": "null",
+        "launchYear": "2025",
+        "updateYear": "2025",
+        "usersNo": "null",
+        "downloads": "null",
+        "providerName": "",
+        "providerEmail": "",
+        "providerWebsite": "",
+        "applied": "",
+        "languageOther": "null",
+        "title": ".",
+        "titleOther": "null",
+        "desc": ".",
+        "descOther": "null",
+        "keywords": "",
+        "keywordsOther": "null",
+        "conn": "null",
+        "access": "null",
+        "know": "null",
+        "train": "null",
+        "videos": "null",
+        "creator": "null",
+        "__v": 0
+    }
+]

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/DatsInformation.schema.json",
+  "title": "QuantiFarm DATS information",
+  "description": "Generic information of a DATS being applied in a QuantiFarm testcase",
+  "type": "object",
+  "properties": {
+    "datsName": {
+      "description": "The unique name of the DATS in the QuantiFarm testcase",
+      "type": "string"
+    },
+    "datsInitialInvestmentCosts": {
+      "description": "The initial costs for purchasing the DATS in Euros",
+      "type": "number"
+    },
+    "datsAnnualFees": {
+      "description": "The annual fees to remain using the DATS in Euros per year",
+      "type": "number"
+    },
+    "datsMaintenanceCosts": {
+      "description": "The costs for maintaining the DATS in Euros per year",
+      "type": "number"
+    },
+    "datsExpectedLifespan": {
+      "description": "The expected life span for using the DATS in whole years",
+      "type": "integer"
+    },
+    "datsInstallationTime": {
+      "description": "The expected time needed to install the DATS in days",
+      "type": "number"
+    },
+    "datsTrainingTime": {
+      "description": "The expected time needed to train the users of the DATS in hours",
+      "type": "number"
+    },
+    "datsTrainers": {
+      "description": "The number of people involved in the training of users of the DATS",
+      "type": "integer"
+    },
+    "datsTrainingCosts": {
+      "description": "The costs for training the users of the DATS in Euros",
+      "type": "number"
+    }
+  },
+  "required": [ "datsName" ]
+}

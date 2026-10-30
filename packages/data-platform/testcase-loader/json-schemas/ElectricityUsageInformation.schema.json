@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/ElectricityUsageInformation.schema.json",
+  "title": "QuantiFarm electricity usage information",
+  "description": "Information about the usage of electricity during the cultivation in the specific year",
+  "type": "object",
+  "properties": {
+    "electricityUsageForTemperatureHumidityControl": {
+      "description": "The amount of electricity used for temperature and humidity control in kWh per hectare in the specific year of the cultivation",
+      "type": "number"
+    },
+    "electricityUsageForIrrigation": {
+      "description": "The amount of electricity used for irrigation in kWh per hectare in the specific year of the cultivation",
+      "type": "number"
+    },
+    "electricityUsageForMilking": {
+      "description": "The amount of electricity used for milking in kWh per hectare in the specific year of the cultivation",
+      "type": "number"
+    },
+    "electricityUsageForHeatDetection": {
+      "description": "The amount of electricity used for heat detection in kWh per hectare in the specific year of the cultivation",
+      "type": "number"
+    },
+    "electricityUsageForCalvingDetection": {
+      "description": "The amount of electricity used for calving detection in kWh per hectare in the specific year of the cultivation",
+      "type": "number"
+    },
+    "electricityUsageForFeeding": {
+      "description": "The amount of electricity used for feeding in kWh per hectare in the specific year of the cultivation",
+      "type": "number"
+    },
+    "totalElectricityUsage": {
+      "description": "The total amount of electricity used in kWh per hectare in the specific year of the cultivation",
+      "type": "number"
+    }
+  },
+  "required": [ "totalElectricityUsage"]
+}

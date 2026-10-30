@@ -1,0 +1,1193 @@
+{
+   "testcaseNumber": 23,
+   "testcaseLeader": "IDELE",
+   "cultivationType": "Meat-cow",
+   "datsInformation": [
+      {
+         "datsName": "Lely",
+         "datsInitialInvestmentCosts": 166000,
+         "datsAnnualFees": 0,
+         "datsMaintenanceCosts": 2820,
+         "datsExpectedLifespan": 10,
+         "datsInstallationTime": 140,
+         "datsTrainingTime": 0,
+         "datsTrainers": 4,
+         "datsTrainingCosts": 0
+      },
+      {
+         "datsName": "Innoval",
+         "datsInitialInvestmentCosts": 4580,
+         "datsAnnualFees": 0,
+         "datsMaintenanceCosts": 0,
+         "datsExpectedLifespan": 5,
+         "datsInstallationTime": 3.5,
+         "datsTrainingTime": 0,
+         "datsTrainers": 0,
+         "datsTrainingCosts": 0
+      },
+      {
+         "datsName": "MSD & Lely",
+         "datsInitialInvestmentCosts": 11200,
+         "datsAnnualFees": 0,
+         "datsMaintenanceCosts": 0,
+         "datsExpectedLifespan": 5,
+         "datsInstallationTime": 3.5,
+         "datsTrainingTime": 0,
+         "datsTrainers": 0,
+         "datsTrainingCosts": 0
+      }
+   ],
+   "yearlyAssessmentInformation": [
+      {
+         "cultivationYear": 2023,
+         "parcelComparison": [],
+         "marketInformation": {
+            "waterPrice": null,
+            "fuelPrice": null,
+            "electricityPrice": null,
+            "averageSalary": null,
+            "averageProfessionalSalary": null
+         }
+      },
+      {
+         "cultivationYear": 2024,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "farmInformation": {
+                     "farmNumber": 1,
+                     "biogeographicalRegion": "Western France",
+                     "totalFarmSize": 167
+                  },
+                  "parcelInformation": {
+                     "parcelName": "Berard Beauvais",
+                     "parcelDimension": 167,
+                     "startMonth": 1,
+                     "endMonth": 12,
+                     "productType": "Beef cattle",
+                     "numberOfEmployees": 4,
+                     "numberOfFulltimeEmployees": 1.37,
+                     "numberOfSeasonalEmployees": 0,
+                     "soilFractionSand": null,
+                     "soilFractionClay": null,
+                     "soilFractionSilt": null,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": null,
+                     "numberOfAnimals": 222,
+                     "numberOfPlants": null,
+                     "livestockUnits": 1.9,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [
+                     "Lely",
+                     "Innoval",
+                     "MSD & Lely"
+                  ],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 162,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 16459,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": 3600
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 39572,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [],
+                  "fertilizersUsageInformation": [],
+                  "feedUsageInformation": [
+                     {
+                        "productName": "PUISSANCE ELITE",
+                        "quantity": 37,
+                        "productPrice": 442
+                     },
+                     {
+                        "productName": "NATYA BOV",
+                        "quantity": 37.1,
+                        "productPrice": 510
+                     },
+                     {
+                        "productName": "NATYA NOURRISIA",
+                        "quantity": 35.8,
+                        "productPrice": 385
+                     },
+                     {
+                        "productName": "Wheat produced on the farm",
+                        "quantity": 122,
+                        "productPrice": 205
+                     }
+                  ],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": null,
+                     "labourForPesticides": null,
+                     "labourForFertilisation": null,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": null,
+                     "labourForFieldVisits": null,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": 128,
+                     "labourForStableVisits": 105,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": 100,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": 600,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": null,
+                     "labourForStorage": null,
+                     "labourForAdministration": 850
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": null,
+                     "milkProduction": null,
+                     "meatProduction": 81.946,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": null,
+                     "meatMarketPrice": 3110,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": 15,
+                     "calvesDiedInFirst24Hours": 5,
+                     "totalNumberOfCalvesBorn": 143,
+                     "numberOfDaysWithPastureAccess": 200,
+                     "outdoorLoafingArea": 75,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 0,
+                     "totalNumberOfLostWorkingHours": 0,
+                     "totalNumberOfWorkingHours": 3450,
+                     "numberOfWorkingWeeks": 50,
+                     "numberOfNewLocalEmployeesHired": 0,
+                     "numberOfNewEmployeesHired": 0
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "parcelAssessmentWithoutDATS": {
+                  "farmInformation": {
+                     "farmNumber": 2,
+                     "biogeographicalRegion": "Western France",
+                     "totalFarmSize": 132
+                  },
+                  "parcelInformation": {
+                     "parcelName": "GAEC Beauvais",
+                     "parcelDimension": 132,
+                     "startMonth": 1,
+                     "endMonth": 12,
+                     "productType": "Beef cattle",
+                     "numberOfEmployees": 2,
+                     "numberOfFulltimeEmployees": 1.13,
+                     "numberOfSeasonalEmployees": null,
+                     "soilFractionSand": null,
+                     "soilFractionClay": null,
+                     "soilFractionSilt": null,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": null,
+                     "numberOfAnimals": 117,
+                     "numberOfPlants": null,
+                     "livestockUnits": 1.7,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 122,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 15210,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": 6000
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 18900,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [],
+                  "fertilizersUsageInformation": [],
+                  "feedUsageInformation": [
+                     {
+                        "productName": "Soy",
+                        "quantity": 12.22,
+                        "productPrice": 680
+                     },
+                     {
+                        "productName": "Barley produced on the farm",
+                        "quantity": 58,
+                        "productPrice": 261
+                     }
+                  ],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": null,
+                     "labourForPesticides": null,
+                     "labourForFertilisation": null,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": null,
+                     "labourForFieldVisits": null,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": 170,
+                     "labourForStableVisits": 100,
+                     "labourForHeatDetection": 0,
+                     "labourForCalvingDetection": 75,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": 780,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": null,
+                     "labourForStorage": null,
+                     "labourForAdministration": 540
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": null,
+                     "milkProduction": null,
+                     "meatProduction": 46763,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": null,
+                     "meatMarketPrice": 3130,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": 6,
+                     "calvesDiedInFirst24Hours": 2,
+                     "totalNumberOfCalvesBorn": 59,
+                     "numberOfDaysWithPastureAccess": 190,
+                     "outdoorLoafingArea": 35,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 0,
+                     "totalNumberOfLostWorkingHours": 0,
+                     "totalNumberOfWorkingHours": 2250,
+                     "numberOfWorkingWeeks": 50,
+                     "numberOfNewLocalEmployeesHired": 0,
+                     "numberOfNewEmployeesHired": 0
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/100 kg meat",
+                     "absoluteDifference": -30.77268527530954,
+                     "percentageDifference": -21.601387413232565
+                  },
+                  {
+                     "indicatorName": "Labour productivity  (meat livestock)",
+                     "indicatorUnit": "kg meat/h",
+                     "absoluteDifference": 0.17873732734416975,
+                     "percentageDifference": 63.63955478220872
+                  },
+                  {
+                     "indicatorName": "Meat productivity ",
+                     "indicatorUnit": "kg/cow/day",
+                     "absoluteDifference": -0.0008371954673324529,
+                     "percentageDifference": -7.645453121577401
+                  },
+                  {
+                     "indicatorName": "Electricity consumption",
+                     "indicatorUnit": "kWh/100 kg meat",
+                     "absoluteDifference": 7.873768884649543,
+                     "percentageDifference": 19.481537267347438
+                  },
+                  {
+                     "indicatorName": "Fuel GHG emission ",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": -33.094191404905025,
+                     "percentageDifference": -38.248311579539084
+                  },
+                  {
+                     "indicatorName": "Livestock fuel consumption ",
+                     "indicatorUnit": "l/100 kg meat",
+                     "absoluteDifference": -12.440536730423403,
+                     "percentageDifference": -38.24831157953909
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": -1.3846841356097692,
+                     "percentageDifference": -38.89008062073252
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 24.79921912177411
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 11.907924683908728
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 38.89008062073252
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 21.601387413232565,
+                     "aggregatedImpactMaxRangeValue": 21.601387413232565
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 27.997050830315658,
+                     "aggregatedImpactMaxRangeValue": 27.997050830315658
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 9.383387156095827,
+                     "aggregatedImpactMaxRangeValue": 9.383387156095827
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 38.248311579539084,
+                     "aggregatedImpactMaxRangeValue": 38.248311579539084
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 38.89008062073252,
+                     "aggregatedImpactMaxRangeValue": 38.89008062073252
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Cost of  fuel",
+                     "mainImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": -12.017558481589003,
+                     "percentageDifference": -38.248311579539084,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED FUEL CONSUMPTION",
+                     "mainImpactSubtitle": "due to reduced consumption related to activities associated with mixing and distribution of feed to cows. "
+                  },
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": -30.77268527530954,
+                     "percentageDifference": -21.601387413232565,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "SAVED COSTS",
+                     "mainImpactSubtitle": "due to optimization related to activities associated with barn management "
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": 27.331394669300707,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENFIT ",
+                     "mainImpactSubtitle": "Due to the reduction in stable management costs, especially in terms of labor and time saved "
+                  },
+                  {
+                     "mainImpactName": "PAYBACK PERIOD",
+                     "mainImpactUnit": "years (n)",
+                     "absoluteDifference": 7.411711996216454,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "PAYBACK PERIOD ",
+                     "mainImpactSubtitle": "Payback on the investment is expected in about seven years"
+                  },
+                  {
+                     "mainImpactName": "Fuel GHG emission ",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": -33.094191404905025,
+                     "percentageDifference": -38.248311579539084,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED GHG EMISSIONS",
+                     "mainImpactSubtitle": "Due to decreased fuel consumption for some farm activities"
+                  },
+                  {
+                     "mainImpactName": "Working time",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": -1.3846841356097692,
+                     "percentageDifference": -38.89008062073252,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED WORKING TIME",
+                     "mainImpactSubtitle": "due to the possibility of optimizing farm management and providing more flexibility to the farmer. "
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": 3.441290606008835,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": 202.57242574378247,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of  fuel",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": -12.017558481589003,
+                     "percentageDifference": -38.248311579539084,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of fuel The DATS can have a direct impact on fuel consumption, and the resulting CO2-equivalent emissions, especially for activities related to the mixing and distribution of feed to the cows "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of electricity",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": 1.3227931726211217,
+                     "percentageDifference": 19.481537267347413,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of electricity: The fully automated systems implemented in the farm with DATS depend heavily on electrical power "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for cleaning",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": -3.0063553096858238,
+                     "percentageDifference": -57.03293847741914,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for cleaning: The feeding robot can help maintain a cleaner environment in the cow housing areas "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for stable visits ",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": -1.2428112071472786,
+                     "percentageDifference": -40.0810899860884,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for stable visits: One of the main impacts of DATSS is enabling automatic and remote monitoring of animals, requiring less direct visits and more timely interventions "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for calving detection ",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": -0.5560985940212844,
+                     "percentageDifference": -23.91249522042972,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for calving detection: One of the main impacts of DATSS is enabling automatic and remote monitoring of animals, requiring less direct visits and more timely interventions "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for feeding ",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": -13.569040294961914,
+                     "percentageDifference": -56.103362627171,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for feeding: The feeding robot allows for increased automation of this activity, not only in the distribution of the unifeed but also in its preparation "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": -1.7036145605253576,
+                     "percentageDifference": -10.174473524118428,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for administrative activities and data management: DATSs can enhance the ability to collect, store, and manage data "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": 27.331394669300707,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Net Benefit: The net benefit comes from a reduction in barn management costs, especially in terms of labour and time saved "
+                  }
+               ]
+            }
+         ],
+         "marketInformation": {
+            "waterPrice": 9.5,
+            "fuelPrice": 0.966,
+            "electricityPrice": 0.168,
+            "averageSalary": null,
+            "averageProfessionalSalary": null
+         }
+      },
+      {
+         "cultivationYear": 2025,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "parcelInformation": {
+                     "productType": "Beef cattle"
+                  }
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/100 kg meat",
+                     "absoluteDifference": -7.140546706871248,
+                     "percentageDifference": -5.642588260844211
+                  },
+                  {
+                     "indicatorName": "Labour productivity  (meat livestock)",
+                     "indicatorUnit": "kg meat/h",
+                     "absoluteDifference": 0.06623182573436381,
+                     "percentageDifference": 17.713880208133734
+                  },
+                  {
+                     "indicatorName": "Meat productivity ",
+                     "indicatorUnit": "kg/cow/day",
+                     "absoluteDifference": -0.0037341358377551807,
+                     "percentageDifference": -26.929037240341
+                  },
+                  {
+                     "indicatorName": "Electricity consumption",
+                     "indicatorUnit": "kWh/100 kg meat",
+                     "absoluteDifference": 15.59899983674115,
+                     "percentageDifference": 64.53779064507765
+                  },
+                  {
+                     "indicatorName": "Fuel GHG emission ",
+                     "indicatorUnit": "kg CO2 eq/100 kg meat",
+                     "absoluteDifference": -6.204477361594243,
+                     "percentageDifference": -8.591581307583514
+                  },
+                  {
+                     "indicatorName": "Livestock fuel consumption ",
+                     "indicatorUnit": "l/100 kg meat",
+                     "absoluteDifference": -45.625862135398606,
+                     "percentageDifference": -33.20698841807117
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/100 kg meat",
+                     "absoluteDifference": -0.5178023913503056,
+                     "percentageDifference": -19.36052256523839
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 0.5175048723702891
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -1.7684549514799315
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 19.36052256523839
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 5.642588260844211,
+                     "aggregatedImpactMaxRangeValue": 5.642588260844211
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -4.607578516103633,
+                     "aggregatedImpactMaxRangeValue": -4.607578516103633
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -15.66540111350324,
+                     "aggregatedImpactMaxRangeValue": -15.66540111350324
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 8.591581307583514,
+                     "aggregatedImpactMaxRangeValue": 8.591581307583514
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 19.36052256523839,
+                     "aggregatedImpactMaxRangeValue": 19.36052256523839
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Cost of  fuel",
+                     "mainImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": -2.253044004864325,
+                     "percentageDifference": -8.5915813075835,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED FUEL CONSUMPTION",
+                     "mainImpactSubtitle": "due to reduced consumption related to activities associated with mixing and distribution of feed to cows"
+                  },
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": -7.140546706871248,
+                     "percentageDifference": -5.642588260844211,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "SAVED COSTS",
+                     "mainImpactSubtitle": "due to optimization related to activities associated with barn management"
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": 3.526783651831843,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENFIT",
+                     "mainImpactSubtitle": "Due to the reduction in stable management costs, especially in terms of labor and time saved"
+                  },
+                  {
+                     "mainImpactName": "Labour productivity  (meat livestock)",
+                     "mainImpactUnit": "kg meat/h",
+                     "absoluteDifference": 0.06623182573436381,
+                     "percentageDifference": 17.713880208133734,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "INCREASED LABOUR PRODUCTIVITY",
+                     "mainImpactSubtitle": "thanks to the adoption of automated feeding and digital monitoring technologies"
+                  },
+                  {
+                     "mainImpactName": "Fuel GHG emission ",
+                     "mainImpactUnit": "kg CO2 eq/100 kg meat",
+                     "absoluteDifference": -6.204477361594243,
+                     "percentageDifference": -8.591581307583514,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED GHG EMISSIONS",
+                     "mainImpactSubtitle": "Due to decreased fuel consumption for some farm activities"
+                  },
+                  {
+                     "mainImpactName": "Working time",
+                     "mainImpactUnit": "h/100 kg meat",
+                     "absoluteDifference": -0.5178023913503056,
+                     "percentageDifference": -19.36052256523839,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED WORKING TIME",
+                     "mainImpactSubtitle": "due to the possibility of optimizing farm management and providing more flexibility to the farmer"
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": 3.613763055039405,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": 232.94675466136988,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of  fuel",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": -2.253044004864325,
+                     "percentageDifference": -8.5915813075835,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATS can have a direct impact on fuel consumption, and the resulting CO₂-equivalent emissions, especially for activities related to the mixing and distribution of feed to the cows "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of electricity",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": 2.6206319725725127,
+                     "percentageDifference": 64.53779064507764,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Electricity consumption increased due to the adoption of automated feeding and digital monitoring technologies, which rely on electrically powered equipment operating on a regular basis"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for cleaning",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": -1.5811649864991826,
+                     "percentageDifference": -39.932594348689705,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The feeding robot can help maintain a cleaner environment in the cow housing areas"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for stable visits ",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": -2.3291676036881164,
+                     "percentageDifference": -100.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "One of the main impacts of DATSS is enabling automatic and remote "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for calving detection ",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": -0.16745621151216294,
+                     "percentageDifference": -9.586040451933968,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "monitoring of animals, requiring less direct visits and more timely interventions "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for feeding ",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": -7.018663841092549,
+                     "percentageDifference": -38.63305913027193,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The feeding robot allows for increased automation of this activity, not only in the distribution of the unifeed but also in its preparation"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": 3.588317968212575,
+                     "percentageDifference": 28.5296483771527,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "It increased due to the adoption of digital technologies, which require additional time for data handling, system management and interpretation of information "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": 3.526783651831843,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The net benefit comes from a reduction in barn management costs, especially in termsof labour and time saved "
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "cultivationYear": 2026,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "parcelInformation": {
+                     "productType": "Beef cattle"
+                  }
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/100 kg meat",
+                     "absoluteDifference": -9.5,
+                     "percentageDifference": -14.0
+                  },
+                  {
+                     "indicatorName": "Labour productivity  (meat livestock)",
+                     "indicatorUnit": "kg meat/h",
+                     "absoluteDifference": null,
+                     "percentageDifference": 39.8
+                  },
+                  {
+                     "indicatorName": "Electricity consumption",
+                     "indicatorUnit": "kWh/100 kg meat",
+                     "absoluteDifference": null,
+                     "percentageDifference": 18.3
+                  },
+                  {
+                     "indicatorName": "Livestock fuel consumption ",
+                     "indicatorUnit": "l/100 kg meat",
+                     "absoluteDifference": null,
+                     "percentageDifference": -35.4
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/100 kg meat",
+                     "absoluteDifference": null,
+                     "percentageDifference": -29.2
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 26.9
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 2.1374999999999997
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 29.2
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 14.0,
+                     "aggregatedImpactMaxRangeValue": 14.0
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 39.8,
+                     "aggregatedImpactMaxRangeValue": 39.8
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 8.549999999999999,
+                     "aggregatedImpactMaxRangeValue": 8.549999999999999
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 29.2,
+                     "aggregatedImpactMaxRangeValue": 29.2
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": -9.5,
+                     "percentageDifference": -14.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "REDUCED COSTS",
+                     "mainImpactSubtitle": "due to optimization related to activities associated with barn management "
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": 22.3,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENFIT ",
+                     "mainImpactSubtitle": "due to the reduction in stable management costs, especially in terms of laboUr and time saved "
+                  },
+                  {
+                     "mainImpactName": "PAYBACK PERIOD",
+                     "mainImpactUnit": "years (n)",
+                     "absoluteDifference": 9.5,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "QUITE LONG PBP",
+                     "mainImpactSubtitle": "suggesting that the economic performance of the investment relies on a long-term perspective"
+                  },
+                  {
+                     "mainImpactName": "NPV 5 years",
+                     "mainImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": -114.9,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "NEGATIVE NPV",
+                     "mainImpactSubtitle": "indicating that the investment does not generate sufficient value over the assessed period"
+                  },
+                  {
+                     "mainImpactName": "ROI",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": 10.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "ROI OF 10%",
+                     "mainImpactSubtitle": "indicating a limited return on the investment."
+                  },
+                  {
+                     "mainImpactName": "Labour productivity  (meat livestock)",
+                     "mainImpactUnit": "kg meat/h",
+                     "absoluteDifference": null,
+                     "percentageDifference": 39.8,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "INCREASED LABOUR PRODUCTIVITY",
+                     "mainImpactSubtitle": "thanks to the adoption of automated feeding and digital monitoring technologies"
+                  },
+                  {
+                     "mainImpactName": "Working time",
+                     "mainImpactUnit": "h/100 kg meat",
+                     "absoluteDifference": null,
+                     "percentageDifference": -29.2,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "DECREASED WORKING TIME",
+                     "mainImpactSubtitle": "due to the possibility of optimizing farm management and providing more flexibility to the farmer. "
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": 3.5,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": 213.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of  fuel",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": -3.7,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATS can have a direct impact on fuel consumption, especially for activities related to the mixing and distribution of feed to the cows "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of electricity",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": 1.9,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "The fully automated systems implemented in the farm with DATS depend heavily on electrical power "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for stable visits ",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": -1.2,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "One of the main impacts of DATS is that it enables automated and remote animal monitoring, reducing the need for on-site visits and allowing more timely interventions"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for calving detection ",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": -0.3,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATS reduces the labour needed for calving detection by enabling remote and automated monitoring"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for feeding ",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": -6.8,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The feeding robot allows for increased automation of this activity, not only in the distribution of the unifeed but also in its preparation "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": 0.6,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "DATSs can enhance the ability to collect, store, and manage data but an overall small increase in costs is observed "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/100 kg meat",
+                     "absoluteDifference": 22.3,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The net benefit comes from a reduction in barn management costs, especially in terms of labour and time saved "
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

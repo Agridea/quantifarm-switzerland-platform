@@ -1,0 +1,95 @@
+# baseURI: https://quantifarm.eu/data/recommendation
+# imports: https://quantifarm.eu/ontology/
+
+@prefix : <https://quantifarm.eu/data/recommendation#> .
+@prefix gs1: <https://gs1.org/voc/> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix qcsm: <https://quantifarm.eu/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix s4agri: <https://saref.etsi.org/saref4agri/> .
+@prefix s4agri-new: <https://saref.etsi.org/saref4agri-new/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://quantifarm.eu/data/recommendation>
+  rdf:type owl:Ontology ;
+  owl:imports qcsm: ;
+  owl:versionInfo "Created with TopBraid Composer" ;
+.
+:ArableSprayingMachine
+  rdf:type qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "Arable spraying machine" ;
+  qcsm:hasBenefits "Reduced use of chemicals" ;
+  qcsm:hasCostStructure "initial investment" ;
+  qcsm:hasCostStructure "maintenance cost" ;
+  qcsm:hasFunctionality "Spraying" ;
+  qcsm:hasInitialInvestmentCosts "100000"^^xsd:decimal ;
+  qcsm:hasKeyword "garlic" ;
+  qcsm:hasKeyword "row crop" ;
+  qcsm:hasMaintenanceCosts "2000"^^xsd:decimal ;
+  qcsm:hasProvider :SprayingMachineProvider ;
+  qcsm:hasTitle "An example spraying machine for arable row crops, like garlic" ;
+  qcsm:isAppliedOnParcel :Parcel_1 ;
+  qcsm:isTargetedTowardsAgriculturalSector "Arable farming" ;
+  qcsm:isTargetedTowardsCountry :Greece ;
+.
+:CropCycle_1_Parcel_1_year_1
+  rdf:type s4agri-new:CropCycle ;
+  rdfs:label "Crop cycle 1 Parcel 1 year 1" ;
+.
+:Farm_testcase_example
+  rdf:type s4agri:Farm ;
+  rdfs:label "Farm testcase example" ;
+  s4agri-new:hasArea "123"^^xsd:float ;
+  s4agri:contains :Parcel_1 ;
+.
+:Greece
+  rdf:type gs1:Country ;
+  rdfs:label "Greece" ;
+  gs1:countryCode "GR" ;
+  gs1:countrySubdivisionCode "Thessaly" ;
+.
+:GreekFarmKalimera
+  rdf:type s4agri:Farm ;
+  rdfs:label "Greek farm kalimera" ;
+  gs1:address :GreekFarmKalimeraPostalAddress ;
+  s4agri:contains :ParcelGreekFarmKalimera ;
+.
+:GreekFarmKalimeraCropCycle2023
+  rdf:type s4agri-new:CropCycle ;
+  rdfs:label "Greek farm kalimera crop cycle2023" ;
+  s4agri:contains :OnionPlantInstance ;
+.
+:GreekFarmKalimeraPostalAddress
+  rdf:type gs1:PostalAddress ;
+  rdfs:label "Greek farm kalimera postal address" ;
+  gs1:addressCountry :Greece ;
+.
+:OnionPlantInstance
+  rdf:type obo:FOODON_03411300 ;
+  rdfs:label "Onion plant instance" ;
+.
+:ParcelGreekFarmKalimera
+  rdf:type s4agri:Parcel ;
+  rdfs:label "Parcel greek farm kalimera" ;
+  s4agri-new:hasArea "15"^^xsd:float ;
+  s4agri-new:hasCycle :GreekFarmKalimeraCropCycle2023 ;
+.
+:Parcel_1
+  rdf:type s4agri:Parcel ;
+  rdfs:label "Parcel 1" ;
+  qcsm:isParticipatingIn :Testcase_example ;
+  s4agri-new:hasArea "123"^^xsd:float ;
+  s4agri-new:hasCycle :CropCycle_1_Parcel_1_year_1 ;
+.
+:SprayingMachineProvider
+  rdf:type qcsm:TechnologyProvider ;
+  rdfs:label "Spraying machine provider" ;
+.
+:Testcase_example
+  rdf:type qcsm:Testcase ;
+  rdfs:label "Testcase example" ;
+  qcsm:isAssessingDigitalAgriculturalTechnology :ArableSprayingMachine ;
+  qcsm:isExecutedOnFarm :Farm_testcase_example ;
+.

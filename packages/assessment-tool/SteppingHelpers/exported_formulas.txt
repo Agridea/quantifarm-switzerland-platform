@@ -1,0 +1,183 @@
+291.1/4.1
+291.1/(11.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0)
+0/(11.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0)
+0/(11.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0)
+0/(11.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0)
+0/(11.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0)
+0/(11.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0)
+0/0/365
+0/0/365
+0/0
+0/0
+(0/(0+0+0+0))*100
+(0/0)*100
+0
+0
+0
+0
+cstfn_calculate_dynamic_o( )
+(((291.1*1000/4.1)*C100)/(522.412)*100)
+cstfn_calculate_dynamic_n( )
+(((291.1*1000/4.1)*C101)/39.97*100)
+cstfn_calculate_dynamic_m( )
+((((291.1*1000)/4.1)*C102)/198.052*100)
+(0*0)+(0*0)+(0*0)+(0*0)+(0*0)+(0*0)+(0*0)+(0*0)+(0*0)+(0*0)
+1306.0/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+((291.1)*1000)/(((936.0+370.0) if (936.0+370.0)>0 else 1306.0))
+70.0/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0/0
+0/0*100
+0/0
+0/0*100
+0/0
+0/0
+cstfn_calculate_dynamic_l( )/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+cstfn_calculate_dynamic_l( )/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+(0+0+#0!)/0
+(0+0+#0!)/0
+(0.0*0*0)/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0.0/4.1
+0.0/0
+0.0/0
+0.0/0
+522.412*0.24*0.011
+(((((1*173*26/100 if "Mineral"=="Mineral" else 0))+((1*45*10/100 if "Mineral"=="Mineral" else 0))+((1*134*0/100 if "Mineral"=="Mineral" else 0))+((3*620*24/100 if "Mineral"=="Mineral" else 0))+((6*67*6.6/100 if "Mineral"=="Mineral" else 0))+((0*0*0/100 if 0=="Mineral" else 0))+((0*0*0/100 if 0=="Mineral" else 0))+((0*0*0/100 if 0=="Mineral" else 0))+((0*0*0/100 if 0=="Mineral" else 0))+((0*0*0/100 if 0=="Mineral" else 0)))*0.11) + ((((1*173*26/100 if "Mineral"=="Organic" else 0))+((1*45*10/100 if "Mineral"=="Organic" else 0))+((1*134*0/100 if "Mineral"=="Organic" else 0))+((3*620*24/100 if "Mineral"=="Organic" else 0))+((6*67*6.6/100 if "Mineral"=="Organic" else 0))+((0*0*0/100 if 0=="Organic" else 0))+((0*0*0/100 if 0=="Organic" else 0))+((0*0*0/100 if 0=="Organic" else 0))+((0*0*0/100 if 0=="Organic" else 0))+((0*0*0/100 if 0=="Organic" else 0)))*0.21))*0.01
+522.412*0.01
+(5.22412+0.5746532000000001+1.3791676800000001)*1.571428571*273
+3079.336636680181+0.0
+2.0/2.0
+0/0
+0/0
+0/0
+213.2/0
+213.2/(10.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0)
+0/(10.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0)
+0/(10.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0)
+0/(10.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0)
+0/(10.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0)
+0/(10.0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0)
+0/0/365
+0/0/365
+0/0
+0/0
+(0/(0+0+0+0))*100
+(0/0)*100
+0
+0
+0
+0
+cstfn_calculate_dynamic_p( )
+((213.2*1000/0)*C100)/522.412*100
+cstfn_calculate_dynamic_q( )
+((213.2*1000/0)*C101)/39.97*100
+cstfn_calculate_dynamic_r( )
+((213.2*1000/0)*C102)/198.052*100
+cstfn_calculate_dynamic_s( )
+3642.0/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+((213.2)*1000)/(((2619.0+1023.0) if (2619.0+1023.0)>0 else 3642.0))
+70.0/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0/0
+0/0*100
+0/0
+0/0*100
+0/0
+0/0
+cstfn_calculate_dynamic_u( )/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+cstfn_calculate_dynamic_u( )/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+cstfn_calculate_dynamic_u( )/0
+cstfn_calculate_dynamic_u( )/0
+(0.0*0*0)/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0.0/0
+0.0/0
+0.0/0
+0.0/0
+522.412*0.24*0.011
+(((((1*173*26/100 if "Mineral"=="Mineral" else 0)) +((1*45*10/100 if "Mineral"=="Mineral" else 0)) +((1*134*0/100 if "Mineral"=="Mineral" else 0)) +((3*620*24/100 if "Mineral"=="Mineral" else 0)) +((6*67*6.6/100 if "Mineral"=="Mineral" else 0)) +((0*0*0/100 if 0=="Mineral" else 0)) +((0*0*0/100 if 0=="Mineral" else 0)) +((0*0*0/100 if 0=="Mineral" else 0)) +((0*0*0/100 if 0=="Mineral" else 0)) +((0*0*0/100 if 0=="Mineral" else 0)))*0.11) +((((1*173*26/100 if "Mineral"=="Organic" else 0)) +((1*45*10/100 if "Mineral"=="Organic" else 0)) +((1*134*0/100 if "Mineral"=="Organic" else 0)) +((3*620*24/100 if "Mineral"=="Organic" else 0)) +((6*67*6.6/100 if "Mineral"=="Organic" else 0)) +((0*0*0/100 if 0=="Organic" else 0)) +((0*0*0/100 if 0=="Organic" else 0)) +((0*0*0/100 if 0=="Organic" else 0)) +((0*0*0/100 if 0=="Organic" else 0)) +((0*0*0/100 if 0=="Organic" else 0)))*0.21))*0.01
+522.412*0.01
+(5.22412+0.5746532000000001+1.3791676800000001)*1.571428571*273
+3079.336636680181+0
+0/0
+0/0
+0/0
+(1306.0*0.0)/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0.0*1.18/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+70.0*0.15/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+cstfn_calculate_dynamic_b( )
+cstfn_calculate_dynamic_c( )
+cstfn_calculate_dynamic_d( )/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+cstfn_calculate_dynamic_e( )/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+11.0*50.0/4.1
+0*50.0/4.1
+0*50.0/4.1
+0*50.0/4.1
+0*50.0/4.1
+0*50.0/4.1
+0*50.0/4.1
+0*50.0/0
+0*50.0/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*50.0/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*50.0/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*50.0/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*50.0/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*50.0/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*50.0/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*50.0/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*50.0/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*50.0/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*50.0/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*50.0/0
+0*50.0/0
+0*50.0/0
+0*50.0/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*50.0/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*50.0/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+(0.0+0.0+2.5609756097560976+0+1371.47+0.0+0.0+134.14634146341464+0.0+0.0+0.0+0.0+0.0+0.0+0+0.0+0.0+0.0+0.0+0.0+0.0+0.0+0.0+0.0+0.0+0.0+0+0+0+0.0+0.0+0.0)
+cstfn_calculate_dynamic_x( )/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0.0/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+291.1/4.1*170.0
+(0*170.0/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0))))))))*1000
+(0*170.0/((4.1 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0))))))))/10
+0*0/0
+0*0/0
+0*170.0
+0
+(3642.0*0)/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0.0*0/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+70.0*0/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+(0*0*0)+(0*0*0)+(0*0*0)+(0*0*0)+(0*0*0)+(0*0*0)+(0*0*0)+(0*0*0)+(0*0*0)+(0*0*0)
+cstfn_calculate_dynamic_h( )
+(0*0+0*0+0*0)/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+(0*0+0*0+0*0)/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+10.0*0/0
+0*0/0
+0*0/0
+0*0/0
+0*0/0
+0*0/0
+0*0/0
+0*0/0
+0*0/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*0/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*0/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*0/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*0/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*0/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*0/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*0/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*0/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*0/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*0/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*0/0
+0*0/0
+0*0/0
+0*0/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*0/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+0*0/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0)))))))
+(0+0+0+0+1371.47+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0+0)
+213.2/0*0
+(0*0/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0))))))))*1000
+(0*0/((0 if "crop"=="crop" else (0 if "crop"=="milk" else (0 if "crop"=="meat" else (0 if "crop"=="animal" else (0 if "crop"=="oyster" else (0 if "crop"=="honey" else 0))))))))/10
+0*0/0
+0/0*0
+0*0
+0

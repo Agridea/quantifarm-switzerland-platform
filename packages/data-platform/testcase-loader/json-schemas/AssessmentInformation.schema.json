@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/AssessmentInformation.schema.json",
+  "title": "QuantiFarm assessment information",
+  "description": "Assessment information about cultivation on a parcel with or without DATSs",
+  "type": "object",
+  "properties": {
+    "farmInformation": {
+      "description": "Generic information of the farm at which the parcel that is assessed is situated",
+      "$ref": "https://quantifarm.eu/ontology/FarmInformation.schema.json"
+    },
+    "parcelInformation": {
+      "description": "Generic information of the parcel that is assessed",
+      "$ref": "https://quantifarm.eu/ontology/ParcelInformation.schema.json"
+    },
+    "datsUsed": {
+      "description": "List of DATSs being used on the parcel",
+      "type": "array",
+      "$comment": "if there are no DATSs used on the parcel, the array should be empty",
+      "items": {
+        "description": "Name of a DATS being used on the parcel",
+        "type": "string",
+        "$comment": "the name must be present in the datsInformation field of the testcase data!!",
+        "minItems": 0,
+        "uniqueItems": true
+      }
+    },
+    "waterUsageInformation": {
+      "description": "Information about the usage of water during the cultivation in the specific year",
+      "$ref": "https://quantifarm.eu/ontology/WaterUsageInformation.schema.json"
+    },
+    "fuelUsageInformation": {
+      "description": "Information about the usage of fuel during the cultivation in the specific year",
+      "$ref": "https://quantifarm.eu/ontology/FuelUsageInformation.schema.json"
+    },
+    "electricityUsageInformation": {
+      "description": "Information about the usage of electricity during the cultivation in the specific year",
+      "$ref": "https://quantifarm.eu/ontology/ElectricityUsageInformation.schema.json"
+    },
+    "fuelForTemperatureControlInformation": {
+      "description": "List of one or more fuels used for temperature control during the cultivation in the specific year",
+      "type": "array",
+      "items": {
+        "description": "Usage information of a fuel for temperature control",
+        "minItems": 1,
+        "uniqueItems": true,
+        "$ref": "https://quantifarm.eu/ontology/FuelForTempControlUsageInformation.schema.json"
+      }
+    },
+    "pesticidesUsageInformation": {
+      "description": "List of one or more pesticides used during the cultivation in the specific year",
+      "type": "array",
+      "items": {
+        "description": "Usage information of a pesticide used on the parcel",
+        "minItems": 1,
+        "uniqueItems": true,
+        "$ref": "https://quantifarm.eu/ontology/PesticideUsageInformation.schema.json"
+      }
+    },
+    "fertilizersUsageInformation": {
+      "description": "List of one or more fertilizers used during the cultivation in the specific year",
+      "type": "array",
+      "items": {
+        "description": "Usage information of a fertilizer used on the parcel",
+        "minItems": 1,
+        "uniqueItems": true,
+        "$ref": "https://quantifarm.eu/ontology/FertilizerUsageInformation.schema.json"
+      }
+    },
+    "feedUsageInformation": {
+      "description": "List of one or more feeds used during the cultivation in the specific year",
+      "type": "array",
+      "items": {
+        "description": "Usage information of a feed used on the parcel",
+        "minItems": 1,
+        "uniqueItems": true,
+        "$ref": "https://quantifarm.eu/ontology/FeedUsageInformation.schema.json"
+      }
+    },
+    "drugsUsageInformation": {
+      "description": "List of one or more drugs used during the cultivation in the specific year",
+      "type": "array",
+      "items": {
+        "description": "Usage information of a drug used on the parcel",
+        "minItems": 1,
+        "uniqueItems": true,
+        "$ref": "https://quantifarm.eu/ontology/DrugsUsageInformation.schema.json"
+      }
+    },
+    "labourInformation": {
+      "description": "Information about the amount of labour used for various tasks during the cultivation in the specific year",
+      "$ref": "https://quantifarm.eu/ontology/LabourInformation.schema.json"
+    },
+    "economicInformation": {
+      "description": "Economic information about the performance of the cultivation in the specific year",
+      "$ref": "https://quantifarm.eu/ontology/EconomicInformation.schema.json"
+    },
+    "outputInformation": {
+      "description": "Information about the output production of the cultivation in the specific year",
+      "$ref": "https://quantifarm.eu/ontology/OutputInformation.schema.json"
+    },
+    "additionalAnimalInformation": {
+      "description": "Additional animal information that influences the assessment of the performance of the cultivation in the specific year",
+      "$ref": "https://quantifarm.eu/ontology/AdditionalAnimalInformation.schema.json"
+    },
+    "additionalLabourInformation": {
+      "description": "Additional labour-related information that influences the assessment of the performance of the cultivation in the specific year",
+      "$ref": "https://quantifarm.eu/ontology/AdditionalLabourInformation.schema.json"
+    },
+    "additionalFieldsInformation": {
+      "description": "Additional fields information of any kind",
+      "type": "array",
+      "items": {
+        "description": "Additional field information of any kind",
+        "uniqueItems": true,
+        "$ref": "https://quantifarm.eu/ontology/AdditionalFieldsInformation.schema.json"
+      }
+    }
+  },
+  "required": [ "farmInformation", "parcelInformation", "datsUsed" ]
+}

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendation Tool - Data Loading Flow</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #1a1a2e;
+            --heading: #16213e;
+            --accent: #0f3460;
+            --accent-light: #e8f0fe;
+            --border: #d0d7de;
+            --code-bg: #f6f8fa;
+            --pre-bg: #1e1e2e;
+            --pre-text: #cdd6f4;
+            --link: #0969da;
+            --subtle: #57606a;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            color: var(--text);
+            background: var(--bg);
+            line-height: 1.6;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+        h1 { font-size: 2rem; color: var(--heading); margin-bottom: 0.5rem; border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; }
+        h2 { font-size: 1.5rem; color: var(--accent); margin: 2rem 0 0.75rem; }
+        h3 { font-size: 1.25rem; color: var(--heading); margin: 1.5rem 0 0.5rem; }
+        h4 { font-size: 1.1rem; color: var(--subtle); margin: 1.25rem 0 0.4rem; }
+        p, li { margin-bottom: 0.5rem; }
+        ul, ol { padding-left: 1.5rem; margin-bottom: 1rem; }
+        code {
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+            background: var(--code-bg);
+            padding: 0.15em 0.4em;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+        pre {
+            background: var(--pre-bg);
+            color: var(--pre-text);
+            padding: 1rem 1.25rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 1rem 0;
+            font-size: 0.85rem;
+            line-height: 1.5;
+        }
+        pre code { background: none; padding: 0; font-size: inherit; color: inherit; }
+        strong { color: var(--heading); }
+        hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+        .mermaid { text-align: center; margin: 1.5rem 0; }
+        a { color: var(--link); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .status { background: #fff8c5; border-left: 4px solid #e3b341; padding: 0.75rem 1rem; border-radius: 4px; margin: 1rem 0; }
+    </style>
+</head>
+<body>
+
+<h1>Recommendation Tool - Data Loading Flow</h1>
+
+<h2>Overview</h2>
+<p>This diagram illustrates how the Recommendation Tool loads and processes data from multiple sources to generate DAT recommendations for Swiss farms.</p>
+
+<div class="mermaid">
+flowchart TB
+    subgraph External["External Data Sources"]
+        FS[FAIRshare Platform&lt;br/&gt;fairshare-dats-06-2024.json]
+        TC[Test Cases&lt;br/&gt;testcase-dats.xls]
+        CB[Cost-Benefit Data&lt;br/&gt;cost-benefit-*.xls]
+    end
+
+    subgraph DataPlatform["Data Platform - Triple Store"]
+        Fuseki[(Apache Jena Fuseki&lt;br/&gt;Triple Store)]
+        DATGraph[https://quantifarm.eu/graphs/dats&lt;br/&gt;DAT Metadata]
+        TCGraph[https://quantifarm.eu/graphs/testcases&lt;br/&gt;Test Case Data]
+    end
+
+    subgraph Loaders["ETL Loaders"]
+        DL[dats-loader&lt;br/&gt;Python Package]
+        TL[testcase-loader&lt;br/&gt;Python Package]
+    end
+
+    subgraph RecTool["Recommendation Tool"]
+        API[FastAPI Service&lt;br/&gt;Recommendation Engine]
+        Query[SPARQL Query Module&lt;br/&gt;sparql_queries.py]
+        ML[Recommendation Logic&lt;br/&gt;recommendation_engine.py]
+        Filter[Filter &amp; Rank&lt;br/&gt;filtering.py]
+    end
+
+    subgraph Input["User Input"]
+        Farm[Farm Profile&lt;br/&gt;- Location&lt;br/&gt;- Farm Type&lt;br/&gt;- Size&lt;br/&gt;- Challenges]
+    end
+
+    subgraph Output["Recommendation Output"]
+        Results[Recommended DATs&lt;br/&gt;- Ranked List&lt;br/&gt;- Cost Estimates&lt;br/&gt;- Benefits&lt;br/&gt;- Test Case Links]
+    end
+
+    FS -->|Read JSON| DL
+    TC -->|Read Excel| DL
+    CB -->|Read Excel| DL
+    TC -->|Read Excel| TL
+
+    DL -->|Transform to RDF&lt;br/&gt;QCSM Ontology| DATGraph
+    TL -->|Transform to RDF&lt;br/&gt;QCSM Ontology| TCGraph
+
+    DATGraph -->|Named Graph| Fuseki
+    TCGraph -->|Named Graph| Fuseki
+
+    Farm -->|POST /recommend| API
+    API -->|Build SPARQL Query| Query
+    Query -->|SPARQL Endpoint&lt;br/&gt;http://fuseki:3030/quantifarm/sparql| Fuseki
+    Fuseki -->|RDF Results| Query
+    Query -->|Parse Results| ML
+    ML -->|Apply Filters&lt;br/&gt;- Country: Switzerland&lt;br/&gt;- Sector Match&lt;br/&gt;- Cost Range| Filter
+    Filter -->|Rank by Relevance&lt;br/&gt;- Functionality Match&lt;br/&gt;- Test Case Success&lt;br/&gt;- Cost-Benefit Score| Results
+    Results -->|JSON Response| Farm
+
+    style External fill:#E8F4F8
+    style DataPlatform fill:#FFF4E6
+    style Loaders fill:#E8F5E9
+    style RecTool fill:#F3E5F5
+    style Input fill:#FFE0B2
+    style Output fill:#C8E6C9
+    style Fuseki fill:#FFD54F
+    style API fill:#CE93D8
+</div>
+
+<h2>Data Flow Stages</h2>
+
+<h3>1. <strong>Data Ingestion</strong> (ETL Loaders)</h3>
+<p>The Data Platform loaders process source data files and load them into the Triple Store:</p>
+
+<h4>dats-loader Process</h4>
+<ol>
+    <li><strong>Read</strong> FAIRshare JSON, Test Case Excel, Cost-Benefit Excel</li>
+    <li><strong>Parse</strong> DAT metadata (name, description, provider, costs, functionalities)</li>
+    <li><strong>Transform</strong> to RDF triples using QCSM ontology</li>
+    <li><strong>Deduplicate</strong> based on DAT URIs</li>
+    <li><strong>Load</strong> to Fuseki graph: <code>https://quantifarm.eu/graphs/dats</code></li>
+</ol>
+
+<h4>testcase-loader Process</h4>
+<ol>
+    <li><strong>Read</strong> Test Case Excel with farm data and results</li>
+    <li><strong>Parse</strong> test case metadata, farm profiles, DAT usage</li>
+    <li><strong>Transform</strong> to RDF triples using QCSM ontology</li>
+    <li><strong>Link</strong> test cases to DATs</li>
+    <li><strong>Load</strong> to Fuseki graph: <code>https://quantifarm.eu/graphs/testcases</code></li>
+</ol>
+
+<h3>2. <strong>Data Storage</strong> (Triple Store)</h3>
+<p>Apache Jena Fuseki stores data in <strong>named graphs</strong>:</p>
+<ul>
+    <li><strong>DATs Graph</strong>: Complete DAT catalog with Swiss-specific enrichments</li>
+    <li><strong>Test Cases Graph</strong>: Real-world usage examples from Swiss farms</li>
+</ul>
+
+<h3>3. <strong>Recommendation Engine</strong> (Query &amp; Processing)</h3>
+
+<h4>Step 1: SPARQL Query Construction</h4>
+<p>Based on user input (farm profile), build SPARQL query:</p>
+
+<pre><code>PREFIX qcsm: &lt;http://quantifarm.eu/ontology#&gt;
+
+SELECT ?dat ?name ?description ?cost ?functionality ?benefit
+WHERE {
+  GRAPH &lt;https://quantifarm.eu/graphs/dats&gt; {
+    ?dat a qcsm:DigitalAdvisoryTool ;
+         qcsm:name ?name ;
+         qcsm:description ?description ;
+         qcsm:country "Switzerland" ;
+         qcsm:sector ?sector ;
+         qcsm:functionality ?functionality ;
+         qcsm:benefit ?benefit .
+
+    OPTIONAL { ?dat qcsm:initialCostMin ?cost }
+
+    FILTER(?sector IN ("arable farming", "livestock"))
+  }
+
+  OPTIONAL {
+    GRAPH &lt;https://quantifarm.eu/graphs/testcases&gt; {
+      ?testcase qcsm:usesDat ?dat ;
+                qcsm:farmType ?userFarmType ;
+                qcsm:success true .
+    }
+  }
+}</code></pre>
+
+<h4>Step 2: Filter &amp; Rank</h4>
+<ol>
+    <li><strong>Geographic Filter</strong>: Swiss-available DATs only</li>
+    <li><strong>Sector Match</strong>: Align with farm type (arable, livestock, mixed)</li>
+    <li><strong>Challenge Match</strong>: DATs addressing user's stated challenges</li>
+    <li><strong>Cost Filter</strong>: Within user's budget range</li>
+    <li><strong>Functionality Match</strong>: Score based on required functionalities</li>
+    <li><strong>Test Case Boost</strong>: Prioritize DATs with successful Swiss test cases</li>
+    <li><strong>Cost-Benefit Score</strong>: Calculate ROI based on cost-benefit data</li>
+</ol>
+
+<h4>Step 3: Return Results</h4>
+<p>JSON response with ranked DAT recommendations:</p>
+
+<pre><code>{
+  "recommendations": [
+    {
+      "dat_uri": "https://quantifarm.eu/data/dats/farmmanager",
+      "name": "FarmManager Pro",
+      "relevance_score": 0.92,
+      "estimated_cost": {
+        "initial": 800,
+        "annual": 200,
+        "currency": "CHF"
+      },
+      "benefits": ["Increased efficiency", "Better compliance"],
+      "test_cases": ["TC-CH-001", "TC-CH-015"],
+      "provider": "SwissAgTech"
+    }
+  ]
+}</code></pre>
+
+<h2>Key Technical Details</h2>
+
+<h3>SPARQL Endpoint</h3>
+<ul>
+    <li><strong>Query Endpoint</strong>: <code>http://fuseki:3030/quantifarm/sparql</code></li>
+    <li><strong>Update Endpoint</strong>: <code>http://fuseki:3030/quantifarm/update</code> (loaders only)</li>
+    <li><strong>Graph Store</strong>: <code>http://fuseki:3030/quantifarm/data</code></li>
+</ul>
+
+<h3>Data Freshness</h3>
+<ul>
+    <li><strong>Loaders run</strong>: On container start or manual trigger</li>
+    <li><strong>Update strategy</strong>: Replace entire named graph (destructive)</li>
+    <li><strong>Caching</strong>: Recommendation Tool may cache SPARQL results (check Redis/memory cache)</li>
+</ul>
+
+<h3>Swiss-Specific Enrichments</h3>
+<p>The Recommendation Tool adds Swiss context:</p>
+<ol>
+    <li><strong>Currency conversion</strong>: EUR → CHF for cost estimates</li>
+    <li><strong>Swiss regulations</strong>: Filter by Swiss compliance requirements</li>
+    <li><strong>Language filtering</strong>: German, French, Italian availability</li>
+    <li><strong>Regional data</strong>: Canton-specific recommendations if location provided</li>
+</ol>
+
+<h2>Environment Variables</h2>
+
+<h3>Data Platform (dats-loader, testcase-loader)</h3>
+<pre><code>TRIPLE_STORE_ENDPOINT=http://fuseki:3030
+FAIRSHARE_FILE_PATH=/data/fairshare-dats-06-2024.json
+TESTCASE_FILE_PATH=/data/testcase-dats.xls
+COST_BENEFIT_ARABLE_FILE_PATH=/data/cost-benefit-arable-dats.xls
+COST_BENEFIT_LIFESTOCK_FILE_PATH=/data/cost-benefit-lifestock-dats.xls</code></pre>
+
+<h3>Recommendation Tool</h3>
+<pre><code>SPARQL_QUERY_ENDPOINT=http://fuseki:3030/quantifarm/sparql
+PORT=8000
+# Optional external data sources
+WEATHER_API_URL=https://...
+SOIL_DATA_URL=https://...</code></pre>
+
+<h2>Running the Complete Stack</h2>
+
+<h3>1. Start Data Platform</h3>
+<pre><code>cd packages/data-platform
+cp .env.example .env
+docker compose up -d</code></pre>
+
+<h3>2. Verify Data Loaded</h3>
+<pre><code># Check Fuseki is running
+curl http://localhost:3030/$/ping
+
+# Count DATs
+curl -X POST http://localhost:3030/quantifarm/sparql \
+  -H "Accept: application/sparql-results+json" \
+  -d "query=SELECT (COUNT(*) as ?count) WHERE { GRAPH &lt;https://quantifarm.eu/graphs/dats&gt; { ?s a &lt;http://quantifarm.eu/ontology#DigitalAdvisoryTool&gt; } }"</code></pre>
+
+<h3>3. Start Recommendation Tool</h3>
+<pre><code>cd packages/recommendation-tool
+cp .env.example .env
+# Ensure SPARQL_QUERY_ENDPOINT points to fuseki
+docker compose up -d</code></pre>
+
+<h3>4. Test Recommendation</h3>
+<pre><code>curl -X POST http://localhost:8000/recommend \
+  -H "Content-Type: application/json" \
+  -d '{
+    "farm_type": "arable",
+    "size_ha": 50,
+    "location": "Bern",
+    "challenges": ["pest management", "soil health"]
+  }'</code></pre>
+
+<h2>Troubleshooting</h2>
+
+<h3>No Recommendations Returned</h3>
+<ol>
+    <li><strong>Check Data Platform</strong>: Verify loaders completed successfully</li>
+    <li><strong>Check SPARQL Query</strong>: Test query directly via Fuseki UI (<code>http://localhost:3030</code>)</li>
+    <li><strong>Check Filters</strong>: Swiss country filter may be too restrictive</li>
+    <li><strong>Check Logs</strong>: <code>docker compose logs recommendation-tool</code></li>
+</ol>
+
+<h3>Empty/Missing Data</h3>
+<ol>
+    <li><strong>Reload DATs</strong>: <code>docker compose restart dats-loader</code></li>
+    <li><strong>Reload Test Cases</strong>: <code>docker compose restart testcase-loader</code></li>
+    <li><strong>Verify Files</strong>: Ensure Excel/JSON files exist in <code>data/</code> directory</li>
+</ol>
+
+<h3>Connection Errors</h3>
+<ol>
+    <li><strong>Network</strong>: Ensure services on same Docker network</li>
+    <li><strong>Endpoint URL</strong>: Use service name (<code>fuseki</code>) not <code>localhost</code> in container-to-container communication</li>
+    <li><strong>Port conflicts</strong>: Check <code>docker compose ps</code> for unhealthy services</li>
+</ol>
+
+<h2>References</h2>
+<ul>
+    <li><a href="recommendation-tool.md">Recommendation Tool Documentation</a></li>
+    <li><a href="data-platform.md">Data Platform Architecture</a></li>
+    <li><a href="qcsm.md">QCSM Ontology</a></li>
+</ul>
+
+<script>
+    mermaid.initialize({ startOnLoad: true, theme: 'default' });
+</script>
+
+</body>
+</html>

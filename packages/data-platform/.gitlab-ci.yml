@@ -1,0 +1,10 @@
+build-triple-store:
+  image: docker:23.0.1
+  stage: build
+  services:
+    - docker:23.0.1-dind
+  script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker compose build
+    - docker compose push
+  when: manual

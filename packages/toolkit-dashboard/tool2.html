@@ -1,0 +1,1834 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>QuantiFarm - Cost and Benefit Calculators</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XH06Z9BF5S"></script>
+    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-XH06Z9BF5S');</script>
+
+    <!-- Favicons -->
+    <link href="assets/img/QuantiFarm-element-60x60.png" rel="icon" sizes="32x32">
+    <link href="assets/img/QuantiFarm-element-60x60.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Sofia+Sans:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="assets/vendor/fontawesome/css/fontawesome-all.css" rel="stylesheet">
+    <link href="assets/vendor/bs5-nav-tree/css/tree.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- DigiAgriFoodCH Theme -->
+    <link href="assets/css/digiagrifood-theme.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center notranslate">
+
+        <div class="d-flex align-items-center justify-content-start">
+            <a href="index.html" class="logo d-flex align-items-center">
+                <span>Toolkit</span>
+            </a>
+            <i class="bi bi-list toggle-sidebar-btn"></i>
+        </div><!-- End Logo -->
+
+        <nav class="navbar navbar-expand-md d-none d-md-flex align-items-center position-absolute start-0 end-0 h-100" style="pointer-events: none;">
+            <div class="container-fluid d-flex align-items-center" style="pointer-events: auto;">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-2 pt-3 h-100">
+                        <a class="nav-link text-primary pe-0 pb-3" href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item pe-2 pt-3 h-100 active">
+                        <a class="nav-link text-primary pe-0 pb-3" href="toolkit.html">
+                            Toolkit
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown pt-3 h-100">
+                        <a class="nav-link text-primary dropdown-toggle pb-3" href="#" id="tcDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Test cases
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile"
+                            aria-labelledby="tcDropdown">
+                            <li>
+                                <a id="mnuResults" class="dropdown-item" href="results.html">
+                                    Results
+                                </a>
+                            </li>
+                            <li>
+                                <a id="mnuMethodology" class="dropdown-item" href="methodology.html">
+                                    Methodology
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item pe-2 pt-3 h-100">
+                        <a class="nav-link text-primary pe-0 pb-3" href="faq.html">
+                            FAQ
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown pt-3 h-100">
+                        <a class="nav-link text-primary dropdown-toggle pb-3" href="#" id="lngDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">DE</a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="lngDropdown">
+                        <li><a class="dropdown-item" href="#" onclick="setLanguage('DE');return false;">DE - Deutsch</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="setLanguage('FR');return false;">FR - Français</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="setLanguage('IT');return false;">IT - Italiano</a></li>
+                    </ul>
+                </li>
+                </ul>
+                <ul class="navbar-nav">
+                <li class="nav-item dropdown pe-2 pt-3 h-100" id="mnuLogin">
+                    <a class="nav-link d-flex align-items-center text-primary px-4" href="login.html?url=tool2.html">
+                        <i class="ri-login-box-line" style="font-size: 26px"></i>
+                        <span>Login</span>
+                    </a>
+                </li>
+
+                <li class="nav-item pe-2 h-100" id="mnuUser" hidden>
+
+                    <a class="nav-link d-flex align-items-center text-primary px-4" href="#" data-bs-toggle="dropdown">
+                        <i class="bi bi-gear" style="font-size: 26px"></i>
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                        <li class="dropdown-header">
+                            <h6 id="mnuUserName"></h6>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="profile.html">
+                                <i class="bi bi-person"></i>
+                                <span>My Profile</span>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="php/api.php?c=out">
+                                <i class="bi bi-box-arrow-right"></i>
+                                <span>Log out</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header><!-- End Header -->
+    <!-- ======= Sidebar ======= -->
+    <aside id="sidebar" class="sidebar">
+
+        <ul class="sidebar-nav" id="sidebar-nav">
+        </ul>
+
+    </aside><!-- End Sidebar-->
+
+    <main id="main" class="main">
+
+        <div class="pagetitle d-flex justify-content-between">
+            <h1>Cost and Benefit Calculators</h1>
+            <div id="lnkLogin" class="me-3 text-danger" hidden><i class="bx bxs-lock-alt me-1"></i>Login needed</div>
+            <a id="lnkSearch" href="#" class="fw-bold me-3" onclick="return ShowSearch()"><i class="bi bi-search me-1"></i>Search</a>
+        </div><!-- End Page Title -->
+
+        <section class="section dashboard">
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <!-- Default Tabs -->
+                    <ul class="nav nav-tabs d-flex" id="tab1" role="tablist">
+                        <li class="nav-item flex-fill" role="presentation">
+                            <button class="nav-link w-100 active fw-bold" id="btnTabDescr" data-bs-toggle="tab" data-bs-target="#tabDescr" type="button" role="tab">Description</button>
+                        </li>
+                        <li class="nav-item flex-fill" role="presentation">
+                            <button class="nav-link w-100 fw-bold" id="btnTabcrop" data-bs-toggle="tab" data-bs-target="#tabCrop" type="button" role="tab" onclick="OnClickTab(crop)"><i class="bx bxs-lock-alt me-1 text-danger" id="lockTabcrop" hidden></i>DATSs for Crop Farming</button>
+                        </li>
+                        <li class="nav-item flex-fill" role="presentation">
+                            <button class="nav-link w-100 fw-bold" id="btnTablivestock" data-bs-toggle="tab" data-bs-target="#tabLive" type="button" role="tab" onclick="OnClickTab(live)"><i class="bx bxs-lock-alt me-1 text-danger" id="lockTablivestock" hidden></i>DATSs for Livestock Farming</button>
+                        </li>
+                        <li class="nav-item flex-fill" role="presentation">
+                            <button class="nav-link w-100 fw-bold" id="btnTabcropTC" data-bs-toggle="tab" data-bs-target="#tabCropTC" type="button" role="tab" onclick="OnClickTab(cropTC)"><i class="bx bxs-lock-alt me-1 text-danger" id="lockTabcropTC" hidden></i>Test Cases' DATSs for Crop Farming</button>
+                        </li>
+                        <li class="nav-item flex-fill" role="presentation">
+                            <button class="nav-link w-100 fw-bold" id="btnTablivestockTC" data-bs-toggle="tab" data-bs-target="#tabLiveTC" type="button" role="tab" onclick="OnClickTab(liveTC)"><i class="bx bxs-lock-alt me-1 text-danger" id="lockTablivestockTC" hidden></i>Test Cases' DATSs for Livestock Farming</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content pt-2" id="tab1Content">
+
+                        <div class="tab-pane fade show active" id="tabDescr" role="tabpanel" aria-labelledby="btnTabDescr">
+
+                            <div hidden>
+                                <ul class="nav nav-tabs nav-tabs-bordered" id="lngTabs" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="lngBtnEN" data-bs-toggle="tab" data-bs-target="#lngTabEN" type="button" role="tab" aria-controls="lngTabEN" aria-selected="true" title="EN"><img src="assets/img/uk.png" width="32"></button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="lngBtnFR" data-bs-toggle="tab" data-bs-target="#lngTabFR" type="button" role="tab" aria-controls="lngTabFR" aria-selected="false" tabindex="-1" title="FR" onclick="LoadLanguageContent('FR')"><img src="assets/img/france.png" width="32"></button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="lngBtnIT" data-bs-toggle="tab" data-bs-target="#lngTabIT" type="button" role="tab" aria-controls="lngTabIT" aria-selected="false" tabindex="-1" title="IT" onclick="LoadLanguageContent('IT')"><img src="assets/img/italy.png" width="32"></button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="lngBtnDE" data-bs-toggle="tab" data-bs-target="#lngTabDE" type="button" role="tab" aria-controls="lngTabDE" aria-selected="false" tabindex="-1" title="DE" onclick="LoadLanguageContent('DE')"><img src="assets/img/germany.png" width="32"></button>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-content d-flex justify-content-center" id="lngTabsContent">
+                                <div class="tab-pane fade active show" id="lngTabEN" role="tabpanel" aria-labelledby="lngBtnEN">
+                                    <p>
+                                        The <b>"Cost & Benefit Calculators"</b> tool is designed to support farmers and agricultural advisors in assessing the financial impact and potential benefits of adopting various DATSs in crop and livestock farming systems. The tool features dedicated calculator modules for each type of system, tailored to reflect their specific needs.
+                                    </p>
+                                    <p>
+                                        Users can access two main repositories:
+                                    </p>
+                                    <ul>
+                                        <li><b>Commercial DATSs</b>, identified through a literature review, which includes cost and benefit data from previous EU projects' knowledge gained and developed repositories, provider materials (e.g. leaflets, brochures), and scientific publications.</li>
+                                        <li><b>Test Case DATSs</b>, which are based on data collected from DATSs implemented and assessed within the QuantiFarm project.</li>
+                                    </ul>
+
+                                    <p><b>By selecting a DATS and entering basic inputs</b> (e.g., number of units, usage years, area, yield, and costs), <b>users receive key economic outputs</b> such as operational savings (e.g. labour, fuel), potential revenue increases, Return on Investment, and Net Benefit.</p>
+                                    <p>This aids end-users in gaining a realistic understanding of their potential investment in a DATS.</p>
+                                    <p>As a crucial component of the QuantiFarm Toolkit, the "Cost & Benefit Calculators" serves as an essential, indicative guide for farmers and advisors, aiding them in understanding the economic feasibility and potential profitability of DATSs throughout their operational lifecycle.</p>
+                                    <p><i>Please note: Use of the tool requires registration and login.</i><p>
+
+                                        <div class="row text-center">
+                                            <h5>
+                                                <a href="https://www.youtube.com/watch?v=-_5VjqRXd0U" target="_blank">Watch Video<i class="fas fa-play ms-2"></i></a>
+                                            </h5>
+                                        </div>
+
+
+                                </div>
+                                <div class="tab-pane fade" id="lngTabFR" role="tabpanel" aria-labelledby="lngBtnFR">
+                                </div>
+                                <div class="tab-pane fade" id="lngTabIT" role="tabpanel" aria-labelledby="lngBtnIT">
+                                </div>
+
+                                <div class="tab-pane fade" id="lngTabDE" role="tabpanel" aria-labelledby="lngBtnDE">
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="tabCrop" role="tabpanel" aria-labelledby="btnTabCrop">
+                            <div class="row my-2 text-center ">
+                                <div class="col-6 px-1 pb-1 border border-2 border-top-0 border-start-0">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="cboTypecrop" onchange="OnChangeType()" aria-label="DATSs for Crop">
+                                            <option value="arable">Arable</option>
+                                            <option value="fruits">Fruits</option>
+                                            <option value="vineyards">Vineyards</option>
+                                            <option value="vegetables">Vegetables</option>
+                                            <option value="orchards">Orchards</option>
+                                        </select>
+                                        <label for="cboTypecrop">DATSs for Crop</label>
+                                    </div>
+                                </div>
+                                <div class="col-6 border border-2 border-top-0 border-start-0 border-end-0">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h5 class="fw-bold mt-2 mx-2 ">Crop Calculator Modules</h5>
+                                        <button class="btn btn-primary btn-lg fs-5 fw-bold" id="btnCalccrop" onclick="Recalculate()">Recalculate</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-6 border border-2 border-top-0 border-bottom-0 border-start-0" id="divDATcrop">
+
+                                </div>
+                                <div class="col-6" id="divCalcscrop">
+                                    <div class="list-group" id="divCalcListcrop">
+                                        <div class="list-group-item list-group-item-action" id="crop_calc_investment">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><span class="fw-bold">INVESTMENT COST</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="crop_years_of_usage" placeholder="Years of usage" min="0" step="1">
+                                                            <label for="crop_years_of_usage">Years of usage</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="crop_total_area_ha" placeholder="Total area (ha)" min="0" step="any">
+                                                            <label for="crop_total_area_ha">Total area (ha)</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="crop_number_of_units_sensors_etc" placeholder="Number of Units (sensors etc.)" min="0" step="1">
+                                                            <label for="crop_number_of_units_sensors_etc">Number of Units (sensors etc.)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="crop_total_cost_of_dat_purchase"></td><td>Total Initial cost of DATS Purchase (CHF)<br>Includes purchase price, installation or setup costs, and any other INITIAL expenses.</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="crop_maintenance_costs"></td><td>Maintainance Costs (CHF/year)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="crop_depreciation"></td><td>Depreciation (CHF/year)<br>(i.e. the annual reduction in the intial value of a tangible fixed asset)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="crop_calc_yield">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="ri-seedling-fill me-2"></i><span class="fw-bold">YIELD</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="crop_current_yield_tonsha" placeholder="Current yield (tons/ha)" min="0" step="any">
+                                                            <label for="crop_current_yield_tonsha">Current yield (tons/ha)</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="crop_market_price1ton" placeholder="Market price (CHF/ton)" min="0" step="any">
+                                                            <label for="crop_market_price1ton">Market price (CHF/ton)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="crop_current_revenuein_1_year"></td><td>Current revenue (CHF in 1 year)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="crop_increased_yield_tonsha"></td><td>Increased yield (tons/ha)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="crop_price_of_increased_yieldha"></td><td>Price of increased yield (CHF/ha)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="crop_increased_revenuein_1_year"></td><td>Increased revenue (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="crop_calc_fertilizer">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="ri-ink-bottle-fill me-2"></i><span class="fw-bold">FERTILIZER USE</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="crop_current_fertilizer_usage_kg_ha" placeholder="Fertilizer usage (kg/ha)" min="0" step="any">
+                                                            <label for="crop_current_fertilizer_usage_kg_ha">Fertilizer usage (kg/ha)</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="crop_current_fertilizer_cost1_kg" placeholder="Fertilizer cost (CHF/kg)" min="0" step="any">
+                                                            <label for="crop_current_fertilizer_cost1_kg">Fertilizer cost (CHF/kg)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="crop_current_fertilization_costha"></td><td>Current fertilization cost (CHF/ha)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="crop_reduced_fertilizer_usage_kgha"></td><td>Reduced fertilizer usage (kg/ha)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="crop_fertilizer_cost_savingsha"></td><td>Fertilizer cost savings (CHF/ha)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="crop_fertilization_cost_savingin_1_year"></td><td>Fertilization cost savings (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="crop_calc_water">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="ri-contrast-drop-2-fill me-2"></i><span class="fw-bold">WATER USE</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="crop_current_water_usage_m3ha" placeholder="Water usage (m3/ha)" min="0" step="any">
+                                                            <label for="crop_current_water_usage_m3ha">Water usage (m3/ha)</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="crop_current_water_costm3" placeholder="Water cost (CHF/m3)" min="0" step="any">
+                                                            <label for="crop_current_water_costm3">Water cost (CHF/m3)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="crop_current_irrigation_costha"></td><td>Current irrigation cost (CHF/ha)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="crop_reduced_water_usage_m3ha"></td><td>Reduced water usage (m3/ha)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="crop_water_cost_savings_ha"></td><td>Water cost savings (CHF/ha)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="crop_water_cost_savings_in_1_year"></td><td>Water cost savings (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="crop_calc_pesticide">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="ri-bug-fill me-2"></i><span class="fw-bold">PESTICIDE USE</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="crop_current_pestcide_usage_kg_or_lt_ha" placeholder="Pesticide usage (kg or lt/ha)" min="0" step="any">
+                                                            <label for="crop_current_pestcide_usage_kg_or_lt_ha">Pesticide usage (kg or lt/ha)</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="crop_current_pesticide_costkg_or_lt" placeholder="Pesticide cost (CHF/kg or lt)" min="0" step="any">
+                                                            <label for="crop_current_pesticide_costkg_or_lt">Pesticide cost (CHF/kg or lt)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="crop_current_pesticide_costha"></td><td>Current pesticide cost (CHF/ha)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="crop_reduced_pesticide_usage_kg_or_lt_ha"></td><td>Reduced pesticide usage (kg or lt/ha)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="crop_pesticide_cost_savingha"></td><td>Pesticide cost savings (CHF/ha)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="crop_pesticide_cost_savingsin_1_year"></td><td>Pesticide cost savings (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="crop_calc_labor">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="bi bi-people-fill me-2"></i><span class="fw-bold">LABOR COST</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="crop_current_labor_costin_1_year" placeholder="Labor cost (CHF/year)" min="0" step="any">
+                                                            <label for="crop_current_labor_costin_1_year">Labor cost (CHF/year)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="crop_labor_cost_savings_in_1_year"></td><td>Labor cost savings (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="crop_calc_fuel">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="ri-gas-station-fill me-2"></i><span class="fw-bold">FUEL COST</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="crop_current_fuel_costin_1_year" placeholder="Fuel cost (CHF/year)" min="0" step="any">
+                                                            <label for="crop_current_fuel_costin_1_year">Fuel cost (CHF/year)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="crop_fuel_cost_savings_in_1_year"></td><td>Fuel cost savings (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="crop_calc_totals">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="fa-solid fa-money-bill-transfer me-2"></i><span class="fw-bold">INVESTMENT DECISION</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="row mb-1 gx-0 justify-content-center" >
+                                                    <table class="table table-hover">
+                                                        <tbody>
+                                                            <tr><td class="text-end text-nowrap" id="crop_annual_change_in_net_income"></td><td>Annual change in Net Income  (CHF)<br>This shows how much more or less money you earn each year after using the equipment.<br>(annual total Impact (including addtional annual OPEX [e.g., Subscriptions, Maintenance,etc.]) with DATS usage</td></tr>
+                                                            <tr><td class="text-end text-nowrap" id="crop_return_on_investment_roi"></td><td>Annual ROI (%)<br>The net change in your income per year as a percentage of the equipment's initial cost.<br>(Annual change in Net Income / initial cost of the equipment) </td></tr>
+                                                            <tr><td class="text-end text-nowrap" id="crop_payback_period"></td><td>Payback Period (years)<br>How many years it will take to earn back the money you spent on the equipment.<br>(N/A means that the investment does not recover its cost under current conditions)</td></tr>
+                                                            <tr><td class="text-end text-nowrap fw-bold" id="crop_is_the_dat_beneficial"></td><td>Is the DAT Beneficial?<br>(6 year payback period threshold) </td></tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="tabLive" role="tabpanel" aria-labelledby="btnTabLive">
+                            <div class="row my-2 text-center">
+                                <div class="col-6 px-1 pb-1 border border-2 border-top-0 border-start-0">
+                                    <div class="form-floating">
+                                        <select class="form-select" id="cboTypelivestock" onchange="OnChangeType()" aria-label="DATSs for Livestock">
+                                            <option value="cattle">Cattle</option>
+                                            <option value="pigs">Pigs</option>
+                                            <option value="poultry">Poultry</option>
+                                            <option value="small_ruminants">Small Ruminants</option>
+                                        </select>
+                                        <label for="cboTypelivestock">DATSs for Livestock</label>
+                                    </div>
+                                </div>
+                                <div class="col-6 border border-2 border-top-0 border-start-0 border-end-0">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h5 class="fw-bold mt-2 mx-2">Livestock Calculator Modules</h5>
+                                        <button class="btn btn-primary btn-lg fs-5 fw-bold" id="btnCalclivestock" onclick="Recalculate()">Recalculate</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-6 border border-2 border-top-0 border-bottom-0 border-start-0" id="divDATlivestock">
+
+                                </div>
+                                <div class="col-6" id="divCalcslivestock">
+                                    <div class="list-group" id="divCalcListlivestock">
+                                        <div class="list-group-item list-group-item-action" id="livestock_calc_investment">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><span class="fw-bold">INVESTMENT COST</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestock_number_of_animals" placeholder="Number of animals" min="0" step="any">
+                                                            <label for="livestock_number_of_animals">Number of animals</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestock_years_of_usage" placeholder="Years of usage" min="0" step="1">
+                                                            <label for="livestock_years_of_usage">Years of usage</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestock_number_of_units_sensors_etc" placeholder="Number of Units (sensors etc.)" min="0" step="1">
+                                                            <label for="livestock_number_of_units_sensors_etc">Number of Units (sensors etc.)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="livestock_total_cost_of_dat_purchase"></td><td>Total Initial cost of DATS Purchase (CHF)<br>Includes purchase price, installation or setup costs, and any other INITIAL expenses.</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="livestock_maintenance_costs"></td><td>Maintainance Costs (CHF/year)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="livestock_depreciation"></td><td>Depreciation (CHF/year)<br>(i.e. the annual reduction in the intial value of a tangible fixed asset)</td></tr>
+                                                              </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="livestock_calc_milk_yield">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="fa-solid fa-glass-water-droplet fa-fw me-2"></i><span class="fw-bold">MILK YIELD</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestock_average_milk_price_per_literliter" placeholder="Average milk price (CHF/l)" min="0" step="any">
+                                                            <label for="livestock_average_milk_price_per_literliter">Average milk price (CHF/l)</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestock_average_liters_of_milk_produced_per_cow_per_day_l" placeholder="Average liters of milk per cow per day (l)" min="0" step="any">
+                                                            <label for="livestock_average_liters_of_milk_produced_per_cow_per_day_l">Average liters of milk per cow per day (l)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="livestock_price_of_yield"></td><td>Price of Milk Yield in one year (CHF)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="livestock_price_of_increased_yield"></td><td>Price of Increased Milk Yield in one year (CHF)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="livestock_increased_revenuein_1_year"></td><td>Increased Revenue (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="livestock_calc_labor_cost">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="bi bi-people-fill me-2"></i><span class="fw-bold">LABOR COST</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestock_current_labor_costin_1_year" placeholder="Labor Cost (CHF in 1 year)" min="0" step="any">
+                                                            <label for="livestock_current_labor_costin_1_year">Labor Cost (CHF in 1 year)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="livestock_labor_cost_savings"></td><td>Labor cost saving (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="livestock_calc_energy_cost">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="fa-solid fa-bolt fa-fw me-2"></i><span class="fw-bold">ENERGY COST</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestock_current_energy_consumptionin_kwh" placeholder="Energy Consumption (kWh)" min="0" step="any">
+                                                            <label for="livestock_current_energy_consumptionin_kwh">Energy Consumption (kWh)</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestock_cost_of_energy_per_kwh" placeholder="Cost of Energy per kWh (CHF)" min="0" step="any">
+                                                            <label for="livestock_cost_of_energy_per_kwh">Cost of Energy per kWh (CHF)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="livestock_current_energy_cost"></td><td>Cost of Energy (CHF in 1 year)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="livestock_energy_cost_savings"></td><td>Energy Cost Savings (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="livestock_calc_water_usage">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="ri-contrast-drop-2-fill me-2"></i><span class="fw-bold">WATER USE</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestock_current_water_costin_1_year" placeholder="Water Cost (CHF in 1 year)" min="0" step="any">
+                                                            <label for="livestock_current_water_costin_1_year">Water Cost (CHF in 1 year)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="livestock_water_cost_saving"></td><td>Water Cost Saving (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="livestock_calc_profit_per_animal">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="fa-solid fa-money-bill-trend-up fa-fw me-2"></i><span class="fw-bold">PROFIT PER ANIMAL</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="livestock_profit_per_animal"></td><td>Profit per Animal Increase in 1 year (CHF)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="livestock_calc_feed_cost">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="fa-solid fa-plate-wheat fa-fw me-2"></i><span class="fw-bold">FEED COST</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestock_current_feed_costin_1_year" placeholder="Feed Cost (CHF in 1 year)" min="0" step="any">
+                                                            <label for="livestock_current_feed_costin_1_year">Feed Cost (CHF in 1 year)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="livestock_feed_cost"></td><td>Feed Cost Saving (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="livestock_calc_feed_waste">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="fa-solid fa-trash-can fa-fw me-2"></i><span class="fw-bold">FEED WASTE COST</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestock_current_feed_waste_costin_1_year" placeholder="Feed Waste Cost (CHF in 1 year)" min="0" step="any">
+                                                            <label for="livestock_current_feed_waste_costin_1_year">Feed Waste Cost (CHF in 1 year)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="livestock_feed_waste"></td><td>Feed Waste Cost Saving (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="livestock_calc_antibiotics_cost">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="fa-solid fa-syringe fa-fw me-2"></i><span class="fw-bold">ANTIBIOTICS COST</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestock_current_antibiotics_costin_1_year" placeholder="Antibiotics Cost (CHF in 1 year)" min="0" step="any">
+                                                            <label for="livestock_current_antibiotics_costin_1_year">Antibiotics Cost (CHF in 1 year)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="livestock_antibiotics_cost_saving"></td><td>Antibiotics Cost Saving (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="livestock_calc_mortality_cost">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="fa-solid fa-hand-holding-medical fa-fw me-2"></i><span class="fw-bold">MORTALITY COST</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestock_current_mortality_costin_1_year" placeholder="Mortality Cost (CHF in 1 year)" min="0" step="any">
+                                                            <label for="livestock_current_mortality_costin_1_year">Mortality Cost (CHF in 1 year)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="livestock_mortality_cost_saving"></td><td>Mortality Cost Saving (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="livestock_calc_profitability_increase">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="fa-solid fa-money-bill-trend-up fa-fw me-2"></i><span class="fw-bold">PROFITABILITY</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestock_current_profitabilityin_1_year" placeholder="Current Profitability (CHF in 1 year)" min="0" step="any">
+                                                            <label for="livestock_current_profitabilityin_1_year">Current Profitability (CHF in 1 year)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="livestock_profitability_increase"></td><td>Profit Increase in 1 year (CHF)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="livestock_calc_totals">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="fa-solid fa-money-bill-transfer me-2"></i><span class="fw-bold">INVESTMENT DECISION</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="row mb-1 gx-0 justify-content-center" >
+                                                    <table class="table table-hover">
+                                                        <tbody>
+                                                            <tr><td class="text-end text-nowrap" id="livestock_annual_change_in_net_income"></td><td>Annual change in Net Income  (CHF)<br>This shows how much more or less money you earn each year after using the equipment.<br>(annual total Impact (including addtional annual OPEX [e.g., Subscriptions, Maintenance,etc.]) with DATS usage</td></tr>
+                                                            <tr><td class="text-end text-nowrap" id="livestock_return_on_investment_roi"></td><td>Annual ROI (%)<br>The net change in your income per year as a percentage of the equipment's initial cost.<br>(Annual change in Net Income / initial cost of the equipment) </td></tr>
+                                                            <tr><td class="text-end text-nowrap" id="livestock_payback_period"></td><td>Payback Period (years)<br>How many years it will take to earn back the money you spent on the equipment.<br>(N/A means that the investment does not recover its cost under current conditions)</td></tr>
+                                                            <tr><td class="text-end text-nowrap fw-bold" id="livestock_is_the_dat_beneficial"></td><td>Is the DAT Beneficial?<br>(6 year payback period threshold) </td></tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="tab-pane fade" id="tabCropTC" role="tabpanel" aria-labelledby="btnTabCropTC">
+                            <div class="row my-2 text-center">
+                                <div class="col-6 px-1 pb-1 border border-2 border-top-0 border-start-0">
+                                    <h5 class="fw-bold mt-2" style="min-height: 42px;">Test Cases' DATSs for Crop Farming</h5>
+                                </div>
+                                <div class="col-6 border border-2 border-top-0 border-start-0 border-end-0">                    
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h5 class="fw-bold mt-2">Crop Calculator Modules based on Test Cases' data</h5>
+                                        <button class="btn btn-primary btn-lg fs-5 fw-bold" id="btnCalccropTC" onclick="Recalculate()">Recalculate</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-6 border border-2 border-top-0 border-bottom-0 border-start-0" id="divDATcropTC">
+
+                                </div>
+                                <div class="col-6" id="divCalcscropTC">
+                                    <div class="list-group" id="divCalcListcropTC">
+                                        <div class="list-group-item list-group-item-action" id="cropTC_calc_investment">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><span class="fw-bold">INVESTMENT COST</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="cropTC_years_of_usage" placeholder="Years of usage" min="0" step="1">
+                                                            <label for="cropTC_years_of_usage">Years of usage</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="cropTC_total_area_ha" placeholder="Total area (ha)" min="0" step="any">
+                                                            <label for="cropTC_total_area_ha">Total area (ha)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="cropTC_total_initial_cost_of_dat_purchase"></td><td>Total Initial cost of DATS Purchase (CHF)<br>Includes purchase price, installation or setup costs, and any other INITIAL expenses.</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="cropTC_depreciation"></td><td>Depreciation (CHF/year)<br>(i.e. the annual reduction in the intial value of a tangible fixed asset)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="cropTC_calc_yield">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="ri-seedling-fill me-2"></i><span class="fw-bold">YIELD</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="cropTC_current_yield_tonsha" placeholder="Current yield (tons/ha)" min="0" step="any">
+                                                            <label for="cropTC_current_yield_tonsha">Current yield (tons/ha)</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="cropTC_market_priceoneton" placeholder="Market price (CHF/ton)" min="0" step="any">
+                                                            <label for="cropTC_market_priceoneton">Market price (CHF/ton)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="cropTC_current_revenue_without_dats"></td><td>Current revenue without DATS usage (CHF in 1 year)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="cropTC_yield_with_dats"></td><td>Yield with DATS usage (tons/ha)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="cropTC_price_of_yield_with_dats"></td><td>Price of Yield with DATS usage (CHF/ha)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="cropTC_revenue_impact_with_dats"></td><td>Revenue Impact with DATS usage (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="cropTC_calc_fertilizer">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="ri-ink-bottle-fill me-2"></i><span class="fw-bold">FERTILIZER USE</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="cropTC_current_fertilizer_usage_kg_ha" placeholder="Fertilizer usage (kg/ha)" min="0" step="any">
+                                                            <label for="cropTC_current_fertilizer_usage_kg_ha">Fertilizer usage (kg/ha)</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="cropTC_current_fertilizer_cost_one_kg" placeholder="Fertilizer cost (CHF/kg)" min="0" step="any">
+                                                            <label for="cropTC_current_fertilizer_cost_one_kg">Fertilizer cost (CHF/kg)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="cropTC_current_fertilization_cost_without_dats"></td><td>Current Fertilization Cost without DATS usage (CHF/ha)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="cropTC_fertilizer_usage_with_dats"></td><td>Fertilizer usage with DATS (kg/ha)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="cropTC_fertilizer_cost_with_dats_usage"></td><td>Fertilizer Cost with DATS usage (CHF/ha)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="cropTC_fertilization_cost_with_dats"></td><td>Fertilization Cost with DATS usage (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="cropTC_calc_water">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="ri-contrast-drop-2-fill me-2"></i><span class="fw-bold">WATER USE</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="cropTC_current_water_usage_m3ha" placeholder="Water usage (m3/ha)" min="0" step="any">
+                                                            <label for="cropTC_current_water_usage_m3ha">Water usage (m3/ha)</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="cropTC_current_water_costm3" placeholder="Water cost (CHF/m3)" min="0" step="any">
+                                                            <label for="cropTC_current_water_costm3">Water cost (CHF/m3)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="cropTC_current_irrigation_cost_without_dat"></td><td>Current Irrigation Cost without DATS usage (CHF/ha)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="cropTC_water_usage"></td><td>Water usage with DATS (m3/ha)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="cropTC_water_cos"></td><td>Water Cost with DATS usage (CHF/ha)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="cropTC_water_cost_with_dats"></td><td>Water Cost with DATS usage (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="cropTC_calc_pesticide">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="ri-bug-fill me-2"></i><span class="fw-bold">PESTICIDE USE</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="cropTC_current_pestcide_usage_kg_or_lt_ha" placeholder="Pesticide usage (kg or lt/ha)" min="0" step="any">
+                                                            <label for="cropTC_current_pestcide_usage_kg_or_lt_ha">Pesticide usage (kg or lt/ha)</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="cropTC_current_pesticide_costkg_or_lt" placeholder="Pesticide cost (CHF/kg or lt)" min="0" step="any">
+                                                            <label for="cropTC_current_pesticide_costkg_or_lt">Pesticide cost (CHF/kg or lt)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="cropTC_current_pesticide_cost_without_dats"></td><td>Current pesticide cost without DATS  usage (CHF/ha)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="cropTC_pesticide_usage_with_dats"></td><td>Pesticide usage with DATS (kg or lt/ha)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="cropTC_pesticide_cost_with_dats_euro_per_hectar"></td><td>Pesticide Cost with DATS usage (CHF/ha)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="cropTC_pesticide_cost_with_dats_euro_per_year"></td><td>Pesticide Cost with DATS usage (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="cropTC_calc_labor">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="bi bi-people-fill me-2"></i><span class="fw-bold">WORKING TIME COST</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="cropTC_current_labor_costin_one_year" placeholder="Working Time Cost (CHF/year)" min="0" step="any">
+                                                            <label for="cropTC_current_labor_costin_one_year">Working Time Cost (CHF/year)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="cropTC_working_time_cost_with_dat"></td><td>Working Time Cost with DATS usage (CHF/year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="cropTC_calc_fuel">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="ri-gas-station-fill me-2"></i><span class="fw-bold">FUEL COST</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="cropTC_current_fuel_costin_one_year" placeholder="Fuel cost (CHF/year)" min="0" step="any">
+                                                            <label for="cropTC_current_fuel_costin_one_year">Fuel cost (CHF/year)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="cropTC_fuel_cost_with_dats"></td><td>Fuel cost with DATS usage (CHF/year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="cropTC_calc_electricity">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="fa-solid fa-bolt fa-fw me-2"></i><span class="fw-bold">ELECTRICITY COST</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="cropTC_current_electricity_costin_one_year" placeholder="Electricity cost (CHF/year)" min="0" step="any">
+                                                            <label for="cropTC_current_electricity_costin_one_year">Electricity cost (CHF/year)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="cropTC_electricity_cost_with_dats"></td><td>Electricity cost with DATS usage (CHF/year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="cropTC_calc_totals">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="fa-solid fa-money-bill-transfer me-2"></i><span class="fw-bold">INVESTMENT DECISION</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="row mb-1 gx-0 justify-content-center" >
+                                                    <table class="table table-hover">
+                                                        <tbody>
+                                                            <tr><td class="text-end text-nowrap" id="cropTC_annual_change_in_net_income"></td><td>Annual change in Net Income  (CHF)<br>This shows how much more or less money you earn each year after using the equipment.<br>(annual total Impact (including addtional annual OPEX [e.g., Subscriptions, Maintenance,etc.]) with DATS usage</td></tr>
+                                                            <tr><td class="text-end text-nowrap" id="cropTC_annual_roi_percentage_annual_change_in_net_income"></td><td>Annual ROI (%)<br>The net change in your income per year as a percentage of the equipment's initial cost.<br>(Annual change in Net Income / initial cost of the equipment) </td></tr>
+                                                            <tr><td class="text-end text-nowrap" id="cropTC_payback_period_years"></td><td>Payback Period (years)<br>How many years it will take to earn back the money you spent on the equipment.<br>(N/A means that the investment does not recover its cost under current conditions)</td></tr>
+                                                            <tr><td class="text-end text-nowrap fw-bold" id="cropTC_is_the_dat_beneficial"></td><td>Is the DAT Beneficial?<br>(6 year payback period threshold) </td></tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="tab-pane fade" id="tabLiveTC" role="tabpanel" aria-labelledby="btnTabLiveTC">
+                            <div class="row my-2 text-center">
+                                <div class="col-6 px-1 pb-1 border border-2 border-top-0 border-start-0">
+                                    <h5 class="fw-bold mt-2" style="min-height: 42px;">Test Cases' DATSs for Livestock Farming</h5>
+                                </div>
+                                <div class="col-6 border border-2 border-top-0 border-start-0 border-end-0">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h5 class="fw-bold mt-2">Livestock Calculator Modules based on Test Cases' data</h5>
+                                        <button class="btn btn-primary btn-lg fs-5 fw-bold" id="btnCalclivestockTC" onclick="Recalculate()">Recalculate</button>
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-6 border border-2 border-top-0 border-bottom-0 border-start-0" id="divDATlivestockTC">
+
+                                </div>
+                                <div class="col-6" id="divCalcslivestockTC">
+                                    <div class="list-group" id="divCalcListlivestockTC">
+                                        <div class="list-group-item list-group-item-action" id="livestockTC_calc_investment">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><span class="fw-bold">INVESTMENT COST</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestockTC_number_of_animals" placeholder="Number of animals" min="0" step="any">
+                                                            <label for="livestockTC_number_of_animals">Number of animals</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestockTC_years_of_usage" placeholder="Years of usage" min="0" step="1">
+                                                            <label for="livestockTC_years_of_usage">Years of usage</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_total_intial_cost_of_dat"></td><td>Total Initial cost of DATS Purchase (CHF)<br>Includes purchase price, installation or setup costs, and any other INITIAL expenses.</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_depreciation"></td><td>Depreciation (CHF/year)<br>(i.e. the annual reduction in the intial value of a tangible fixed asset)</td></tr>
+                                                              </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="livestockTC_calc_meat">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="fa-solid fa-cow me-2"></i><span class="fw-bold">MEAT PRODUCTIVITY</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestockTC_average_meat_price_euro_per_kg" placeholder="Average meat price per kg" min="0" step="any">
+                                                            <label for="livestockTC_average_meat_price_euro_per_kg">Average meat price per kg</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestockTC_average_meat_produced_per_year_kg" placeholder="Average meat produced per year (kg/year)" min="0" step="any">
+                                                            <label for="livestockTC_average_meat_produced_per_year_kg">Average meat produced per year (kg/year)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_meat_current_revenue"></td><td>Current Revenue without DATS (CHF in 1 year)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_meat_productivity_with_dats"></td><td>Meat Productivity with DATS usage (kg/year)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_meat_price_with_dats"></td><td>Meat price with DATS usage in one year (CHF)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_meat_revenue_impact"></td><td>Revenue Impact with DATS usage (CHF in 1 year)</td></tr>
+                                                              </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="livestockTC_calc_oyster">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="fa-solid fa-egg me-2"></i><span class="fw-bold">OYSTER</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestockTC_average_oyster_price_euro_per_kg" placeholder="Average oyster price (CHF/kg)" min="0" step="any">
+                                                            <label for="livestockTC_average_oyster_price_euro_per_kg">Average oyster price (CHF/kg)</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestockTC_average_oysters_produced_per_year_kg" placeholder="Oysters produced per year (kg/year)" min="0" step="1">
+                                                            <label for="livestockTC_average_oysters_produced_per_year_kg">Oysters produced per year (kg/year)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_oyster_current_revenue"></td><td>Current Revenue without DATS (CHF in 1 year)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_oysters_productivity_with_dats"></td><td>Oysters Productivity with DATS usage (kg/year)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_oyster_price_with_dats"></td><td>Oyster price with DATS usage in one year (CHF)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_oyster_revenue_impact"></td><td>Revenue Impact with DATS usage (CHF in 1 year)</td></tr>
+                                                              </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="livestockTC_calc_honey">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="fa-brands fa-forumbee me-2"></i><span class="fw-bold">HONEY</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestockTC_average_honey_price_euro_per_kg" placeholder="Average honey price (CHF/kg)" min="0" step="any">
+                                                            <label for="livestockTC_average_honey_price_euro_per_kg">Average honey price (CHF/kg)</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestockTC_average_honey_produced_per_year_kg" placeholder="Honey produced per year (kg/year)" min="0" step="1">
+                                                            <label for="livestockTC_average_honey_produced_per_year_kg">Honey produced per year (kg/year)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_honey_current_revenue"></td><td>Current Revenue without DATS (CHF in 1 year)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_honey_productivity_with_dats"></td><td>Honey Productivity with DATS usage (kg/year)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_honey_price_with_dats"></td><td>Honey price with DATS usage in one year (CHF)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_honey_revenue_impact"></td><td>Revenue Impact with DATS usage (CHF in 1 year)</td></tr>
+                                                              </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="livestockTC_calc_milk_yield">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="fa-solid fa-glass-water-droplet fa-fw me-2"></i><span class="fw-bold">MILK YIELD</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestockTC_average_milk_price_per_liter_euro_per_liter" placeholder="Average milk price (CHF/l)" min="0" step="any">
+                                                            <label for="livestockTC_average_milk_price_per_liter_euro_per_liter">Average milk price (CHF/l)</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestockTC_average_liters_of_milk_produced_per_animal_per_day_with_dat_s_l" placeholder="Average liters of milk per cow per day (l)" min="0" step="any">
+                                                            <label for="livestockTC_average_liters_of_milk_produced_per_animal_per_day_with_dat_s_l">Average liters of milk per cow per day (l)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_milk_current_revenue"></td><td>Current Revenue without DATS (CHF in 1 year)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_average_liters_of_milk_produced_per_animal"></td><td>Average liters of milk produced per animal per day with DATS (l)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_price_of_milk_yield_with_dat_s"></td><td>Price of Milk Yield with DATS usage (CHF in 1 year)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_milk_revenue_impact"></td><td>Revenue Impact with DATS usage (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="livestockTC_calc_labor_cost">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="bi bi-people-fill me-2"></i><span class="fw-bold">WORKING TIME COST</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestockTC_current_labor_cost_without_dats_usage_euro_in_one_year" placeholder="Labor Cost (CHF in 1 year)" min="0" step="any">
+                                                            <label for="livestockTC_current_labor_cost_without_dats_usage_euro_in_one_year">Labor Cost (CHF in 1 year)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_labor_cost_with_dat"></td><td>Labor cost with DATS usage (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="livestockTC_calc_electricity_cost">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="fa-solid fa-bolt fa-fw me-2"></i><span class="fw-bold">ELECTRICITY COST</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestockTC_current_electricity_consumption_without_dats_usage_in_kwh" placeholder="Electricity Consumption (kWh)" min="0" step="any">
+                                                            <label for="livestockTC_current_electricity_consumption_without_dats_usage_in_kwh">Energy Consumption (kWh)</label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestockTC_cost_of_electricity_per_kwh_euro" placeholder="Cost of Electricity per kWh (CHF)" min="0" step="any">
+                                                            <label for="livestockTC_cost_of_electricity_per_kwh_euro">Cost of Electricity per kWh (CHF)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_current_cost_of_electricity_without_dats"></td><td>Cost of Electricity without DATS usage (CHF in 1 year)</td></tr>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_elecricity_cost_with_dats"></td><td>Elecricity Cost  with DATS usage (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="livestockTC_calc_water_usage">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="ri-contrast-drop-2-fill me-2"></i><span class="fw-bold">WATER USE</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestockTC_current_water_cost_euro_in_one_year" placeholder="Water Cost (CHF in 1 year)" min="0" step="any">
+                                                            <label for="livestockTC_current_water_cost_euro_in_one_year">Water Cost (CHF in 1 year)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_water_cost_with_dats"></td><td>Water Cost with DATS usage (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="livestockTC_calc_feed_cost">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="fa-solid fa-plate-wheat fa-fw me-2"></i><span class="fw-bold">FEED COST</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestockTC_current_feed_cost_without_dats_usage_euro_in_one_year" placeholder="Feed Cost (CHF in 1 year)" min="0" step="any">
+                                                            <label for="livestockTC_current_feed_cost_without_dats_usage_euro_in_one_year">Feed Cost (CHF in 1 year)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_feed_cost_with_dats"></td><td>Feed Cost with DATS usage (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="livestockTC_calc_fuel_cost">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="fa-solid fa-gas-pump fa-fw me-2"></i><span class="fw-bold">FUEL COST</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestockTC_current_fuel_cost_without_dats_usage_euro_in_one_year" placeholder="Fuel Cost (CHF in 1 year)" min="0" step="any">
+                                                            <label for="livestockTC_current_fuel_cost_without_dats_usage_euro_in_one_year">Fuel Cost (CHF in 1 year)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_fuel_cost_with_dat_s"></td><td>Fuel cost with DATS usage (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="livestockTC_calc_antibiotics_cost">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="fa-solid fa-syringe fa-fw me-2"></i><span class="fw-bold">DRUG USE</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestockTC_current_drug_cost_without_dats_usage_euro_in_one_year" placeholder="Drug Cost (CHF in 1 year)" min="0" step="any">
+                                                            <label for="livestockTC_current_drug_cost_without_dats_usage_euro_in_one_year">Drug Cost (CHF in 1 year)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_drug_cost_with_dat_s"></td><td>Drug Cost with DAT S usage  (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="livestockTC_calc_mortality_cost">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="fa-solid fa-hand-holding-medical fa-fw me-2"></i><span class="fw-bold">MORTALITY COST</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-5 border border-2 border-top-0 border-bottom-0 border-start-0">
+                                                    <div class="row mb-1 gx-0 justify-content-center">
+                                                        Parameters
+                                                    </div>
+                                                    <div class="row mb-1 gx-0">
+                                                        <div class="form-floating">
+                                                            <input type="number" class="form-control" id="livestockTC_current_mortality_cost_without_dats_usage_euro_in_one_year" placeholder="Mortality Cost (CHF in 1 year)" min="0" step="any">
+                                                            <label for="livestockTC_current_mortality_cost_without_dats_usage_euro_in_one_year">Mortality Cost (CHF in 1 year)</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-7 ">
+                                                    <div class="row mb-1 gx-0 justify-content-center border border-2 border-top-0 border-end-0 border-start-0">
+                                                        Result
+                                                    </div>
+                                                    <div class="row mb-1 gx-0 justify-content-center" >
+                                                        <table class="table table-hover">
+                                                            <tbody>
+                                                                <tr><td class="text-end text-nowrap" id="livestockTC_mortality_cost_with_dats"></td><td>Mortality Cost with DATS usage (CHF in 1 year)</td></tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="list-group-item list-group-item-action" id="livestockTC_calc_totals">
+                                            <div class="d-flex justify-content-between">
+                                                <h5><i class="fa-solid fa-money-bill-transfer me-2"></i><span class="fw-bold">INVESTMENT DECISION</span></h5>
+                                            </div>
+                                            <div class="row">
+                                                <div class="row mb-1 gx-0 justify-content-center" >
+                                                    <table class="table table-hover">
+                                                        <tbody>
+                                                            <tr><td class="text-end text-nowrap" id="livestockTC_annual_change_in_net_income"></td><td>Annual change in Net Income  (CHF)<br>This shows how much more or less money you earn each year after using the equipment.<br>(annual total Impact (including addtional annual OPEX [e.g., Subscriptions, Maintenance,etc.]) with DATS usage</td></tr>
+                                                            <tr><td class="text-end text-nowrap" id="livestockTC_annual_roi"></td><td>Annual ROI (%)<br>The net change in your income per year as a percentage of the equipment's initial cost.<br>(Annual change in Net Income / initial cost of the equipment) </td></tr>
+                                                            <tr><td class="text-end text-nowrap" id="livestockTC_payback_period"></td><td>Payback Period (years)<br>How many years it will take to earn back the money you spent on the equipment.<br>(N/A means that the investment does not recover its cost under current conditions)</td></tr>
+                                                            <tr><td class="text-end text-nowrap fw-bold" id="livestockTC_is_the_dat_beneficial"></td><td>Is the DAT Beneficial?<br>(6 year payback period threshold) </td></tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div><!-- End Default Tabs -->
+                </div>
+            </div>
+        </section>
+
+        <div class="modal fade" id="modalDAT" tabindex="-1" data-bs-backdrop="false" style="display: none;" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalDATTitle"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" id="divDatDetail">
+
+                    </div>
+                    <div class="modal-footer">
+                        <div>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="modalSearch" tabindex="-1" data-bs-backdrop="false" style="display: none;" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"><i class="bi bi-search me-2"></i>Search for DATS</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row mb-2">
+                            <div class="col-10">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="txtSearchText" placeholder="Type DATS name or part of it (min 3 symbols)" >
+                                    <label for="txtSearchText">Enter DATS name or part of it (min 3 symbols)</label>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <button type="button" class="btn btn-primary" id="btnSearch" onclick="OnSearch()">Search</button>
+                            </div>
+                        </div>
+                        <div class="row mb-2">
+                            <div class="col-12" id="divSearchResults">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <div>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <div class="d-flex justify-content-center px-3">
+        <footer class="footer py-2 w-100" style="max-width: 1300px;">
+            <div class="d-flex flex-column gap-2">
+                <div class="d-flex align-items-center justify-content-center gap-3">
+                    <img src="assets/img/EN-Funded-by-the-EU.png" style="max-height:51px;">
+                    <img src="assets/img/QuantiFarm.svg" style="max-height:51px;">
+                    <img src="assets/img/BLW.jpg" style="max-height:51px; mix-blend-mode:multiply;">
+                </div>
+                <div class="d-flex align-items-center justify-content-center gap-3">
+                    <img src="assets/img/Agroscope.png" style="max-height:51px; mix-blend-mode:multiply;">
+                    <img src="assets/img/AGRIDEA.png" style="max-height:51px; max-width:130px;">
+                    <img src="assets/img/LZSG.jpg" style="max-height:51px; mix-blend-mode:multiply;">
+                </div>
+            </div>
+            <hr class="my-2">
+            <div class="d-flex justify-content-between">
+                <div class="credits mx-2">
+                    Copyright &copy; 2023-2026 <a href="https://quantifarm.eu/" target="_blank">The QuantiFarm Consortium</a>. All Rights Reserved.
+                </div>
+                <div class="credits">
+                    <a class="mx-2" href="cookies.html">Cookies Policy</a>
+                    <a class="mx-2" href="privacy.html">Privacy Policy</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/vendor/bs5-nav-tree/js/tree.js"></script>
+    <script src="js/uistrings.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/datinfo.js"></script>
+    <script src="js/tool2.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cost-Benefit DATs Loading Flowchart - QuantiFarm Switzerland</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.95;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .description {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 4px;
+        }
+        
+        .description h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        
+        .description p {
+            line-height: 1.8;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .flowchart-container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            margin-bottom: 30px;
+        }
+        
+        .legend {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+        
+        .legend-item {
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid;
+        }
+        
+        .legend-item h3 {
+            font-size: 1.1em;
+            margin-bottom: 8px;
+        }
+        
+        .legend-item p {
+            font-size: 0.9em;
+            color: #666;
+            line-height: 1.5;
+        }
+        
+        .sources { background: #e1f5ff; border-color: #01579b; }
+        .loader { background: #fff4e6; border-color: #e65100; }
+        .storage { background: #f3e5f5; border-color: #4a148c; }
+        .apis { background: #e8f5e9; border-color: #1b5e20; }
+        .backend { background: #fff3e0; border-color: #e65100; }
+        .frontend { background: #fce4ec; border-color: #880e4f; }
+        
+        .data-paths {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        
+        .data-paths h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        
+        .data-paths ol {
+            padding-left: 25px;
+        }
+        
+        .data-paths li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        /* Mermaid diagram styling */
+        .mermaid {
+            display: flex;
+            justify-content: center;
+        }
+        
+        /* Make diagram scrollable on small screens */
+        @media (max-width: 1200px) {
+            .flowchart-container {
+                overflow-x: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌾 Cost-Benefit DATs Loading Flowchart</h1>
+            <p>QuantiFarm Switzerland - Data Flow Architecture</p>
+        </div>
+        
+        <div class="content">
+            <div class="description">
+                <h2>📊 Overview</h2>
+                <p>
+                    This flowchart visualizes the complete data flow for Cost-Benefit Digital Agriculture Technologies (DATs) 
+                    in the QuantiFarm Switzerland platform. The process transforms Excel-based DAT definitions into a semantic 
+                    knowledge graph and delivers them through APIs to the user-facing Cost & Benefit Calculator interface.
+                </p>
+                <p>
+                    <strong>Key Components:</strong> Excel Sources → Python ETL Loader → Apache Jena Fuseki Triple Store → 
+                    FastAPI Services → PHP Backend → JavaScript Frontend → HTML UI
+                </p>
+            </div>
+            
+            <div class="flowchart-container">
+                <div class="mermaid">
+flowchart TD
+    Start([Start: Cost-Benefit DATs Loading]) --> ExcelFiles
+
+    subgraph Sources["📊 Source Data"]
+        ExcelFiles[Excel Files]
+        Arable[cost-benefit-arable-dats.xls<br/>Crop/Arable DATs]
+        Livestock[cost-benefit-lifestock-dats.xls<br/>Livestock DATs]
+        
+        ExcelFiles --> Arable
+        ExcelFiles --> Livestock
+    end
+
+    subgraph Loader["2️⃣ DATs Loader (Python)"]
+        ReadExcel[Read Excel<br/>Sheet 0, Row 2+]
+        ExtractData[Extract Data:<br/>• DAT Name<br/>• Provider<br/>• Description<br/>• Costs<br/>• Functionalities<br/>• Benefits]
+        GenURI[Generate URI:<br/>lowercase + underscores<br/>dats/dat_name]
+        CheckDupe{DAT already<br/>exists?}
+        
+        CreateNew[Create New DAT:<br/>• All metadata<br/>• RDF triples<br/>• Cost structure]
+        EnrichExisting[Enrich Existing DAT:<br/>• Add functionalities<br/>• Add digital forms<br/>• Add benefits]
+        
+        SectorCheck{Which file?}
+        AddCropType[Add Crop Properties:<br/>canBeUsedToCultivateCropType<br/>isTargetedTowardsAgriculturalSector]
+        AddLivestockType[Add Livestock Properties:<br/>canBeUsedToCultivateLifestockType<br/>isTargetedTowardsAgriculturalSector]
+        
+        BuildRDF[Build RDF Graph:<br/>• DAT triples<br/>• Provider triples<br/>• Cost triples<br/>• Source: costbenefit]
+        
+        ReadExcel --> ExtractData
+        ExtractData --> GenURI
+        GenURI --> CheckDupe
+        
+        CheckDupe -->|No| CreateNew
+        CheckDupe -->|Yes| EnrichExisting
+        
+        CreateNew --> SectorCheck
+        EnrichExisting --> SectorCheck
+        
+        SectorCheck -->|Arable| AddCropType
+        SectorCheck -->|Livestock| AddLivestockType
+        
+        AddCropType --> BuildRDF
+        AddLivestockType --> BuildRDF
+    end
+
+    Arable --> ReadExcel
+    Livestock --> ReadExcel
+
+    subgraph TripleStore["3️⃣ Triple Store (Fuseki)"]
+        PutRequest[HTTP PUT Request<br/>Destructive Loading]
+        GraphStore[Graph Store:<br/>https://quantifarm.eu/graphs/dats]
+        SPARQLEndpoint[SPARQL Endpoint:<br/>localhost:3030/quantifarm]
+        
+        PutRequest --> GraphStore
+        GraphStore --> SPARQLEndpoint
+    end
+
+    BuildRDF --> PutRequest
+
+    subgraph APIs["4️⃣ Cost-Benefit Calculator APIs"]
+        V1API[API Version 1<br/>Port 8688<br/>Generic Calculations]
+        V2API[API Version 2<br/>Port 8687<br/>Test Case Specific]
+        
+        QueryTriple1[Query Triple Store<br/>Crop & Livestock DATs]
+        QueryTriple2[Query Triple Store<br/>TC Crop & TC Livestock]
+        
+        BuildTree1[Build Hierarchical Tree:<br/>Cultivation Type → Functionality → DAT]
+        BuildTree2[Build Hierarchical Tree:<br/>TC → Functionality → DAT]
+        
+        V1API --> QueryTriple1
+        V2API --> QueryTriple2
+        QueryTriple1 --> BuildTree1
+        QueryTriple2 --> BuildTree2
+    end
+
+    SPARQLEndpoint --> QueryTriple1
+    SPARQLEndpoint --> QueryTriple2
+
+    subgraph Backend["5️⃣ Backend (tool2.php)"]
+        VersionSelect{Version<br/>Parameter?}
+        RouteV1[Route to API v1<br/>localhost:8688]
+        RouteV2[Route to API v2<br/>localhost:8687]
+        ProxyRequest[Proxy Request:<br/>/dat_tree + myDatType]
+        
+        VersionSelect -->|1| RouteV1
+        VersionSelect -->|2| RouteV2
+        RouteV1 --> ProxyRequest
+        RouteV2 --> ProxyRequest
+    end
+
+    BuildTree1 --> VersionSelect
+    BuildTree2 --> VersionSelect
+
+    subgraph Frontend["6️⃣ Frontend (tool2.js & tool2.html)"]
+        LoadData[LoadData Function]
+        
+        LoadCrop[Load Crop DATs<br/>version: 1<br/>type: crop]
+        LoadLive[Load Livestock DATs<br/>version: 1<br/>type: livestock]
+        LoadCropTC[Load Crop TC DATs<br/>version: 2<br/>type: cropTC]
+        LoadLiveTC[Load Livestock TC DATs<br/>version: 2<br/>type: livestockTC]
+        
+        IndexTree[Index Tree Structure<br/>dataTree object]
+        
+        RenderUI[Render UI Tree:<br/>• Cultivation Types<br/>• Functionalities<br/>• Individual DATs]
+        
+        UserInteraction[User Interaction:<br/>• Browse DATs<br/>• Select DAT<br/>• Input Parameters<br/>• Calculate Benefits]
+        
+        LoadData --> LoadCrop
+        LoadData --> LoadLive
+        LoadData --> LoadCropTC
+        LoadData --> LoadLiveTC
+        
+        LoadCrop --> IndexTree
+        LoadLive --> IndexTree
+        LoadCropTC --> IndexTree
+        LoadLiveTC --> IndexTree
+        
+        IndexTree --> RenderUI
+        RenderUI --> UserInteraction
+    end
+
+    ProxyRequest --> LoadData
+    
+    UserInteraction --> Results([Results Display:<br/>Cost Savings<br/>ROI<br/>Benefits])
+
+    style Sources fill:#e1f5ff
+    style Loader fill:#fff4e6
+    style TripleStore fill:#f3e5f5
+    style APIs fill:#e8f5e9
+    style Backend fill:#fff3e0
+    style Frontend fill:#fce4ec
+    style Start fill:#c8e6c9
+    style Results fill:#c8e6c9
+                </div>
+            </div>
+            
+            <div class="legend">
+                <div class="legend-item sources">
+                    <h3>📊 Source Data</h3>
+                    <p>Excel files containing DAT definitions with cost information, separated by agricultural sector (Arable vs Livestock).</p>
+                </div>
+                <div class="legend-item loader">
+                    <h3>2️⃣ DATs Loader</h3>
+                    <p>Python ETL process that extracts, transforms, and loads DAT data into RDF format with deduplication and enrichment logic.</p>
+                </div>
+                <div class="legend-item storage">
+                    <h3>3️⃣ Triple Store</h3>
+                    <p>Apache Jena Fuseki semantic database storing all DATs as linked data in named graphs, queryable via SPARQL.</p>
+                </div>
+                <div class="legend-item apis">
+                    <h3>4️⃣ API Layer</h3>
+                    <p>Two FastAPI services (v1 for generic, v2 for test cases) that query the triple store and build hierarchical data trees.</p>
+                </div>
+                <div class="legend-item backend">
+                    <h3>5️⃣ Backend</h3>
+                    <p>PHP proxy layer (tool2.php) that routes frontend requests to the appropriate API version based on parameters.</p>
+                </div>
+                <div class="legend-item frontend">
+                    <h3>6️⃣ Frontend</h3>
+                    <p>JavaScript application (tool2.js) that loads 4 data types in parallel, indexes them, and renders an interactive UI for users.</p>
+                </div>
+            </div>
+            
+            <div class="data-paths">
+                <h2>🔄 Data Flow Paths</h2>
+                <ol>
+                    <li><strong>Commercial Crop DATs:</strong> Excel → Loader → Triple Store → API v1 → PHP → JS → HTML</li>
+                    <li><strong>Commercial Livestock DATs:</strong> Excel → Loader → Triple Store → API v1 → PHP → JS → HTML</li>
+                    <li><strong>Test Case Crop DATs:</strong> Excel → Loader → Triple Store → API v2 → PHP → JS → HTML</li>
+                    <li><strong>Test Case Livestock DATs:</strong> Excel → Loader → Triple Store → API v2 → PHP → JS → HTML</li>
+                </ol>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>QuantiFarm Switzerland © 2026 | Cost-Benefit Calculator Data Flow Architecture</p>
+            <p>Generated from: <code>docs/cost-benefit-dats-loading-analysis.md</code></p>
+        </div>
+    </div>
+    
+    <script>
+        mermaid.initialize({ 
+            startOnLoad: true,
+            theme: 'default',
+            flowchart: {
+                useMaxWidth: true,
+                htmlLabels: true,
+                curve: 'basis',
+                padding: 20
+            },
+            themeVariables: {
+                fontSize: '16px',
+                fontFamily: 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif'
+            }
+        });
+    </script>
+</body>
+</html>

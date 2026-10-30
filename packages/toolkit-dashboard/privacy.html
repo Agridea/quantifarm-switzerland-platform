@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>QuantiFarm Toolkit - Privacy Policy</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XH06Z9BF5S"></script>
+    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-XH06Z9BF5S');</script>
+
+    <!-- Favicons -->
+    <link href="assets/img/QuantiFarm-element-60x60.png" rel="icon" sizes="32x32">
+    <link href="assets/img/QuantiFarm-element-60x60.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Sofia+Sans:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- DigiAgriFoodCH Theme -->
+    <link href="assets/css/digiagrifood-theme.css" rel="stylesheet">
+
+</head>
+
+<body class="">
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+
+        <a href="index.html" class="logo d-flex xalign-items-center">
+            <span>Toolkit</span>
+        </a>
+
+        <nav class="navbar navbar-expand-md d-none d-md-flex align-items-center position-absolute start-0 end-0 h-100" style="pointer-events: none;">
+            <div class="container-fluid d-flex align-items-center" style="pointer-events: auto;">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-2 pt-3 h-100 ">
+                        <a class="nav-link text-primary pe-0 pb-3" href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item pe-2 pt-3 h-100">
+                        <a class="nav-link text-primary pe-0 pb-3" href="toolkit.html">
+                            Toolkit
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown pt-3 h-100">
+                        <a class="nav-link text-primary dropdown-toggle pb-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Test cases
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a id="mnuResults" class="dropdown-item" href="results.html">
+                                    Results
+                                </a>
+                            </li>
+                            <li>
+                                <a id="mnuMethodology" class="dropdown-item" href="methodology.html">
+                                    Methodology
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item pe-2 pt-3 h-100">
+                        <a class="nav-link text-primary pe-0 pb-3" href="faq.html">
+                            FAQ
+                        </a>
+                    </li>
+                    <li class="nav-item pe-2 pt-3 h-100" hidden>
+                        <a class="nav-link text-primary pe-0 pb-3" target="_blank" href="https://quantifarm.eu/contact-us/">
+                            Contacts
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown pt-3 h-100">
+                        <a class="nav-link text-primary dropdown-toggle pb-3" href="#" id="lngDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">DE</a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="lngDropdown">
+                        <li><a class="dropdown-item" href="#" onclick="setLanguage('DE');return false;">DE – Deutsch</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="setLanguage('FR');return false;">FR – Français</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="setLanguage('IT');return false;">IT – Italiano</a></li>
+                    </ul>
+                </li>
+                </ul>
+                <ul class="navbar-nav">
+                <li class="nav-item dropdown pe-2 pt-3 h-100" id="mnuLogin">
+                    <a class="nav-link d-flex align-items-center text-primary px-4" href="login.html">
+                        <i class="ri-login-box-line" style="font-size: 26px"></i>
+                        <span>Login</span>
+                    </a>
+                </li>
+
+                <li class="nav-item pe-2 h-100" id="mnuUser" hidden>
+
+                    <a class="nav-link d-flex align-items-center text-primary px-4" href="#" data-bs-toggle="dropdown">
+                        <i class="bi bi-gear" style="font-size: 26px"></i>
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                        <li class="dropdown-header">
+                            <h6 id="mnuUserName"></h6>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="profile.html">
+                                <i class="bi bi-person"></i>
+                                <span>My Profile</span>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="php/api.php?c=out">
+                                <i class="bi bi-box-arrow-right"></i>
+                                <span>Log out</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="header-nav ms-auto h-100 d-md-none d-sm-block">
+            <ul class="d-flex align-items-center h-100">
+
+                <li class="nav-item dropdown pe-1 pt-2 h-100">
+
+                    <a class="nav-link d-flex align-items-center text-primary px-4 " href="#" data-bs-toggle="dropdown">
+                        <i class="bi bi-list" style="font-size: 32px"></i>
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                        <li>
+                            <a class="dropdown-item" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="toolkit.html">Toolkit</a>
+                        </li>
+                        <li>
+                            <a id="mnuResults" class="dropdown-item" href="results.html">Test cases</a>
+                        </li>
+                        <li>
+                            <a id="mnuMethodology" class="dropdown-item" href="methodology.html">Methodology</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="faq.html">FAQ</a>
+                        </li>
+                        <li hidden>
+                            <a class="dropdown-item" target="_blank" href="https://quantifarm.eu/contact-us/">Contacts</a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li id="mnuLogin2">
+                            <a class="dropdown-item" href="login.html">Login</a>
+                        </li>
+                        <li id="mnuProfile2">
+                            <a class="dropdown-item" href="profile.html">My Profile</a>
+                        </li>
+                        <li id="mnuLogout2">
+                            <a class="dropdown-item" href="php/api.php?c=out">Log out</a>
+                        </li>
+
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+    </header><!-- End Header -->
+
+    <main>
+
+        <div hidden>
+            <ul class="nav nav-pills" id="lngTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="lngBtnEN" data-bs-toggle="tab" data-bs-target="#lngTabEN" type="button" role="tab" aria-controls="lngTabEN" aria-selected="false" tabindex="-1" title="EN" onclick="LoadLanguageContent('EN')"></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="lngBtnDE" data-bs-toggle="tab" data-bs-target="#lngTabDE" type="button" role="tab" aria-controls="lngTabDE" aria-selected="true" title="DE" onclick="LoadLanguageContent('DE')"></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="lngBtnFR" data-bs-toggle="tab" data-bs-target="#lngTabFR" type="button" role="tab" aria-controls="lngTabFR" aria-selected="false" tabindex="-1" title="FR" onclick="LoadLanguageContent('FR')"></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="lngBtnIT" data-bs-toggle="tab" data-bs-target="#lngTabIT" type="button" role="tab" aria-controls="lngTabIT" aria-selected="false" tabindex="-1" title="IT" onclick="LoadLanguageContent('IT')"></button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div class="tab-content" id="lngTabsContent" style="max-width: 1200px; width: 100%;">
+            <div class="tab-pane fade" id="lngTabEN" role="tabpanel" aria-labelledby="lngBtnEN">
+                <div class="" style="max-width: 1200px;">
+
+            <h2 class="fw-bold qf-color1 mt-4">QuantiFarm Toolkit - Privacy Policy</h2>
+
+            <p>
+                This Privacy Policy aims to inform you about the processing of personal data collected via the 'QuantiFarm Toolkit'. The QuantiFarm project has received funding from the European Union?s Horizon Europe Programme under Grant Agreement No 101059700. By using the toolkit and registering, you agree to accept this Privacy Policy. Please take a minute to read carefully and understand it before using the toolkit.
+            </p>
+            <p>
+                NOTE: <b>At the QuantiFarm Toolkit, we are committed to maintaining the trust and confidence of all users of our services and complying with applicable data protection laws.</b> This policy is effective from 1 March 2024 and may be amended from time to time. It describes how and when the QuantiFarm Toolkit collects, uses and shares your personal data when you register and use its services. We use cookies to enable the toolkit to work and to provide you with a personalized experience. If you want further information on how we process personal data via cookies, you are kindly referred to the QuantiFarm Website's Cookies Policy.
+            </p>
+
+            <h5>1. Who is responsible for the processing of your personal data?</h5>
+
+            <p>1.1 Your personal data are processed by Neuropublic, technical coordinator of the QuantiFarm project ? this project has received funding from the European Union?s Horizon Europe Programme under Grant Agreement No 101059700. You can contact us via e-mail at <a href="mailto:info@quantifarm.eu">info@quantifarm.eu</a>.</p>
+            <p>1.2 Neuropublic reserves the right to modify, change or amend this Privacy Policy at its own discretion and from time to time. Such modifications, changes or amendments shall be communicated via the toolkit. In case of questions or comments with regard to the modifications, changes or amendments, you can inform us by sending an e-mail to <a href="mailto:info@quantifarm.eu">info@quantifarm.eu</a>.</p>
+
+            <h5>2. What categories of personal data do we process in the QuantiFarm Toolkit?</h5>
+
+            <p>2.1 We mainly collect the personal data that you submit to us. Most of the available toolkit content is accessed without registration. User registration is required only for the following tools:</p>
+
+            <ol type="a">
+                <li>'Cost and Benefit Calculators'</li>
+                <li>'Benchmarking Tool'</li>
+            </ol>
+
+            <p>2.2 When you provide data by interacting with the above mentioned tools, or contact us via e-mail, we may collect:</p>
+
+            <ul>
+                <li>identification data, such as name, surname, gender, nationality, age, role/occupation</li>
+                <li>contact data, such as e-mail address</li>
+                <li>the content of your communication and the technical details of the communication itself (with whom you correspond at our end, date and time, etc.);</li>
+                <li>electronic identification data, such as IP address;</li>
+            </ul>
+
+            <p>2.3 After registration specifically in the 'Cost and Benefit Calculators' or the 'Benchmarking Tool' you may be asked to provide certain information indicatively referring to:</p>
+
+            <ul>
+                <li>a parcel geometry</li>
+                <li>farm calendar entries (e.g. applied farming practices, dates, utilization of pesticides, irrigation data or harvest data)</li>
+            </ul>
+
+            <p>These data will only be available to the registered user who provided them.</p>
+
+            <h5>3. For what purpose do we use your personal data?</h5>
+
+            <p>3.1 Neuropublic processes your personal data collected via the QuantiFarm Toolkit to provide you in a personalized and efficient way with information and/or services you are using.</p>
+            <p>3.2 Neuropublic processes your personal data provided upon registration in the toolkit to perform statistical analyses so that we may improve our products and services or develop new products and services.</p>
+            <p>3.3 Neuropublic processes your personal data for the purpose of fulfilling legal and contractual obligations or complying with any reasonable request from competent law enforcement agents or representatives, judicial authorities, governmental agencies or bodies, including competent data protection authorities. Your personal data may be transferred upon Neuropublic?s own initiative to the police or the judicial authorities as evidence or if there are justified suspicions of an unlawful act or crime committed by you through your registration with or use of the toolkit or other communication with us.</p>
+            <p>3.4 Neuropublic may process your personal data for the preservation of the legitimate interests of QuantiFarm project, its partners or a third party if and when your registration with, or use of, the toolkit, Social Media Channels or other communication channels can be considered (a) a violation of any applicable terms of use or the intellectual property rights or any other right of a third party, (b) a threat to the security or integrity of the toolkit, (c) a danger to the toolkit or any of QuantiFarm project?s or its subcontractors? underlying systems due to viruses, Trojan horses, spyware, malware or any other form of malicious code, or (d) in any way hateful, obscene, discriminating, racist, slanderous, spiteful, hurtful or in some other way inappropriate or illegal.</p>
+
+            <h5>4. Why is our processing of your personal data legitimate?</h5>
+
+            <p>4.1 For the processing of your personal data for the purpose outlined in clause 3.1, we ask for your consent.</p>
+            <p>4.2 The processing of your personal data for the purpose outlined in clause 3.3 is necessary to allow QuantiFarm project to comply with its legal obligations.</p>
+            <p>4.3 The processing of your personal data for the purposes outlined in clauses 3.1, 3.2, and 3.4 is necessary for the purpose of the legitimate interests of QuantiFarm project, which are:</p>
+
+            <ul>
+                <li>the ability to appropriately respond to your requests for information and other requests</li>
+                <li>the communication of your personal data to our partners in the QuantiFarm project aiming to provide you with adequate information</li>
+                <li>the possibility to defend ourselves in legal proceedings</li>
+                <li>continuous improvements to the toolkit services to ensure that you have the best possible experience</li>
+                <li>safeguarding the QuantiFarm Toolkit, products and services from misuse and illegal activity</li>
+                <li>securing our commercial and business interests and needs in light of changing market conditions</li>
+                <li>for marketing and promotion purposes of our products, services, brands and an overall successful commercialization of our products and services.</li>
+            </ul>
+
+            <p>4.4 In order to process your personal data for the purposes outlined in the QuantiFarm Toolkit Privacy Policy, Neuropublic as the responsible party asks for your freely given consent. By consenting to our processing of your personal data for sending you communications, promotions, offerings, newsletters and other advertisements via e-mail or other person-to-person electronic communications channels, you agree that we are allowed to process your personal data in the manner and under the conditions summarized in this document. When we rely on your consent to process personal data, you have the right to withdraw or decline your consent at any time and where we rely on legitimate interests you have the right to object by contacting us by email at <a href="mailto:info@quantifarm.eu">info@quantifarm.eu</a>.</p>
+
+            <h5>5. What are our quality assurances?</h5>
+
+            <p>5.1 Neuropublic does its utmost to secure your personal data are protected and will process only those personal data which are necessary to achieve the purposes listed under the purpose for processing.</p>
+            <p>5.2 Your personal data will be processed only for as long as necessary for the purposes analysed above or up until such time where you withdraw your consent for processing them. Neuropublic will de-identify your personal data when they are no longer necessary for the purposes outlined in the purpose for processing, unless there is:</p>
+            <p>5.3 Neuropublic takes all the appropriate technical and organizational measures to keep your personal data safe from unauthorized access or theft as well as accidental loss, tampering or destruction. Access by personnel of Neuropublic or its third-party processors will only be on a need-to-know basis and subject to strict confidentiality obligations.</p>
+            <p>5.4 QuantiFarm Toolkit will keep the data from the users registered in the toolkit for as long as the project lasts (December 2025). Users can ask their information to be deleted at any time by sending an email with the request to <a href="mailto:info@quantifarm.eu">info@quantifarm.eu</a>.</p>
+
+            <ul>
+                <li>an overriding interest of QuantiFarm project or any other third party in maintaining your personal data identifiable;</li>
+                <li>a legal or regulatory obligation or a judicial or administrative order that prevents QuantiFarm project from de-identifying them.</li>
+            </ul>
+
+            <p>The information of the user will be deleted immediately upon request.</p>
+
+            <h5>6. What are your rights based on the General Data Protection Regulation?</h5>
+            <p>As provided by the General Data Protection Regulation, you have the right to:</p>
+            <p>6.1 access all personal data processed by Neuropublic thought the QuantiFarm Toolkit pertaining to you. Neuropublic reserves the right to charge an administrative fee for multiple subsequent requests for access that are clearly submitted for causing nuisance or harm to QuantiFarm project</p>
+            <p>6.2 ask for rectification free of charge, if any personal data pertaining to you are inaccurate. If a request for correction is submitted, such request shall be accompanied of proof of the flawed nature of the data for which correction is asked</p>
+            <p>6.3 withdraw your earlier given consent under clause 4.4 for processing your personal data at any time</p>
+            <p>6.4 request that personal data pertaining to you will be deleted if they are no longer required in light of the purposes which are outlined above. Instead of deletion you may also request that Neuropublic restricts the processing of your personal data if and when (a) you contest the accuracy of that data, (b) the processing is illegitimate or (c) the data are no longer needed for the purposes which are outlined above, but you need them to defend yourself in judicial proceedings. However, you need to keep in mind that a request for erasure of the data will be evaluated by Neuropublic against:</p>
+            <p></p>
+
+            <ul>
+                <li>overriding interests of the QuantiFarm Toolkit or the project as a whole;</li>
+                <li>legal or regulatory obligations or administrative or judicial orders which may contradict such deletion</li>
+            </ul>
+
+            <p>6.5 object to the processing of your personal data if you are able to prove that there are serious and justified reasons connected with his particular circumstances that warrant such opposition. However, if the intended processing qualifies as direct marketing, you have the right to oppose such processing free of charge and without justification</p>
+            <p>6.6 receive from us in a structured, commonly used and machine-readable format all personal data you have provided to us with</p>
+            <p>6.7 submit if you wish a request to exercise one or more of the rights listed above and send an e-mail to <a href="mailto:info@quantifarm.eu">info@quantifarm.eu</a> for all data subject rights matters. An e-mail requesting to exercise a right shall not be construed as consent with the processing of your personal data beyond what is required for handling your request. Such request should clearly state and specify which right you wish to exercise and the reasons for it if such is required. It should also be dated, signed and accompanied by a digitally scanned copy of your valid identity card proving your identity. QuantiFarm project will promptly inform you of having received this request. If the request proves valid, QuantiFarm project shall notify it as soon as reasonably possible and at the latest thirty (30) days after having received the request.</p>
+
+            <p>If you have any complaint regarding the processing of your personal data by Neuropublic, you may always contact QuantiFarm project via the e-mail address mentioned in the first paragraph of this clause. If you remain unsatisfied with QuantiFarm project?s response, you are free to file a complaint with the competent data protection authority, i.e. the data protection authority of the country where you reside or the Hellenic Data Protection Authority (A??? ???stas?a? ?ed?????? ???s?p???? ?a?a?t??a). For more information, visit <a href="https://www.dpa.gr/en">https://www.dpa.gr/en</a>.</p>
+
+
+                </div>
+            </div>
+            <div class="tab-pane fade" id="lngTabFR" role="tabpanel" aria-labelledby="lngBtnFR">
+            </div>
+            <div class="tab-pane fade" id="lngTabIT" role="tabpanel" aria-labelledby="lngBtnIT">
+            </div>
+            <div class="tab-pane fade active show" id="lngTabDE" role="tabpanel" aria-labelledby="lngBtnDE">
+            </div>
+            </div>
+        </div>
+
+    </main><!-- End #main -->
+    <!-- ======= Footer ======= -->
+    <div class="d-flex justify-content-center px-3">
+        <footer class="footer py-2 w-100" style="max-width: 1300px;">
+            <div class="d-flex flex-column gap-2">
+                <div class="d-flex align-items-center justify-content-center gap-3">
+                    <img src="assets/img/EN-Funded-by-the-EU.png" style="max-height:51px;">
+                    <img src="assets/img/QuantiFarm.svg" style="max-height:51px;">
+                    <img src="assets/img/BLW.jpg" style="max-height:51px; mix-blend-mode:multiply;">
+                </div>
+                <div class="d-flex align-items-center justify-content-center gap-3">
+                    <img src="assets/img/Agroscope.png" style="max-height:51px; mix-blend-mode:multiply;">
+                    <img src="assets/img/AGRIDEA.png" style="max-height:51px; max-width:130px;">
+                    <img src="assets/img/LZSG.jpg" style="max-height:51px; mix-blend-mode:multiply;">
+                </div>
+            </div>
+            <hr class="my-2">
+            <div class="d-flex justify-content-between">
+                <div class="credits mx-2">
+                    Copyright &copy; 2023-2026 <a href="https://quantifarm.eu/" target="_blank">The QuantiFarm Consortium</a>. All Rights Reserved.
+                </div>
+                <div class="credits">
+                    <a class="mx-2" href="cookies.html">Cookies Policy</a>
+                    <a class="mx-2" href="privacy.html">Privacy Policy</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="js/uistrings.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
+
+

@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>QuantiFarm - Recommendations Tool</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XH06Z9BF5S"></script>
+    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-XH06Z9BF5S');</script>
+
+    <!-- Favicons -->
+    <link href="assets/img/QuantiFarm-element-60x60.png" rel="icon" sizes="32x32">
+    <link href="assets/img/QuantiFarm-element-60x60.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Sofia+Sans:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="assets/vendor/fontawesome/css/fontawesome-all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- DigiAgriFoodCH Theme -->
+    <link href="assets/css/digiagrifood-theme.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center notranslate">
+
+        <div class="d-flex align-items-center justify-content-start">
+            <a href="index.html" class="logo d-flex align-items-center">
+                <span>Toolkit</span>
+            </a>
+            <i class="bi bi-list toggle-sidebar-btn"></i>
+        </div><!-- End Logo -->
+
+        <nav class="navbar navbar-expand-md d-none d-md-flex align-items-center position-absolute start-0 end-0 h-100" style="pointer-events: none;">
+            <div class="container-fluid d-flex align-items-center" style="pointer-events: auto;">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-2 pt-3 h-100">
+                        <a class="nav-link text-primary pe-0 pb-3" href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item pe-2 pt-3 h-100 active">
+                        <a class="nav-link text-primary pe-0 pb-3" href="toolkit.html">
+                            Toolkit
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown pt-3 h-100">
+                        <a class="nav-link text-primary dropdown-toggle pb-3" href="#" id="tcDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Test cases
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile"
+                            aria-labelledby="tcDropdown">
+                            <li>
+                                <a id="mnuResults" class="dropdown-item" href="results.html">
+                                    Results
+                                </a>
+                            </li>
+                            <li>
+                                <a id="mnuMethodology" class="dropdown-item" href="methodology.html">
+                                    Methodology
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item pe-2 pt-3 h-100">
+                        <a class="nav-link text-primary pe-0 pb-3" href="faq.html">
+                            FAQ
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown pt-3 h-100">
+                        <a class="nav-link text-primary dropdown-toggle pb-3" href="#" id="lngDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">DE</a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="lngDropdown">
+                        <li><a class="dropdown-item" href="#" onclick="setLanguage('DE');return false;">DE - Deutsch</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="setLanguage('FR');return false;">FR - Français</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="setLanguage('IT');return false;">IT - Italiano</a></li>
+                    </ul>
+                </li>
+                </ul>
+                <ul class="navbar-nav">
+                <li class="nav-item dropdown pe-2 pt-3 h-100" id="mnuLogin">
+                    <a class="nav-link d-flex align-items-center text-primary px-4" href="login.html?url=tool1.html">
+                        <i class="ri-login-box-line" style="font-size: 26px"></i>
+                        <span>Login</span>
+                    </a>
+                </li>
+
+                <li class="nav-item pe-2 h-100" id="mnuUser" hidden>
+
+                    <a class="nav-link d-flex align-items-center text-primary px-4" href="#" data-bs-toggle="dropdown">
+                        <i class="bi bi-gear" style="font-size: 26px"></i>
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                        <li class="dropdown-header">
+                            <h6 id="mnuUserName"></h6>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="profile.html">
+                                <i class="bi bi-person"></i>
+                                <span>My Profile</span>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="php/api.php?c=out">
+                                <i class="bi bi-box-arrow-right"></i>
+                                <span>Log out</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                </ul>
+            </div>
+        </nav>
+
+    </header><!-- End Header -->
+    <!-- ======= Sidebar ======= -->
+    <aside id="sidebar" class="sidebar">
+
+        <ul class="sidebar-nav" id="sidebar-nav">
+        </ul>
+
+    </aside><!-- End Sidebar-->
+
+    <main id="main" class="main">
+        <div class="pagetitle">
+            <h1>Recommendations Tool</h1>
+        </div><!-- End Page Title -->
+
+        <section class="section dashboard">
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <!-- Default Tabs -->
+                    <ul class="nav nav-tabs d-flex" id="tab1" role="tablist">
+                        <li class="nav-item xflex-fill" role="presentation">
+                            <button class="nav-link w-100 active fw-bold" id="btnTabResult" data-bs-toggle="tab"
+                                data-bs-target="#tabResult" type="button" role="tab">Recommendations</button>
+                        </li>
+                        <li class="nav-item xflex-fill" role="presentation">
+                            <button class="nav-link w-100 fw-bold" id="btnTabDescr" data-bs-toggle="tab"
+                                data-bs-target="#tabDescr" type="button" role="tab"><i
+                                    class="bi bi-info-circle fa-lg me-2"></i>Description</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content pt-2" id="tab1Content">
+                        <div class="tab-pane fade" id="tabDescr" role="tabpanel" aria-labelledby="btnTabDescr">
+
+                            <div hidden>
+                                <ul class="nav nav-tabs nav-tabs-bordered" id="lngTabs" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="lngBtnEN" data-bs-toggle="tab"
+                                            data-bs-target="#lngTabEN" type="button" role="tab" aria-controls="lngTabEN"
+                                            aria-selected="true" title="EN"><img src="assets/img/uk.png"
+                                                width="32"></button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="lngBtnFR" data-bs-toggle="tab"
+                                            data-bs-target="#lngTabFR" type="button" role="tab" aria-controls="lngTabFR"
+                                            aria-selected="false" tabindex="-1" title="FR"
+                                            onclick="LoadLanguageContent('FR')"><img src="assets/img/france.png"
+                                                width="32"></button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="lngBtnIT" data-bs-toggle="tab"
+                                            data-bs-target="#lngTabIT" type="button" role="tab" aria-controls="lngTabIT"
+                                            aria-selected="false" tabindex="-1" title="IT"
+                                            onclick="LoadLanguageContent('IT')"><img src="assets/img/italy.png"
+                                                width="32"></button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="lngBtnDE" data-bs-toggle="tab"
+                                            data-bs-target="#lngTabDE" type="button" role="tab" aria-controls="lngTabDE"
+                                            aria-selected="false" tabindex="-1" title="DE"
+                                            onclick="LoadLanguageContent('DE')"><img src="assets/img/germany.png"
+                                                width="32"></button>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-content d-flex justify-content-center" id="lngTabsContent">
+                                <div class="tab-pane fade active show" id="lngTabEN" role="tabpanel"
+                                    aria-labelledby="lngBtnEN">
+                                    <p> The Recommendation Tool is an interactive tool that allows farmers and advisors
+                                        to gain insights on the available DATSs and request a recommendation of suitable
+                                        DATSs, given: </p>
+                                    <ol>
+                                        <li> A farm/farmer archetype with sustainability preferences, </li>
+                                        <li> Farm and farmer profile characteristics values, </li>
+                                        <li> Natural language farm description and search text, </li>
+                                        <li> DATS parameter filter values. </li>
+                                    </ol>
+                                    <p> <b> Farm/farmer archetypes </b> </p>
+                                    <p>
+                                        The user can select a farm/farmer archetype out of 5 predefined possibilities:
+                                    <ul>
+                                        <li> <b> Family First</b>: a legacy-driven farmer </li>
+                                        <li> <b> Digital Autonomy</b>: a seasoned, innovation-minded farmer </li>
+                                        <li> <b> Cautiously Ardent</b>: a prudent, cost-conscious innovator </li>
+                                        <li> <b> Business Mentality</b>: a performance-driven entrepreneur </li>
+                                        <li> <b> Community Focused</b>: community-oriented, values-driven farmer
+                                        </li>
+                                    </ul>
+                                    Each archetype has its own set of predefined values for the 3 sustainability
+                                    parameters: environmental, economic and social.
+                                    </p>
+                                    <p> <b> Farm and farmer profile characteristics values supported </b> </p>
+                                    <p>
+                                        The DATSs can be recommended based on a profile of some farm and farmer
+                                        characteristics values that can be selected on the top side of the tool. The
+                                        supported farm characteristics include:
+                                    <ul>
+                                        <li> <b> Farm Type</b>: the kind of farm (e.g., arable, dairy and fruit)
+                                        </li>
+                                        <li> <b> Country</b>: the country where the farm is located </li>
+                                        <li> <b> Language</b>: the preferred language of the farmer </li>
+                                        <li> <b> Technologies</b>: the type of technologies the farmer can work with
+                                        </li>
+                                        <li> <b> Functionality</b>: the functionality the farmer is looking for in a
+                                            DATS </li>
+                                        <li> <b> Benefits</b>: the type of benefits the farmer wants to achieve with
+                                            a DATS </li>
+                                    </ul>
+                                    </p>
+                                    <p> <b> Natural language descriptions </b> </p>
+                                    <p>
+                                        On top of the farm and farmer profile characteristics, the user can also give
+                                        natural language descriptions of the farm and/or the required DATSs:
+                                    <ul>
+                                        <li> <b> Farm description</b>: a description of the farmer and the farm in
+                                            free text </li>
+                                        <li> <b> DATS description</b>: a free text description of the required DATSs
+                                            parameters. </li>
+                                    </ul>
+                                    </p>
+                                    <p> <b> DATS parameter filters supported </b> </p>
+                                    <p>
+                                        The DATSs can be filtered by selecting desired parameter values on the left side
+                                        of the tool. The possible parameters to filter the DATSs include:
+                                    <ul>
+                                        <li> <b> Agricultural Sector</b>: the sector the DATS is targeting </li>
+                                        <li> <b> Functionality</b>: the relevant functionality of the DATS </li>
+                                        <li> <b> Benefits</b>: the benefits that can be reached by using the DATS
+                                        </li>
+                                        <li> <b> Digital Form</b>: the digital form of the DATS </li>
+                                        <li> <b> Language </b> and <b> Country</b> : the supported language and
+                                            targeted country of the DATS </li>
+                                        <li> <b> Cost Structure</b>: the cost structure of the DATS </li>
+                                    </ul>
+                                    </p>
+
+                                    <p> <b> Requesting a Recommendation </b> </p>
+
+                                    <p>Once a farm/farmer archetype with sustainability preferences, a farm/farmer
+                                        profile characteristics values, and/or a natural language farm description and
+                                        search text has been entered, a recommendation for applicable DATSs can be
+                                        requested by pushing the <i>"Recommend DATSs"</i> button. A columned list of
+                                        recommended DATSs will be shown with a few parameters. When clicking on a DATS,
+                                        more detailed information will be shown and if available also testcase
+                                        information in which the DATS has been tested. In addition, in the left column a
+                                        DATSs parameter filters bar is shown to further finetune the selection of DATSs.
+                                    </p>
+
+                                    <p> <b>Two icons are assigned to selected DATSs:</b> </p>
+
+                                    <p><img src="assets/img/tested3.png" class="mx-3"
+                                            Xstyle="width: 32px; height: 32px;">This DATS has been evaluated by the
+                                        QuantiFarm assessment framework. Also is available for further analysis by the
+                                        Cost and Benefit Calculators.</p>
+                                    <p><i class="bi bi-calculator-fill text-primary mx-4"
+                                            style="font-size: 32px; font-weight: normal;"></i> This DATS is available
+                                        for further analysis by the Cost and Benefit Calculators.</p>
+                                    <br>
+
+                                    <div class="row text-center">
+                                        <h5>
+                                            <a href="https://www.youtube.com/watch?v=-iSUNUIkfOM" target="_blank">Watch
+                                                Video<i class="fas fa-play ms-2"></i></a>
+                                        </h5>
+                                    </div>
+
+
+                                </div>
+                                <div class="tab-pane fade" id="lngTabFR" role="tabpanel" aria-labelledby="lngBtnFR">
+                                </div>
+
+                                <div class="tab-pane fade" id="lngTabIT" role="tabpanel" aria-labelledby="lngBtnIT">
+                                </div>
+
+                                <div class="tab-pane fade" id="lngTabDE" role="tabpanel" aria-labelledby="lngBtnDE">
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade show active" id="tabResult" role="tabpanel"
+                            aria-labelledby="btnTabResult">
+
+                            <div class="row mt-2">
+                                <div id="divLeft" class="col-md-4 col-lg-3 d-none">
+                                    <div class="row mb-2">
+                                        <div class="col-12 mt-2 border border-2 border-top-0 border-bottom-0 border-start-0"
+                                            id="divFilters">
+                                            <div class="w-100 text-end">
+                                                <a class="fst-italic" href="#" onclick="return ClearFilters();">Clear
+                                                    filters</a>
+                                            </div>
+
+                                            <h5>Agricultural sector</h5>
+                                            <div class="mb-3" id="filterSector">
+                                            </div>
+
+                                            <h5>Functionality</h5>
+                                            <div class="mb-3" id="filterFunctionality">
+                                            </div>
+
+                                            <h5>Benefits</h5>
+                                            <div class="mb-3" id="filterBenefits">
+                                            </div>
+
+                                            <h5>Digital form</h5>
+                                            <div class="mb-3" id="filterDigitalform">
+                                            </div>
+
+                                            <h5>Language</h5>
+                                            <div class="mb-3" id="filterLanguage">
+                                            </div>
+
+                                            <h5>Country</h5>
+                                            <div class="mb-3" id="filterCountry">
+                                            </div>
+
+                                            <h5>Cost structure</h5>
+                                            <div class="mb-3" id="filterCost">
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="divRight" class="col-12">
+                                    <div class="row mb-2">
+                                        <div class="col-12">
+                                            <div class="accordion" id="accordionExample">
+                                                <div class="accordion-item">
+                                                    <h2 class="accordion-header" id="headingOne">
+                                                        <button class="accordion-button collapsedX" type="button"
+                                                            data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                            aria-expanded="true" aria-controls="collapseOne">
+                                                            <i class="fa-solid fa-house-user me-2"></i>
+                                                            <span>Farmer Profile Information</span>
+                                                        </button>
+                                                    </h2>
+                                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                                        <div class="accordion-body">                                                            
+
+                                                            <div class="row mt-3">
+                                                                <p>To obtain a tailored recommendation for DATSs, please
+                                                                    fill in any of your information you would like to
+                                                                    share:</p>
+                                                            </div>
+                                                            <div class="row mb-2">
+                                                                <div class="col-md-6">
+                                                                    <div class="dropdown">
+                                                                        <div class="form-floating">
+                                                                            <input type="text"
+                                                                                class="form-select qf-cursor-def"
+                                                                                id="farmFarmType"
+                                                                                data-bs-toggle="dropdown"
+                                                                                aria-expanded="false"
+                                                                                onkeydown="return false;"
+                                                                                style="caret-color: transparent !important;"
+                                                                                autocomplete="off">
+                                                                            <label for="farmFarmType">I work at/have this
+                                                                                type of farm</label>
+                                                                            <ul class="dropdown-menu qf-max-h-500"
+                                                                                style="min-width: 100%;" qf-multiselect>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="dropdown">
+                                                                        <div class="form-floating">
+                                                                            <input type="text"
+                                                                                class="form-select qf-cursor-def"
+                                                                                id="farmTechnology"
+                                                                                data-bs-toggle="dropdown"
+                                                                                aria-expanded="false"
+                                                                                onkeydown="return false;"
+                                                                                style="caret-color: transparent !important;"
+                                                                                autocomplete="off">
+                                                                            <label for="farmTechnology">I can work with
+                                                                                these technologies</label>
+                                                                            <ul class="dropdown-menu qf-max-h-300"
+                                                                                style="min-width: 100%;" qf-multiselect>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row mb-2">
+                                                                <div class="col-md-6">
+                                                                    <div class="dropdown">
+                                                                        <div class="form-floating">
+                                                                            <input type="text"
+                                                                                class="form-select qf-cursor-def"
+                                                                                id="farmBenefit"
+                                                                                data-bs-toggle="dropdown"
+                                                                                aria-expanded="false"
+                                                                                onkeydown="return false;"
+                                                                                style="caret-color: transparent !important;"
+                                                                                autocomplete="off">
+                                                                            <label for="farmBenefit">I would like to
+                                                                                achieve</label>
+                                                                            <ul class="dropdown-menu qf-max-h-300"
+                                                                                style="min-width: 100%;" qf-multiselect>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-6">
+                                                                    <div class="dropdown">
+                                                                        <div class="form-floating">
+                                                                            <input type="text"
+                                                                                class="form-select qf-cursor-def"
+                                                                                id="farmFunctionality"
+                                                                                data-bs-toggle="dropdown"
+                                                                                aria-expanded="false"
+                                                                                onkeydown="return false;"
+                                                                                style="caret-color: transparent !important;"
+                                                                                autocomplete="off">
+                                                                            <label for="farmFunctionality">I am looking
+                                                                                for help with</label>
+                                                                            <ul class="dropdown-menu qf-max-h-500"
+                                                                                style="min-width: 100%;" qf-multiselect>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row mb-2">
+                                                                <div hidden class="col-md-6">
+                                                                    <div class="form-floating">
+                                                                        <select class="form-select" id="farmCountry"
+                                                                            aria-label="Country">
+                                                                        </select>
+                                                                        <label for="farmCountry">My farm is located
+                                                                            in</label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row mb-2">
+                                                                <div class="col-12">
+                                                                    <div class="form-floating">
+                                                                        <input type="text" class="form-control"
+                                                                            id="txtSearchText"
+                                                                            placeholder="You can also add a text to search in the title, description and keywords"
+                                                                            onkeypress="OnKeyPressSearch(event)">
+                                                                        <label for="txtSearchText">You can also add a
+                                                                            text to search in the title, description and
+                                                                            keywords</label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-2">
+                                        <div class="col-12 text-center">
+                                            <button type="button" class="btn btn-primary" onclick="Recommend()"
+                                                id="btnRecommend">Recommend DATSs</button>
+                                        </div>
+                                    </div>
+                                    <div class="row mb-2">
+                                        <div class="col-12 mt-2">
+                                            <div id="divResultInfo"></div>
+                                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2 mb-3"
+                                                id="divResult">
+
+                                            </div>
+                                            <div id="divResultMore"></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div><!-- End Default Tabs -->
+                </div>
+            </div>
+        </section>
+
+        <div class="modal fade" id="modalDAT" tabindex="-1" data-bs-backdrop="false" style="display: none;"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title notranslate" id="modalDATTitle" translate="no"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body notranslate" id="divDatDetail" translate="no">
+
+                    </div>
+                    <div class="modal-footer">
+                        <div>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <div class="d-flex justify-content-center px-3">
+        <footer class="footer py-2 w-100" style="max-width: 1300px;">
+            <div class="d-flex flex-column gap-2">
+                <div class="d-flex align-items-center justify-content-center gap-3">
+                    <img src="assets/img/EN-Funded-by-the-EU.png" style="max-height:51px;">
+                    <img src="assets/img/QuantiFarm.svg" style="max-height:51px;">
+                    <img src="assets/img/BLW.jpg" style="max-height:51px; mix-blend-mode:multiply;">
+                </div>
+                <div class="d-flex align-items-center justify-content-center gap-3">
+                    <img src="assets/img/Agroscope.png" style="max-height:51px; mix-blend-mode:multiply;">
+                    <img src="assets/img/AGRIDEA.png" style="max-height:51px; max-width:130px;">
+                    <img src="assets/img/LZSG.jpg" style="max-height:51px; mix-blend-mode:multiply;">
+                </div>
+            </div>
+            <hr class="my-2">
+            <div class="d-flex justify-content-between">
+                <div class="credits mx-2">
+                    Copyright &copy; 2023-2026 <a href="https://quantifarm.eu/" target="_blank">The QuantiFarm Consortium</a>. All Rights Reserved.
+                </div>
+                <div class="credits">
+                    <a class="mx-2" href="cookies.html">Cookies Policy</a>
+                    <a class="mx-2" href="privacy.html">Privacy Policy</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="js/uistrings.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/testcasedata.js"></script>
+    <script src="js/datinfo.js"></script>
+    <script src="js/tool1.js"></script>
+
+</body>
+
+</html>

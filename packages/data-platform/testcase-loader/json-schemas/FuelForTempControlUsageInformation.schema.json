@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/FuelForTempControlUsageInformation.schema.json",
+  "title": "QuantiFarm fuel for temp control usage information",
+  "description": "Information about the usage of fuel for temperature control during the cultivation in the specific year",
+  "type": "object",
+  "properties": {
+      "productName": {
+      "description": "The name of the fuel product",
+      "type": "string"
+    },
+    "quantity": {
+      "description": "The quantity of the fuel in m3 that is used during the cultivation",
+      "type": "number"
+    },
+    "productPrice": {
+      "description": "The price of the product in Euros per m3",
+      "type": "number"
+    }
+  },
+  "required": [ "productName", "quantity", "productPrice" ]
+}

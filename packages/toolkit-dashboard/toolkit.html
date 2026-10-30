@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>QuantiFarm Toolkit</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XH06Z9BF5S"></script>
+    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-XH06Z9BF5S');</script>
+
+    <!-- Favicons -->
+    <link href="assets/img/QuantiFarm-element-60x60.png" rel="icon" sizes="32x32">
+    <link href="assets/img/QuantiFarm-element-60x60.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Sofia+Sans:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/fontawesome/css/all.min.css" rel="stylesheet">
+    <link href="assets/vendor/fontawesome/css/fontawesome-all.css" rel="stylesheet">
+    <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- DigiAgriFoodCH Theme -->
+    <link href="assets/css/digiagrifood-theme.css" rel="stylesheet">
+
+    <!-- Custom QF CSS  -->
+    <style>
+        .card {
+            border: 5px solid rgba(var(--bs-success-rgb), 0.6);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, border-color 0.2s ease-in-out;
+        }
+        .card:hover {
+            border-color: rgba(var(--bs-success-rgb), 1) !important;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            transform: translateY(-4px);
+        }
+    </style>
+
+</head>
+
+<body class="toggle-sidebar">
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+
+        <a href="index.html" class="logo d-flex xalign-items-center">
+            <span>Toolkit</span>
+        </a>
+
+        <nav class="navbar navbar-expand-md d-none d-md-flex align-items-center position-absolute start-0 end-0 h-100" style="pointer-events: none;">
+            <div class="container-fluid d-flex align-items-center" style="pointer-events: auto;">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-2 pt-3 h-100 ">
+                        <a class="nav-link text-primary pe-0 pb-3" href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item pe-2 pt-3 h-100 active">
+                        <a class="nav-link text-primary pe-0 pb-3" href="toolkit.html">
+                            Toolkit
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown pt-3 h-100">
+                        <a class="nav-link text-primary dropdown-toggle pb-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Test cases
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a id="mnuResults" class="dropdown-item" href="results.html">
+                                    Results
+                                </a>
+                            </li>
+                            <li>
+                                <a id="mnuMethodology" class="dropdown-item" href="methodology.html">
+                                    Methodology
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item pe-2 pt-3 h-100">
+                        <a class="nav-link text-primary pe-0 pb-3" href="faq.html">
+                            FAQ
+                        </a>
+                    </li>
+                    <li class="nav-item pe-2 pt-3 h-100" hidden>
+                        <a class="nav-link text-primary pe-0 pb-3" target="_blank" href="https://quantifarm.eu/contact-us/">
+                            Contacts
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown pt-3 h-100">
+                        <a class="nav-link text-primary dropdown-toggle pb-3" href="#" id="lngDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">DE</a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="lngDropdown">
+                        <li><a class="dropdown-item" href="#" onclick="setLanguage('DE');return false;">DE - Deutsch</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="setLanguage('FR');return false;">FR - Français</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="setLanguage('IT');return false;">IT - Italiano</a></li>
+                    </ul>
+                </li>
+                </ul>
+                <ul class="navbar-nav">
+                <li class="nav-item dropdown pe-2 pt-3 h-100" id="mnuLogin">
+                    <a class="nav-link d-flex align-items-center text-primary px-4" href="login.html">
+                        <i class="ri-login-box-line" style="font-size: 26px"></i>
+                        <span>Login</span>
+                    </a>
+                </li>
+
+                <li class="nav-item pe-2 h-100" id="mnuUser" hidden>
+
+                    <a class="nav-link d-flex align-items-center text-primary px-4" href="#" data-bs-toggle="dropdown">
+                        <i class="bi bi-gear" style="font-size: 26px"></i>
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                        <li class="dropdown-header">
+                            <h6 id="mnuUserName"></h6>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="profile.html">
+                                <i class="bi bi-person"></i>
+                                <span>My Profile</span>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="php/api.php?c=out">
+                                <i class="bi bi-box-arrow-right"></i>
+                                <span>Log out</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="header-nav ms-auto h-100 d-md-none d-sm-block">
+            <ul class="d-flex align-items-center h-100">
+
+                <li class="nav-item dropdown pe-1 pt-2 h-100">
+
+                    <a class="nav-link d-flex align-items-center text-primary px-4 " href="#" data-bs-toggle="dropdown">
+                        <i class="bi bi-list" style="font-size: 32px"></i>
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                        <li>
+                            <a class="dropdown-item" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="toolkit.html">Toolkit</a>
+                        </li>
+                        <li>
+                            <a id="mnuResults" class="dropdown-item" href="results.html">Test cases</a>
+                        </li>
+                        <li>
+                            <a id="mnuMethodology" class="dropdown-item" href="methodology.html">Methodology</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="faq.html">FAQ</a>
+                        </li>
+                        <li hidden>
+                            <a class="dropdown-item" target="_blank" href="https://quantifarm.eu/contact-us/">Contacts</a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li id="mnuLogin2">
+                            <a class="dropdown-item" href="login.html">Login</a>
+                        </li>
+                        <li id="mnuProfile2">
+                            <a class="dropdown-item" href="profile.html">My Profile</a>
+                        </li>
+                        <li id="mnuLogout2">
+                            <a class="dropdown-item" href="php/api.php?c=out">Log out</a>
+                        </li>
+
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+    </header><!-- End Header -->
+
+    <main classx="d-flex justify-content-center">
+
+        <div class="tab-content d-flex justify-content-center" id="lngTabsContent">
+            <div class="tab-pane fade active show" id="lngTabEN" role="tabpanel" aria-labelledby="lngBtnEN">
+                <div class="" style="max-width: 1200px;">
+
+                    <h2 class="fw-bold qf-color1 mt-4">QuantiFarm offers a set of tools to get the max out of DATSs</h2>
+
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-2 mt-2">
+                        <div class="col">
+                            <div class="card mb-0 p-1 h-100" role="button" onclick="gotoTool(role_xx, 'tool1');">
+                                <div class="card-body pt-1">
+                                    <div class="d-flex align-items-center">
+                                        <i class="bi bi-list-stars text-primary me-3" style="font-size: 32px;"></i>
+                                        <h4 class="fw-bold text-primary fs-3 mb-0">
+                                            Recommendations Tool
+                                        </h4>
+                                    </div>
+                                    <p>Interactive tool that allows farmers and advisors to request a recommendation for one or more DATSs given farm characteristics, required DATS parameter values and desired recommendation criteria.</p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between">
+                                    <div class="col-12">For Farmers and Advisors</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card mb-0 p-1 h-100" role="button" onclick="gotoTool(role_xx, 'tool2');">
+                                <div class="card-body pt-1 pb-1">
+                                    <div class="d-flex align-items-center">
+                                        <i class="bi bi-calculator-fill text-primary me-3" style="font-size: 32px;"></i>
+                                        <h4 class="fw-bold text-primary fs-3 mb-0">
+                                            Cost and Benefit Calculators
+                                        </h4>
+                                    </div>
+                                    <p>This tool is designed to assist farmers and agricultural advisors in analysing the financial implications and potential benefits of integrating various DATSs into their farming operations.</p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between">
+                                    <div class="col-12">For Farmers and Advisors</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Benchmarking Tool (tool3) temporarily hidden - customer may reactivate
+                        <div class="col">
+                            <div class="card mb-0 p-1 h-100" role="button" onclick="gotoTool(role_xx, 'tool3');">
+                                <div class="card-body pt-1 pb-1">
+                                    <p>
+                                        <i class="ri-bar-chart-horizontal-fill text-primary mt-1 me-3" style="font-size: 32px; float:left;"></i>
+                                        <h4 class="fw-bold text-primary">
+                                            Benchmarking Tool
+                                        </h4>
+                                    </p>
+                                    <p>This tool supports the digital recording of daily farming practices (Irrigations, Sprays, Harvests and Fertilizations) and automates the calculation of useful performance indicators. It supports the comparison of performance among different parcels and cultivation periods associating the results with the use of DATS.</p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between">
+                                    <div class="col-12">For Farmers and Advisors</div>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+                        <!-- Advanced Decision Support Tool (tool5) temporarily hidden - customer may reactivate
+                        <div class="col">
+                            <div class="card mb-0 p-1 h-100" role="button" onclick="gotoTool(role_xx, 'tool5');">
+                                <div class="card-body pt-1 pb-1">
+                                    <p>
+                                        <i class="ri-flow-chart text-primary mt-1 me-3" style="font-size: 32px; float:left;"></i>
+                                        <h4 class="fw-bold text-primary">
+                                            Advanced Decision Support Tool
+                                        </h4>
+                                    </p>
+                                    <p>This tool aims to support mainly farm advisors on the selection of the most appropriate DATS under given set of conditions, building on a combination of scientific methods (Strategic Fit, Analytic Hierarchical Process (AHP) and Quality Function Deployment (QFD)). The key offered feature is that addresses the lack of knowledge and evidence regarding their (direct and indirect) actual benefits and costs.</p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between">
+                                    <div class="col-12">For Advisors</div>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+
+                        <!-- DATS Assessment Engine (tool4) temporarily hidden - customer may reactivate
+                        <div class="col">
+                            <div class="card mb-0 p-1 h-100" role="button" onclick="gotoTool(role_xx, 'tool4');">
+                                <div class="card-body pt-1 pb-1">
+                                    <p>
+                                        <i class="bi bi-ui-checks text-primary mt-2 me-3" style="font-size: 32px; float:left;"></i>
+                                        <h4 class="fw-bold text-primary">
+                                            DATS Assessment Engine
+                                        </h4>
+                                    </p>
+                                    <p>The DATS Assessment Engine builds on the QuantiFarm DATS assessment framework and aims to enable both quantitative and qualitative assessment of DATSs under real-world conditions.</p>
+                                </div>
+                                <div class="card-footer d-flex justify-content-between">
+                                    <div class="col-12">For Advisors and Policy Makers</div>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+
+                    </div>
+                    <br><br>
+
+                </div>
+            </div>
+            <div class="tab-pane fade" id="lngTabFR" role="tabpanel" aria-labelledby="lngBtnFR">
+            </div>
+
+            <div class="tab-pane fade" id="lngTabIT" role="tabpanel" aria-labelledby="lngBtnIT">
+            </div>
+            <div class="tab-pane fade" id="lngTabDE" role="tabpanel" aria-labelledby="lngBtnDE">
+            </div>
+        </div>
+
+        <div hidden>
+            <ul class="nav nav-pills d-flex" id="lngTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="lngBtnEN" data-bs-toggle="tab" data-bs-target="#lngTabEN" type="button" role="tab" aria-controls="lngTabEN" aria-selected="true" title="EN"><img src="assets/img/uk.png" width="32"></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="lngBtnFR" data-bs-toggle="tab" data-bs-target="#lngTabFR" type="button" role="tab" aria-controls="lngTabFR" aria-selected="false" tabindex="-1" title="FR" onclick="LoadLanguageContent('FR')"><img src="assets/img/france.png" width="32"></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="lngBtnIT" data-bs-toggle="tab" data-bs-target="#lngTabIT" type="button" role="tab" aria-controls="lngTabIT" aria-selected="false" tabindex="-1" title="IT" onclick="LoadLanguageContent('IT')"><img src="assets/img/italy.png" width="32"></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="lngBtnDE" data-bs-toggle="tab" data-bs-target="#lngTabDE" type="button" role="tab" aria-controls="lngTabDE" aria-selected="false" tabindex="-1" title="DE" onclick="LoadLanguageContent('DE')"><img src="assets/img/germany.png" width="32"></button>
+                </li>
+            </ul>
+        </div>
+
+    </main><!-- End #main -->
+    <!-- ======= Footer ======= -->
+    <div class="d-flex justify-content-center px-3">
+        <footer class="footer py-2 w-100" style="max-width: 1300px;">
+            <div class="d-flex flex-column gap-2">
+                <div class="d-flex align-items-center justify-content-center gap-3">
+                    <img src="assets/img/EN-Funded-by-the-EU.png" style="max-height:51px;">
+                    <img src="assets/img/QuantiFarm.svg" style="max-height:51px;">
+                    <img src="assets/img/BLW.jpg" style="max-height:51px; mix-blend-mode:multiply;">
+                </div>
+                <div class="d-flex align-items-center justify-content-center gap-3">
+                    <img src="assets/img/Agroscope.png" style="max-height:51px; mix-blend-mode:multiply;">
+                    <img src="assets/img/AGRIDEA.png" style="max-height:51px; max-width:130px;">
+                    <img src="assets/img/LZSG.jpg" style="max-height:51px; mix-blend-mode:multiply;">
+                </div>
+            </div>
+            <hr class="my-2">
+            <div class="d-flex justify-content-between">
+                <div class="credits mx-2">
+                    Copyright &copy; 2023-2026 <a href="https://quantifarm.eu/" target="_blank">The QuantiFarm Consortium</a>. All Rights Reserved.
+                </div>
+                <div class="credits">
+                    <a class="mx-2" href="cookies.html">Cookies Policy</a>
+                    <a class="mx-2" href="privacy.html">Privacy Policy</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="js/uistrings.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
+
+

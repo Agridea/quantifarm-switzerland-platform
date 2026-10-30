@@ -1,0 +1,89 @@
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: toolkit-dashboard-db
+    env_file:
+      - .env
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+    # Port not exposed to host — only accessible via toolkit-network
+    # Uncomment to access DB from host (e.g. for debugging):
+    # ports:
+    #   - "3306:3306"
+    restart: unless-stopped
+    volumes:
+      - ../databases/toolkit-dashboard:/var/lib/mysql
+      - ./setup-db.sql:/docker-entrypoint-initdb.d/setup-db.sql:ro
+    cap_drop:
+      - ALL
+    cap_add:
+      - CHOWN
+      - DAC_OVERRIDE
+      - SETGID
+      - SETUID
+      - FOWNER
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+          cpus: "1.0"
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p$$MYSQL_ROOT_PASSWORD"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - toolkit-network
+
+  web:
+    container_name: toolkit-dashboard-web
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      mysql:
+        condition: service_healthy
+    volumes:
+      - ./:/var/www/html:ro
+    read_only: true
+    tmpfs:
+      - /tmp
+      - /var/log/apache2
+      - /var/run/apache2
+    cap_drop:
+      - ALL
+    cap_add:
+      - NET_BIND_SERVICE
+    security_opt:
+      - no-new-privileges:true
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+          cpus: "1.0"
+    networks:
+      - toolkit-network
+      - quantifarm-network
+    env_file:
+      - .env
+    environment:
+      - DOCKER_ENV=true
+      - DB_HOST=${DB_HOST}
+      - DB_USER=${DB_USER}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DB_NAME=${DB_NAME}
+      - DB_PORT=${DB_PORT}
+      # Only this email may grant/revoke admin rights via admin-users.html
+      - SUPER_ADMIN_EMAIL=${SUPER_ADMIN_EMAIL}
+      - REFRESH_TOKEN=${REFRESH_TOKEN}
+
+networks:
+  toolkit-network:
+    driver: bridge
+  quantifarm-network:
+    name: quantifarm-network
+    external: true

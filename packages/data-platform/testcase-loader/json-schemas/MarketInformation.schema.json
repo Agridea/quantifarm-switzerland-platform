@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/MarketInformation.schema.json",
+  "title": "QuantiFarm market information",
+  "description": "General market information that influences the costs and benefits of the cultivation in the specific year",
+  "type": "object",
+  "properties": {
+    "waterPrice": {
+      "description": "The average price of water in Euros per liter in the specific year of the cultivation",
+      "type": "number"
+    },
+    "fuelPrice": {
+      "description": "The average price of fuel in Euros per liter in the specific year of the cultivation",
+      "type": "number"
+    },
+    "electricityPrice": {
+      "description": "The average price of electricity in Euros per kWh in the specific year of the cultivation",
+      "type": "number"
+    },
+    "averageSalary": {
+      "description": "The average salary of an employee in Euros per hour in the specific year of the cultivation",
+      "type": "number"
+    },
+    "averageProfessionalSalary": {
+      "description": "The average salary of a professional (agronomist, veterinary) in Euros per hour in the specific year of the cultivation",
+      "type": "number"
+    }
+  },
+  "required": []
+}

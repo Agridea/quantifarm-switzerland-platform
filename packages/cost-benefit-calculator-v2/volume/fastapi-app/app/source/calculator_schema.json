@@ -1,0 +1,47 @@
+{
+  "investment" : [
+    { "name" : "total_initial_cost_of_dat_purchase"  , "column" : "S2"  , "function" : "=N2+(O2*L2)+P2+(Q2*L2)" },
+    { "name" : "depreciation"  , "column" : "R2"  , "function" : "=0 if (S2<500) else (S2/M2)" }
+  ],
+  "crop_yield" : [
+    { "name" : "current_revenue_without_dats"  , "column" : "W2"  , "function" : "=U2*V2*L2" },
+    { "name" : "yield_with_dats"  , "column" : "X2"  , "function" : "=U2*(1+T2/ 100)" },
+    { "name" : "price_of_yield_with_dats"  , "column" : "Y2"  , "function" : "=X2*V2" }
+  ],
+  "crop_revenue_impact" : [
+    { "name" : "revenue_impact_with_dats"  , "column" : "Z2"  , "function" : "=(Y2*L2)-W2" }
+  ],
+  "crop_fertilizer_use" : [
+    { "name" : "current_fertilization_cost_without_dats" , "column" : "AD2" , "function" : "=AB2*AC2" },
+    { "name" : "fertilizer_usage_with_dats" , "column" : "AE2" , "function" : "=AB2*(1+(AA2/100))" },
+    { "name" : "fertilizer_cost_with_dats_usage" , "column" : "AF2" , "function" : "=AE2*AC2" },
+    { "name" : "fertilization_cost_with_dats" , "column" : "AG2" , "function" : "=AF2*L2" }
+  ],
+  "crop_pesticide_use" : [
+    { "name" : "current_pesticide_cost_without_dats" , "column" : "AK2" , "function" : "=AI2*AJ2" },
+    { "name" : "pesticide_usage_with_dats" , "column" : "AL2" , "function" : "=AI2*(1+(AH2/100))" },
+    { "name" : "pesticide_cost_with_dats_euro_per_hectar" , "column" : "AM2" , "function" : "=AL2*AJ2" },
+    { "name" : "pesticide_cost_with_dats_euro_per_year" , "column" : "AN2" , "function" : "=AM2*L2" }
+  ],
+  "crop_water_use" : [
+    { "name" : "current_irrigation_cost_without_dat" , "column" : "AR2" , "function" : "=AP2*AQ2" },
+    { "name" : "water_usage" , "column" : "AS2" , "function" : "=AP2*(1+(AO2/100))" },
+    { "name" : "water_cos" , "column" : "AT2" , "function" : "=AS2*AQ2" },
+    { "name" : "water_cost_with_dats" , "column" : "AU2" , "function" : "=AT2*L2" }
+  ],
+  "crop_working_time_cost" : [
+    { "name" : "working_time_cost_with_dat" , "column" : "AX2" , "function" : "=AW2*(1+(AV2/100))" }
+  ],
+  "crop_fuel_cost" : [
+    { "name" : "fuel_cost_with_dats" , "column" : "BA2" , "function" : "=AZ2*(1+(AY2/100))" }
+  ],
+  "crop_electricity_cost" : [
+    { "name" : "electricity_cost_with_dats" , "column" : "BD2" , "function" : "=BC2*(1+(BB2/100))" }
+  ],
+  "crop_tc_dats_investment_decision" : [
+    { "name" : "annual_change_in_net_income" , "column" : "BE2" , "function" : "=Z2+((AD2-AF2)*L2)+((AK2-AM2)*L2)+((AR2-AT2)*L2)+(AW2-AX2)+(AZ2-BA2)+(BC2-BD2)-P2-(Q2*L2)-R2" },
+    { "name" : "annual_roi_percentage_annual_change_in_net_income" , "column" : "BF2" , "function" : "=((BE2/S2)*100) if (S2>0) else 0" },
+    { "name" : "payback_period_years" , "column" : "BG2" , "function" : "=(S2/BE2)" },
+    { "name" : "is_the_dat_beneficial" , "column" : "BH2" , "function" : "=((1) if (0<BG2<6) else -1)" }
+  ]
+}

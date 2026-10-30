@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/EconomicInformation.schema.json",
+  "title": "QuantiFarm economic information",
+  "description": "Economic information about the performance of the cultivation in the specific year",
+  "type": "object",
+  "properties": {
+    "numberOfFulfilledOrders": {
+      "description": "The number of on-time fulfilled orders in the specific year",
+      "type": "number"
+    },
+    "numberOfOrdersReceived": {
+      "description": "The number of orders received in the specific year",
+      "type": "number"
+    },
+    "numberOfWrongOrders": {
+      "description": "The number of wrong orders received in the specific year",
+      "type": "number"
+    },
+    "additionalRevenues": {
+      "description": "Additional revenues in Euros per hectare generated during the specific year",
+      "type": "number"
+    },
+    "percentageProteinInDryMatter": {
+      "description": "The percentage protein achieved in dry matter produced during the specific year",
+      "type": "number"
+    },
+    "humidity": {
+      "description": "The (average?) humidity in percentage of the air during the specific year",
+      "$comment": "Jack: I don't understand this field!",
+      "type": "number"
+    },
+    "testWeight": {
+      "description": "Test weight of (?) in kg per hectoliter during the specific year",
+      "$comment": "Jack: I don't understand this field!",
+      "type": "number"
+    }
+  },
+  "required": []
+}

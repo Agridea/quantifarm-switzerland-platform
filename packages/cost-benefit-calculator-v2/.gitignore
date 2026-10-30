@@ -1,0 +1,14 @@
+# Environment variables
+.env
+
+# Log files
+*.log
+volume/fastapi-app/app/resources/logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Docker volumes (local data)
+../databases/cost-benefit-calculator-v2-tool/

@@ -1,0 +1,144 @@
+services:
+  triple-store:
+    container_name: triple-store
+    platform: linux/amd64
+    image: registry.gitlab.com/quantifarm/data-platform/triple-store:0.0.3
+    build:
+      context: ./triple-store
+      args:
+        JENA_VERSION: 4.9.0
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3030:3030"
+    command: [ "--conf", "/fuseki/configuration/conf.ttl"]
+    volumes:
+      - ./fuseki-conf.ttl:/fuseki/configuration/conf.ttl:ro
+      - triple-store-logs:/fuseki/logs
+      - triple-store-data:/fuseki/databases
+    networks:
+      - quantifarm-network
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+          cpus: '1.0'
+
+  dats-loader:
+    build:
+      context: .
+      dockerfile: ./dats-loader/Dockerfile
+    profiles:
+      - loaders
+    restart: "no"
+    environment:
+      TRIPLE_STORE_ENDPOINT: ${TRIPLE_STORE_ENDPOINT}
+      FAIRSHARE_FILE_PATH: ${FAIRSHARE_FILE_PATH}
+      TESTCASE_FILE_PATH: ${TESTCASE_FILE_PATH}
+      COST_BENEFIT_ARABLE_FILE_PATH: ${COST_BENEFIT_ARABLE_FILE_PATH}
+      COST_BENEFIT_LIFESTOCK_FILE_PATH: ${COST_BENEFIT_LIFESTOCK_FILE_PATH}
+      ISO3166_PATH: ${ISO3166_PATH}
+    networks:
+      - quantifarm-network
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+          cpus: '0.5'
+
+  testcase-loader:
+    build:
+      context: .
+      dockerfile: ./testcase-loader/Dockerfile
+    profiles:
+      - loaders
+    restart: "no"
+    environment:
+      TRIPLE_STORE_ENDPOINT: ${TRIPLE_STORE_ENDPOINT}
+      TC_LOAD_FROM_JSON: ${TC_LOAD_FROM_JSON:-false}
+      TC_IMPORT_DIR: ${TC_IMPORT_DIR:-./export}
+    # stdin_open: true                   # Nur für Debugging aktivieren
+    # tty: true                          # Nur für Debugging aktivieren
+    networks:
+      - quantifarm-network
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+          cpus: '0.5'
+
+  translation-loader:
+    build:
+      context: .
+      dockerfile: ./translation-loader/Dockerfile
+    profiles:
+      - loaders
+    restart: "no"
+    environment:
+      TRIPLE_STORE_ENDPOINT: ${TRIPLE_STORE_ENDPOINT}
+      DEEPL_API_KEY: ${DEEPL_API_KEY}
+      TARGET_LANGUAGES: ${TARGET_LANGUAGES:-de,fr,it}
+      TRANSLATE_ONLY_DAT: ${TRANSLATE_ONLY_DAT:-}
+      DRY_RUN: ${DRY_RUN:-false}
+      TRANSLATIONS_LOAD_FROM_JSON: ${TRANSLATIONS_LOAD_FROM_JSON:-false}
+      TRANSLATIONS_JSON_DIR: ${TRANSLATIONS_JSON_DIR:-/data}
+    networks:
+      - quantifarm-network
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+          cpus: '0.5'
+
+  dats-backup:
+    image: curlimages/curl:8.9.1
+    profiles:
+      - loaders
+    restart: "no"
+    environment:
+      TRIPLE_STORE_ENDPOINT: http://triple-store:3030
+      DATS_GRAPH_URI: https://quantifarm.eu/graphs/dats
+      DATS_TRANSLATIONS_GRAPH_URI: https://quantifarm.eu/graphs/dats-translations
+      BACKUP_DIR: /backups
+      RETENTION_DAYS: ${DATS_BACKUP_RETENTION_DAYS:-30}
+    entrypoint: ["/bin/sh", "/script/backup-dats-graph.sh"]
+    volumes:
+      - ./backup-dats-graph.sh:/script/backup-dats-graph.sh:ro
+      - ./backups:/backups
+    networks:
+      - quantifarm-network
+    security_opt:
+      - no-new-privileges:true
+    deploy:
+      resources:
+        limits:
+          memory: 128M
+          cpus: '0.25'
+
+volumes:
+  triple-store-data:
+  triple-store-logs:
+
+networks:
+  quantifarm-network:
+    name: quantifarm-network
+    driver: bridge

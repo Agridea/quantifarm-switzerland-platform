@@ -1,0 +1,446 @@
+/**
+ * DigiAgriFoodCH Theme Overrides
+ * Aligns the QuantiFarm Toolkit Dashboard design with digiagrifood.ch
+ *
+ * Design reference: https://digiagrifood.ch
+ * Primary color:  #263645 (dark navy)
+ * Accent color:   #3366cc (blue)
+ * Body bg:        #f7f7f7
+ * Font:           Roboto Condensed
+ */
+
+/* ---------------------------------------------------------------
+   Typography
+--------------------------------------------------------------- */
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    background: #f7f7f7;
+    color: #263645;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+a {
+    color: #3366cc;
+}
+
+a:hover {
+    color: #0056a7;
+}
+
+/* ---------------------------------------------------------------
+   Header – dark navy background (as on digiagrifood.ch)
+--------------------------------------------------------------- */
+.header {
+    background-color: #263645;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+    height: 80px;
+}
+
+/* Adjust main content and sidebar top offset to match header height */
+#main {
+    margin-top: 95px;
+    min-height: calc(100vh - 300px);
+}
+
+main:not(#main) {
+    min-height: calc(100vh - 300px);
+    margin: 95px 10px 10px 10px;
+}
+
+.sidebar {
+    top: 80px;
+}
+
+/* Logo text – white on dark header */
+.logo span {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+/* Logo text – blue on light background (login/register pages) */
+.section.register .logo span {
+    color: #006DB1;
+}
+
+/* Toggle sidebar button – white on dark header */
+.header .toggle-sidebar-btn {
+    color: #ffffff;
+    padding-left: 0px;
+}
+
+/* Search input – adapted for dark header */
+.header .search-form input {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.25);
+    color: #ffffff;
+}
+
+.header .search-form input::placeholder {
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.header .search-form input:focus,
+.header .search-form input:hover {
+    background: rgba(255, 255, 255, 0.18);
+    border-color: rgba(255, 255, 255, 0.45);
+    box-shadow: none;
+}
+
+.header .search-form button i {
+    color: #ffffff;
+}
+
+/* ---------------------------------------------------------------
+   Top navigation links – white text on dark header
+   (Bootstrap's .text-primary uses !important, so we need it too)
+--------------------------------------------------------------- */
+.navbar .nav-link,
+.navbar .nav-link.text-primary,
+.navbar .navbar-nav .nav-link {
+    font-size: 20px;
+    color: #ffffff !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .nav-link.show,
+.navbar .nav-link.active,
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link.show {
+    color: #006DB1 !important;
+    background-color: transparent !important;
+}
+
+/* Extra-specific rule via ID to beat any remaining overrides */
+#header .nav-link:hover,
+#header .nav-link:focus,
+#header .nav-link.show,
+#header .nav-link.active {
+    background-color: transparent !important;
+    color: #006DB1 !important;
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar .nav-item.active .nav-link,
+.navbar .nav-item.active .nav-link.text-primary {
+    color: #006DB1 !important;
+}
+
+/* Dropdown caret / toggle arrow on dark header */
+.navbar .dropdown-toggle::after {
+    border-top-color: #ffffff;
+}
+
+/* Header nav icons and profile text */
+.header-nav .nav-icon,
+.header-nav .nav-profile {
+    color: #ffffff;
+}
+
+/* Language / login links in header-nav – same style as main navbar links */
+.header-nav .nav-link,
+.header-nav .nav-link.text-primary {
+    color: #ffffff !important;
+    font-size: 20px;
+}
+.header-nav .nav-link:hover,
+.header-nav .nav-link:focus,
+.header-nav .nav-link.show {
+    color: #b0c8e8 !important;
+    background-color: transparent !important;
+}
+.header-nav .dropdown-toggle::after {
+    border-top-color: #ffffff;
+}
+
+/* ---------------------------------------------------------------
+   Page title
+--------------------------------------------------------------- */
+.pagetitle h1 {
+    color: #263645;
+}
+
+/* ---------------------------------------------------------------
+   Sidebar
+--------------------------------------------------------------- */
+.sidebar {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+}
+
+.sidebar-nav .nav-link {
+    color: #263645;
+    background: #f0f3f7;
+}
+
+.sidebar-nav .nav-link i {
+    color: #263645;
+}
+
+.sidebar-nav .nav-link.collapsed {
+    color: #263645;
+    background: #ffffff;
+}
+
+.sidebar-nav .nav-link.collapsed i {
+    color: #3366cc;
+}
+
+.sidebar-nav .nav-link:hover {
+    color: #263645;
+    background: #e4eaf2;
+}
+
+.sidebar-nav .nav-link:hover i {
+    color: #3366cc;
+}
+
+.sidebar-nav .nav-content a {
+    color: #263645;
+}
+
+.sidebar-nav .nav-content a:hover,
+.sidebar-nav .nav-content a.active {
+    color: #3366cc;
+}
+
+.sidebar-nav .nav-content a.active i {
+    background-color: #3366cc;
+}
+
+.sidebar-nav .nav-item:hover,
+.sidebar-nav .nav-item.active {
+    background: #e4eaf2;
+}
+
+/* Header navbar items: no gray background on hover/active */
+.navbar .nav-item:hover,
+.navbar .nav-item.active {
+    background: transparent !important;
+}
+
+/* ---------------------------------------------------------------
+   Cards
+--------------------------------------------------------------- */
+.card {
+    box-shadow: 0px 0 30px rgba(38, 54, 69, 0.08);
+}
+
+.card-title {
+    color: #263645;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.card-header,
+.card-footer {
+    background-color: #ffffff;
+}
+
+/* ---------------------------------------------------------------
+   Accordion
+--------------------------------------------------------------- */
+.accordion-button:not(.collapsed) {
+    color: #263645;
+    background-color: #f0f3f7;
+}
+
+.accordion-flush .accordion-button:not(.collapsed) {
+    color: #263645;
+    box-shadow: none;
+}
+
+/* ---------------------------------------------------------------
+   Bordered nav tabs
+--------------------------------------------------------------- */
+.nav-tabs-bordered .nav-link {
+    color: #263645;
+}
+
+.nav-tabs-bordered .nav-link:hover,
+.nav-tabs-bordered .nav-link:focus {
+    color: #3366cc;
+}
+
+.nav-tabs-bordered .nav-link.active {
+    background-color: #f0f3f7;
+    color: #263645;
+}
+
+/* ---------------------------------------------------------------
+   Dropdown menu
+--------------------------------------------------------------- */
+.dropdown-menu .dropdown-item:hover,
+.header-nav .notifications .notification-item:hover,
+.header-nav .messages .message-item:hover,
+.header-nav .profile .dropdown-item:hover {
+    background-color: #f0f3f7;
+}
+
+/* Navbar header dropdowns: dark navy background matching the header */
+.navbar .dropdown-menu {
+    background-color: #263645;
+    border: none;
+    border-radius: 0 0 6px 6px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+    --bs-dropdown-link-color: #ffffff;
+    --bs-dropdown-link-hover-color: #006DB1;
+    --bs-dropdown-link-hover-bg: transparent;
+    --bs-dropdown-link-active-color: #006DB1;
+    --bs-dropdown-link-active-bg: transparent;
+    --bs-dropdown-divider-bg: rgba(255,255,255,0.15);
+}
+.navbar .dropdown-menu .dropdown-item {
+    color: #ffffff !important;
+}
+.navbar .dropdown-menu .dropdown-item:hover,
+.navbar .dropdown-menu .dropdown-item:focus,
+.navbar .dropdown-menu .dropdown-item:active,
+.navbar .dropdown-menu .dropdown-item.active {
+    background-color: transparent !important;
+    color: #006DB1 !important;
+}
+.navbar .dropdown-menu .dropdown-divider {
+    border-color: rgba(255,255,255,0.15);
+    display: none;
+}
+/* Remove white arrow on dark dropdown */
+.navbar .dropdown-menu-arrow::before {
+    display: none;
+}
+
+/* ---------------------------------------------------------------
+   Buttons
+--------------------------------------------------------------- */
+.btn-primary {
+    background-color: #263645;
+    border-color: #263645;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #3366cc;
+    border-color: #3366cc;
+}
+
+/* ---------------------------------------------------------------
+   Back-to-top button
+--------------------------------------------------------------- */
+.back-to-top {
+    background: #263645;
+}
+
+.back-to-top:hover {
+    background: #3366cc;
+}
+
+/* ---------------------------------------------------------------
+   Dashboard widgets
+--------------------------------------------------------------- */
+.dashboard .info-card h6 {
+    color: #263645;
+}
+
+.dashboard .news h4 a {
+    color: #263645;
+}
+
+.dashboard .news h4 a:hover {
+    color: #3366cc;
+}
+
+/* ---------------------------------------------------------------
+   FAQ
+--------------------------------------------------------------- */
+.faq .basic h6 {
+    color: #263645;
+}
+
+/* ---------------------------------------------------------------
+   Contact page
+--------------------------------------------------------------- */
+.contact .info-box i {
+    color: #3366cc;
+}
+
+.contact .info-box h3 {
+    color: #263645;
+}
+
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
+    border-color: #3366cc;
+}
+
+.contact .php-email-form button[type=submit] {
+    background: #263645;
+}
+
+.contact .php-email-form button[type=submit]:hover {
+    background: #3366cc;
+}
+
+/* ---------------------------------------------------------------
+   Profile page
+--------------------------------------------------------------- */
+.profile .profile-card .social-links a {
+    color: rgba(51, 102, 204, 0.5);
+}
+
+.profile .profile-card .social-links a:hover {
+    color: #3366cc;
+}
+
+.profile .profile-overview .card-title {
+    color: #263645;
+}
+
+.profile .profile-overview .label {
+    color: rgba(38, 54, 69, 0.6);
+}
+
+.profile .profile-edit label {
+    color: rgba(38, 54, 69, 0.6);
+}
+
+/* ---------------------------------------------------------------
+   Error 404 page
+--------------------------------------------------------------- */
+.error-404 h1 {
+    color: #263645;
+}
+
+.error-404 h2 {
+    color: #3366cc;
+}
+
+/* ---------------------------------------------------------------
+   Footer
+--------------------------------------------------------------- */
+.footer {
+    border-top-color: #d0d8e2;
+}
+
+.footer .copyright,
+.footer .credits {
+    color: #263645;
+}
+
+/* ---------------------------------------------------------------
+   QF custom utility overrides
+--------------------------------------------------------------- */
+.qf-color1 {
+    color: #3366cc;
+}
+
+.qf-background1 {
+    background: #e4eaf2;
+}
+
+.qf-background2 {
+    background: #f7f7f7;
+}

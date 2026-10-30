@@ -1,0 +1,134 @@
+{
+
+    "metapaths": [
+        {
+            "title": "metapath from Farmer's farm location country to DATS's targeted country",
+            "start_node_type": "<https://saref.etsi.org/saref4agri/Farmer>",
+            "node_types": [
+                "<https://saref.etsi.org/saref4agri/Farm>",
+                "<https://gs1.org/voc/address>",
+                "<https://gs1.org/voc/Country>",
+                "<https://quantifarm.eu/ontology/DigitalAgriculturalTechnology>"
+            ],
+            "relations": [
+                "<https://saref.etsi.org/saref4agri/managesFarm>",
+                "<https://saref.etsi.org/saref4agri-new/hasAddress_FAKE>",
+                "<https://gs1.org/voc/addressCountry>",
+                "<https://quantifarm.eu/ontology/isTargetedTowardsCountry>"
+            ],
+            "reverse_relations": [
+                false,
+                false,
+                false,
+                true
+            ],
+            "weight": 1.5,
+            "explanation_text": "farm's country"
+        },
+        {
+            "title": "path from Farmer's preferred language to DATS's supported language",
+            "start_node_type": "<https://saref.etsi.org/saref4agri/Farmer>",
+            "node_types": [
+                "<http://www.w3.org/2001/XMLSchema#string>",
+                "<https://quantifarm.eu/ontology/DigitalAgriculturalTechnology>"
+            ],
+            "relations": [
+                "<https://saref.etsi.org/saref4agri-new/prefersLanguage>",
+                "<https://quantifarm.eu/ontology/hasSupportedLanguage>"
+            ],
+            "reverse_relations": [
+                false,
+                true
+            ],
+            "weight": 3.0,
+            "explanation_text": "language preference"
+        },
+        {
+            "title": "path from Farmer's farm type to DATS's targeted sector",
+            "start_node_type": "<https://saref.etsi.org/saref4agri/Farmer>",
+            "node_types": [
+                "<https://saref.etsi.org/saref4agri/Farm>",
+                "<http://www.w3.org/2001/XMLSchema#string>",
+                "<http://www.w3.org/2001/XMLSchema#string>",
+                "<https://quantifarm.eu/ontology/DigitalAgriculturalTechnology>"
+            ],
+            "relations": [
+                "<https://saref.etsi.org/saref4agri/managesFarm>",
+                "<https://saref.etsi.org/saref4agri-new/hasFarmType>",
+                "<https://quantifarm.eu/ontology/mapsTo_FAKE>",
+                "<https://quantifarm.eu/ontology/isTargetedTowardsAgriculturalSector>"
+            ],
+            "reverse_relations": [
+                false,
+                false,
+                false,
+                true
+            ],
+            "weight": 5.0,
+            "explanation_text": "farm type"
+         },
+        {
+            "title": "path from Farmer's required assistance to DATS's functionality",
+            "start_node_type": "<https://saref.etsi.org/saref4agri/Farmer>",
+            "node_types": [
+                "<http://www.w3.org/2001/XMLSchema#string>",
+                "<http://www.w3.org/2001/XMLSchema#string>",
+                "<https://quantifarm.eu/ontology/DigitalAgriculturalTechnology>"
+            ],
+            "relations": [
+                "<https://quantifarm.eu/ontology/requiresFunctionality_FAKE>",
+                "<https://quantifarm.eu/ontology/mapsTo_FAKE>",
+                "<https://quantifarm.eu/ontology/hasFunctionality>"
+            ],
+            "reverse_relations": [
+                false,
+                false,
+                true
+            ],
+            "weight": 5,
+            "explanation_text": "desired functionality"
+        },
+        {
+            "title": "path from Farmer's technology competency to DATS's digital form",
+            "start_node_type": "<https://saref.etsi.org/saref4agri/Farmer>",
+            "node_types": [
+                "<http://www.w3.org/2001/XMLSchema#string>",
+                "<http://www.w3.org/2001/XMLSchema#string>",
+                "<https://quantifarm.eu/ontology/DigitalAgriculturalTechnology>"
+            ],
+            "relations": [
+                "<https://quantifarm.eu/ontology/canUseTechnology_FAKE>",
+                "<https://quantifarm.eu/ontology/mapsTo_FAKE>",
+                "<https://quantifarm.eu/ontology/hasDigitalForm>"
+            ],
+            "reverse_relations": [
+                false,
+                false,
+                true
+            ],
+            "weight": 0.3,
+            "explanation_text": "preferred technology"
+        },
+        {
+            "title": "path from Farmer's desired achievement to DATS's benefits",
+            "start_node_type": "<https://saref.etsi.org/saref4agri/Farmer>",
+            "node_types": [
+                "<http://www.w3.org/2001/XMLSchema#string>",
+                "<http://www.w3.org/2001/XMLSchema#string>",
+                "<https://quantifarm.eu/ontology/DigitalAgriculturalTechnology>"
+            ],
+            "relations": [
+                "<https://quantifarm.eu/ontology/wantsBenefits_FAKE>",
+                "<https://quantifarm.eu/ontology/mapsTo_FAKE>",
+                "<https://quantifarm.eu/ontology/hasBenefits>"
+            ],
+            "reverse_relations": [
+                false,
+                false,
+                true
+            ],
+            "weight": 1.5,
+            "explanation_text": "desired benefits"
+        }
+    ]
+}

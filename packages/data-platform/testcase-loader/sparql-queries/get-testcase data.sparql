@@ -1,0 +1,149 @@
+########## Query 1 ############
+# This query returns the 5 main impact parameters for testcase X
+# See Column J in the testcase Excel file of cells with a 1 in it
+# It gives you the year, product, name, unit, absolute difference, percentage difference, higher is better meaning, title and subtitle per parameter
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX qcsm: <https://quantifarm.eu/ontology/>
+SELECT DISTINCT ?year ?product ?name ?unit ?absDiff ?percDiff ?higherIsBetter ?impactLevel ?title ?subtitle
+FROM <https://quantifarm.eu/graphs/testcase6>
+WHERE {
+    ?uri rdf:type qcsm:Testcase .
+    ?uri qcsm:hasYearlyAssessmentInformation ?info .
+    ?info qcsm:hasCultivationYear ?year .
+    ?info qcsm:hasParcelComparison ?comparison .
+    ?comparison qcsm:hasParcelAssessmentWithDATS ?assessment .
+    ?assessment qcsm:hasParcelInformation ?parcel .
+    ?parcel qcsm:hasProductType ?product .
+    ?comparison qcsm:hasMainImpactInformation ?indicatorInfo .
+    ?indicatorInfo qcsm:hasMainImpactName ?name .
+    ?indicatorInfo qcsm:hasMainImpactUnit ?unit .
+    ?indicatorInfo qcsm:hasAbsoluteDifference ?absDiff .
+    ?indicatorInfo qcsm:hasPercentageDifference ?percDiff .
+    ?indicatorInfo qcsm:hasHigherIsBetterMeaning ?higherIsBetter .
+    ?indicatorInfo qcsm:hasImpactLevel ?impactLevel .
+    ?indicatorInfo qcsm:hasMainImpactTitle ?title .
+    ?indicatorInfo qcsm:hasMainImpactSubtitle ?subtitle .
+}
+
+
+########## Query 2 ############
+# This query returns the cost revenue impact indicators for testcase X
+# See Column K in the testcase Excel file of cells with a 1 in it
+# It gives you the year, product, category, unit, absolute difference, higher is better meaning and short description per indicator
+
+SELECT DISTINCT ?year ?product ?category ?name ?unit ?absDiff ?percDiff ?higherIsBetter ?impactLevel ?description
+FROM <https://quantifarm.eu/graphs/testcase21>
+WHERE {
+    ?uri rdf:type qcsm:Testcase .
+    ?uri qcsm:hasYearlyAssessmentInformation ?info .
+    ?info qcsm:hasCultivationYear ?year .
+    ?info qcsm:hasParcelComparison ?comparison .
+    ?comparison qcsm:hasParcelAssessmentWithDATS ?assessment .
+    ?assessment qcsm:hasParcelInformation ?parcel .
+    ?parcel qcsm:hasProductType ?product .
+    ?comparison qcsm:hasCostRevenueImpactInformation ?indicatorInfo .
+    ?indicatorInfo qcsm:hasCostRevenueImpactCategory ?category .
+    ?indicatorInfo qcsm:hasCostRevenueImpactName ?name .
+    ?indicatorInfo qcsm:hasCostRevenueImpactUnit ?unit .
+    ?indicatorInfo qcsm:hasAbsoluteDifference ?absDiff .
+    ?indicatorInfo qcsm:hasPercentageDifference ?percDiff .
+    ?indicatorInfo qcsm:hasHigherIsBetterMeaning ?higherIsBetter .
+    ?indicatorInfo qcsm:hasImpactLevel ?impactLevel .
+    ?indicatorInfo qcsm:hasCostRevenueImpactShortDescription ?description .
+}
+
+
+########## Query 3 ############
+# This query returns the indicators that are used to calculate the 7 aggregated impacts for testcase X
+# See Column L in the testcase Excel file of cells with a 1 in it
+# It gives you the year, product, name, unit, absolute difference and percentage difference per indicator
+
+SELECT DISTINCT ?year ?product ?name ?unit ?absDiff ?percDiff
+FROM <https://quantifarm.eu/graphs/testcase6>
+WHERE {
+    ?uri rdf:type qcsm:Testcase .
+    ?uri qcsm:hasYearlyAssessmentInformation ?info .
+    ?info qcsm:hasCultivationYear ?year .
+    ?info qcsm:hasParcelComparison ?comparison .
+    ?comparison qcsm:hasParcelAssessmentWithDATS ?assessment .
+    ?assessment qcsm:hasParcelInformation ?parcel .
+    ?parcel qcsm:hasProductType ?product .
+    ?comparison qcsm:hasCalculatedIndicatorInformation ?indicatorInfo .
+    ?indicatorInfo qcsm:hasIndicatorName ?name .
+    ?indicatorInfo qcsm:hasIndicatorUnit ?unit .
+    ?indicatorInfo qcsm:hasAbsoluteDifference ?absDiff .
+    ?indicatorInfo qcsm:hasPercentageDifference ?percDiff .
+}
+
+
+########## Query 4 ############
+# This query returns the 7 aggregated impact parameters for testcase X
+# See Column T in the testcase Excel file
+# It gives you the year, product, name, unit and percentage difference per parameter
+
+SELECT DISTINCT ?year ?product ?name ?unit ?percDiff ?maxRangePercDiff
+FROM <https://quantifarm.eu/graphs/testcase21>
+WHERE {
+    ?uri rdf:type qcsm:Testcase .
+    ?uri qcsm:hasYearlyAssessmentInformation ?info .
+    ?info qcsm:hasCultivationYear ?year .
+    ?info qcsm:hasParcelComparison ?comparison .
+    ?comparison qcsm:hasParcelAssessmentWithDATS ?assessment .
+    ?assessment qcsm:hasParcelInformation ?parcel .
+    ?parcel qcsm:hasProductType ?product .
+    ?comparison qcsm:hasAggregatedImpactInformation ?indicatorInfo .
+    ?indicatorInfo qcsm:hasAggregatedImpactName ?name .
+    ?indicatorInfo qcsm:hasAggregatedImpactUnit ?unit .
+    ?indicatorInfo qcsm:hasAggregatedImpactValue ?percDiff .
+    ?indicatorInfo qcsm:hasAggregatedImpactMaxRangeValue ?maxRangePercDiff .
+}
+
+
+########## Query 5 ############
+# This query returns the 3 sustainability parameters economic, environmental and social for testcase X
+# See Column Z in the testcase Excel file
+# It gives you the year, product, name, unit, absolute difference and percentage difference per parameter
+
+SELECT DISTINCT ?year ?product ?name ?unit ?absDiff ?percDiff
+FROM <https://quantifarm.eu/graphs/testcase6>
+WHERE {
+    ?uri rdf:type qcsm:Testcase .
+    ?uri qcsm:hasYearlyAssessmentInformation ?info .
+    ?info qcsm:hasCultivationYear ?year .
+    ?info qcsm:hasParcelComparison ?comparison .
+    ?comparison qcsm:hasParcelAssessmentWithDATS ?assessment .
+    ?assessment qcsm:hasParcelInformation ?parcel .
+    ?parcel qcsm:hasProductType ?product .
+    ?comparison qcsm:hasCalculatedSustainabilityInformation ?indicatorInfo .
+    ?indicatorInfo qcsm:hasSustainabilityParameterName ?name .
+    ?indicatorInfo qcsm:hasSustainabilityParameterUnit ?unit .
+    ?indicatorInfo qcsm:hasAbsoluteDifference ?absDiff .
+    ?indicatorInfo qcsm:hasPercentageDifference ?percDiff .
+}
+
+
+########## Query 6 ############
+# This query returns the three year average impact parameters for testcase X
+# See Tab "3 year analysis" in the testcase Excel file
+# It gives you the product, category, name, unit, value and deviation per three year average parameter
+
+SELECT DISTINCT ?product ?category ?name ?unit ?value ?deviation
+FROM <https://quantifarm.eu/graphs/testcase1>
+WHERE {
+    ?uri rdf:type qcsm:Testcase .
+    ?uri qcsm:hasYearlyAssessmentInformation ?info .
+    ?info qcsm:hasParcelComparison ?comparison .
+    ?comparison qcsm:hasParcelAssessmentWithDATS ?assessment .
+    ?assessment qcsm:hasParcelInformation ?parcel .
+    ?parcel qcsm:hasProductType ?product .
+    ?uri qcsm:hasThreeYearAverages ?avg .
+    ?avg qcsm:hasThreeYearAverageCategory ?category .
+    ?avg qcsm:hasThreeYearAverageImpactName ?name .
+    ?avg qcsm:hasThreeYearAverageImpactUnit ?unit .
+    ?avg qcsm:hasThreeYearAverageImpactValue ?value .
+    ?avg qcsm:hasThreeYearAverageImpactStandardDeviation ?deviation .
+}
+
+
+

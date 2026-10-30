@@ -1,0 +1,1117 @@
+{
+   "testcaseNumber": 0,
+   "testcaseLeader": "NP",
+   "cultivationType": "Test",
+   "datsInformation": [
+      {
+         "datsName": "Acerva",
+         "datsInitialInvestmentCosts": 1,
+         "datsAnnualFees": 2,
+         "datsMaintenanceCosts": 3,
+         "datsExpectedLifespan": 4,
+         "datsInstallationTime": 5,
+         "datsTrainingTime": 6,
+         "datsTrainers": 7,
+         "datsTrainingCosts": 8
+      },
+      {
+         "datsName": "BENCO",
+         "datsInitialInvestmentCosts": 2,
+         "datsAnnualFees": 3,
+         "datsMaintenanceCosts": 4,
+         "datsExpectedLifespan": 5,
+         "datsInstallationTime": 6,
+         "datsTrainingTime": 7,
+         "datsTrainers": 8,
+         "datsTrainingCosts": 9
+      }
+   ],
+   "yearlyAssessmentInformation": [
+      {
+         "cultivationYear": 2023,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "farmInformation": {
+                     "farmNumber": 6,
+                     "biogeographicalRegion": "atlantic",
+                     "totalFarmSize": 7
+                  },
+                  "parcelInformation": {
+                     "parcelName": "b",
+                     "parcelDimension": 8,
+                     "startMonth": 9,
+                     "endMonth": 10,
+                     "productType": "broccoli",
+                     "numberOfEmployees": 11,
+                     "numberOfFulltimeEmployees": 12,
+                     "numberOfSeasonalEmployees": 13,
+                     "soilFractionSand": 14,
+                     "soilFractionClay": 15,
+                     "soilFractionSilt": 16,
+                     "bulkDensity": 17,
+                     "soilOrganicCarbon": 18,
+                     "numberOfAnimals": 19,
+                     "numberOfPlants": 20,
+                     "livestockUnits": 21,
+                     "numberOfBeehives": 22,
+                     "aquacultureArea": 23
+                  },
+                  "datsUsed": [
+                     "Acerva"
+                  ],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 24,
+                     "waterUsageForIrrigation": 25,
+                     "waterUsageForFertigation": 26,
+                     "waterUsageForPestDilution": 27,
+                     "waterUsageForCleaning": 28,
+                     "waterUsageForDrinking": 29
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 30,
+                     "fuelUsageForFertilisation": 31,
+                     "fuelUsageForPesticides": 32,
+                     "fuelUsageForIrrigation": 33,
+                     "fuelUsageForSowing": 34,
+                     "fuelUsageForPruning": 35,
+                     "fuelUsageForTemperatureHumidityControl": 36,
+                     "fuelUsageForBeehivesVisits": 37,
+                     "fuelUsageForTransportingOysters": 38,
+                     "fuelUsageForMilking": 39,
+                     "fuelUsageForFeeding": 40
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 41,
+                     "electricityUsageForTemperatureHumidityControl": 42,
+                     "electricityUsageForIrrigation": 43,
+                     "electricityUsageForMilking": 44,
+                     "electricityUsageForHeatDetection": 45,
+                     "electricityUsageForCalvingDetection": 46,
+                     "electricityUsageForFeeding": 47
+                  },
+                  "fuelForTemperatureControlInformation": [
+                     {
+                        "productName": "fuel1",
+                        "quantity": 1,
+                        "productPrice": 2
+                     },
+                     {
+                        "productName": "fuel2",
+                        "quantity": 2,
+                        "productPrice": 3
+                     }
+                  ],
+                  "pesticidesUsageInformation": [
+                     {
+                        "productName": "p1",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 2,
+                        "productPrice": 3
+                     },
+                     {
+                        "productName": "p2",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 3,
+                        "productPrice": 4
+                     },
+                     {
+                        "productName": "p3",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 4,
+                        "productPrice": 5
+                     }
+                  ],
+                  "fertilizersUsageInformation": [
+                     {
+                        "productName": "fert1",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 2,
+                        "averageNitrogenQuantity": 3,
+                        "averagePhosphorusQuantity": 4,
+                        "averagePotassiumQuantity": 5,
+                        "productPrice": 6
+                     },
+                     {
+                        "productName": "fert2",
+                        "productType": "Organic",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 3,
+                        "averageNitrogenQuantity": 4,
+                        "averagePhosphorusQuantity": 5,
+                        "averagePotassiumQuantity": 6,
+                        "productPrice": 7
+                     }
+                  ],
+                  "feedUsageInformation": [
+                     {
+                        "productName": "feed1",
+                        "quantity": 1,
+                        "productPrice": 2
+                     },
+                     {
+                        "productName": "feed2",
+                        "quantity": 2,
+                        "productPrice": 3
+                     }
+                  ],
+                  "drugsUsageInformation": [
+                     {
+                        "productName": "drug1",
+                        "quantity": 1,
+                        "productPrice": 2
+                     },
+                     {
+                        "productName": "drug2",
+                        "quantity": 2,
+                        "productPrice": 3
+                     }
+                  ],
+                  "labourInformation": {
+                     "labourForIrrigation": 48,
+                     "labourForPesticides": 49,
+                     "labourForFertilisation": 50,
+                     "labourForSowingOrPlanting": 51,
+                     "labourForPruning": 52,
+                     "labourForFieldVisits": 53,
+                     "labourForGreenhouseManagement": 54,
+                     "labourForQuantityTracking": 55,
+                     "labourForGrainQualityAssessment": 56,
+                     "labourForControllingPricesAndQuantities": 57,
+                     "labourForOrganisingLogistics": 58,
+                     "labourForCleaning": 59,
+                     "labourForStableVisits": 60,
+                     "labourForHeatDetection": 61,
+                     "labourForCalvingDetection": 62,
+                     "labourForPigstyManagement": 63,
+                     "labourForMilking": 64,
+                     "labourForMilkQualityAssessment": 65,
+                     "labourForFeeding": 66,
+                     "labourForBeehiveVisits": 67,
+                     "labourForOysterSampling": 68,
+                     "labourForOysterTransportation": 69,
+                     "labourForHarvesting": 70,
+                     "labourForStorage": 71,
+                     "labourForAdministration": 72
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": 73,
+                     "numberOfOrdersReceived": 74,
+                     "numberOfWrongOrders": 75,
+                     "additionalRevenues": 76,
+                     "percentageProteinInDryMatter": 77,
+                     "humidity": 78,
+                     "testWeight": 79
+                  },
+                  "outputInformation": {
+                     "cropProduction": 80,
+                     "milkProduction": 81,
+                     "meatProduction": 82,
+                     "oysterProduction": 83,
+                     "honeyProduction": 84,
+                     "silosProduction": 85,
+                     "productMarketPrice": 86,
+                     "cropMarketPrice": 87,
+                     "meatMarketPrice": 88,
+                     "milkMarketPrice": 89,
+                     "oysterMarketPrice": 90,
+                     "honeyMarketPrice": 91
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": 92,
+                     "calvesDiedInFirst24Hours": 93,
+                     "totalNumberOfCalvesBorn": 94,
+                     "numberOfDaysWithPastureAccess": 95,
+                     "outdoorLoafingArea": 96,
+                     "herdSize": 97,
+                     "numberOfCowsWithHighSCCMilk": 98
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 99,
+                     "totalNumberOfLostWorkingHours": 100,
+                     "totalNumberOfWorkingHours": 101,
+                     "numberOfWorkingWeeks": 102,
+                     "numberOfNewLocalEmployeesHired": 103,
+                     "numberOfNewEmployeesHired": 104
+                  },
+                  "additionalFieldsInformation": [
+                     {
+                        "fieldName": "indicator1",
+                        "fieldValue": 1
+                     },
+                     {
+                        "fieldName": "indicator2",
+                        "fieldValue": 2
+                     }
+                  ]
+               },
+               "parcelAssessmentWithoutDATS": {
+                  "farmInformation": {
+                     "farmNumber": 1,
+                     "biogeographicalRegion": "atlantic",
+                     "totalFarmSize": 10
+                  },
+                  "parcelInformation": {
+                     "parcelName": "2",
+                     "parcelDimension": 5,
+                     "startMonth": 3,
+                     "endMonth": 9,
+                     "productType": "potato",
+                     "numberOfEmployees": null,
+                     "numberOfFulltimeEmployees": null,
+                     "numberOfSeasonalEmployees": null,
+                     "soilFractionSand": null,
+                     "soilFractionClay": null,
+                     "soilFractionSilt": null,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": null,
+                     "numberOfAnimals": 5,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": 1,
+                     "aquacultureArea": 5
+                  },
+                  "datsUsed": [],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 10,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 1,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 2,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [
+                     {
+                        "productName": "poison2",
+                        "numberOfTreatments": 10,
+                        "averageQuantity": 10,
+                        "productPrice": 100
+                     },
+                     {
+                        "productName": "poison3",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 1,
+                        "productPrice": 1000
+                     }
+                  ],
+                  "fertilizersUsageInformation": [
+                     {
+                        "productName": "nutri2",
+                        "productType": null,
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 10,
+                        "averageNitrogenQuantity": 10,
+                        "averagePhosphorusQuantity": 10,
+                        "averagePotassiumQuantity": 80,
+                        "productPrice": 30
+                     }
+                  ],
+                  "feedUsageInformation": [
+                     {
+                        "productName": "feed1",
+                        "quantity": 1,
+                        "productPrice": 2
+                     }
+                  ],
+                  "drugsUsageInformation": [
+                     {
+                        "productName": "drug1",
+                        "quantity": 1,
+                        "productPrice": 2
+                     }
+                  ],
+                  "labourInformation": {
+                     "labourForIrrigation": null,
+                     "labourForPesticides": null,
+                     "labourForFertilisation": null,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": null,
+                     "labourForFieldVisits": null,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": null,
+                     "labourForStorage": null,
+                     "labourForAdministration": null
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": 5,
+                     "milkProduction": 1,
+                     "meatProduction": 2,
+                     "oysterProduction": 3,
+                     "honeyProduction": 4,
+                     "silosProduction": 5,
+                     "productMarketPrice": 6,
+                     "cropMarketPrice": 7,
+                     "meatMarketPrice": 8,
+                     "milkMarketPrice": 9,
+                     "oysterMarketPrice": 10,
+                     "honeyMarketPrice": 11
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": null,
+                     "totalNumberOfLostWorkingHours": null,
+                     "totalNumberOfWorkingHours": null,
+                     "numberOfWorkingWeeks": null,
+                     "numberOfNewLocalEmployeesHired": null,
+                     "numberOfNewEmployeesHired": null
+                  },
+                  "additionalFieldsInformation": []
+               }
+            }
+         ],
+         "marketInformation": {
+            "waterPrice": 1,
+            "fuelPrice": 2,
+            "electricityPrice": 3,
+            "averageSalary": 4,
+            "averageProfessionalSalary": 5
+         }
+      },
+      {
+         "cultivationYear": 2024,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "farmInformation": {
+                     "farmNumber": 2,
+                     "biogeographicalRegion": "atlantic",
+                     "totalFarmSize": 100
+                  },
+                  "parcelInformation": {
+                     "parcelName": "p2",
+                     "parcelDimension": 4,
+                     "startMonth": 3,
+                     "endMonth": 9,
+                     "productType": "broccoli",
+                     "numberOfEmployees": 1,
+                     "numberOfFulltimeEmployees": 2,
+                     "numberOfSeasonalEmployees": 3,
+                     "soilFractionSand": 4,
+                     "soilFractionClay": 5,
+                     "soilFractionSilt": 6,
+                     "bulkDensity": 7,
+                     "soilOrganicCarbon": 8,
+                     "numberOfAnimals": 9,
+                     "numberOfPlants": 10,
+                     "livestockUnits": 11,
+                     "numberOfBeehives": 12,
+                     "aquacultureArea": 13
+                  },
+                  "datsUsed": [
+                     "BENCO"
+                  ],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 2,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 4,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 3,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [
+                     {
+                        "productName": "pest1",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 2,
+                        "productPrice": 3
+                     }
+                  ],
+                  "fertilizersUsageInformation": [
+                     {
+                        "productName": "fert1",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 2,
+                        "averageNitrogenQuantity": null,
+                        "averagePhosphorusQuantity": null,
+                        "averagePotassiumQuantity": null,
+                        "productPrice": 4
+                     }
+                  ],
+                  "feedUsageInformation": [
+                     {
+                        "productName": "feed1",
+                        "quantity": 1,
+                        "productPrice": 2
+                     }
+                  ],
+                  "drugsUsageInformation": [
+                     {
+                        "productName": "drug3",
+                        "quantity": 1,
+                        "productPrice": 2
+                     }
+                  ],
+                  "labourInformation": {
+                     "labourForIrrigation": null,
+                     "labourForPesticides": null,
+                     "labourForFertilisation": null,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": null,
+                     "labourForFieldVisits": null,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": null,
+                     "labourForStorage": null,
+                     "labourForAdministration": null
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": 1,
+                     "milkProduction": 2,
+                     "meatProduction": 3,
+                     "oysterProduction": 4,
+                     "honeyProduction": 5,
+                     "silosProduction": 6,
+                     "productMarketPrice": 7,
+                     "cropMarketPrice": 8,
+                     "meatMarketPrice": 9,
+                     "milkMarketPrice": 10,
+                     "oysterMarketPrice": 11,
+                     "honeyMarketPrice": 12
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": null,
+                     "totalNumberOfLostWorkingHours": null,
+                     "totalNumberOfWorkingHours": null,
+                     "numberOfWorkingWeeks": null,
+                     "numberOfNewLocalEmployeesHired": null,
+                     "numberOfNewEmployeesHired": null
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "parcelAssessmentWithoutDATS": {
+                  "farmInformation": {
+                     "farmNumber": 4,
+                     "biogeographicalRegion": "atlantic",
+                     "totalFarmSize": 5
+                  },
+                  "parcelInformation": {
+                     "parcelName": "p3",
+                     "parcelDimension": 6,
+                     "startMonth": null,
+                     "endMonth": null,
+                     "productType": "broccoli",
+                     "numberOfEmployees": null,
+                     "numberOfFulltimeEmployees": null,
+                     "numberOfSeasonalEmployees": null,
+                     "soilFractionSand": null,
+                     "soilFractionClay": null,
+                     "soilFractionSilt": null,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": null,
+                     "numberOfAnimals": 4,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": 8,
+                     "aquacultureArea": 9
+                  },
+                  "datsUsed": [],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 4,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 5,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 6,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [],
+                  "fertilizersUsageInformation": [],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": null,
+                     "labourForPesticides": null,
+                     "labourForFertilisation": null,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": null,
+                     "labourForFieldVisits": null,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": null,
+                     "labourForStorage": null,
+                     "labourForAdministration": null
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": 2,
+                     "milkProduction": 4,
+                     "meatProduction": 6,
+                     "oysterProduction": 8,
+                     "honeyProduction": 10,
+                     "silosProduction": 12,
+                     "productMarketPrice": 14,
+                     "cropMarketPrice": 1,
+                     "meatMarketPrice": 2,
+                     "milkMarketPrice": 3,
+                     "oysterMarketPrice": 4,
+                     "honeyMarketPrice": 5
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": null,
+                     "totalNumberOfLostWorkingHours": null,
+                     "totalNumberOfWorkingHours": null,
+                     "numberOfWorkingWeeks": null,
+                     "numberOfNewLocalEmployeesHired": null,
+                     "numberOfNewEmployeesHired": null
+                  },
+                  "additionalFieldsInformation": []
+               }
+            },
+            {
+               "parcelAssessmentWithDATS": {
+                  "farmInformation": {
+                     "farmNumber": 5,
+                     "biogeographicalRegion": "atlantic",
+                     "totalFarmSize": 4
+                  },
+                  "parcelInformation": {
+                     "parcelName": "p9",
+                     "parcelDimension": 10,
+                     "startMonth": null,
+                     "endMonth": null,
+                     "productType": null,
+                     "numberOfEmployees": null,
+                     "numberOfFulltimeEmployees": null,
+                     "numberOfSeasonalEmployees": null,
+                     "soilFractionSand": null,
+                     "soilFractionClay": null,
+                     "soilFractionSilt": null,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": null,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [
+                     "BENCO"
+                  ],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": null,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": null,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": null,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [],
+                  "fertilizersUsageInformation": [],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": null,
+                     "labourForPesticides": null,
+                     "labourForFertilisation": null,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": null,
+                     "labourForFieldVisits": null,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": null,
+                     "labourForStorage": null,
+                     "labourForAdministration": null
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": null,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": null,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": null,
+                     "totalNumberOfLostWorkingHours": null,
+                     "totalNumberOfWorkingHours": null,
+                     "numberOfWorkingWeeks": null,
+                     "numberOfNewLocalEmployeesHired": null,
+                     "numberOfNewEmployeesHired": null
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "parcelAssessmentWithoutDATS": {
+                  "farmInformation": {
+                     "farmNumber": 5,
+                     "biogeographicalRegion": "atlantic",
+                     "totalFarmSize": 4
+                  },
+                  "parcelInformation": {
+                     "parcelName": "p8",
+                     "parcelDimension": 10,
+                     "startMonth": null,
+                     "endMonth": null,
+                     "productType": null,
+                     "numberOfEmployees": null,
+                     "numberOfFulltimeEmployees": null,
+                     "numberOfSeasonalEmployees": null,
+                     "soilFractionSand": null,
+                     "soilFractionClay": null,
+                     "soilFractionSilt": null,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": null,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": null,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": null,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": null,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [],
+                  "fertilizersUsageInformation": [],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": null,
+                     "labourForPesticides": null,
+                     "labourForFertilisation": null,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": null,
+                     "labourForFieldVisits": null,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": null,
+                     "labourForStorage": null,
+                     "labourForAdministration": null
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": null,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": null,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": null,
+                     "totalNumberOfLostWorkingHours": null,
+                     "totalNumberOfWorkingHours": null,
+                     "numberOfWorkingWeeks": null,
+                     "numberOfNewLocalEmployeesHired": null,
+                     "numberOfNewEmployeesHired": null
+                  },
+                  "additionalFieldsInformation": []
+               }
+            }
+         ],
+         "marketInformation": {
+            "waterPrice": 1,
+            "fuelPrice": 2,
+            "electricityPrice": 3,
+            "averageSalary": 4,
+            "averageProfessionalSalary": 5
+         },
+         "calculatedIndicatorInformation": [
+            {
+               "indicatorName": "total costs",
+               "indicatorUnit": "euros/hectare",
+               "absoluteDifference": -164431.83,
+               "percentageDifference": -22
+            },
+            {
+               "indicatorName": "land productivity",
+               "indicatorUnit": "tons/hectare",
+               "absoluteDifference": 58.49,
+               "percentageDifference": null
+            },
+            {
+               "indicatorName": "labour productivity",
+               "indicatorUnit": "tons/hour",
+               "absoluteDifference": 0.009832,
+               "percentageDifference": null
+            },
+            {
+               "indicatorName": "total productivity",
+               "indicatorUnit": "percentage",
+               "absoluteDifference": null,
+               "percentageDifference": 14
+            },
+            {
+               "indicatorName": "water consumption",
+               "indicatorUnit": "liters/hectare",
+               "absoluteDifference": -9673.45,
+               "percentageDifference": null
+            },
+            {
+               "indicatorName": "irrigation productivity",
+               "indicatorUnit": "kilograms/cubicmeter",
+               "absoluteDifference": 54.73,
+               "percentageDifference": null
+            },
+            {
+               "indicatorName": "water usage",
+               "indicatorUnit": "percentage",
+               "absoluteDifference": null,
+               "percentageDifference": 104
+            },
+            {
+               "indicatorName": "fertilizer N/K/P",
+               "indicatorUnit": "kilograms/hectare",
+               "absoluteDifference": -8022.00,
+               "percentageDifference": null
+            },
+            {
+               "indicatorName": "pesticides",
+               "indicatorUnit": "kilograms/hectare",
+               "absoluteDifference": 54.73,
+               "percentageDifference": null
+            },
+            {
+               "indicatorName": "inputs",
+               "indicatorUnit": "percentage",
+               "absoluteDifference": null,
+               "percentageDifference": -26
+            },
+            {
+               "indicatorName": "electricity consumption",
+               "indicatorUnit": "kiloWatthours/hectare",
+               "absoluteDifference": -4093307.69,
+               "percentageDifference": null
+            },
+            {
+               "indicatorName": "fuel consumption",
+               "indicatorUnit": "liters/hectare",
+               "absoluteDifference": 120426.11,
+               "percentageDifference": null
+            },
+            {
+               "indicatorName": "energy usage",
+               "indicatorUnit": "percentage",
+               "absoluteDifference": null,
+               "percentageDifference": 411
+            },
+            {
+               "indicatorName": "working time",
+               "indicatorUnit": "hours/hectare",
+               "absoluteDifference": 758.16,
+               "percentageDifference": 60
+            },
+            {
+               "indicatorName": "GHG emissions",
+               "indicatorUnit": "kilogramCO2equivalent/hectare",
+               "absoluteDifference": 314290.93,
+               "percentageDifference": 523
+            }
+         ],
+         "calculatedSustainabilityInformation": [
+            {
+               "sustainabilityParameterName": "economic sustainability",
+               "sustainabilityParameterUnit": "percentage",
+               "absoluteDifference": null,
+               "percentageDifference": 18
+            },
+            {
+               "sustainabilityParameterName": "environmental sustainability",
+               "sustainabilityParameterUnit": "percentage",
+               "absoluteDifference": null,
+               "percentageDifference": -214
+            },
+            {
+               "sustainabilityParameterName": "social sustainability",
+               "sustainabilityParameterUnit": "percentage",
+               "absoluteDifference": null,
+               "percentageDifference": -60
+            }
+         ]
+      },
+      {
+         "cultivationYear": 2025,
+         "parcelComparison": []
+      }
+   ]
+}

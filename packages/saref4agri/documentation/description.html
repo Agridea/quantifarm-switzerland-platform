@@ -1,0 +1,118 @@
+<h3>General Overview</h3>
+
+
+<p>An overview of the SAREF4AGRI ontology is provided in <a href="#Figure_1">Figure 1</a>. For all the entities described in the present document, it is indicated whether they are defined in the SAREF4AGRI extension or elsewhere by the prefix included before their identifier, i.e. if the element is defined in SAREF4AGRI, the prefix is s4agri, while if the element is reused from another ontology it is indicated by a prefix according to Table 1.</p>
+<p>Arrows are used to represent properties between classes and to represent some RDF, RDF-S and OWL constructs, more precisely:</p>
+<ul>
+ <li>Plain arrows with white triangles represent the <a href="https://www.w3.org/TR/rdf-schema/#ch_subclassof">rdfs:subClassOf</a> relation between two classes. The origin of the arrow is the class to be declared as subclass of the class at the destination of the arrow.</li>
+ <li>Dashed arrows between two classes indicate a local restriction in the origin class, i.e. that the object property can be instantiated between the classes in the origin and the destination of the arrow. The identifier of the object property is indicated within the arrow.</li>
+ <li>Dashed arrows with identifiers between stereotype signs (i.e. "<< >>") refer to OWL constructs that are applied to some ontology elements, that is, they can be applied to classes or properties depending on the OWL construct being used.</li>
+ <li>Dashed arrows with no identifier are used to represent the <a href="https://www.w3.org/TR/rdf-schema/#ch_type">rdf:type</a> relation, indicating that the element in the origin of the arrow is an instance of the class in the destination of the arrow.</li>
+</ul>
+<p>Datatype properties are denoted by rectangles attached to the classes, in an UML-oriented way. Dashed boxes represent local restrictions in the class, i.e. datatype properties that can be applied to the class they are attached to.</p>
+<p>Individuals are denoted by rectangles in which the identifier is underlined.</p>
+<p>Note that <a href="#Figure_1">Figure 1</a> aims at showing a global overview of the main classes of SAREF4AGRI and their mutual relations. </p>
+
+
+<figure>
+  <a href="diagrams/Overview.png"><img src="diagrams/Overview.png" alt="SAREF4AGRI Overview"/></a>
+  <figcaption id="Figure_1">Figure 1: SAREF4AGRI overview</figcaption>
+</figure>
+
+
+<h3>Platform, System and Deployment</h3>
+
+<p>The model defined in SAREF4AGRI for representing platforms, systems and deployments is depicted in <a href="#Figure_2">Figure 2</a>. The main entities in the modelling are represented by the <a href="http://www.w3.org/ns/ssn/System">ssn:System</a> and <a href="http://www.w3.org/ns/ssn/Deployment">ssn:Deployment</a> classes. Note that the design patterns for modelling these concepts have been taken from the W3C SSN ontology and, as a best practice for reuse, the SAREF4AGRI model refers directly to the URIs of the SSN (<a href="http://www.w3.org/ns/ssn/">http://www.w3.org/ns/ssn/</a>) and SOSA (<a href="http://www.w3.org/ns/sosa/">http://www.w3.org/ns/sosa/</a>) ontologies. </p>
+<p>The <a href="http://www.w3.org/ns/ssn/System">ssn:System</a> class in the SSN ontology represents a system and is components as specific devices, actuators or sensors. Moreover, the <a href="http://www.w3.org/ns/ssn/Deployment">ssn:Deployment</a> class from the SSN ontology describes the deployment of one or more systems on a <a href="http://www.w3.org/ns/sosa/Platform">ssn:Platform</a> for a particular purpose for a given time period. SAREF4AGRI defines a <a href="https://saref.etsi.org/core/Device">saref:Device</a> as subclass of an <a href="http://www.w3.org/ns/ssn/System">ssn:System</a> and extends the <a href="http://www.w3.org/ns/ssn/Deployment">ssn:Deployment</a> class by means of the <a href="#s4agri:Deployment">s4agri:Deployment</a> class. In this way, it is possible to represent a specific installation of a certain agricultural system (e.g. a smart irrigation system) in a given space (expressed by means of the property <a href="#s4agri:hasDeploymentPeriod">s4agri:hasDeploymentPeriod</a>) and at a given temporal frame (expressed by means of the property <a href="#s4agri:isDeployedAtSpace">s4agri:isDeployedAtSpace</a>) where SAREF4AGRI devices (e.g. a pluviometer, a soil tensiometer, a weather station and a watering gun) can be deployed. The deployment can involve a given <a href="http://www.w3.org/ns/sosa/Platform">ssn:Platform</a> which hosts the system deployed in such deployment. In order to represent temporal information the TIME ontology has been reused. For the geographical information both the GeoSPARQL ontology (<a href="http://www.opengis.net/ont/geosparql#">http://www.opengis.net/ont/geosparql#</a>) and the WGS84 Geo vocabulary (<a href="http://www.w3.org/2003/01/geo/wgs84_pos#">http://www.w3.org/2003/01/geo/wgs84_pos#</a>) are reused.</p>
+
+
+<figure>
+  <a href="diagrams/Platform.png"><img src="diagrams/Platform.png" alt="Platform, System and Deployment"/></a>
+  <figcaption id="Figure_2">Figure 2: Platform, System and Deployment</figcaption>
+</figure>
+
+
+<h3>Measurement</h3>
+
+<p>As shown in <a href="#Figure_3">Figure 3</a>, the modelling of measurements in SAREF4AGRI relies on the measurement model proposed in SAREF to express information about a certain property to be measured, its measured value, its measurement unit and the time of the measurement.</p>
+<p>This modelling includes the <a href="https://saref.etsi.org/core/FeatureOfInterest">saref:FeatureOfInterest</a> (whose design pattern has been taken from the W3C SSN ontology) that provides the means to refer to the real world phenomena that is being observed in a given measurement (e.g. a cow can be defined in SAREF4AGRI as the feature of interest of a weight measurement made by a weight sensor). The reader is referred to the SAREF specification <a href="#[1]">[1]</a> for details about the modelling of measurements, whereas the present document includes details only for the new concepts created in SAREF4AGRI, such as the classes and instances added to support the livestock farming and smart irrigation use cases. Note that a work item ETSI TS 103 264 <a href="#[1]">[1]</a> has been opened to evolve the current SAREF core specification ETSI TS 103 264 <a href="#[1]">[1]</a>  according to the latest developments in various sectors, including the input from the SAREF4AGRI extension in the present document. ETSI TS 103 264 <a href="#[1]">[1]</a> work item will result in an updated SAREF 3.0 core ontology. The following properties (to be included in SAREF 3.0) are reused in SAREF4AGRI to complete the model of measurements:</p>
+<ul>
+  <li><a href="https://saref.etsi.org/core/isPropertyOf">saref:isPropertyOf</a> (and its inverse <a href="https://saref.etsi.org/core/hasProperty">saref:hasProperty</a>) to link the property being observed with the feature of interest.</li>
+  <li><a href="https://saref.etsi.org/core/isMeasurementOf">saref:isMeasurementOf</a> (and its inverse <a href="https://saref.etsi.org/core/hasMeasurement">saref:hasMeasurement</a>) to link a given measurement with the feature of interest being observed.</li>
+  <li><a href="https://saref.etsi.org/core/measurementMadeBy">saref:measurementMadeBy</a> has been included as complement of the <a href="https://saref.etsi.org/core/makesMeasurement">saref:makesMeasurement</a>, as its inverse, to link a measurement and the device that produces it.</li>
+</ul>
+
+<figure>
+  <a href="diagrams/Measurement.png"><img src="diagrams/Measurement.png" alt="Measurement model"/></a>
+  <figcaption id="Figure_3">Figure 3: Measurement model</figcaption>
+</figure>
+
+<p>In order to support the Smart Irrigation use case, a number of units of measure have been added to SAREF4AGRI as instances of the <a href="https://saref.etsi.org/core/UnitOfMeasure">saref:UnitOfMeasure</a> class, namely dbpedia:DBM (decibel-milliwatts), om:millivolt (millivolt), om:millimetre (millimetre), om:millibar (millibar) and om:degree_Celsius (degree Celsius). Additionally, for the livestock farming use case the om:Liter unit has been added. These instances have been reused from DBpedia (<a href="https://wiki.dbpedia.org/">https://wiki.dbpedia.org/</a>) and the Ontology of units of Measure (OM) 2.0 (<a href="http://www.ontology-of-units-of-measure.org/">http://www.ontology-of-units-of-measure.org/</a>).</p>
+<p>In order to support the livestock farming use case (and potentially other use cases such as arable farming and horticulture in future SAREF4AGRI releases), the <a href="#s4agri:Animal">s4agri:Animal</a>, <a href="#s4agri:AnimalGroup">s4agri:AnimalGroup</a> and <a href="#s4agri:Crop">s4agri:Crop</a> classes have been added to SAREF4AGRI as subclasses of <a href="https://saref.etsi.org/core/FeatureOfInterest">saref:FeatureOfInterest</a> (see clause 4.2.4).</p>
+<p>In this way, measurements from relevant sensors (such as on animal activity movement, temperature, weight, milking yield, etc.) can be related via the isMeasurementOf relation to specific e.g. (groups of) animals that are instances of the <a href="https://saref.etsi.org/core/FeatureOfInterest">saref:FeatureOfInterest</a> class. This relation is explained in more detail in the following clause. </p>
+
+
+<h3>Animal, Crop and Soil (Feature of Interest)</h3>
+
+<p>The main features of interest in SAREF4AGRI currently support (aspects of) the livestock farming and smart irrigation use cases and are represented by the <a href="#s4agri:Animal">s4agri:Animal</a>, <a href="#s4agri:AnimalGroup">s4agri:AnimalGroup</a>, <a href="#s4agri:Crop">s4agri:Crop</a> and <a href="#s4agri:Soil">s4agri:Soil</a> classes that are shown in <a href="#Figure_4">Figure 4</a>. </p>
+
+<figure>
+  <a href="diagrams/FoI.png"><img src="diagrams/FoI.png" alt="Animal, Crop and Soil"/></a>
+  <figcaption id="Figure_4">Figure 4: Animal, Crop and Soil</figcaption>
+</figure>
+
+<p>The <a href="#s4agri:Animal">s4agri:Animal</a> class describes an animal that can be classified in SAREF4AGRI reusing the TAXRANK taxonomy vocabulary (<a href="http://purl.obolibrary.org/obo/taxrank.owl#">http://purl.obolibrary.org/obo/taxrank.owl#</a>). Besides the reuse of the TAXRANK taxonomy vocabulary, an animal is furthermore defined in SAREF4AGRI in order to have a birth and death date. An animal also has a unique identifier and can be part of one or more <a href="#s4agri:AnimalGroup">s4agri:AnimalGroup</a> that are used to conduct experiments and observations on the livestock. Note that animals can be also specialized using subclasses, as is shown in the example in clause 4.3.1 with the ex:LactatingCow class that was created as a subclass of <a href="#s4agri:Animal">s4agri:Animal</a>. Animals and animal groups are related to measurements via the <a href="https://saref.etsi.org/core/FeatureOfinterest">saref:FeatureOfinterest</a> concept of SAREF (see clause 4.2.3). </p>
+<p>The <a href="#s4agri:Soil">s4agri:Soil</a> class represents the upper layer of the earth in which plants grow. The <a href="#s4agri:Crop">s4agri:Crop</a> class describes a collection of homogeneous plant species that is grown on a large scale commercially (especially a cereal, fruit, or vegetable) and is planted on a single location. A <a href="#s4agri:Crop">s4agri:Crop</a> is grown on some <a href="#s4agri:Parcel">s4agri:Parcel</a>, which is an area of land, defined in SAREF4AGRI as subclass of the geosp:Feature (see clause 4.2.6). Moreover, <a href="#s4agri:Crop">s4agri:Crop</a> is related to measurements via <a href="https://saref.etsi.org/core/FeatureOfInterest">saref:FeatureOfInterest</a> (see clause 4.2.3</a>).</p>
+
+
+<h3>Device</h3>
+
+<p>SAREF4AGRI extends the device hierarchy defined in SAREF in order to include devices needed to support the livestock farming and the smart irrigation use cases. These devices are shown in <a href="#Figure_5">Figure 5</a>. The devices included for the Smart Irrigation use case are: <a href="#s4agri:Pluviometer">s4agri:Pluviometer</a>, <a href="#s4agri:SoilTensiometer">s4agri:SoilTensiometer</a>, <a href="#s4agri:WeatherStation">s4agri:WeatherStation</a>, and <a href="#s4agri:WateringGun">s4agri:WateringGun</a>. The devices included for the Livestock Farming use case are: <a href="#s4agri:MovementActivitySensor">s4agri:MovementActivitySensor</a>, EatingActivitySensor, <a href="#s4agri:MilkingSensor">s4agri:MilkingSensor</a>, and <a href="#s4agri:WeightSensor">s4agri:WeightSensor</a>.</p>
+
+<figure>
+  <a href="diagrams/Device.png"><img src="diagrams/Device.png" alt="Device hierarchy"/></a>
+  <figcaption id="Figure_5">Figure 5: Device hierarchy</figcaption>
+</figure>
+
+
+<h3>Property</h3>
+
+<p>SAREF4AGRI extends the property hierarchy defined in SAREF in order to include properties needed to support the livestock farming and the smart irrigation use cases. These devices are shown in <a href="#Figure_6">Figure 6</a>. The properties included for the smart irrigation use case are: <a href="#s4agri:SoilMoisture">s4agri:SoilMoisture</a>, <a href="#s4agri:IrrigationWater">s4agri:IrrigationWater</a>, <a href="#s4agri:SoilTemperature">s4agri:SoilTemperature</a>, <a href="#s4agri:AirTemperature">s4agri:AirTemperature</a>, <a href="#s4agri:AmbientHumidity">s4agri:AmbientHumidity</a>, <a href="#s4agri:Precipitation">s4agri:Precipitation</a> and <a href="#s4agri:PlantGrowthStage">s4agri:PlantGrowthStage</a>.</p>
+<p>The properties included for the livestock farming use case are: <a href="#s4agri:Yield">s4agri:Yield</a> (which can further be specialized in subclasses, such as MilkYield, CropYield, MeatYield, MilkYield, etc. as needed) and <a href="#s4agri:Intake">s4agri:Intake</a> (which can further be specialized in subclasses, such as FoodIntake for animals, FertilizerIntake for crops, etc. as needed). </p>
+
+<figure>
+  <a href="diagrams/Property.png"><img src="diagrams/Property.png" alt="Property hierarchy"/></a>
+  <figcaption id="Figure_6">Figure 6: Property hierarchy</figcaption>
+</figure>
+
+
+
+<h3>Topology</h3>
+
+<p>SAREF4AGRI adopts the same topology modelling pattern that is adopted in the SAREF4CITY extension <a href="#[i.3]">[i.3]</a>, where existing standard ontologies have been reused for this purpose. As shown in <a href="#Figure_7">Figure 7</a>, for representing spatial objects in SAREF4AGRI, the geosp:SpatialObject class from GeoSPARQL has been reused along with its subclasses geosp:Feature, geosp:Geometry and the properties geosp:sfContains, geosp:sfWithin and geosp:hasGeometry. In addition, the class geo:Point and the property geo:location have been reused from the "WGS84 Geo Positioning vocabulary" (which is the W3C de-facto standard for geographical information) in order to be able to indicate that something is located at certain coordinates. </p>
+
+<figure>
+  <a href="diagrams/Topology.png"><img src="diagrams/Topology.png" alt="Topology model"/></a>
+  <figcaption id="Figure_7">Figure 7: Topology model</figcaption>
+</figure>
+
+
+<p>For the purpose of SAREF4AGRI, the geosp:Feature class has been extended with the following subclasses: </p>
+<ul>
+  <li>the <a href="#s4agri:Farm">s4agri:Farm</a></li>
+  <li>the <a href="#s4agri:Building">s4agri:Building</a></li>
+  <li>the <a href="#s4agri:BuildingSpace">s4agri:BuildingSpace</a></li>
+  <li>the <a href="#s4agri:Parcel">s4agri:Parcel</a></li>
+</ul>
+<p>A <a href="#s4agri:Farm">s4agri:Farm</a> can contain one or more <a href="#s4agri:Building">s4agri:Building</a> and <a href="#s4agri:Parcel">s4agri:Parcel</a> (via the geosp:sfContains relation). Note that these types of feature are used in the present document as examples, but more feature types (and building types) can be added as needed. Moreover, a <a href="#s4agri:Building">s4agri:Building</a> can be further decomposed in one or more <a href="#s4agri:BuildingSpaces">s4agri:BuildingSpaces</a> (once again via the geosp:sfContains relation). As subclasses of geosp:Feature, all the classes mentioned above inherit the possibility to have a physical geometric description using geosp:Geometry, if needed (e.g. especially relevant for <a href="#s4agri:Parcel">s4agri:Parcel</a>). As subclasses of geosp:SpatialObject, all the classes mentioned above also inherit the possibility to use the geo:location property to indicate that something is located at certain coordinates (e.g. especially relevant for <a href="#s4agri:Bulding">s4agri:Bulding</a>). </p>
+
+
+<h3>Person and Organization</h3>
+
+<p>As it is modelled in the SAREF4CITY extension <a href="#[i.3]">[i.3]</a>, also SAREF4AGRI reuses the FOAF vocabulary (<a href="http://xmlns.com/foaf/0.1/">http://xmlns.com/foaf/0.1/</a>) and Schema.org vocabulary (<a href="https://schema.org/">https://schema.org/</a>) to represent the concepts of Person and Organization. <a href="#Figure_8">Figure 8</a> shows that in SAREF4AGRI the foaf:Person and org:Organization classes are extended with the <a href="#s4agri:Farmer">s4agri:Farmer</a> and <a href="#s4agri:FarmHolding">s4agri:FarmHolding</a> subclasses to describe farmers and their organizations. Both foaf:Person and org:Organization are subclass of foaf:Agent. Organizations (e.g. <a href="#s4agri:FarmHolding">s4agri:FarmHolding</a>) have members (e.g. farmers). Both <a href="#s4agri:Farmer">s4agri:Farmer</a> and <a href="#s4agri:FarmHolding">s4agri:FarmHolding</a> can manage some <a href="#s4agri:Farm">s4agri:Farm</a>. </p>
+
+<figure>
+  <a href="diagrams/Person.png"><img src="diagrams/Person.png" alt="Person and Organization model"/></a>
+  <figcaption id="Figure_8">Figure 8: Person and Organization model</figcaption>
+</figure>
+

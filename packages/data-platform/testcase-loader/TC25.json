@@ -1,0 +1,1184 @@
+{
+   "testcaseNumber": 25,
+   "testcaseLeader": "IDELE",
+   "cultivationType": "Milk",
+   "datsInformation": [
+      {
+         "datsName": "Lely robot",
+         "datsInitialInvestmentCosts": 145000,
+         "datsAnnualFees": 732.9,
+         "datsMaintenanceCosts": 10406.16,
+         "datsExpectedLifespan": 10,
+         "datsInstallationTime": 168,
+         "datsTrainingTime": 0,
+         "datsTrainers": 2,
+         "datsTrainingCosts": 0
+      }
+   ],
+   "yearlyAssessmentInformation": [
+      {
+         "cultivationYear": 2023,
+         "parcelComparison": [],
+         "marketInformation": {
+            "waterPrice": null,
+            "fuelPrice": null,
+            "electricityPrice": null,
+            "averageSalary": null,
+            "averageProfessionalSalary": null
+         }
+      },
+      {
+         "cultivationYear": 2024,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "farmInformation": {
+                     "farmNumber": 1,
+                     "biogeographicalRegion": "Brittany",
+                     "totalFarmSize": 150
+                  },
+                  "parcelInformation": {
+                     "parcelName": "GAEC 3 Villages",
+                     "parcelDimension": 150,
+                     "startMonth": 1,
+                     "endMonth": 12,
+                     "productType": "Dairy cattle",
+                     "numberOfEmployees": 5,
+                     "numberOfFulltimeEmployees": 3,
+                     "numberOfSeasonalEmployees": 0,
+                     "soilFractionSand": null,
+                     "soilFractionClay": null,
+                     "soilFractionSilt": null,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": null,
+                     "numberOfAnimals": 210,
+                     "numberOfPlants": null,
+                     "livestockUnits": 1.4,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [
+                     "Lely robot"
+                  ],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": null,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 21411,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 92906,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [],
+                  "fertilizersUsageInformation": [],
+                  "feedUsageInformation": [
+                     {
+                        "productName": "Soya",
+                        "quantity": 228.02,
+                        "productPrice": 483.27
+                     },
+                     {
+                        "productName": "Viestar Gluco",
+                        "quantity": 4.4,
+                        "productPrice": 1403.89
+                     },
+                     {
+                        "productName": "Viestar taries",
+                        "quantity": 9.62,
+                        "productPrice": 657.86
+                     },
+                     {
+                        "productName": "Viestar Reflex",
+                        "quantity": 2,
+                        "productPrice": 203.85
+                     },
+                     {
+                        "productName": "Viestar hepato",
+                        "quantity": 0.3,
+                        "productPrice": 679.8
+                     },
+                     {
+                        "productName": "Star Max Pro",
+                        "quantity": 4.94,
+                        "productPrice": 500
+                     },
+                     {
+                        "productName": "Delta levure",
+                        "quantity": 0.68,
+                        "productPrice": 2130.93
+                     },
+                     {
+                        "productName": "Viestar 3 villages",
+                        "quantity": 19.87,
+                        "productPrice": 518.68
+                     },
+                     {
+                        "productName": "Pioneer 11 CFT Sol",
+                        "quantity": 0.002,
+                        "productPrice": 2122125
+                     },
+                     {
+                        "productName": "Sel",
+                        "quantity": 0.95,
+                        "productPrice": 480.46
+                     },
+                     {
+                        "productName": "Minexel",
+                        "quantity": 0.2,
+                        "productPrice": 837.2
+                     },
+                     {
+                        "productName": "Futurstar Magnum",
+                        "quantity": 27.16,
+                        "productPrice": 457.1
+                     },
+                     {
+                        "productName": "Univor 4000 Instant FS25 (milk powder)",
+                        "quantity": 16.93,
+                        "productPrice": 499.46
+                     },
+                     {
+                        "productName": "Minabolus oligo",
+                        "quantity": 3,
+                        "productPrice": 290.1
+                     },
+                     {
+                        "productName": "Wheat (produced on farm)",
+                        "quantity": 27,
+                        "productPrice": 136.84
+                     },
+                     {
+                        "productName": "Maize (produced on farm)",
+                        "quantity": 12,
+                        "productPrice": 173.7
+                     }
+                  ],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": null,
+                     "labourForPesticides": null,
+                     "labourForFertilisation": null,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": null,
+                     "labourForFieldVisits": null,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": 329,
+                     "labourForHeatDetection": 164.5,
+                     "labourForCalvingDetection": 141,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": 1316,
+                     "labourForMilkQualityAssessment": 15,
+                     "labourForFeeding": 352.5,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": null,
+                     "labourForStorage": null,
+                     "labourForAdministration": 141
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": null,
+                     "milkProduction": 1362547,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": null,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": 0.472,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": 31,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": 127,
+                     "numberOfDaysWithPastureAccess": 300,
+                     "outdoorLoafingArea": 37,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 0,
+                     "totalNumberOfLostWorkingHours": 0,
+                     "totalNumberOfWorkingHours": 7139,
+                     "numberOfWorkingWeeks": 47,
+                     "numberOfNewLocalEmployeesHired": 0,
+                     "numberOfNewEmployeesHired": 0
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "parcelAssessmentWithoutDATS": {
+                  "farmInformation": {
+                     "farmNumber": 2,
+                     "biogeographicalRegion": "Brittany",
+                     "totalFarmSize": 71.24
+                  },
+                  "parcelInformation": {
+                     "parcelName": "Ludovic Croyal",
+                     "parcelDimension": 71.24,
+                     "startMonth": 1,
+                     "endMonth": 12,
+                     "productType": "Dairy cattle",
+                     "numberOfEmployees": 1,
+                     "numberOfFulltimeEmployees": 1,
+                     "numberOfSeasonalEmployees": 0,
+                     "soilFractionSand": null,
+                     "soilFractionClay": null,
+                     "soilFractionSilt": null,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": null,
+                     "numberOfAnimals": 57,
+                     "numberOfPlants": null,
+                     "livestockUnits": 1.28,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 2391,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": 311,
+                     "waterUsageForDrinking": 2080
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 10986,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 22900,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [],
+                  "fertilizersUsageInformation": [],
+                  "feedUsageInformation": [
+                     {
+                        "productName": "Urea",
+                        "quantity": 0.9,
+                        "productPrice": 375.5
+                     },
+                     {
+                        "productName": "Rapeseed meal",
+                        "quantity": 91.62,
+                        "productPrice": 920.09
+                     }
+                  ],
+                  "drugsUsageInformation": [
+                     {
+                        "productName": "Orbenor",
+                        "quantity": 216,
+                        "productPrice": 1.95
+                     },
+                     {
+                        "productName": "Mastijet",
+                        "quantity": 160,
+                        "productPrice": 0.57
+                     }
+                  ],
+                  "labourInformation": {
+                     "labourForIrrigation": null,
+                     "labourForPesticides": null,
+                     "labourForFertilisation": null,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": null,
+                     "labourForFieldVisits": null,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": 156,
+                     "labourForStableVisits": 0,
+                     "labourForHeatDetection": 78,
+                     "labourForCalvingDetection": 0,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": 1092,
+                     "labourForMilkQualityAssessment": 0,
+                     "labourForFeeding": 416,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": null,
+                     "labourForStorage": null,
+                     "labourForAdministration": 52
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": null,
+                     "milkProduction": 539622,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": null,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": 0.428,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": 5,
+                     "calvesDiedInFirst24Hours": 3,
+                     "totalNumberOfCalvesBorn": 56,
+                     "numberOfDaysWithPastureAccess": 244,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": 1
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 0,
+                     "totalNumberOfLostWorkingHours": 0,
+                     "totalNumberOfWorkingHours": 50,
+                     "numberOfWorkingWeeks": 47,
+                     "numberOfNewLocalEmployeesHired": 0,
+                     "numberOfNewEmployeesHired": 0
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/1000 l milk",
+                     "absoluteDifference": -4.775756543121008,
+                     "percentageDifference": -1.9545783759071027
+                  },
+                  {
+                     "indicatorName": "Labour productivity (dairy livestock)",
+                     "indicatorUnit": "l milk/h",
+                     "absoluteDifference": 0.21557289102128108,
+                     "percentageDifference": 63.67849870611689
+                  },
+                  {
+                     "indicatorName": "Electricity consumption",
+                     "indicatorUnit": "kWh/1000 l milk",
+                     "absoluteDifference": 25.748424433201627,
+                     "percentageDifference": 60.67430694101802
+                  },
+                  {
+                     "indicatorName": "Fuel GHG emission ",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": -12.355896693910367,
+                     "percentageDifference": -22.81453726068052
+                  },
+                  {
+                     "indicatorName": "Livestock fuel consumption ",
+                     "indicatorUnit": "l/1000 l milk",
+                     "absoluteDifference": -4.644742177780673,
+                     "percentageDifference": -22.81453726068052
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": -0.4235458588335227,
+                     "percentageDifference": -53.90440175364697
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 32.816538541011994
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 0.9711631051279435
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 53.90440175364697
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 1.9545783759071027,
+                     "aggregatedImpactMaxRangeValue": 1.9545783759071027
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 63.67849870611689,
+                     "aggregatedImpactMaxRangeValue": 63.67849870611689
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -18.929884840168747,
+                     "aggregatedImpactMaxRangeValue": -18.929884840168747
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 22.81453726068052,
+                     "aggregatedImpactMaxRangeValue": 22.81453726068052
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 53.90440175364697,
+                     "aggregatedImpactMaxRangeValue": 53.90440175364697
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Cost of  fuel",
+                     "mainImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": -5.016321552003127,
+                     "percentageDifference": -22.81453726068052,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED FUEL CONSUMPTION",
+                     "mainImpactSubtitle": "due to the reduction of fuel for activities related to mixing and distribution of feed to cows. "
+                  },
+                  {
+                     "mainImpactName": "Milk revenue",
+                     "mainImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": 44.0,
+                     "percentageDifference": 10.280373831775702,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "REVENUES",
+                     "mainImpactSubtitle": "The increase in revenue is the result of a higher selling price for milk on the farm with DATS. This is independent from the technology adoption"
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": -3.399418331580562,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 0.0,
+                     "mainImpactTitle": "NET LOSS",
+                     "mainImpactSubtitle": "Despite cost savings and greater efficiency in managing barn activities, the cost of the DATS results in a negative outcome in the cost-benefit analysis"
+                  },
+                  {
+                     "mainImpactName": "PAYBACK PERIOD",
+                     "mainImpactUnit": "years (n)",
+                     "absoluteDifference": -31.304869546407573,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "PAYBACK PERIOD NOT CALCULATED",
+                     "mainImpactSubtitle": "a net loss was recorded"
+                  },
+                  {
+                     "mainImpactName": "Fuel GHG emission ",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": -12.355896693910367,
+                     "percentageDifference": -22.81453726068052,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED GHG EMISSIONS",
+                     "mainImpactSubtitle": "due to the reduction of fuel for activities related to mixing and distribution of feed to cows. "
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": 8.17517487470157,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": 106.41834740379598,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of  fuel",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": -5.016321552003127,
+                     "percentageDifference": -22.81453726068052,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of fuel: The DATSs can have an impact on the fuel consumption for activities like feeding "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of electricity",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": 5.922137619636375,
+                     "percentageDifference": 60.67430694101804,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of electricity: The operation of DATSs accounts for a substantial share of the overall electricity consumption"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of feed",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": 1.4093959187241865,
+                     "percentageDifference": 0.8985959764390509,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of feed: Technology can reduce feed waste and increase its efficiency of use through better and more frequent distribution to the animals "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": " Cost of drugs",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": -0.9495535763923636,
+                     "percentageDifference": -100.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of drugs: Better feeding of dairy cows can improve their health and reduce the need for drugs "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for cleaning",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": -4.191823165104462,
+                     "percentageDifference": -100.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for cleaning: The feeding management by the robot can improve cleanliness in the barn "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for feeding ",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": -2.0528160980069856,
+                     "percentageDifference": -35.36860563342036,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for feeding: The feeding robot allows for increased automation of this activity, saving time and costs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": 0.10322431002536914,
+                     "percentageDifference": 7.387547562932325,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for administrative activities and data management: The DATS could lead to an increase in the time spent on data interpretation and management activities. "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": -3.399418331580562,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Net Benefit: Despite cost savings and greater efficiency in managing barn activities, the cost of the DATS results in a negative outcome in the cost-benefit analysis"
+                  }
+               ]
+            }
+         ],
+         "marketInformation": {
+            "waterPrice": 2.7,
+            "fuelPrice": 1.08,
+            "electricityPrice": 0.23,
+            "averageSalary": null,
+            "averageProfessionalSalary": null
+         }
+      },
+      {
+         "cultivationYear": 2025,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "parcelInformation": {
+                     "productType": "Dairy cattle"
+                  }
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/1000 l milk",
+                     "absoluteDifference": -4.902563899204374,
+                     "percentageDifference": -2.3775184569939602
+                  },
+                  {
+                     "indicatorName": "Labour productivity (dairy livestock)",
+                     "indicatorUnit": "l milk/h",
+                     "absoluteDifference": 0.22613208026018766,
+                     "percentageDifference": 74.96162995533919
+                  },
+                  {
+                     "indicatorName": "Electricity consumption",
+                     "indicatorUnit": "kWh/1000 l milk",
+                     "absoluteDifference": 41.85477337659138,
+                     "percentageDifference": 57.60237422062492
+                  },
+                  {
+                     "indicatorName": "Fuel GHG emission ",
+                     "indicatorUnit": "kg CO2 eq/1000 l milk",
+                     "absoluteDifference": -28.36237906580289,
+                     "percentageDifference": -42.72464020437339
+                  },
+                  {
+                     "indicatorName": "Livestock fuel consumption ",
+                     "indicatorUnit": "l/1000 l milk",
+                     "absoluteDifference": -160.2585604472397,
+                     "percentageDifference": -69.99343801980802
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/1000 l milk",
+                     "absoluteDifference": -0.2078918519911926,
+                     "percentageDifference": -35.34757537411927
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 38.66957420616657
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 12.230043025991236
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 35.34757537411927
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 2.3775184569939602,
+                     "aggregatedImpactMaxRangeValue": 2.3775184569939602
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 74.96162995533919,
+                     "aggregatedImpactMaxRangeValue": 74.96162995533919
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 6.195531899591554,
+                     "aggregatedImpactMaxRangeValue": 6.195531899591554
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 42.72464020437339,
+                     "aggregatedImpactMaxRangeValue": 42.72464020437339
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 35.34757537411927,
+                     "aggregatedImpactMaxRangeValue": 35.34757537411927
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Cost of  fuel",
+                     "mainImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": -11.5147299219481,
+                     "percentageDifference": -42.724640204373365,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED FUEL CONSUMPTION",
+                     "mainImpactSubtitle": "due to the reduction of fuel for activities related to mixing and distribution of feed to cows. "
+                  },
+                  {
+                     "mainImpactName": "Meat revenue",
+                     "mainImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": 7,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "REVENUES",
+                     "mainImpactSubtitle": "The increase in revenue is the result of a higher selling price for milk on the farm with DATS. This is independent from the technology adoption"
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": -3.6754690013619484,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 0.0,
+                     "mainImpactTitle": "NET LOSS",
+                     "mainImpactSubtitle": "Despite cost savings and greater efficiency in managing barn activities, the cost of the DATS results in a negative outcome in the cost-benefit analysis"
+                  },
+                  {
+                     "mainImpactName": "PAYBACK PERIOD",
+                     "mainImpactUnit": "years (n)",
+                     "absoluteDifference": -30.39700091032416,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "PAYBACK PERIOD NOT CALCULATED",
+                     "mainImpactSubtitle": "a net loss was recorded"
+                  },
+                  {
+                     "mainImpactName": "Fuel GHG emission ",
+                     "mainImpactUnit": "kg CO2 eq/1000 l milk",
+                     "absoluteDifference": -28.36237906580289,
+                     "percentageDifference": -42.72464020437339,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED GHG EMISSIONS",
+                     "mainImpactSubtitle": "due to the reduction of fuel for activities related to mixing and distribution of feed to cows. "
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": 8.578032900566322,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": 111.72323458026737,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of  fuel",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": -11.5147299219481,
+                     "percentageDifference": -42.724640204373365,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATSs can have an impact on the fuel consumption for activities like feeding "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of electricity",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": 9.626597876616017,
+                     "percentageDifference": 57.60237422062491,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "The operation of DATSs accounts for a substantial share of the overall electricity consumption"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": " Cost of drugs",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": 7,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "costRevenueImpactShortDescription": "Better feeding of dairy cows can improve their health and reduce the need for drugs "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for cleaning",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": 7,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "costRevenueImpactShortDescription": "The feeding management by the robot can improve cleanliness in the barn "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for feeding ",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": -3.0391888286525193,
+                     "percentageDifference": -43.557407072643805,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The feeding robot allows for increased automation of this activity, saving time and costs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": 0.02475697478022676,
+                     "percentageDifference": 1.5966672692411443,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "The DATS could lead to an increase in the time spent on data interpretation and management activities. "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": -3.6754690013619484,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Despite cost savings and greater efficiency in managing barn activities, the cost of the DATS results in a negative outcome in the cost-benefit analysis"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "cultivationYear": 2026,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "parcelInformation": {
+                     "productType": "Dairy cattle"
+                  }
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/1000 l milk",
+                     "absoluteDifference": -0.7000000000000007,
+                     "percentageDifference": null
+                  },
+                  {
+                     "indicatorName": "Labour productivity (dairy livestock)",
+                     "indicatorUnit": "l milk/h",
+                     "absoluteDifference": null,
+                     "percentageDifference": 21.9
+                  },
+                  {
+                     "indicatorName": "Electricity consumption",
+                     "indicatorUnit": "kWh/1000 l milk",
+                     "absoluteDifference": null,
+                     "percentageDifference": 59.2
+                  },
+                  {
+                     "indicatorName": "Livestock fuel consumption ",
+                     "indicatorUnit": "l/1000 l milk",
+                     "absoluteDifference": null,
+                     "percentageDifference": -42.0
+                  },
+                  {
+                     "indicatorName": "GHG emissions",
+                     "indicatorUnit": "kg CO2 eq/1000 l milk",
+                     "absoluteDifference": null,
+                     "percentageDifference": -32.8
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/1000 l milk",
+                     "absoluteDifference": null,
+                     "percentageDifference": -44.6
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 10.95
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 6.049999999999999
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 44.6
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 21.9,
+                     "aggregatedImpactMaxRangeValue": 21.9
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -8.600000000000001,
+                     "aggregatedImpactMaxRangeValue": -8.600000000000001
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 32.8,
+                     "aggregatedImpactMaxRangeValue": 32.8
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 44.6,
+                     "aggregatedImpactMaxRangeValue": 44.6
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": -0.7000000000000007,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "REDUCED COSTS",
+                     "mainImpactSubtitle": "thanks to fuel savings and reduced labour requirements for animal feeding activities"
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": 1.8,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT",
+                     "mainImpactSubtitle": "thanks to cost savings and greater efficiency in managing barn activities"
+                  },
+                  {
+                     "mainImpactName": "PAYBACK PERIOD",
+                     "mainImpactUnit": "years (n)",
+                     "absoluteDifference": 61.2,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "VERY LONG PBP",
+                     "mainImpactSubtitle": "with the investment recovered only after several decades: clearly not sustainable"
+                  },
+                  {
+                     "mainImpactName": "NPV 5 years",
+                     "mainImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": -99.9,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "NEGATIVE NPV",
+                     "mainImpactSubtitle": "indicating that the investment does not generate sufficient value over the assessed period"
+                  },
+                  {
+                     "mainImpactName": "ROI",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": 2.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "VERY LOW ROI",
+                     "mainImpactSubtitle": "indicating limited returns on the investment"
+                  },
+                  {
+                     "mainImpactName": "Labour productivity (dairy livestock)",
+                     "mainImpactUnit": "l milk/h",
+                     "absoluteDifference": null,
+                     "percentageDifference": 21.9,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "INCREASE IN LABOUR PRODUCTIVITY",
+                     "mainImpactSubtitle": "by enabling more efficient management of farm activities"
+                  },
+                  {
+                     "mainImpactName": "Working time",
+                     "mainImpactUnit": "h/1000 l milk",
+                     "absoluteDifference": null,
+                     "percentageDifference": -44.6,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "REDUCED WORKING TIME",
+                     "mainImpactSubtitle": "confirming that the automation of feeding operations allows the farmer to reduce manual labour requirements and benefit from greater flexibility in daily work organisation"
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": 8.4,
+                     "percentageDifference": 8.2,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": 108.2,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of  fuel",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": -9.14,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATSs can have an impact on the fuel consumption for feeding activities"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of electricity",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": 12.41,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "The operation of DATSs accounts for a substantial share of the overall electricity consumption"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for feeding ",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": -4.11,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The feeding robot allows for increased automation of this activity, saving time and costs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": 0.14,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "The DATS could lead to an increase in the time spent on data interpretation and management activities"
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/1000 l milk",
+                     "absoluteDifference": 1.8,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": ""
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

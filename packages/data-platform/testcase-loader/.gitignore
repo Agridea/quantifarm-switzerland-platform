@@ -1,0 +1,4 @@
+~$*
+/testcase-classes
+/testcase-properties
+# export/ is NOT ignored — JSON files are committed for prod deployment

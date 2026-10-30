@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/OutputInformation.schema.json",
+  "title": "QuantiFarm output information",
+  "description": "Information about the output production of the cultivation in the specific year",
+  "type": "object",
+  "properties": {
+    "cropProduction": {
+      "description": "The crop production in tons in the specific year",
+      "type": "number"
+    },
+    "milkProduction": {
+      "description": "The milk production in liters in the specific year",
+      "type": "number"
+    },
+    "meatProduction": {
+      "description": "The meat production in tons in the specific year",
+      "type": "number"
+    },
+    "oysterProduction": {
+      "description": "The oyster production as the number of oysters in the specific year",
+      "type": "number"
+    },
+    "honeyProduction": {
+      "description": "The honey production in kg in the specific year",
+      "type": "number"
+    },
+    "silosProduction": {
+      "description": "The silos production in kg in the specific year",
+      "type": "number"
+    },
+    "productMarketPrice": {
+      "description": "The price on the market for the product in Euros per ton",
+      "type": "number"
+    },
+    "cropMarketPrice": {
+      "description": "The price on the market for the crop in Euros per ton",
+      "type": "number"
+    },
+    "meatMarketPrice": {
+      "description": "The price on the market for the meat in Euros per ton",
+      "type": "number"
+    },
+    "milkMarketPrice": {
+      "description": "The price on the market for the milk in Euros per liter",
+      "type": "number"
+    },
+    "oysterMarketPrice": {
+      "description": "The price on the market for the oysters in Euros per piece",
+      "type": "number"
+    },
+    "honeyMarketPrice": {
+      "description": "The price on the market for the honey in Euros per kg",
+      "type": "number"
+    }
+  },
+  "required": []
+}

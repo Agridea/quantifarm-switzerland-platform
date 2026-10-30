@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V1 vs V2 im Toolkit Dashboard – Cost Benefit Calculator</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 960px; margin: 2rem auto; padding: 0 1rem; color: #1a1a1a; line-height: 1.6; }
+        h1 { border-bottom: 2px solid #0078d4; padding-bottom: .5rem; }
+        h2 { color: #0078d4; margin-top: 2rem; }
+        table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+        th, td { border: 1px solid #ccc; padding: .5rem .75rem; text-align: left; }
+        th { background: #f0f4f8; }
+        code, pre { background: #f5f5f5; padding: .15rem .4rem; border-radius: 3px; font-size: .9rem; }
+        pre { padding: 1rem; overflow-x: auto; }
+        .note { background: #fffbe6; border-left: 4px solid #f5a623; padding: .75rem 1rem; margin: 1rem 0; }
+    </style>
+</head>
+<body>
+
+<h1>V1 vs V2 im Toolkit Dashboard (tool2.html)</h1>
+
+<h2>Tab-Struktur</h2>
+<p>Die Cost &amp; Benefit Calculator-Seite im Toolkit Dashboard hat <strong>4 Tabs</strong>, die auf die beiden Versionen verteilt sind:</p>
+
+<table>
+    <thead>
+        <tr><th>Tab</th><th>Variable (JS)</th><th>Version</th><th>Zweck</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>DATSs for Crop Farming</td><td><code>crop</code></td><td><strong>V1</strong></td><td>Allgemeine kommerzielle DATs (Pflanzenbau)</td></tr>
+        <tr><td>DATSs for Livestock Farming</td><td><code>livestock</code></td><td><strong>V1</strong></td><td>Allgemeine kommerzielle DATs (Tierhaltung)</td></tr>
+        <tr><td>Test Cases' DATSs for Crop Farming</td><td><code>cropTC</code></td><td><strong>V2</strong></td><td>Testfall-DATs (Pflanzenbau)</td></tr>
+        <tr><td>Test Cases' DATSs for Livestock Farming</td><td><code>livestockTC</code></td><td><strong>V2</strong></td><td>Testfall-DATs (Tierhaltung)</td></tr>
+    </tbody>
+</table>
+
+<h2>Routing-Logik in <code>js/tool2.js</code></h2>
+<p>Die Versionierung wird über eine einfache Bedingung gesteuert:</p>
+<pre><code>"version": (currentFarmType == crop || currentFarmType == live) ? 1 : 2</code></pre>
+<ul>
+    <li><code>crop</code> / <code>livestock</code> → <strong>Version 1</strong> → wird an <code>cost-benefit-calculator-v1</code> (Port 8688) weitergeleitet</li>
+    <li><code>cropTC</code> / <code>livestockTC</code> → <strong>Version 2</strong> → wird an <code>cost-benefit-calculator-v2</code> (Port 8687) weitergeleitet</li>
+</ul>
+
+<h2>Proxy-Routing in <code>php/tool2.php</code></h2>
+<pre><code>$tool2URL1 = "http://quantifarm-cost-benefit-calculator-v1-tool-api:8686";  // V1
+$tool2URL2 = "http://quantifarm-cost-benefit-calculator-v2-tool-api:8686";  // V2
+if($version == 2) $baseURL = $tool2URL2;</code></pre>
+
+<h2>Zusammenfassung</h2>
+<table>
+    <thead>
+        <tr><th></th><th>V1 (allgemein)</th><th>V2 (Test Cases)</th></tr>
+    </thead>
+    <tbody>
+        <tr><td><strong>Datenquelle</strong></td><td>Kommerzielle DATs (Literatur)</td><td>QuantiFarm-Projekt-Testfälle (TC1–TC29)</td></tr>
+        <tr><td><strong>Calculator Schemas</strong></td><td><code>calculator_schema.json</code></td><td><code>calculator_schema_v2.json</code></td></tr>
+        <tr><td><strong><code>/totals/</code> Endpoint</strong></td><td>Basis-Filter</td><td>Erweiterter <code>cfilter</code> + <code>tcnumber</code></td></tr>
+        <tr><td><strong>Tabs</strong></td><td>Crop + Livestock (allgemein)</td><td>Crop TC + Livestock TC</td></tr>
+    </tbody>
+</table>
+
+<div class="note">
+    <strong>Hinweis:</strong> Die Test-Case-Tabs (V2) verwenden zudem spezifische <strong>TC-Nummern</strong> (TC1–TC29) mit eigenen Calculator-Modulen (z.&thinsp;B. <code>cropTC_calc_fertilizer</code>, <code>livestockTC_calc_milk_yield</code>), die in den allgemeinen Tabs (V1) nicht vorhanden sind.
+</div>
+
+</body>
+</html>

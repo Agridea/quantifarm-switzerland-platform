@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/FertilizerUsageInformation.schema.json",
+  "title": "QuantiFarm fertilizer usage information",
+  "description": "Information about the usage of fertilizers during the cultivation in the specific year",
+  "type": "object",
+  "properties": {
+    "productName": {
+      "description": "The name of the fertilizer product",
+      "type": "string"
+    },
+    "productType": {
+      "description": "The type of the fertilizer product",
+      "type": "string"
+    },
+    "numberOfTreatments": {
+      "description": "The number of treatments with the fertilizer on the parcel in the specific year of the cultivation",
+      "type": "number"
+    },
+    "averageQuantity": {
+      "description": "The average quantity of the fertilizer in kg per hectare that is used during one treatment",
+      "type": "number"
+    },
+    "averageNitrogenQuantity": {
+      "description": "The average nitrogen (N) quantity of the fertilizer in kg per hectare that is used during one treatment",
+      "type": "number"
+    },
+    "averagePhosphorusQuantity": {
+      "description": "The average phosphorus (P) quantity of the fertilizer in kg per hectare that is used during one treatment",
+      "type": "number"
+    },
+    "averagePotassiumQuantity": {
+      "description": "The average postassium (K) quantity of the fertilizer in kg per hectare that is used during one treatment",
+      "type": "number"
+    },
+    "productPrice": {
+      "description": "The price of the product in Euros per kg",
+      "type": "number"
+    }
+  },
+  "required": [ "productName", "numberOfTreatments", "averageQuantity"]
+}

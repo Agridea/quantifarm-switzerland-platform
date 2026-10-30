@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/DrugsUsageInformation.schema.json",
+  "title": "QuantiFarm drugs usage information",
+  "description": "Information about the usage of drugs during the cultivation in the specific year",
+  "type": "object",
+  "properties": {
+    "productName": {
+      "description": "The name of the drugs product",
+      "type": "string"
+    },
+    "quantity": {
+      "description": "The quantity of the drugs in gram that is used during the cultivation in the specific year",
+      "type": "number"
+    },
+    "productPrice": {
+      "description": "The price of the product in Euros per gram",
+      "type": "number"
+    }
+  },
+  "required": [ "productName", "quantity"]
+}

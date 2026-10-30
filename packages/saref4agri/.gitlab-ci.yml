@@ -1,0 +1,77 @@
+image: openjdk:8-jdk
+
+variables:
+    SAREF_DEV_KEY: <my_private_key>
+    SAREF_PORTAL_KEY: <my_private_key>
+
+before_script:
+  - eval $(ssh-agent -s)
+  - ssh-add <(echo "$SAREF_DEV_KEY")
+  - mkdir -p ~/.ssh
+  - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+
+stages:
+  - test
+  - build
+  - deploy
+
+test-develop:
+  stage: test
+  script:
+    - curl -L -o saref-pipeline.jar "https://labs.etsi.org/rep/saref/saref-pipeline/-/jobs/artifacts/master/raw/target/saref-pipeline.jar?job=build"
+    - java -jar saref-pipeline.jar develop -s && touch target/success
+  allow_failure: true
+  except:
+    - /^prerelease-v/
+    - /^release-v/
+  artifacts:
+    when: always
+    paths:
+      - target/site
+      - target/success
+    reports:
+      junit: target/report_output.xml
+
+test-prerelease:
+  stage: test
+  script:
+    - curl -L -o saref-pipeline.jar "https://labs.etsi.org/rep/saref/saref-pipeline/-/jobs/artifacts/master/raw/target/saref-pipeline.jar?job=build"
+    - java -jar saref-pipeline.jar release -t && touch target/success
+  allow_failure: true
+  only:
+    - /^prerelease-v/
+  artifacts:
+    when: always
+    paths:
+      - target/site
+      - target/success
+    reports:
+      junit: target/report_output.xml
+
+deploy-report:
+  stage: deploy
+  script:
+    - scp -pr target/site saref-dev@saref.etsi.org:~/snapshot/$CI_PIPELINE_ID
+    - echo "SAREF pipeline report  https://saref.etsi.org/snapshot/$CI_PIPELINE_ID/report.html" 
+    - exit $(test -f target/success) $?
+  except:
+    - /^release-v/
+
+test-release:
+  stage: test
+  script:
+    - curl -L -o saref-pipeline.jar "https://labs.etsi.org/rep/saref/saref-pipeline/-/jobs/artifacts/master/raw/target/saref-pipeline.jar?job=build"
+    - java -jar saref-pipeline.jar release -t
+  only:
+    - /^release-v/
+
+trigger-release:
+  stage: deploy
+  only:
+    - /^release-v/
+  variables:
+    SAREF_DEV_KEY: $SAREF_DEV_KEY
+    SAREF_PORTAL_KEY: $SAREF_PORTAL_KEY
+  trigger:
+    project: saref/saref-portal
+    branch: master

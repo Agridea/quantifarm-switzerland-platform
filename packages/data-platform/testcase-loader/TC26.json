@@ -1,0 +1,1021 @@
+{
+   "testcaseNumber": 26,
+   "testcaseLeader": "Teagasc",
+   "cultivationType": "Milk",
+   "datsInformation": [
+      {
+         "datsName": "DeLaval Dairy Services",
+         "datsInitialInvestmentCosts": 350000,
+         "datsAnnualFees": 0,
+         "datsMaintenanceCosts": 18000,
+         "datsExpectedLifespan": 15,
+         "datsInstallationTime": 24,
+         "datsTrainingTime": 6,
+         "datsTrainers": 1,
+         "datsTrainingCosts": 0
+      }
+   ],
+   "yearlyAssessmentInformation": [
+      {
+         "cultivationYear": 2023,
+         "parcelComparison": [],
+         "marketInformation": {
+            "waterPrice": null,
+            "fuelPrice": null,
+            "electricityPrice": null,
+            "averageSalary": null,
+            "averageProfessionalSalary": null
+         }
+      },
+      {
+         "cultivationYear": 2024,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "farmInformation": {
+                     "farmNumber": 1,
+                     "biogeographicalRegion": "Atlantic",
+                     "totalFarmSize": 123
+                  },
+                  "parcelInformation": {
+                     "parcelName": "Parcel 1 - home farm",
+                     "parcelDimension": 40.47,
+                     "startMonth": 1,
+                     "endMonth": 12,
+                     "productType": "milk",
+                     "numberOfEmployees": 1,
+                     "numberOfFulltimeEmployees": 1,
+                     "numberOfSeasonalEmployees": 0,
+                     "soilFractionSand": null,
+                     "soilFractionClay": null,
+                     "soilFractionSilt": null,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": null,
+                     "numberOfAnimals": 180,
+                     "numberOfPlants": null,
+                     "livestockUnits": 4.4,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [
+                     "DeLaval Dairy Services"
+                  ],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 15723,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": 3240,
+                     "waterUsageForDrinking": 12483
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 13100,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 75000,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [],
+                  "fertilizersUsageInformation": [],
+                  "feedUsageInformation": [
+                     {
+                        "productName": "Mixed concentrates, purchased from feed mill",
+                        "quantity": 256,
+                        "productPrice": 305
+                     },
+                     {
+                        "productName": "Silage. Makes own bales, hires contractor to cut and bale",
+                        "quantity": 1000,
+                        "productPrice": null
+                     },
+                     {
+                        "productName": "Grass. Grows all grass used for grazing and cutting (fed as needed when cows are indoors)",
+                        "quantity": 1120,
+                        "productPrice": null
+                     }
+                  ],
+                  "drugsUsageInformation": [
+                     {
+                        "productName": "Antibiotic DCT (drying off treatment, used on 30 cows in year)",
+                        "quantity": null,
+                        "productPrice": null
+                     },
+                     {
+                        "productName": "Antibiotics (mastitis treatment, used on 6% of herd in year)",
+                        "quantity": null,
+                        "productPrice": null
+                     },
+                     {
+                        "productName": "Dewormers",
+                        "quantity": null,
+                        "productPrice": null
+                     }
+                  ],
+                  "labourInformation": {
+                     "labourForIrrigation": null,
+                     "labourForPesticides": null,
+                     "labourForFertilisation": null,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": null,
+                     "labourForFieldVisits": null,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": 730,
+                     "labourForStableVisits": 0,
+                     "labourForHeatDetection": 364.9,
+                     "labourForCalvingDetection": 729.9,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": 365,
+                     "labourForMilkQualityAssessment": 182.5,
+                     "labourForFeeding": 0,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": null,
+                     "labourForStorage": null,
+                     "labourForAdministration": 365
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": null,
+                     "milkProduction": 1040000,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": null,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": 0.481,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": 14,
+                     "calvesDiedInFirst24Hours": 1,
+                     "totalNumberOfCalvesBorn": 188,
+                     "numberOfDaysWithPastureAccess": 243,
+                     "outdoorLoafingArea": 0,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": 3
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 0,
+                     "totalNumberOfLostWorkingHours": 0,
+                     "totalNumberOfWorkingHours": 6736,
+                     "numberOfWorkingWeeks": 50,
+                     "numberOfNewLocalEmployeesHired": 0,
+                     "numberOfNewEmployeesHired": 0
+                  },
+                  "additionalFieldsInformation": [
+                     {
+                        "fieldName": "ENERGY. Solar panels. Contributed about 30% to electricity consumption. Estimated 10,550 kWh of electricity produced from solar for Jan-Dec",
+                        "fieldValue": 10550
+                     },
+                     {
+                        "fieldName": "FUEL. LPG - estimated total LPG in litres for Jan-Dec",
+                        "fieldValue": 1250
+                     },
+                     {
+                        "fieldName": "VET. Estimated vet expenses in euros for Jan - Dec. Includes €7100 (vet bills: services, drugs) + €1400 TB tests",
+                        "fieldValue": 8500
+                     }
+                  ]
+               },
+               "parcelAssessmentWithoutDATS": {
+                  "farmInformation": {
+                     "farmNumber": 2,
+                     "biogeographicalRegion": "Atlantic",
+                     "totalFarmSize": 26.71
+                  },
+                  "parcelInformation": {
+                     "parcelName": "Parcel 1 - home farm",
+                     "parcelDimension": 23,
+                     "startMonth": 3,
+                     "endMonth": 10,
+                     "productType": "milk",
+                     "numberOfEmployees": 0,
+                     "numberOfFulltimeEmployees": 0,
+                     "numberOfSeasonalEmployees": 0,
+                     "soilFractionSand": null,
+                     "soilFractionClay": null,
+                     "soilFractionSilt": null,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": null,
+                     "numberOfAnimals": 43,
+                     "numberOfPlants": null,
+                     "livestockUnits": 1.06,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": null,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 17.95,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 13597.14,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": 2569.86,
+                     "electricityUsageForHeatDetection": 0,
+                     "electricityUsageForCalvingDetection": 0,
+                     "electricityUsageForFeeding": 0
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [],
+                  "fertilizersUsageInformation": [],
+                  "feedUsageInformation": [
+                     {
+                        "productName": "Organic concentrates",
+                        "quantity": 17.23,
+                        "productPrice": 0.91
+                     }
+                  ],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": null,
+                     "labourForPesticides": null,
+                     "labourForFertilisation": null,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": null,
+                     "labourForFieldVisits": null,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": 158.4,
+                     "labourForStableVisits": 0,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": 480,
+                     "labourForMilkQualityAssessment": 0,
+                     "labourForFeeding": 38.4,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": null,
+                     "labourForStorage": null,
+                     "labourForAdministration": 68.57
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": null,
+                     "milkProduction": 86540,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": null,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": 0.42,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": 1,
+                     "calvesDiedInFirst24Hours": 0,
+                     "totalNumberOfCalvesBorn": 20,
+                     "numberOfDaysWithPastureAccess": 190,
+                     "outdoorLoafingArea": 0,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": 3
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 0,
+                     "totalNumberOfLostWorkingHours": 0,
+                     "totalNumberOfWorkingHours": 2970,
+                     "numberOfWorkingWeeks": 50,
+                     "numberOfNewLocalEmployeesHired": 0,
+                     "numberOfNewEmployeesHired": 0
+                  },
+                  "additionalFieldsInformation": [
+                     {
+                        "fieldName": "VET. Estimated vet expenses in euros for Jan-Dec. Includes €3250, bills paid to date + €1000 on AI + estimated €1000 payment to vet by end of year",
+                        "fieldValue": 5250
+                     }
+                  ]
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/animal",
+                     "absoluteDifference": -400.2968060872013,
+                     "percentageDifference": -57.66488593414175
+                  },
+                  {
+                     "indicatorName": "Electricity consumption",
+                     "indicatorUnit": "kWh/animal",
+                     "absoluteDifference": 100.45410852713184,
+                     "percentageDifference": 31.767906093977626
+                  },
+                  {
+                     "indicatorName": "Cows with high SCC",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": -0.05310077519379845,
+                     "percentageDifference": -76.11111111111111
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": -12.38560723514212,
+                     "percentageDifference": -75.33291527378971
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 28.832442967070875
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -7.941976523494406
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 75.33291527378971
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 57.66488593414175,
+                     "aggregatedImpactMaxRangeValue": 57.66488593414175
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -31.767906093977626,
+                     "aggregatedImpactMaxRangeValue": -31.767906093977626
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 75.33291527378971,
+                     "aggregatedImpactMaxRangeValue": 75.33291527378971
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Cost of electricity",
+                     "mainImpactUnit": "€/animal",
+                     "absoluteDifference": 35.158937984496134,
+                     "percentageDifference": 31.767906093977615,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "mainImpactTitle": "INCREASED ELECTRICTY CONSUMPTION",
+                     "mainImpactSubtitle": "due to the increased level of farm digitization."
+                  },
+                  {
+                     "mainImpactName": "Milk revenue",
+                     "mainImpactUnit": "€/animal",
+                     "absoluteDifference": 1694.3488372093022,
+                     "percentageDifference": 187.08625426905988,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "REVENUES",
+                     "mainImpactSubtitle": "The significant difference in revenues, driven by the varying milk productivity of the two systems, can be partially attributed to the DATS. However, multiple overlapping factors make it challenging to isolate the exact impact of the technology "
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/animal",
+                     "absoluteDifference": 300.2968060872013,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT ",
+                     "mainImpactSubtitle": "due to increased efficiency in terms of time and resources."
+                  },
+                  {
+                     "mainImpactName": "PAYBACK PERIOD",
+                     "mainImpactUnit": "years (n)",
+                     "absoluteDifference": 6.475075342225949,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "PAYBACK PERIOD ",
+                     "mainImpactSubtitle": "Payback on the investment is expected in about six years"
+                  },
+                  {
+                     "mainImpactName": "Cows with high SCC",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": -0.05310077519379845,
+                     "percentageDifference": -76.11111111111111,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECRASED COWS WITH HIGH SCC",
+                     "mainImpactSubtitle": "due to the fact that the milking robot provides real-time health monitoring, enabling early detection of mastitis, movement problems, and other health problems."
+                  },
+                  {
+                     "mainImpactName": "Working time",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": -12.38560723514212,
+                     "percentageDifference": -75.33291527378971,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED WORKING TIME ",
+                     "mainImpactSubtitle": "due to greater flexibility in daily agricultural operations and an improved work-life balance"
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/animal",
+                     "absoluteDifference": 100.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/animal",
+                     "absoluteDifference": 1944.4444444444443,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of electricity",
+                     "costRevenueImpactUnit": "€/animal",
+                     "absoluteDifference": 35.158937984496134,
+                     "percentageDifference": 31.767906093977615,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of electricity: The DATS system uses more electricity and part of this can be attributed to the higher level of digitalization of the farm"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for field visits ",
+                     "costRevenueImpactUnit": "€/animal",
+                     "absoluteDifference": -176.48760763758892,
+                     "percentageDifference": -100.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of stable visits: Especially in large farms, the DATS helps monitoring the health and status of cows, simplifying direct inspections "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for milking",
+                     "costRevenueImpactUnit": "€/animal",
+                     "absoluteDifference": -271.857984496124,
+                     "percentageDifference": -81.83449074074073,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of milking: The main benefit of the DATS is the reduced workload for milking, with social and economic benefits "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/animal",
+                     "absoluteDifference": 12.889848062015517,
+                     "percentageDifference": 27.161214006773317,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of administrative activities and data management: The increase in costs may be due to the need to manage and monitor the technology and the data obtained from it "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/animal",
+                     "absoluteDifference": 300.2968060872013,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Net Benefit: The overall impact of the DATS is positive, thanks to the higher efficiency in time and resources"
+                  }
+               ]
+            }
+         ],
+         "marketInformation": {
+            "waterPrice": null,
+            "fuelPrice": 0.99,
+            "electricityPrice": 0.35,
+            "averageSalary": 29.76,
+            "averageProfessionalSalary": 33.64
+         }
+      },
+      {
+         "cultivationYear": 2025,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "parcelInformation": {
+                     "productType": "milk"
+                  }
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/animal",
+                     "absoluteDifference": -297.4121827027027,
+                     "percentageDifference": -25.453734891717158
+                  },
+                  {
+                     "indicatorName": "Electricity consumption",
+                     "indicatorUnit": "kWh/animal",
+                     "absoluteDifference": -273.73513513513507,
+                     "percentageDifference": -43.53780681769332
+                  },
+                  {
+                     "indicatorName": "Cows with high SCC",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": 0.005405405405405406,
+                     "percentageDifference": 10.0
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/animal",
+                     "absoluteDifference": -10.88027027027027,
+                     "percentageDifference": -73.3853473576754
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 12.726867445858579
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 10.88445170442333
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 73.3853473576754
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 25.453734891717158,
+                     "aggregatedImpactMaxRangeValue": 25.453734891717158
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 43.53780681769332,
+                     "aggregatedImpactMaxRangeValue": 43.53780681769332
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 73.3853473576754,
+                     "aggregatedImpactMaxRangeValue": 73.3853473576754
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/animal",
+                     "absoluteDifference": -297.4121827027027,
+                     "percentageDifference": -25.453734891717158,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECRESED COSTS",
+                     "mainImpactSubtitle": "thanks to automation of various tasks"
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/animal",
+                     "absoluteDifference": 200.1148854054054,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT",
+                     "mainImpactSubtitle": "due to increased efficiency in terms of time and resources"
+                  },
+                  {
+                     "mainImpactName": "Electricity consumption",
+                     "mainImpactUnit": "kWh/animal",
+                     "absoluteDifference": -273.73513513513507,
+                     "percentageDifference": -43.53780681769332,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED ELECTRICTY CONSUMPTION",
+                     "mainImpactSubtitle": "thanks to continuous operation of the AMS"
+                  },
+                  {
+                     "mainImpactName": "Working time",
+                     "mainImpactUnit": "h/animal",
+                     "absoluteDifference": -10.88027027027027,
+                     "percentageDifference": -73.3853473576754,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED WORKING TIME",
+                     "mainImpactSubtitle": "due to greater flexibility in daily agricultural operations and an improved work-life balance"
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/animal",
+                     "absoluteDifference": 97.29729729729729,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/animal",
+                     "absoluteDifference": 1891.8918918918919,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of electricity",
+                     "costRevenueImpactUnit": "€/animal",
+                     "absoluteDifference": -68.92650702702704,
+                     "percentageDifference": -43.53780681769334,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Despite the higher electricity demand directly attributable to the operation of the DATS equipment and associated automated systems, the farm with DATS proved to be more efficient in electricity use "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for milking",
+                     "costRevenueImpactUnit": "€/animal",
+                     "absoluteDifference": -231.0,
+                     "percentageDifference": -84.79166666666666,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Reduction directly attributable to the milking-related functions of the AMS, which replace manual milking activities. "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/animal",
+                     "absoluteDifference": 2.5143243243243347,
+                     "percentageDifference": 6.4605512614846425,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Additional costs arising from tasks necessary to operate, maintain or interpret data produced directly by the AMS."
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "cultivationYear": 2026,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "parcelInformation": {
+                     "productType": "milk"
+                  }
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/animal",
+                     "absoluteDifference": -370.09999999999997,
+                     "percentageDifference": -42.0
+                  },
+                  {
+                     "indicatorName": "Electricity consumption",
+                     "indicatorUnit": "kWh/animal",
+                     "absoluteDifference": null,
+                     "percentageDifference": -5.9
+                  },
+                  {
+                     "indicatorName": "Cows with high SCC",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": null,
+                     "percentageDifference": -33.1
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/animal",
+                     "absoluteDifference": null,
+                     "percentageDifference": -70.8
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 21.0
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 1.475
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 70.8
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 42.0,
+                     "aggregatedImpactMaxRangeValue": 42.0
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 5.9,
+                     "aggregatedImpactMaxRangeValue": 5.9
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 70.8,
+                     "aggregatedImpactMaxRangeValue": 70.8
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/animal",
+                     "absoluteDifference": -370.09999999999997,
+                     "percentageDifference": -42.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "REDUCED COSTS",
+                     "mainImpactSubtitle": "due to lower management and electricity costs "
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/animal",
+                     "absoluteDifference": 339.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT",
+                     "mainImpactSubtitle": "due to increased efficiency in terms of time and resources"
+                  },
+                  {
+                     "mainImpactName": "PAYBACK PERIOD",
+                     "mainImpactUnit": "years (n)",
+                     "absoluteDifference": 5.7,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "MEDIUM PBP",
+                     "mainImpactSubtitle": "indicating a moderate recovery time for the investment"
+                  },
+                  {
+                     "mainImpactName": "NPV 5 years",
+                     "mainImpactUnit": "€/animal",
+                     "absoluteDifference": -444.9,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "NEGATIVE NPV",
+                     "mainImpactSubtitle": "as the generated benefits are not sufficient to offset the high initial costs"
+                  },
+                  {
+                     "mainImpactName": "ROI",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": 18.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "ROI OF 18%",
+                     "mainImpactSubtitle": "indicating a positive but limited return on the investment"
+                  },
+                  {
+                     "mainImpactName": "Electricity consumption",
+                     "mainImpactUnit": "kWh/animal",
+                     "absoluteDifference": null,
+                     "percentageDifference": -5.9,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "DECREASED ELECTRICTY CONSUMPTION",
+                     "mainImpactSubtitle": "thanks to continuous operation of the AMS"
+                  },
+                  {
+                     "mainImpactName": "Working time",
+                     "mainImpactUnit": "h/animal",
+                     "absoluteDifference": null,
+                     "percentageDifference": -70.8,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "DECREASED WORKING TIME",
+                     "mainImpactSubtitle": "due to greater flexibility in daily agricultural operations and an improved work-life balance"
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/animal",
+                     "absoluteDifference": 98.6,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/animal",
+                     "absoluteDifference": 1926.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of electricity",
+                     "costRevenueImpactUnit": "€/animal",
+                     "absoluteDifference": -16.9,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Despite the higher electricity demand directly attributable to the operation of the DATS equipment and associated automated systems, the farm with DATS proved to be more efficient in electricity use "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for milking",
+                     "costRevenueImpactUnit": "€/animal",
+                     "absoluteDifference": -341.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Reduction directly attributable to the milking-related functions of the AMS, which replace manual milking activities. "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/animal",
+                     "absoluteDifference": -12.2,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The Automated Milking System is associated with reduced administrative work, as it supports automated data collection and more efficient farm management."
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/animal",
+                     "absoluteDifference": 339.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The AMS generates a positive net benefit, as the overall benefits exceed the associated running costs"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

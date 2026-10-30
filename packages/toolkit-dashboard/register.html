@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>QuantiFarm Toolkit - Register</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XH06Z9BF5S"></script>
+    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-XH06Z9BF5S');</script>
+
+    <!-- Favicons -->
+    <link href="assets/img/QuantiFarm-element-60x60.png" rel="icon" sizes="32x32">
+    <link href="assets/img/QuantiFarm-element-60x60.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Sofia+Sans:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- DigiAgriFoodCH Theme -->
+    <link href="assets/css/digiagrifood-theme.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+
+            <section class="section register min-vh-100 d-flex flex-column align-items-center justify-content-start pt-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
+
+                            <div class="d-flex justify-content-center py-4">
+                                <a href="index.html" class="logo d-flex align-items-center w-auto">
+                                    <span class="d-none d-lg-block">Toolkit</span>
+                                </a>
+                            </div><!-- End Logo -->
+
+                            <div class="card mb-3">
+
+                                <div class="card-body">
+
+                                    <div class="pt-2 pb-2">
+                                        <h5 class="card-title text-center pb-0 fs-4" id="regCardTitle">Create an Account</h5>
+                                        <p class="text-center small" id="regCardSubtitle">Enter your personal details to create account</p>
+                                    </div>
+
+                                    <form id="formMain" class="row g-2 needs-validation" novalidate onsubmit="return false;" autocomplete="off">
+
+                                        <div class="col-12">
+                                            <div class="form-floating">
+                                                <input type="text" name="name" class="form-control" id="yourName" placeholder="* Your Name" required>
+                                                <label for="yourName" id="regNameLabel">* Your Name</label>
+                                                <div class="invalid-feedback" id="regNameInvalid">Please enter your name!</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="form-floating">
+                                                <input type="email" name="email" class="form-control" id="yourEmail" placeholder="* Your Email" required>
+                                                <label for="yourEmail" id="regEmailLabel">* Your Email</label>
+                                                <div class="invalid-feedback" id="regEmailInvalid">Please enter a valid Email address!</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="form-floating">
+                                                <input type="password" name="password" class="form-control" id="yourPassword" placeholder="* Password" autocomplete="off" required>
+                                                <label for="yourPassword" id="regPwdLabel">* Password</label>
+                                                <div class="invalid-feedback" id="regPwdInvalid">Please enter your password!</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="dropdown">
+                                                <div class="form-floating">
+                                                    <input type="text" class="form-select qf-cursor-def" name="roles" id="yourRoles" data-bs-toggle="dropdown" aria-expanded="false" onkeydown="return false;" style="caret-color: transparent !important;" autocomplete="off">
+                                                    <label for="yourRoles" id="regRolesLabel">Roles</label>
+                                                    <ul class="dropdown-menu qf-max-h-300" style="min-width: 100%;" qf-multiselect>
+                                                        <li><label class="dropdown-item"><input type="checkbox" class="me-2 qf-scale-14" value="Farmer"><span data-reg-role="farmer">Farmer</span></label></li>
+                                                        <li><label class="dropdown-item"><input type="checkbox" class="me-2 qf-scale-14" value="Advisor"><span data-reg-role="advisor">Advisor</span></label></li>
+                                                        <li><label class="dropdown-item"><input type="checkbox" class="me-2 qf-scale-14" value="Policy related"><span data-reg-role="policy">Policy related</span></label></li>
+                                                        <li><label class="dropdown-item"><input type="checkbox" class="me-2 qf-scale-14" value="Researcher"><span data-reg-role="researcher">Researcher</span></label></li>
+                                                        <li><label class="dropdown-item"><input type="checkbox" class="me-2 qf-scale-14" value="Agritech"><span data-reg-role="agritech">Agritech</span></label></li>
+                                                        <li><label class="dropdown-item"><input type="checkbox" class="me-2 qf-scale-14" value="Other"><span data-reg-role="other">Other</span></label></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="form-floating">
+                                                <select class="form-select" name="age" id="yourAge" aria-label="Age">
+                                                    <option></option>
+                                                    <option>up to 29</option>
+                                                    <option>30-39</option>
+                                                    <option>40-49</option>
+                                                    <option>50-59</option>
+                                                    <option>60+</option>
+                                                </select>
+                                                <label for="yourAge" id="regAgeLabel">Age</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="form-floating">
+                                                <select class="form-select" name="gender" id="yourGender" aria-label="Gender">
+                                                    <option></option>
+                                                    <option data-reg-gender="male">Male</option>
+                                                    <option data-reg-gender="female">Female</option>
+                                                    <option data-reg-gender="other">Other</option>
+                                                </select>
+                                                <label for="yourGender" id="regGenderLabel">Gender</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12" hidden>
+                                            <div class="form-floating">
+                                                <select class="form-select" name="country" id="yourCountry" aria-label="Country">
+                                                    <option value="Switzerland" selected>Switzerland</option>
+                                                </select>
+                                                <label for="yourCountry">Country</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input" name="terms" type="checkbox" value="" id="acceptTerms" required>
+                                                <label class="form-check-label" for="acceptTerms"><span id="regTermsText">I agree and accept the </span><a href="privacy.html" target="_blank" id="regTermsLink">terms and conditions</a><span id="regTermsSuffix"></span></label>
+                                                <div class="invalid-feedback" id="regTermsInvalid">You must agree before submitting.</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 text-end">
+                                            <button class="btn btn-primary my-2" type="submit" id="btnSubmit" onclick="RegisterSave()"><span id="regBtnCreate">Create Account</span></button>
+                                            <a class="btn btn-secondary" href="index.html" id="regBtnBack">Back</a>
+                                        </div>
+                                        <div class="col-12" id="divErr">
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="small mb-0"><span id="regHasAccount">Already have an account? </span><a href="login.html" id="regLoginLink">Log in</a></p>
+                                            <p class="small mb-0"><a href="forgotten.html" id="regForgottenPwd">Forgotten password</a></p>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+    </main><!-- End #main -->
+
+    <!-- Hidden language tab infrastructure -->
+    <div hidden>
+        <ul class="nav nav-pills" id="lngTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="lngBtnEN" data-bs-toggle="tab" data-bs-target="#lngTabEN" type="button" role="tab" aria-controls="lngTabEN" aria-selected="false" tabindex="-1" title="EN" onclick="LoadLanguageContent('EN', ApplyRegisterTranslations)"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="lngBtnDE" data-bs-toggle="tab" data-bs-target="#lngTabDE" type="button" role="tab" aria-controls="lngTabDE" aria-selected="true" title="DE" onclick="LoadLanguageContent('DE', ApplyRegisterTranslations)"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="lngBtnFR" data-bs-toggle="tab" data-bs-target="#lngTabFR" type="button" role="tab" aria-controls="lngTabFR" aria-selected="false" tabindex="-1" title="FR" onclick="LoadLanguageContent('FR', ApplyRegisterTranslations)"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="lngBtnIT" data-bs-toggle="tab" data-bs-target="#lngTabIT" type="button" role="tab" aria-controls="lngTabIT" aria-selected="false" tabindex="-1" title="IT" onclick="LoadLanguageContent('IT', ApplyRegisterTranslations)"></button>
+            </li>
+        </ul>
+        <div class="tab-content" id="lngTabsContent">
+            <div class="tab-pane fade" id="lngTabEN" role="tabpanel" aria-labelledby="lngBtnEN"></div>
+            <div class="tab-pane fade" id="lngTabFR" role="tabpanel" aria-labelledby="lngBtnFR"></div>
+            <div class="tab-pane fade" id="lngTabIT" role="tabpanel" aria-labelledby="lngBtnIT"></div>
+            <div class="tab-pane fade active show" id="lngTabDE" role="tabpanel" aria-labelledby="lngBtnDE"></div>
+        </div>
+    </div>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="js/uistrings.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/usr.js"></script>
+
+    <script>
+        function ApplyRegisterTranslations(lng) {
+            const tab = document.getElementById('lngTab' + lng);
+            const val = (key) => {
+                const el = tab ? tab.querySelector('[data-reg-key="' + key + '"]') : null;
+                return el ? el.textContent : null;
+            };
+            const setTxt = (id, txt) => { if (txt !== null) { const el = document.getElementById(id); if (el) el.textContent = txt; } };
+            const setAttr = (id, attr, txt) => { if (txt !== null) { const el = document.getElementById(id); if (el) el.setAttribute(attr, txt); } };
+
+            setTxt('regCardTitle', val('card-title'));
+            setTxt('regCardSubtitle', val('card-subtitle'));
+
+            const nameLabel = val('name-label');
+            setTxt('regNameLabel', nameLabel);
+            setAttr('yourName', 'placeholder', nameLabel);
+            setTxt('regNameInvalid', val('name-invalid'));
+
+            const emailLabel = val('email-label');
+            setTxt('regEmailLabel', emailLabel);
+            setAttr('yourEmail', 'placeholder', emailLabel);
+            setTxt('regEmailInvalid', val('email-invalid'));
+
+            const pwdLabel = val('pwd-label');
+            setTxt('regPwdLabel', pwdLabel);
+            setAttr('yourPassword', 'placeholder', pwdLabel);
+            setTxt('regPwdInvalid', val('pwd-invalid'));
+
+            setTxt('regRolesLabel', val('roles-label'));
+            ['farmer', 'advisor', 'policy', 'researcher', 'agritech', 'other'].forEach(r => {
+                const txt = val('role-' + r);
+                if (txt !== null) {
+                    const el = document.querySelector('[data-reg-role="' + r + '"]');
+                    if (el) el.textContent = txt;
+                }
+            });
+
+            setTxt('regAgeLabel', val('age-label'));
+
+            setTxt('regGenderLabel', val('gender-label'));
+            ['male', 'female', 'other'].forEach(g => {
+                const txt = val('gender-' + g);
+                if (txt !== null) {
+                    const el = document.querySelector('#yourGender option[data-reg-gender="' + g + '"]');
+                    if (el) el.textContent = txt;
+                }
+            });
+
+            setTxt('regTermsText', val('terms-text'));
+            setTxt('regTermsLink', val('terms-link'));
+            setTxt('regTermsSuffix', val('terms-suffix'));
+            setTxt('regTermsInvalid', val('terms-invalid'));
+            setTxt('regBtnCreate', val('btn-create'));
+            setTxt('regBtnBack', val('btn-back'));
+            setTxt('regHasAccount', val('has-account'));
+            setTxt('regLoginLink', val('login-link'));
+            setTxt('regForgottenPwd', val('forgotten-pwd'));
+            refreshMultiselectDisplay('yourRoles');
+        }
+
+        // Rebuilds multiselect display using current (translated) label texts
+        // while keeping the English item.value in qfSelectedValuesAsArray for DB submission.
+        function refreshMultiselectDisplay(ctrlId) {
+            const el = document.getElementById(ctrlId);
+            if (!el || !el.qfSelectedValuesAsArray) return;
+            const saved = [...el.qfSelectedValuesAsArray];
+            if (saved.length === 0) return;
+            el.qfSelectedItemsAsArray = [];
+            el.qfSelectedValuesAsArray = [];
+            el.value = '';
+            const chk = Array.from(el.closest('.dropdown').querySelectorAll('ul input[type=checkbox]'));
+            chk.forEach(c => {
+                if (saved.includes(c.value)) {
+                    c.checked = false;
+                    c.checked = true;
+                    c.dispatchEvent(new Event('change', { bubbles: true }));
+                } else {
+                    c.checked = false;
+                }
+            });
+        }
+
+        // Saves English key values (item.value) to DB, not the translated display text.
+        function RegisterSave() {
+            const el = document.getElementById('yourRoles');
+            if (el && el.qfSelectedValuesAsArray)
+                el.value = el.qfSelectedValuesAsArray.join(sep_MultiSelect);
+            Register();
+        }
+    </script>
+
+</body>
+
+</html>

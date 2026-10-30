@@ -1,0 +1,71 @@
+# BUILD
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+
+# PROJECT
+
+[project]
+name = "recommendation-tool"
+version = "0.1.0"
+description = "This recommendation tool recommends DATSs to farmers based on their profile characteristics, and is developed within the QuantiFarm project."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.8",
+    "httpx>=0.28.1",
+    "numpy>=2.2.2",
+    "pydantic>=2.10.6",
+    "pydantic-settings>=2.9.1",
+    "pytest>=8.3.4",
+    "python-dotenv>=1.0.1",
+    "rdflib>=7.1.3",
+    "requests>=2.32.3",
+    "setuptools>=75.8.0",
+    "strenum>=0.4.15",
+    "uvicorn>=0.34.0",
+]
+
+[project.urls]
+Homepage = "https://quantifarmtoolkit.eu/"
+Repository = "https://gitlab.com/QuantiFarm/recommendation-tool"
+
+
+
+
+# TOOLS
+
+[tool.ruff]
+exclude = [
+    "common",
+    "config",
+    "data",
+    "docs",
+]
+line-length = 88
+indent-width = 4
+target-version = "py312"
+
+[tool.ruff.lint]
+select = [
+    # pycodestyle
+    "E",
+    # Pyflakes
+    "F",
+    # pyupgrade
+    "UP",
+    # flake8-bugbear
+    "B",
+    # flake8-simplify
+    "SIM",
+    # isort
+    "I",
+]
+ignore = ["UP040"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/app.py" = ["B008"]
+"__init__.py" = ["E402", "F401"]

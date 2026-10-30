@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/YearlyAssessmentInformation.schema.json",
+  "title": "QuantiFarm yearly assessment information",
+  "description": "Assessment information with parcel comparisons and market information for a single year",
+  "type": "object",
+  "properties": {
+    "cultivationYear": {
+      "description": "The calendar year for which the assessment has been done",
+      "type": "string",
+      "format": "year"
+    },
+    "parcelComparison": {
+      "description": "List of comparisons of assessment of two parcels, one with using the DATSs and one without using the DATSs",
+      "type": "array",
+      "items": {
+        "description": "Assessment information of two parcels, one with using the DATSs and one without using the DATSs",
+        "minItems": 1,
+        "uniqueItems": true,
+        "$ref": "https://quantifarm.eu/ontology/ParcelComparison.schema.json"
+      }
+    },
+    "marketInformation": {
+      "description": "General market information that influences the costs and benefits of the cultivation in the specific year",
+      "$ref": "https://quantifarm.eu/ontology/MarketInformation.schema.json"
+    }
+  },
+  "required": [ "cultivationYear", "parcelComparison", "marketInformation" ]
+}
+

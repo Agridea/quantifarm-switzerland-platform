@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toolkit Dashboard — Übersetzungen</title>
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #1a1a2e;
+            --heading: #16213e;
+            --accent: #0f3460;
+            --border: #d0d7de;
+            --code-bg: #f6f8fa;
+            --pre-bg: #1e1e2e;
+            --pre-text: #cdd6f4;
+            --link: #0969da;
+            --subtle: #57606a;
+            --tip-bg: #dafbe1;
+            --tip-border: #2da44e;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            color: var(--text);
+            background: var(--bg);
+            line-height: 1.6;
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+        h1 { font-size: 2rem; color: var(--heading); margin-bottom: 0.5rem; border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; }
+        h2 { font-size: 1.5rem; color: var(--accent); margin: 2rem 0 0.75rem; }
+        h3 { font-size: 1.15rem; color: var(--heading); margin: 1.25rem 0 0.4rem; }
+        p, li { margin-bottom: 0.5rem; }
+        ul, ol { padding-left: 1.5rem; margin-bottom: 1rem; }
+        code {
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+            background: var(--code-bg);
+            padding: 0.15em 0.4em;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+        pre {
+            background: var(--pre-bg);
+            color: var(--pre-text);
+            padding: 1rem 1.25rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 1rem 0;
+            font-size: 0.85rem;
+            line-height: 1.5;
+        }
+        pre code { background: none; padding: 0; font-size: inherit; color: inherit; }
+        strong { color: var(--heading); }
+        hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+        a { color: var(--link); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .note {
+            background: var(--tip-bg);
+            border-left: 4px solid var(--tip-border);
+            padding: 0.75rem 1rem;
+            border-radius: 4px;
+            margin: 1rem 0;
+        }
+        .note strong { color: var(--tip-border); }
+    </style>
+</head>
+<body>
+
+<h1>Toolkit Dashboard — Übersetzungen</h1>
+<p>Dieses Dokument beschreibt die drei Übersetzungsmechanismen des Toolkit Dashboards sowie deren Fundstellen und Anpassungsmöglichkeiten.</p>
+
+<h2>1) Statische HTML-Fragmente pro Seite</h2>
+<ul>
+    <li><strong>Speicherort:</strong> <code>assets/lng/</code> mit Dateinamen nach dem Muster <code>&lt;page&gt;-&lt;LANG&gt;.html</code> (z. B. <code>index-TR.html</code>).</li>
+    <li>
+        <strong>Ladevorgang:</strong> Die Funktion <code>LoadLanguageContent(lng)</code> in <code>packages/toolkit-dashboard/js/app.js</code> lädt <code>assets/lng/&lt;page&gt;-&lt;LANG&gt;.html</code> und fügt das zurückgegebene HTML in das Tab-Container-Element mit der ID <code>lngTab&lt;LANG&gt;</code> ein (zum Beispiel <code>lngTabTR</code>).
+        <ul>
+            <li>Implementierungsverweis: <a href="packages/toolkit-dashboard/js/app.js">packages/toolkit-dashboard/js/app.js</a> (Zeilen 600–664).</li>
+            <li>Fetch-Optionen: <code>{ method: 'GET', cache: 'no-store' }</code>.</li>
+            <li>Der Loader überspringt den Abruf, wenn der Ziel-Container bereits HTML enthält (<code>document.getElementById(container).innerHTML.trim() != ""</code>).</li>
+        </ul>
+    </li>
+    <li>
+        <strong>Eine statische Sprache entfernen:</strong> den Navigations-Button auf der Seite (das Element <code>lngBtn&lt;LANG&gt;</code>) entfernen, den zugehörigen Container <code>lngTab&lt;LANG&gt;</code> entfernen, das Fragment in <code>assets/lng/</code> löschen und ein eventuelles Flaggenbild in <code>assets/img/</code> entfernen.
+    </li>
+</ul>
+
+<h2>2) Maschinelle Übersetzung (Google-Translate-Widget)</h2>
+<ul>
+    <li>
+        <strong>Einsatzort:</strong> <code>tool1.html</code> (und möglicherweise weitere Seiten, die das Widget einbinden).
+        <ul>
+            <li>Widget-Skript: <code>//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit</code>.</li>
+            <li>Bei der Initialisierung werden <code>includedLanguages</code> (kommagetrennte Sprachcodes) und <code>pageLanguage</code> innerhalb von <code>googleTranslateElementInit()</code> gesetzt.</li>
+            <li>Beispielverweis: <a href="packages/toolkit-dashboard/tool1.html">packages/toolkit-dashboard/tool1.html</a> (Zeile 556).</li>
+        </ul>
+    </li>
+</ul>
+
+<div class="note">
+    <strong>Hinweis:</strong> Dies stellt eine clientseitige maschinelle Übersetzung bereit. Um eine Sprache aus dem Widget zu entfernen, <code>includedLanguages</code> in der Widget-Initialisierung bearbeiten und den Sprachcode entfernen (z. B. <code>tr</code>).
+</div>
+
+<h2>3) Schlüsselbasiertes clientseitiges i18n (<code>uistrings</code>)</h2>
+<ul>
+    <li>
+        <strong>Mechanismus:</strong> Ein Wörterbuch-Objekt <code>uistrings</code> (Zeichenketten, referenziert über Schlüssel) sowie ein Laufzeitmodus, gesteuert über den booleschen Wert <code>do_lang_translation</code> in <code>packages/toolkit-dashboard/js/app.js</code>.
+        <ul>
+            <li>Ist <code>do_lang_translation</code> auf <code>true</code> gesetzt, sucht ein <code>DOMContentLoaded</code>-Handler alle Elemente mit dem Attribut <code>qf-lang-key</code> und ersetzt deren Text/Platzhalter über <code>translateElement()</code> anhand der Werte aus <code>uistrings</code>.</li>
+            <li>Implementierungsverweis: <a href="packages/toolkit-dashboard/js/app.js">packages/toolkit-dashboard/js/app.js</a> (Zeilen 20–30) sowie die nahegelegene Implementierung von <code>translateElement()</code>.</li>
+        </ul>
+    </li>
+    <li>
+        <strong>Anwendungsfall:</strong> Kleine UI-Textschlüssel können ohne seitenspezifische HTML-Fragmente ausgetauscht werden; dazu <code>uistrings</code> mit den benötigten Übersetzungen befüllen und <code>do_lang_translation</code> aktivieren.
+    </li>
+</ul>
+
+<h2>Praktische Hinweise &amp; Checkliste zum Entfernen</h2>
+<p>Zu prüfende Dateien beim vollständigen Entfernen einer Sprache:</p>
+<ul>
+    <li>Navigations-Buttons der Seite: <code>lngBtn&lt;LANG&gt;</code> (in HTML-Seiten wie <code>index.html</code>, <code>tool1.html</code> usw.).</li>
+    <li>Tab-Container: <code>lngTab&lt;LANG&gt;</code>.</li>
+    <li>Statische Fragmente: <code>assets/lng/&lt;page&gt;-&lt;LANG&gt;.html</code>.</li>
+    <li>Flaggen-Icons: <code>assets/img/&lt;flag&gt;.png</code>.</li>
+    <li>Google-Translate-<code>includedLanguages</code> (falls das Widget verwendet wird).</li>
+    <li>Alle <code>uistrings</code>-Einträge (falls das schlüsselbasierte System aktiviert ist).</li>
+</ul>
+
+<div class="note">
+    <strong>Laufzeit:</strong> Wird die Website über die mitgelieferte <code>docker-compose.yml</code> betrieben, bindet der Dienst <code>web</code> das Projekt per Bind-Mount nach <code>/var/www/html</code> ein. Änderungen an Dateien sind dem Container sofort sichtbar (kein Image-Rebuild nötig), jedoch kann ein Leeren des Browser-Caches nötig sein.
+</div>
+
+</body>
+</html>

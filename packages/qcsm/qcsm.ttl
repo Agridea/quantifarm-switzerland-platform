@@ -1,0 +1,1796 @@
+# baseURI: https://quantifarm.eu/ontology/
+# imports: https://www.tno.nl/agrifood/ontology/ploutos/common
+# prefix: qcsm
+
+@prefix : <https://quantifarm.eu/ontology/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ploutos: <https://www.tno.nl/agrifood/ontology/ploutos/common#> .
+@prefix qcsm: <https://quantifarm.eu/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+qcsm:
+  rdf:type owl:Ontology ;
+  dcterms:title "QuantiFarm Common Semantic Model" ;
+  owl:imports <https://www.tno.nl/agrifood/ontology/ploutos/common> ;
+.
+qcsm:AdditionalAnimalInformation
+  rdf:type owl:Class ;
+  rdfs:comment "Additional animal information that influences the assessment of the performance of the cultivation in the specific year" ;
+  rdfs:label "Additional Animal Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+.
+qcsm:AdditionalFieldsInformation
+  rdf:type owl:Class ;
+  rdfs:comment "Additional fields information of any kind with a field name and value" ;
+  rdfs:label "Additional Fields Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+.
+qcsm:AdditionalLabourInformation
+  rdf:type owl:Class ;
+  rdfs:comment "Additional labour-related information that influences the assessment of the performance of the cultivation in the specific year" ;
+  rdfs:label "Additional Labour Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+.
+qcsm:AgrifoodChainActor_1
+  rdf:type ploutos:AgrifoodChainActor ;
+  rdfs:label "Agrifood chain actor 1" ;
+.
+qcsm:AssessmentInformation
+  rdf:type owl:Class ;
+  rdfs:comment "Assessment information about cultivation on a parcel with or without DATSs. When the assessment information is about a parcel with DATSs, instances of this class should have at least 1 qcsm:hasDatsUsed property value." ;
+  rdfs:label "Assessment Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+      owl:onProperty qcsm:hasDatsUsed ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+      owl:onProperty qcsm:hasDrugsUsageInformation ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+      owl:onProperty qcsm:hasFeedUsageInformation ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+      owl:onProperty qcsm:hasFertilizersUsageInformation ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+      owl:onProperty qcsm:hasFuelForTemperatureControlInformation ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "0"^^xsd:nonNegativeInteger ;
+      owl:onProperty qcsm:hasPesticidesUsageInformation ;
+    ] ;
+.
+qcsm:BiogeographicalRegion
+  rdf:type owl:Class ;
+  rdfs:comment "A class to decsribe several different biogeographical regions such as: alpine, arctic, atlantic, desert, etc. see: https://www.eea.europa.eu/data-and-maps/figures/biogeographical-regions-in-europe-2"@en ;
+  rdfs:label "Biogeographical region"@en ;
+  rdfs:subClassOf owl:Thing ;
+.
+qcsm:DatsInformation
+  rdf:type owl:Class ;
+  rdfs:comment "Generic information of a DATS being applied in a QuantiFarm testcase" ;
+  rdfs:label "Dats Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+.
+qcsm:DigitalAgriculturalTechnology
+  rdf:type owl:Class ;
+  rdfs:comment "A Digital Agricultural Technology (DAT) is a digital technology that is used mainly in agriculture." ;
+  rdfs:label "Digital Agricultural Technology" ;
+.
+qcsm:DrugsUsageInformation
+  rdf:type owl:Class ;
+  rdfs:comment "Information about the usage of drugs during the cultivation in the specific year" ;
+  rdfs:label "Drugs Usage Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+.
+qcsm:EconomicInformation
+  rdf:type owl:Class ;
+  rdfs:comment "Economic information about the performance of the cultivation in the specific year" ;
+  rdfs:label "Economic Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+.
+qcsm:EconomicSustainability
+  rdf:type owl:Class ;
+  rdfs:label "Economic sustainability" ;
+.
+qcsm:ElectricityUsageInformation
+  rdf:type owl:Class ;
+  rdfs:comment "Information about the usage of electricity during the cultivation in the specific year" ;
+  rdfs:label "Electricity Usage Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+.
+qcsm:EnvironmentalSustainability
+  rdf:type owl:Class ;
+  rdfs:label "Environmental sustainability" ;
+.
+qcsm:FarmInformation
+  rdf:type owl:Class ;
+  rdfs:comment "Generic information about the farm where the parcel in the testcase is located" ;
+  rdfs:label "Farm Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+.
+qcsm:FeedUsageInformation
+  rdf:type owl:Class ;
+  rdfs:comment "Information about the usage of feed during the cultivation in the specific year" ;
+  rdfs:label "Feed Usage Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+.
+qcsm:FertilizerUsageInformation
+  rdf:type owl:Class ;
+  rdfs:comment "Information about the usage of fertilizers during the cultivation in the specific year" ;
+  rdfs:label "Fertilizer Usage Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+.
+qcsm:FuelForTempControlUsageInformation
+  rdf:type owl:Class ;
+  rdfs:comment "Information about the usage of fuel for temperature control during the cultivation in the specific year" ;
+  rdfs:label "Fuel For Temp Control Usage Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+.
+qcsm:FuelUsageInformation
+  rdf:type owl:Class ;
+  rdfs:comment "Information about the usage of fuel during the cultivation in the specific year" ;
+  rdfs:label "Fuel Usage Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+.
+qcsm:LabourInformation
+  rdf:type owl:Class ;
+  rdfs:comment "Information about the amount of labour used for various tasks during the cultivation in the specific year" ;
+  rdfs:label "Labour Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+.
+qcsm:MarketInformation
+  rdf:type owl:Class ;
+  rdfs:comment "General market information that influences the costs and benefits of the cultivation in the specific year" ;
+  rdfs:label "Market Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+.
+qcsm:OutputInformation
+  rdf:type owl:Class ;
+  rdfs:comment "Information about the output production of the cultivation in the specific year" ;
+  rdfs:label "Output Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+.
+qcsm:ParcelComparison
+  rdf:type owl:Class ;
+  rdfs:comment "Assessment information of two parcels, one with using the DATSs and one without using the DATSs" ;
+  rdfs:label "Parcel Comparison" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty qcsm:hasParcelAssessmentWithDATS ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:cardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty qcsm:hasParcelAssessmentWithoutDATS ;
+    ] ;
+.
+qcsm:ParcelInformation
+  rdf:type owl:Class ;
+  rdfs:comment "Generic information about the parcel in the QuantiFarm testcase (elements filled with a value depending on type of cultivation)" ;
+  rdfs:label "Parcel Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+.
+qcsm:PesticideUsageInformation
+  rdf:type owl:Class ;
+  rdfs:comment "Information about the usage of pesticides during the cultivation in the specific year" ;
+  rdfs:label "Pesticide Usage Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+.
+qcsm:SocialSustainability
+  rdf:type owl:Class ;
+  rdfs:label "Social sustainability" ;
+.
+qcsm:TechnologyProvider
+  rdf:type owl:Class ;
+  rdfs:comment "The class represents all companies that provide technology for agrifood chain actors, especially focused on digital agricultural technologies" ;
+  rdfs:label "Technology provider" ;
+  rdfs:subClassOf ploutos:AgrifoodChainActor ;
+.
+qcsm:Testcase
+  rdf:type owl:Class ;
+  rdfs:comment "The class represents all testcases that assess the usage of a qcsm:DigitalAgriculturalTechnology on a farm for a number of periods of (usually) a year." ;
+  rdfs:label "Test case" ;
+  rdfs:subClassOf owl:Thing ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty qcsm:hasDatsInformation ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty qcsm:hasYearlyAssessmentInformation ;
+    ] ;
+.
+qcsm:TestcaseInformation
+  rdf:type owl:Class ;
+  rdfs:comment "The class represents all kinds of information about testcases that assess the usage of one or more qcsm:DigitalAgriculturalTechnology on parcels of farms for a number of periods of (usually) a year" ;
+  rdfs:label "Test case information" ;
+  rdfs:subClassOf owl:Thing ;
+.
+qcsm:WaterUsageInformation
+  rdf:type owl:Class ;
+  rdfs:comment "Information about the usage of water during the cultivation in the specific year" ;
+  rdfs:label "Water Usage Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+.
+qcsm:YearlyAssessmentInformation
+  rdf:type owl:Class ;
+  rdfs:comment "Assessment information with parcel comparisons and market information for a single year" ;
+  rdfs:label "Yearly Assessment Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:minCardinality "1"^^xsd:nonNegativeInteger ;
+      owl:onProperty qcsm:hasParcelComparison ;
+    ] ;
+.
+qcsm:canBeUsedToCultivateCropType
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "This property indicates the type of crop that can be cultivated by using this qcsm:DigitialAgriculturalTechnology {@en}. Examples of types are: arable, vegetables, orchards, fruits, but also simply all." ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "can be used to cultivate crop type" ;
+  rdfs:range xsd:string ;
+.
+qcsm:canBeUsedToCultivateLifestockType
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "This property indicates the type of lifestock that can be cultivated by using this qcsm:DigitialAgriculturalTechnology {@en}. Examples of types are: cattle, pigs, dairy, goat, sheep." ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "can be used to cultivate lifestock type" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasAdditionalAnimalInformation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Additional animal information that influences the assessment of the performance of the cultivation in the specific year" ;
+  rdfs:domain qcsm:AssessmentInformation ;
+  rdfs:label "has additional animal information" ;
+  rdfs:range qcsm:AdditionalAnimalInformation ;
+.
+qcsm:hasAdditionalFieldsInformation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Additional field information of any kind" ;
+  rdfs:domain qcsm:AssessmentInformation ;
+  rdfs:label "has additional fields information" ;
+  rdfs:range qcsm:AdditionalFieldsInformation ;
+.
+qcsm:hasAdditionalLabourInformation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Additional labour-related information that influences the assessment of the performance of the cultivation in the specific year" ;
+  rdfs:domain qcsm:AssessmentInformation ;
+  rdfs:label "has additional labour information" ;
+  rdfs:range qcsm:AdditionalLabourInformation ;
+.
+qcsm:hasAdditionalRevenues
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "Additional revenues in Euros per hectare generated during the specific year" ;
+  rdfs:domain qcsm:EconomicInformation ;
+  rdfs:label "has additional revenues" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasAnnualFees
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "This property indicates the fees that need to be paid yearly to make use of a DAT in Euros."@en ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "has annual fees" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasAquacultureArea
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The area on the parcel used for aquaculture in square meters" ;
+  rdfs:domain qcsm:ParcelInformation ;
+  rdfs:label "has aquaculture area" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasAverageNitrogenQuantity
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The average nitrogen (N) quantity of the fertilizer in kg per hectare that is used during one treatment" ;
+  rdfs:domain qcsm:FertilizerUsageInformation ;
+  rdfs:label "has average nitrogen quantity" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasAveragePhosphorusQuantity
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The average phosphorus (P) quantity of the fertilizer in kg per hectare that is used during one treatment" ;
+  rdfs:domain qcsm:FertilizerUsageInformation ;
+  rdfs:label "has average phosphorus quantity" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasAveragePotassiumQuantity
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The average postassium (K) quantity of the fertilizer in kg per hectare that is used during one treatment" ;
+  rdfs:domain qcsm:FertilizerUsageInformation ;
+  rdfs:label "has average potassium quantity" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasAverageProfessionalSalary
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The average salary of a professional (agronomist, veterinary) in Euros per hour in the specific year of the cultivation" ;
+  rdfs:domain qcsm:MarketInformation ;
+  rdfs:label "has average professional salary" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasAverageQuantity
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The average quantity of the pesticide in kg per hectare that is used during one treatment" ;
+  rdfs:domain qcsm:FertilizerUsageInformation ;
+  rdfs:domain qcsm:PesticideUsageInformation ;
+  rdfs:label "has average quantity" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasAverageSalary
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The average salary of an employee in Euros per hour in the specific year of the cultivation" ;
+  rdfs:domain qcsm:MarketInformation ;
+  rdfs:label "has average salary" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasBenefits
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "has benefits" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasBiogeographicalRegion
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The biogeographical region in which the farm is located" ;
+  rdfs:domain qcsm:FarmInformation ;
+  rdfs:label "has biogeographical region" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasBulkDensity
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The bulk density of the parcel in kg/dm3 or g/cm3" ;
+  rdfs:domain qcsm:ParcelInformation ;
+  rdfs:label "has bulk density" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasCalvesDiedInFirst24Hours
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The number of calves that died in the first 24 hours after birth in the specific year" ;
+  rdfs:domain qcsm:AdditionalAnimalInformation ;
+  rdfs:label "has calves died in first24 hours" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasCostStructure
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "1: This property indicates the cost structure that is used by the provider of a DAT to get paid for by the customer. It does not contain the actual costs that need to be paid to buy/use the DAT." ;
+  rdfs:comment "2: Examples are: Free, Free trial period available, Setup cost, Annual service cost, For clients, Free basic version and premium fee-based version, Maintenance cost" ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "has cost structure" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasCropMarketPrice
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The price on the market for the crop in Euros per ton" ;
+  rdfs:domain qcsm:OutputInformation ;
+  rdfs:label "has crop market price" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasCropProduction
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The crop production in tons in the specific year" ;
+  rdfs:domain qcsm:OutputInformation ;
+  rdfs:label "has crop production" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasCultivationType
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The type of agricultural cultivation that is executed in the QuantiFarm testcase" ;
+  rdfs:domain qcsm:Testcase ;
+  rdfs:label "has cultivation type" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasCultivationYear
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The calendar year for which the assessment has been done" ;
+  rdfs:domain qcsm:YearlyAssessmentInformation ;
+  rdfs:label "has cultivation year" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasDatsAnnualFees
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The annual fees to remain using the DATS in Euros per year" ;
+  rdfs:domain qcsm:DatsInformation ;
+  rdfs:label "has dats annual fees" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasDatsExpectedLifespan
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The expected life span for using the DATS in whole years" ;
+  rdfs:domain qcsm:DatsInformation ;
+  rdfs:label "has dats expected lifespan" ;
+  rdfs:range xsd:integer ;
+.
+qcsm:hasDatsInformation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Generic information of a DATS being applied in the QuantiFarm testcase" ;
+  rdfs:domain qcsm:Testcase ;
+  rdfs:label "has dats information" ;
+  rdfs:range qcsm:DatsInformation ;
+.
+qcsm:hasDatsInitialInvestmentCosts
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The initial costs for purchasing the DATS in Euros" ;
+  rdfs:domain qcsm:DatsInformation ;
+  rdfs:label "has dats initial investment costs" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasDatsInstallationTime
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The expected time needed to install the DATS in days" ;
+  rdfs:domain qcsm:DatsInformation ;
+  rdfs:label "has dats installation time" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasDatsMaintenanceCosts
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The costs for maintaining the DATS in Euros per year" ;
+  rdfs:domain qcsm:DatsInformation ;
+  rdfs:label "has dats maintenance costs" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasDatsName
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The unique name of the DATS in the QuantiFarm testcase" ;
+  rdfs:domain qcsm:DatsInformation ;
+  rdfs:label "has dats name" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasDatsTrainers
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The number of people involved in the training of users of the DATS" ;
+  rdfs:domain qcsm:DatsInformation ;
+  rdfs:label "has dats trainers" ;
+  rdfs:range xsd:integer ;
+.
+qcsm:hasDatsTrainingCosts
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The costs for training the users of the DATS in Euros" ;
+  rdfs:domain qcsm:DatsInformation ;
+  rdfs:label "has dats training costs" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasDatsTrainingTime
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The expected time needed to train the users of the DATS in hours" ;
+  rdfs:domain qcsm:DatsInformation ;
+  rdfs:label "has dats training time" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasDatsUsed
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "Name of a DATS being used on a parcel for which this assessment information is gathered" ;
+  rdfs:domain qcsm:AssessmentInformation ;
+  rdfs:label "has dats used" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasDescription
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "has description" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasDigitalForm
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "has digital form" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasDrugsUsageInformation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Usage information of a drug used on the parcel" ;
+  rdfs:domain qcsm:AssessmentInformation ;
+  rdfs:label "has drugs usage information" ;
+  rdfs:range qcsm:DrugsUsageInformation ;
+.
+qcsm:hasEconomicInformation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Economic information about the performance of the cultivation in the specific year" ;
+  rdfs:domain qcsm:AssessmentInformation ;
+  rdfs:label "has economic information" ;
+  rdfs:range qcsm:EconomicInformation ;
+.
+qcsm:hasElectricityPrice
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The average price of electricity in Euros per kWh in the specific year of the cultivation" ;
+  rdfs:domain qcsm:MarketInformation ;
+  rdfs:label "has electricity price" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasElectricityUsageForCalvingDetection
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of electricity used for calving detection in kWh per hectare in the specific year of the cultivation" ;
+  rdfs:domain qcsm:ElectricityUsageInformation ;
+  rdfs:label "has electricity usage for calving detection" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasElectricityUsageForFeeding
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of electricity used for feeding in kWh per hectare in the specific year of the cultivation" ;
+  rdfs:domain qcsm:ElectricityUsageInformation ;
+  rdfs:label "has electricity usage for feeding" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasElectricityUsageForHeatDetection
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of electricity used for heat detection in kWh per hectare in the specific year of the cultivation" ;
+  rdfs:domain qcsm:ElectricityUsageInformation ;
+  rdfs:label "has electricity usage for heat detection" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasElectricityUsageForIrrigation
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of electricity used for irrigation in kWh per hectare in the specific year of the cultivation" ;
+  rdfs:domain qcsm:ElectricityUsageInformation ;
+  rdfs:label "has electricity usage for irrigation" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasElectricityUsageForMilking
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of electricity used for milking in kWh per hectare in the specific year of the cultivation" ;
+  rdfs:domain qcsm:ElectricityUsageInformation ;
+  rdfs:label "has electricity usage for milking" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasElectricityUsageForTemperatureHumidityControl
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of electricity used for temperature and humidity control in kWh per hectare in the specific year of the cultivation" ;
+  rdfs:domain qcsm:ElectricityUsageInformation ;
+  rdfs:label "has electricity usage for temperature humidity control" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasElectricityUsageInformation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Information about the usage of electricity during the cultivation in the specific year" ;
+  rdfs:domain qcsm:AssessmentInformation ;
+  rdfs:label "has electricity usage information" ;
+  rdfs:range qcsm:ElectricityUsageInformation ;
+.
+qcsm:hasEndMonth
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The month in the calendar year in which the cultivation ended" ;
+  rdfs:domain qcsm:ParcelInformation ;
+  rdfs:label "has end month" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasExpectedLifespan
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "this property indicates the expected lifespan of a DAT in number of years, which can be a non-integer" ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "has expected lifespan" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasFarmInformation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Generic information of the farm at which the parcel that is assessed is situated" ;
+  rdfs:domain qcsm:AssessmentInformation ;
+  rdfs:label "has farm information" ;
+  rdfs:range qcsm:FarmInformation ;
+.
+qcsm:hasFarmNumber
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "Number of the farm the is unique in the QuantiFarm testcase" ;
+  rdfs:domain qcsm:FarmInformation ;
+  rdfs:label "has farm number" ;
+  rdfs:range xsd:integer ;
+.
+qcsm:hasFeedUsageInformation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Usage information of a feed used on the parcel" ;
+  rdfs:domain qcsm:AssessmentInformation ;
+  rdfs:label "has feed usage information" ;
+  rdfs:range qcsm:FeedUsageInformation ;
+.
+qcsm:hasFertilizersUsageInformation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Usage information of a fertilizer used on the parcel" ;
+  rdfs:domain qcsm:AssessmentInformation ;
+  rdfs:label "has fertilizers usage information" ;
+  rdfs:range qcsm:FertilizerUsageInformation ;
+.
+qcsm:hasFieldName
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The name of the field" ;
+  rdfs:domain qcsm:AdditionalFieldsInformation ;
+  rdfs:label "has field name" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasFieldValue
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The value of the field also as a string that can contain anything" ;
+  rdfs:domain qcsm:AdditionalFieldsInformation ;
+  rdfs:label "has field value" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasFuelForTemperatureControlInformation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Usage information of a fuel for temperature control" ;
+  rdfs:domain qcsm:AssessmentInformation ;
+  rdfs:label "has fuel for temperature control information" ;
+  rdfs:range qcsm:FuelForTempControlUsageInformation ;
+.
+qcsm:hasFuelPrice
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The average price of fuel in Euros per liter in the specific year of the cultivation" ;
+  rdfs:domain qcsm:MarketInformation ;
+  rdfs:label "has fuel price" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasFuelUsageForBeehivesVisits
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of fuel used for beehives visits in liters per hectare in the specific year of the cultivation" ;
+  rdfs:domain qcsm:FuelUsageInformation ;
+  rdfs:label "has fuel usage for beehives visits" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasFuelUsageForFeeding
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of fuel used for feeding in liters per hectare in the specific year of the cultivation" ;
+  rdfs:domain qcsm:FuelUsageInformation ;
+  rdfs:label "has fuel usage for feeding" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasFuelUsageForFertilisation
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of fuel used for fertilisation in liters per hectare in the specific year of the cultivation" ;
+  rdfs:domain qcsm:FuelUsageInformation ;
+  rdfs:label "has fuel usage for fertilisation" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasFuelUsageForIrrigation
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of fuel used for irrigation in liters per hectare in the specific year of the cultivation" ;
+  rdfs:domain qcsm:FuelUsageInformation ;
+  rdfs:label "has fuel usage for irrigation" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasFuelUsageForMilking
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of fuel used for milking in liters per hectare in the specific year of the cultivation" ;
+  rdfs:domain qcsm:FuelUsageInformation ;
+  rdfs:label "has fuel usage for milking" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasFuelUsageForPesticides
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of fuel used for pesticides in liters per hectare in the specific year of the cultivation" ;
+  rdfs:domain qcsm:FuelUsageInformation ;
+  rdfs:label "has fuel usage for pesticides" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasFuelUsageForPruning
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of fuel used for pruning in liters per hectare in the specific year of the cultivation" ;
+  rdfs:domain qcsm:FuelUsageInformation ;
+  rdfs:label "has fuel usage for pruning" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasFuelUsageForSowing
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of fuel used for sowing or planting in liters per hectare in the specific year of the cultivation" ;
+  rdfs:domain qcsm:FuelUsageInformation ;
+  rdfs:label "has fuel usage for sowing" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasFuelUsageForTemperatureHumidityControl
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of fuel used for temperature and humidity control in liters per hectare in the specific year of the cultivation" ;
+  rdfs:domain qcsm:FuelUsageInformation ;
+  rdfs:label "has fuel usage for temperature humidity control" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasFuelUsageForTransportingOysters
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of fuel used for transporting oysters to the laboratory in liters per hectare in the specific year of the cultivation" ;
+  rdfs:domain qcsm:FuelUsageInformation ;
+  rdfs:label "has fuel usage for transporting oysters" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasFuelUsageInformation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Information about the usage of fuel during the cultivation in the specific year" ;
+  rdfs:domain qcsm:AssessmentInformation ;
+  rdfs:label "has fuel usage information" ;
+  rdfs:range qcsm:FuelUsageInformation ;
+.
+qcsm:hasFunctionality
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "has functionality" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasHerdSize
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The average herd size during the specific year" ;
+  rdfs:domain qcsm:AdditionalAnimalInformation ;
+  rdfs:label "has herd size" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasHoneyMarketPrice
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The price on the market for the honey in Euros per kg" ;
+  rdfs:domain qcsm:OutputInformation ;
+  rdfs:label "has honey market price" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasHoneyProduction
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The honey production in kg in the specific year" ;
+  rdfs:domain qcsm:OutputInformation ;
+  rdfs:label "has honey production" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasHumidity
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The (average?) humidity in percentage of the air during the specific year" ;
+  rdfs:domain qcsm:EconomicInformation ;
+  rdfs:label "has humidity" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasInitialInvestmentCosts
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "This property expresses the amount of money that has to be paid to purchase or start using the DAT in Euros."@en ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "has initial investment costs" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasInstallationTime
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "this property indicates the time needed to install a DAT in number of days, which can be a non-integer."@en ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "has installation time" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasKeyword
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "has keyword" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasLabourForAdministration
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for administrative activities, data collection etc. during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for administration" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourForBeehiveVisits
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for beehive visits during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for beehive visits" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourForCalvingDetection
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for calving detection during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for calving detection" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourForCleaning
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for cleaning during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for cleaning" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourForControllingPricesAndQuantities
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for controlling purchase and sale prices and quantities during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for controlling prices and quantities" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourForFeeding
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for feeding during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for feeding" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourForFertilisation
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for fertilization during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for fertilisation" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourForFieldVisits
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for field visits during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for field visits" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourForGrainQualityAssessment
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for assessing grain quality during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for grain quality assessment" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourForGreenhouseManagement
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for greenhouse management during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for greenhouse management" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourForHarvesting
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for harvesting during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for harvesting" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourForHeatDetection
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for heat detection during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for heat detection" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourForIrrigation
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for irrigation during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for irrigation" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourForMilkQualityAssessment
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for assessing milk quality during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for milk quality assessment" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourForMilking
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for milking during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for milking" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourForOrganisingLogistics
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for organizing logistics during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for organising logistics" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourForOysterSampling
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for sampling of oysters during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for oyster sampling" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourForOysterTransportation
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for transporting oysters to the laboratory during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for oyster transportation" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourForPesticides
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for pesticides during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for pesticides" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourForPigstyManagement
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for pigsty management during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for pigsty management" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourForPruning
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for pruning during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for pruning" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourForQuantityTracking
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for tracking the quantity of grain available in a silo during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for quantity tracking" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourForSowingOrPlanting
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for sowing or planting during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for sowing or planting" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourForStableVisits
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for stable visits during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for stable visits" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourForStorage
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of labour in hours that was used for storage during the cultivation in the specific year" ;
+  rdfs:domain qcsm:LabourInformation ;
+  rdfs:label "has labour for storage" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasLabourInformation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Information about the amount of labour used for various tasks during the cultivation in the specific year" ;
+  rdfs:domain qcsm:AssessmentInformation ;
+  rdfs:label "has labour information" ;
+  rdfs:range qcsm:LabourInformation ;
+.
+qcsm:hasLaunchYear
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "has launch year" ;
+  rdfs:range xsd:gYear ;
+.
+qcsm:hasLivestockUnits
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The livestock units on the parcel per hectare" ;
+  rdfs:domain qcsm:ParcelInformation ;
+  rdfs:label "has livestock units" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasMaintenanceCosts
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "This property indicates the costs per year for maintaining a DAT. For a hardware DAT this comes down to yearly maintenance of the equipment. For a software DAT it means costs for making an upgrade of the software."@en ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "has maintenance costs" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasMarketInformation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "General market information that influences the costs and benefits of the cultivation in the specific year" ;
+  rdfs:domain qcsm:YearlyAssessmentInformation ;
+  rdfs:label "has market information" ;
+  rdfs:range qcsm:MarketInformation ;
+.
+qcsm:hasMeatMarketPrice
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The price on the market for the meat in Euros per ton" ;
+  rdfs:domain qcsm:OutputInformation ;
+  rdfs:label "has meat market price" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasMeatProduction
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The meat production in tons in the specific year" ;
+  rdfs:domain qcsm:OutputInformation ;
+  rdfs:label "has meat production" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasMilkMarketPrice
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The price on the market for the milk in Euros per liter" ;
+  rdfs:domain qcsm:OutputInformation ;
+  rdfs:label "has milk market price" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasMilkProduction
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The milk production in liters in the specific year" ;
+  rdfs:domain qcsm:OutputInformation ;
+  rdfs:label "has milk production" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasNumberOfAnimals
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The number of animals on the parcel" ;
+  rdfs:domain qcsm:ParcelInformation ;
+  rdfs:label "has number of animals" ;
+  rdfs:range xsd:integer ;
+.
+qcsm:hasNumberOfBeehives
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The number of beehives on the parcel" ;
+  rdfs:domain qcsm:ParcelInformation ;
+  rdfs:label "has number of beehives" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasNumberOfCowsWithHighSCCMilk
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The number of cows producing high SCC milk" ;
+  rdfs:domain qcsm:AdditionalAnimalInformation ;
+  rdfs:label "has number of cows with high s c c milk" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasNumberOfDaysWithPastureAccess
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The number of days during the year with access to pasture" ;
+  rdfs:domain qcsm:AdditionalAnimalInformation ;
+  rdfs:label "has number of days with pasture access" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasNumberOfDeathAnimals
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The number of death animals during the specific year" ;
+  rdfs:domain qcsm:AdditionalAnimalInformation ;
+  rdfs:label "has number of death animals" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasNumberOfEmployees
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The number of employees that worked on the parcel" ;
+  rdfs:domain qcsm:ParcelInformation ;
+  rdfs:label "has number of employees" ;
+  rdfs:range xsd:integer ;
+.
+qcsm:hasNumberOfFulfilledOrders
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The number of on-time fulfilled orders in the specific year" ;
+  rdfs:domain qcsm:EconomicInformation ;
+  rdfs:label "has number of fulfilled orders" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasNumberOfFulltimeEmployees
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The number of full-time employees that worked on the parcel" ;
+  rdfs:domain qcsm:ParcelInformation ;
+  rdfs:label "has number of fulltime employees" ;
+  rdfs:range xsd:integer ;
+.
+qcsm:hasNumberOfNewEmployeesHired
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The number of new employees hired in the specific year" ;
+  rdfs:domain qcsm:AdditionalLabourInformation ;
+  rdfs:label "has number of new employees hired" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasNumberOfNewInjuryCases
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The number of new injury cases that occurred during the specific year" ;
+  rdfs:domain qcsm:AdditionalLabourInformation ;
+  rdfs:label "has number of new injury cases" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasNumberOfNewLocalEmployeesHired
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The number of new local employees hired in the specific year" ;
+  rdfs:domain qcsm:AdditionalLabourInformation ;
+  rdfs:label "has number of new local employees hired" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasNumberOfOrdersReceived
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The number of orders received in the specific year" ;
+  rdfs:domain qcsm:EconomicInformation ;
+  rdfs:label "has number of orders received" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasNumberOfPlants
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The number of plants on the parcel" ;
+  rdfs:domain qcsm:ParcelInformation ;
+  rdfs:label "has number of plants" ;
+  rdfs:range xsd:integer ;
+.
+qcsm:hasNumberOfSeasonalEmployees
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The number of seasonal employees that worked on the parcel" ;
+  rdfs:domain qcsm:ParcelInformation ;
+  rdfs:label "has number of seasonal employees" ;
+  rdfs:range xsd:integer ;
+.
+qcsm:hasNumberOfTreatments
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The number of treatments with the pesticide on the parcel in the specific year of the cultivation" ;
+  rdfs:domain qcsm:FertilizerUsageInformation ;
+  rdfs:domain qcsm:PesticideUsageInformation ;
+  rdfs:label "has number of treatments" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasNumberOfWorkingWeeks
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The number of working weeks in the specific year" ;
+  rdfs:domain qcsm:AdditionalLabourInformation ;
+  rdfs:label "has number of working weeks" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasNumberOfWrongOrders
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The number of wrong orders received in the specific year" ;
+  rdfs:domain qcsm:EconomicInformation ;
+  rdfs:label "has number of wrong orders" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasOutdoorLoafingArea
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The outdoor loafing area during the specific year" ;
+  rdfs:domain qcsm:AdditionalAnimalInformation ;
+  rdfs:label "has outdoor loafing area" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasOutputInformation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Information about the output production of the cultivation in the specific year" ;
+  rdfs:domain qcsm:AssessmentInformation ;
+  rdfs:label "has output information" ;
+  rdfs:range qcsm:OutputInformation ;
+.
+qcsm:hasOysterMarketPrice
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The price on the market for the oysters in Euros per piece" ;
+  rdfs:domain qcsm:OutputInformation ;
+  rdfs:label "has oyster market price" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasOysterProduction
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The oyster production as the number of oysters in the specific year" ;
+  rdfs:domain qcsm:OutputInformation ;
+  rdfs:label "has oyster production" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasParcelAssessmentWithDATS
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "The assessment information of the parcel with using the DATSs" ;
+  rdfs:domain qcsm:ParcelComparison ;
+  rdfs:label "has parcel assessment with d a t s" ;
+  rdfs:range qcsm:AssessmentInformation ;
+.
+qcsm:hasParcelAssessmentWithoutDATS
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "The assessment information of the parcel with using the DATSs" ;
+  rdfs:domain qcsm:ParcelComparison ;
+  rdfs:label "has parcel assessment without d a t s" ;
+  rdfs:range qcsm:AssessmentInformation ;
+.
+qcsm:hasParcelComparison
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Assessment information of two parcels, one with using the DATSs and one without using the DATSs" ;
+  rdfs:domain qcsm:YearlyAssessmentInformation ;
+  rdfs:label "has parcel comparison" ;
+  rdfs:range qcsm:ParcelComparison ;
+.
+qcsm:hasParcelDimension
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The dimension or area of the parcel in hectares" ;
+  rdfs:domain qcsm:ParcelInformation ;
+  rdfs:label "has parcel dimension" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasParcelInformation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Generic information of the parcel that is assessed" ;
+  rdfs:domain qcsm:AssessmentInformation ;
+  rdfs:label "has parcel information" ;
+  rdfs:range qcsm:ParcelInformation ;
+.
+qcsm:hasParcelName
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The name of the parcel" ;
+  rdfs:domain qcsm:ParcelInformation ;
+  rdfs:label "has parcel name" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasPercentageProteinInDryMatter
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The percentage protein achieved in dry matter produced during the specific year" ;
+  rdfs:domain qcsm:EconomicInformation ;
+  rdfs:label "has percentage protein in dry matter" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasPesticidesUsageInformation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Usage information of a pesticide used on the parcel" ;
+  rdfs:domain qcsm:AssessmentInformation ;
+  rdfs:label "has pesticides usage information" ;
+  rdfs:range qcsm:PesticideUsageInformation ;
+.
+qcsm:hasProductMarketPrice
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The price on the market for the product in Euros per ton" ;
+  rdfs:domain qcsm:OutputInformation ;
+  rdfs:label "has product market price" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasProductName
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The name of the fuel product" ;
+  rdfs:domain qcsm:DrugsUsageInformation ;
+  rdfs:domain qcsm:FeedUsageInformation ;
+  rdfs:domain qcsm:FertilizerUsageInformation ;
+  rdfs:domain qcsm:FuelForTempControlUsageInformation ;
+  rdfs:domain qcsm:PesticideUsageInformation ;
+  rdfs:label "has product name" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasProductPrice
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The price of the product in Euros per m3" ;
+  rdfs:domain qcsm:DrugsUsageInformation ;
+  rdfs:domain qcsm:FeedUsageInformation ;
+  rdfs:domain qcsm:FertilizerUsageInformation ;
+  rdfs:domain qcsm:FuelForTempControlUsageInformation ;
+  rdfs:domain qcsm:PesticideUsageInformation ;
+  rdfs:label "has product price" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasProductType
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The type of product that is cultivated during the year on the parcel" ;
+  rdfs:domain qcsm:FertilizerUsageInformation ;
+  rdfs:domain qcsm:ParcelInformation ;
+  rdfs:label "has product type" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasProvider
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "has provider" ;
+  rdfs:range qcsm:TechnologyProvider ;
+.
+qcsm:hasQuantity
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The quantity of the fuel in m3 that is used during the cultivation" ;
+  rdfs:domain qcsm:DrugsUsageInformation ;
+  rdfs:domain qcsm:FeedUsageInformation ;
+  rdfs:domain qcsm:FuelForTempControlUsageInformation ;
+  rdfs:label "has quantity" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasSilosProduction
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The silos production in kg in the specific year" ;
+  rdfs:domain qcsm:OutputInformation ;
+  rdfs:label "has silos production" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasSoilFractionClay
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The percentage of clay in the soil of the parcel" ;
+  rdfs:domain qcsm:ParcelInformation ;
+  rdfs:label "has soil fraction clay" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasSoilFractionSand
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The percentage of sand in the soil of the parcel" ;
+  rdfs:domain qcsm:ParcelInformation ;
+  rdfs:label "has soil fraction sand" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasSoilFractionSilt
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The percentage of silt in the soil of the parcel" ;
+  rdfs:domain qcsm:ParcelInformation ;
+  rdfs:label "has soil fraction silt" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasSoilOrganicCarbon
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The percentage of organic carbon in the soil of the parcel" ;
+  rdfs:domain qcsm:ParcelInformation ;
+  rdfs:label "has soil organic carbon" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasStartMonth
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The month in the calendar year in which the cultivation started" ;
+  rdfs:domain qcsm:ParcelInformation ;
+  rdfs:label "has start month" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasSupportedLanguage
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "has supported language" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasTargetAudience
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "has target audience" ;
+  rdfs:range ploutos:AgrifoodChainActor ;
+.
+qcsm:hasTestWeight
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "Test weight of (?) in kg per hectoliter during the specific year" ;
+  rdfs:domain qcsm:EconomicInformation ;
+  rdfs:label "has test weight" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasTestcaseLeader
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The name of the leader of the QuantiFarm testcase" ;
+  rdfs:domain qcsm:Testcase ;
+  rdfs:label "has testcase leader" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasTestcaseNumber
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The unique number of the QuantiFarm testcase" ;
+  rdfs:domain qcsm:Testcase ;
+  rdfs:label "has testcase number" ;
+  rdfs:range xsd:integer ;
+.
+qcsm:hasTitle
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "has title" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasTotalElectricityUsage
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The total amount of electricity used in kWh per hectare in the specific year of the cultivation" ;
+  rdfs:domain qcsm:ElectricityUsageInformation ;
+  rdfs:label "has total electricity usage" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasTotalFarmSize
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The total size of the farm area in square meters (possibly the under water area in case of aquaculture)" ;
+  rdfs:domain qcsm:FarmInformation ;
+  rdfs:label "has total farm size" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasTotalFuelUsage
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The total amount of fuel used in liters per hectare in the specific year of the cultivation" ;
+  rdfs:domain qcsm:FuelUsageInformation ;
+  rdfs:label "has total fuel usage" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasTotalNumberOfCalvesBorn
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The total number of calves born in the specific year" ;
+  rdfs:domain qcsm:AdditionalAnimalInformation ;
+  rdfs:label "has total number of calves born" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasTotalNumberOfLostWorkingHours
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The total number of hours that were lost due to occupational injuries during the specific year" ;
+  rdfs:domain qcsm:AdditionalLabourInformation ;
+  rdfs:label "has total number of lost working hours" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasTotalNumberOfWorkingHours
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The total number of working hours in the specific year" ;
+  rdfs:domain qcsm:AdditionalLabourInformation ;
+  rdfs:label "has total number of working hours" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasTotalWaterUsage
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The total amount of water used in liters per hectare in the specific year of the cultivation" ;
+  rdfs:domain qcsm:WaterUsageInformation ;
+  rdfs:label "has total water usage" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasWaterPrice
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The average price of water in Euros per liter in the specific year of the cultivation" ;
+  rdfs:domain qcsm:MarketInformation ;
+  rdfs:label "has water price" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasWaterUsageForCleaning
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of water used for cleaning in liters per hectare in the specific year of the cultivation" ;
+  rdfs:domain qcsm:WaterUsageInformation ;
+  rdfs:label "has water usage for cleaning" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasWaterUsageForDrinking
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of water used for drinking in liters per hectare in the specific year of the cultivation" ;
+  rdfs:domain qcsm:WaterUsageInformation ;
+  rdfs:label "has water usage for drinking" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasWaterUsageForFertigation
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of water used for fertigation in liters per hectare in the specific year of the cultivation" ;
+  rdfs:domain qcsm:WaterUsageInformation ;
+  rdfs:label "has water usage for fertigation" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasWaterUsageForIrrigation
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of water used for irrigation in liters per hectare in the specific year of the cultivation" ;
+  rdfs:domain qcsm:WaterUsageInformation ;
+  rdfs:label "has water usage for irrigation" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasWaterUsageForPestDilution
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The amount of water used for pest dilution in liters per hectare in the specific year of the cultivation" ;
+  rdfs:domain qcsm:WaterUsageInformation ;
+  rdfs:label "has water usage for pest dilution" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasWaterUsageInformation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Information about the usage of water during the cultivation in the specific year" ;
+  rdfs:domain qcsm:AssessmentInformation ;
+  rdfs:label "has water usage information" ;
+  rdfs:range qcsm:WaterUsageInformation ;
+.
+qcsm:hasWebPage
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "has webpage" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasYearlyAssessmentInformation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "Assessment information with parcel comparisons and market information for a single year" ;
+  rdfs:domain qcsm:Testcase ;
+  rdfs:label "has yearly assessment information" ;
+  rdfs:range qcsm:YearlyAssessmentInformation ;
+.
+qcsm:isAppliedByFarm
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "is applied by farm" ;
+  rdfs:range <https://saref.etsi.org/saref4agri/Farm> ;
+.
+qcsm:isAppliedOnParcel
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "is applied on farm" ;
+  rdfs:range <https://saref.etsi.org/saref4agri/Parcel> ;
+.
+qcsm:isParticipatingIn
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain <https://saref.etsi.org/saref4agri/Parcel> ;
+  rdfs:label "is participating in" ;
+  rdfs:range qcsm:Testcase ;
+.
+qcsm:isTargetedTowardsAgriculturalSector
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "is targeted towards agricultural sector" ;
+  rdfs:range xsd:string ;
+.
+qcsm:isTargetedTowardsCountry
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "The semantics of this property is that if a qcsm:DigitialAgriculturalTechnology does NOT have this property instantiated it is targeted to ANY country!"@en ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "is targeted towards country" ;
+  rdfs:range <https://gs1.org/voc/Country> ;
+.
+qcsm:isUseInTestcase
+  rdf:type owl:ObjectProperty ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "is used in testcase" ;
+  rdfs:range qcsm:Testcase ;
+.
+qcsm:lastUpdateYear
+  rdf:type owl:DatatypeProperty ;
+  rdfs:domain qcsm:DigitalAgriculturalTechnology ;
+  rdfs:label "last update year" ;
+  rdfs:range xsd:gYear ;
+.
+<https://saref.etsi.org/saref4agri-new/FarmWorker>
+  rdf:type owl:Class ;
+  rdfs:comment "A class to decsribe a saref4agri farm worker as subcass of a foaf:Person"@en ;
+  rdfs:label "Farmworker"@en ;
+  rdfs:subClassOf <http://xmlns.com/foaf/0.1/Person> ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom xsd:string ;
+      owl:onProperty <https://saref.etsi.org/saref4agri/hasName> ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:onProperty <https://saref.etsi.org/saref4agri-new/gotHurtByInjury> ;
+      owl:someValuesFrom <https://saref.etsi.org/saref4agri-new/Injury> ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:onProperty <https://saref.etsi.org/saref4agri-new/isTypeOfWorker> ;
+      owl:someValuesFrom xsd:string ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:onProperty <https://saref.etsi.org/saref4agri-new/worksAtFarm> ;
+      owl:someValuesFrom <https://saref.etsi.org/saref4agri/Farm> ;
+    ] ;
+.
+<https://saref.etsi.org/saref4agri-new/Injury>
+  rdf:type owl:Class ;
+  rdfs:comment "A class to decsribe possible injuries that a saref4agri farm worker can experience"@en ;
+  rdfs:label "Injury"@en ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:allValuesFrom xsd:string ;
+      owl:onProperty <https://saref.etsi.org/saref4agri/hasName> ;
+    ] ;
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:onProperty <https://saref.etsi.org/saref4agri-new/occuredDuringOperation> ;
+      owl:someValuesFrom ploutos:Operation ;
+    ] ;
+.
+<https://saref.etsi.org/saref4agri-new/gotHurtByInjury>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "got hurt by injury"@en ;
+  rdfs:domain <https://saref.etsi.org/saref4agri-new/FarmWorker> ;
+  rdfs:label "got hurt by injury"@en ;
+  rdfs:range <https://saref.etsi.org/saref4agri-new/Injury> ;
+.
+<https://saref.etsi.org/saref4agri-new/inBiogeographicalRegion>
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "1: This property expresses the biogeographical region in which a farm is located, meaning the kind of environment that characterizes the type of land, such as: alpine, arctic, atlantic, desert, etc. see: https://www.eea.europa.eu/data-and-maps/figures/biogeographical-regions-in-europe-2"@en ;
+  rdfs:comment "2: For now, this is modelled as a string for simplicity. In the future, this can be replaced by a class of regions with more properties than just the name."@en ;
+  rdfs:domain <https://saref.etsi.org/saref4agri/Farm> ;
+  rdfs:label "in biogeographical region" ;
+  rdfs:range xsd:string ;
+.
+<https://saref.etsi.org/saref4agri-new/isExecutedBy>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "is executed by"@en ;
+  rdfs:domain ploutos:Operation ;
+  rdfs:label "is executed by"@en ;
+  rdfs:range <https://saref.etsi.org/saref4agri-new/FarmWorker> ;
+.
+<https://saref.etsi.org/saref4agri-new/isTypeOfWorker>
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "is type of worker"@en ;
+  rdfs:comment "type of worker can vary from full time employee to seasonal worker"@en ;
+  rdfs:label "is type of worker"@en ;
+.
+<https://saref.etsi.org/saref4agri-new/occuredDuringOperation>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "occurred during operation"@en ;
+  rdfs:domain <https://saref.etsi.org/saref4agri-new/Injury> ;
+  rdfs:label "occured during operation"@en ;
+  rdfs:range ploutos:Operation ;
+.
+<https://saref.etsi.org/saref4agri-new/prefersLanguage>
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "1: This property expresses a language that is preferred by a farmer, either because he/she speeks or can read the language." ;
+  rdfs:comment "2: For now, this is modelled as a string with the name of the language. A possibly existing standardized list of languages can be used for this." ;
+  rdfs:domain <https://saref.etsi.org/saref4agri/Farmer> ;
+  rdfs:label "prefers language" ;
+  rdfs:range xsd:string ;
+.
+<https://saref.etsi.org/saref4agri-new/worksAtFarm>
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "works at farm"@en ;
+  rdfs:label "works at farm"@en ;
+.
+<https://saref.etsi.org/saref4agri/Farm>
+  rdfs:subClassOf [
+      rdf:type owl:Restriction ;
+      owl:onDataRange xsd:float ;
+      owl:onProperty <https://saref.etsi.org/saref4agri-new/hasArea> ;
+      owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+    ] ;
+.
+qcsm:CalculatedIndicatorInformation
+  rdf:type owl:Class ;
+  rdfs:comment "Indicator that indicates how well the DATS performed in the specific year" ;
+  rdfs:label "Calculated Indicator Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+.
+qcsm:CalculatedSustainabilityInformation
+  rdf:type owl:Class ;
+  rdfs:comment "Sustainability parameter that indicates how well the DATS performed in the specific year" ;
+  rdfs:label "Calculated Sustainability Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+.
+qcsm:AggregatedImpactInformation
+  rdf:type owl:Class ;
+  rdfs:comment "Aggregated impact parameter that indicates how well the DATS performed in the specific year" ;
+  rdfs:label "Aggregated Impact Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+.
+qcsm:MainImpactInformation
+  rdf:type owl:Class ;
+  rdfs:comment "Main impact parameter that indicates how well the DATS performed in the specific year" ;
+  rdfs:label "Main Impact Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+.
+qcsm:CostRevenueImpactInformation
+  rdf:type owl:Class ;
+  rdfs:comment "Cost revenue impact information that indicates how well the DATS performed in the specific year" ;
+  rdfs:label "Cost Revenue Impact Information" ;
+  rdfs:subClassOf qcsm:TestcaseInformation ;
+.
+qcsm:hasCalculatedIndicatorInformation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "An indicator used to calculate aggregated impact parameters" ;
+  rdfs:domain qcsm:ParcelComparison ;
+  rdfs:label "has calculated indicator information" ;
+  rdfs:range qcsm:CalculatedIndicatorInformation ;
+.
+qcsm:hasIndicatorName
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The name of the indicator" ;
+  rdfs:domain qcsm:CalculatedIndicatorInformation ;
+  rdfs:label "has indicator name" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasIndicatorUnit
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The unit of the indicator" ;
+  rdfs:domain qcsm:CalculatedIndicatorInformation ;
+  rdfs:label "has indicator unit" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasAbsoluteDifference
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The absolute difference of the indicator between using the DATS and not using the DATS" ;
+  rdfs:domain qcsm:CalculatedIndicatorInformation ;
+  rdfs:label "has absolute difference" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasPercentageDifference
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The percentage difference of the indicator between using the DATS and not using the DATS" ;
+  rdfs:domain qcsm:CalculatedIndicatorInformation ;
+  rdfs:label "has percentage difference" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasCalculatedSustainabilityInformation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "A calculated sustainability parameter indicating sustainability for using the DATs on a parcel compared with not using the DATSs" ;
+  rdfs:domain qcsm:ParcelComparison ;
+  rdfs:label "has calculated sustainability information" ;
+  rdfs:range qcsm:CalculatedSustainabilityInformation ;
+.
+qcsm:hasSustainabilityParameterName
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The name of the sustainability parameter" ;
+  rdfs:domain qcsm:CalculatedSustainabilityInformation ;
+  rdfs:label "has sustainability parameter name" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasSustainabilityParameterUnit
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The unit of the sustainability parameter" ;
+  rdfs:domain qcsm:CalculatedSustainabilityInformation ;
+  rdfs:label "has sustainability parameter unit" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasAggregatedImpactInformation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "An aggregated impact parameter that indicates how well the DATSs perform with respect to not using the DATSs" ;
+  rdfs:domain qcsm:ParcelComparison ;
+  rdfs:label "has aggregated impact information" ;
+  rdfs:range qcsm:AggregatedImpactInformation ;
+.
+qcsm:hasAggregatedImpactName
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The name of the aggregated impact parameter" ;
+  rdfs:domain qcsm:AggregatedImpactInformation ;
+  rdfs:label "has aggregated impact name" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasAggregatedImpactUnit
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The unit of the aggregated impact parameter" ;
+  rdfs:domain qcsm:AggregatedImpactInformation ;
+  rdfs:label "has aggregated impact unit" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasAggregatedImpactValue
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The value of the aggregated impact parameter" ;
+  rdfs:domain qcsm:AggregatedImpactInformation ;
+  rdfs:label "has aggregated impact value" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasAggregatedImpactMaxRangeValue
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The max range value of the aggregated impact parameter" ;
+  rdfs:domain qcsm:AggregatedImpactInformation ;
+  rdfs:label "has aggregated impact max range value" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasMainImpactInformation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "A main impact parameter that indicates how well the DATSs perform with respect to not using the DATSs" ;
+  rdfs:domain qcsm:ParcelComparison ;
+  rdfs:label "has main impact information" ;
+  rdfs:range qcsm:MainImpactInformation ;
+.
+qcsm:hasMainImpactName
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The name of the main impact parameter" ;
+  rdfs:domain qcsm:MainImpactInformation ;
+  rdfs:label "has main impact name" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasMainImpactUnit
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The unit of the main impact parameter" ;
+  rdfs:domain qcsm:MainImpactInformation ;
+  rdfs:label "has main impact unit" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasHigherIsBetterMeaning
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The meaning whether a higher value is a better one" ;
+  rdfs:domain qcsm:MainImpactInformation ;
+  rdfs:label "has higher is better meaning" ;
+  rdfs:range xsd:boolean ;
+.
+qcsm:hasImpactLevel
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The level of the impact of the parameter, 0=negative, 1=positive, 2=neutral, 3=DATS" ;
+  rdfs:domain qcsm:MainImpactInformation ;
+  rdfs:label "has impact level" ;
+  rdfs:range xsd:decimal ;
+.
+qcsm:hasMainImpactTitle
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The title of the main impact parameter" ;
+  rdfs:domain qcsm:MainImpactInformation ;
+  rdfs:label "has main impact title" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasMainImpactSubtitle
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The subtitle of the main impact parameter" ;
+  rdfs:domain qcsm:MainImpactInformation ;
+  rdfs:label "has main impact subtitle" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasCostRevenueImpactInformation
+  rdf:type owl:ObjectProperty ;
+  rdfs:comment "A cost revenue impact parameter that indicates how well the DATSs perform with respect to not using the DATSs" ;
+  rdfs:domain qcsm:ParcelComparison ;
+  rdfs:label "has cost revenue impact information" ;
+  rdfs:range qcsm:CostRevenueImpactInformation ;
+.
+qcsm:hasCostRevenueImpactCategory
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The category of the cost revenue impact indicator" ;
+  rdfs:domain qcsm:CostRevenueImpactInformation ;
+  rdfs:label "has cost revenue impact category" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasCostRevenueImpactName
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The name of the cost revenue impact indicator" ;
+  rdfs:domain qcsm:CostRevenueImpactInformation ;
+  rdfs:label "has cost revenue impact name" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasCostRevenueImpactUnit
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "The unit of the cost revenue impact indicator" ;
+  rdfs:domain qcsm:CostRevenueImpactInformation ;
+  rdfs:label "has cost revenue impact unit" ;
+  rdfs:range xsd:string ;
+.
+qcsm:hasCostRevenueImpactShortDescription
+  rdf:type owl:DatatypeProperty ;
+  rdfs:comment "A short description of the cost revenue impact indicator" ;
+  rdfs:domain qcsm:CostRevenueImpactInformation ;
+  rdfs:label "has cost revenue impact short description" ;
+  rdfs:range xsd:string ;
+.

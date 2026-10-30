@@ -1,0 +1,3040 @@
+{
+   "testcaseNumber": 14,
+   "testcaseLeader": "Terra",
+   "cultivationType": "Greenhouse",
+   "datsInformation": [
+      {
+         "datsName": "NETAJET",
+         "datsInitialInvestmentCosts": 60,
+         "datsAnnualFees": 100,
+         "datsMaintenanceCosts": 350,
+         "datsExpectedLifespan": 10,
+         "datsInstallationTime": 40,
+         "datsTrainingTime": 40,
+         "datsTrainers": 2,
+         "datsTrainingCosts": 0
+      }
+   ],
+   "yearlyAssessmentInformation": [
+      {
+         "cultivationYear": 2023,
+         "parcelComparison": [],
+         "marketInformation": {
+            "waterPrice": null,
+            "fuelPrice": null,
+            "electricityPrice": null,
+            "averageSalary": null,
+            "averageProfessionalSalary": null
+         }
+      },
+      {
+         "cultivationYear": 2024,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "farmInformation": {
+                     "farmNumber": 14,
+                     "biogeographicalRegion": "Pannonian",
+                     "totalFarmSize": 3.2
+                  },
+                  "parcelInformation": {
+                     "parcelName": "Vršac farm",
+                     "parcelDimension": 3.2,
+                     "startMonth": 2,
+                     "endMonth": 7,
+                     "productType": "blueberry",
+                     "numberOfEmployees": 54,
+                     "numberOfFulltimeEmployees": 1,
+                     "numberOfSeasonalEmployees": 53,
+                     "soilFractionSand": 0,
+                     "soilFractionClay": null,
+                     "soilFractionSilt": null,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": null,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": 15814,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 580,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 2200,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 25714,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [
+                     {
+                        "productName": "SWICH",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 2,
+                        "productPrice": 197
+                     },
+                     {
+                        "productName": "Luna Sensation",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 1,
+                        "productPrice": 230
+                     },
+                     {
+                        "productName": "Aserija",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 1,
+                        "productPrice": 79
+                     },
+                     {
+                        "productName": "Galmin",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 20,
+                        "productPrice": 5.5
+                     },
+                     {
+                        "productName": "Cuprozin",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 4.3,
+                        "productPrice": 12
+                     },
+                     {
+                        "productName": "AgroQuatro",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 8,
+                        "productPrice": 7.69
+                     }
+                  ],
+                  "fertilizersUsageInformation": [
+                     {
+                        "productName": "NPK 20:20:20",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 21,
+                        "averageQuantity": 125,
+                        "averageNitrogenQuantity": 20,
+                        "averagePhosphorusQuantity": 20,
+                        "averagePotassiumQuantity": 20,
+                        "productPrice": 2.9
+                     },
+                     {
+                        "productName": "Amonijum Sulfate",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 36,
+                        "averageQuantity": 125,
+                        "averageNitrogenQuantity": 21,
+                        "averagePhosphorusQuantity": null,
+                        "averagePotassiumQuantity": null,
+                        "productPrice": 1.36
+                     },
+                     {
+                        "productName": "Kalium Sulfate",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 32,
+                        "averageQuantity": 93,
+                        "averageNitrogenQuantity": null,
+                        "averagePhosphorusQuantity": null,
+                        "averagePotassiumQuantity": 51,
+                        "productPrice": 1.7
+                     },
+                     {
+                        "productName": "NPK 14:11:25",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 32,
+                        "averageQuantity": 93,
+                        "averageNitrogenQuantity": 14,
+                        "averagePhosphorusQuantity": 11,
+                        "averagePotassiumQuantity": 25,
+                        "productPrice": 2.82
+                     }
+                  ],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": 270,
+                     "labourForPesticides": 35,
+                     "labourForFertilisation": 270,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": 150,
+                     "labourForFieldVisits": 220,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": 6500,
+                     "labourForStorage": null,
+                     "labourForAdministration": 180
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": 38,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": 5.5,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 0,
+                     "totalNumberOfLostWorkingHours": 0,
+                     "totalNumberOfWorkingHours": 7985,
+                     "numberOfWorkingWeeks": 48,
+                     "numberOfNewLocalEmployeesHired": 0,
+                     "numberOfNewEmployeesHired": 0
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "parcelAssessmentWithoutDATS": {
+                  "farmInformation": {
+                     "farmNumber": 14,
+                     "biogeographicalRegion": "Pannonian",
+                     "totalFarmSize": 3.7
+                  },
+                  "parcelInformation": {
+                     "parcelName": "Mačva",
+                     "parcelDimension": 3.7,
+                     "startMonth": 2,
+                     "endMonth": 7,
+                     "productType": "blueberry",
+                     "numberOfEmployees": 82,
+                     "numberOfFulltimeEmployees": 2,
+                     "numberOfSeasonalEmployees": 80,
+                     "soilFractionSand": null,
+                     "soilFractionClay": null,
+                     "soilFractionSilt": null,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": null,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": 17000,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 787,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": 16,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 1800,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": 100,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 12000,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [
+                     {
+                        "productName": "CupraBlau 235 W6",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 2.7,
+                        "productPrice": 9.53
+                     },
+                     {
+                        "productName": "Signum Boskarid",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.86,
+                        "productPrice": 74.52
+                     },
+                     {
+                        "productName": "SWICH",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 1.08,
+                        "productPrice": 197
+                     },
+                     {
+                        "productName": "LUNA Sensation",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.32,
+                        "productPrice": 230
+                     },
+                     {
+                        "productName": "Plures",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.54,
+                        "productPrice": 10.58
+                     },
+                     {
+                        "productName": "Image",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.5,
+                        "productPrice": 24.35
+                     },
+                     {
+                        "productName": "Teldor",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.81,
+                        "productPrice": 97.13
+                     }
+                  ],
+                  "fertilizersUsageInformation": [
+                     {
+                        "productName": "Calcium-Nitrate",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 10,
+                        "averageQuantity": 4.72,
+                        "averageNitrogenQuantity": 15,
+                        "averagePhosphorusQuantity": null,
+                        "averagePotassiumQuantity": null,
+                        "productPrice": 1
+                     },
+                     {
+                        "productName": "Blueberry 1",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 29,
+                        "averageQuantity": 72.97,
+                        "averageNitrogenQuantity": 20,
+                        "averagePhosphorusQuantity": 5,
+                        "averagePotassiumQuantity": 10,
+                        "productPrice": 3.19
+                     },
+                     {
+                        "productName": "FF-10-45-10",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 47,
+                        "averageQuantity": 111.43,
+                        "averageNitrogenQuantity": 10,
+                        "averagePhosphorusQuantity": 45,
+                        "averagePotassiumQuantity": 10,
+                        "productPrice": 2.81
+                     },
+                     {
+                        "productName": "Amonium-Sulfate",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 47,
+                        "averageQuantity": 40.94,
+                        "averageNitrogenQuantity": 21,
+                        "averagePhosphorusQuantity": null,
+                        "averagePotassiumQuantity": null,
+                        "productPrice": 1.33
+                     },
+                     {
+                        "productName": "Kalium-Sulfate",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 51,
+                        "averageQuantity": 139.64,
+                        "averageNitrogenQuantity": null,
+                        "averagePhosphorusQuantity": null,
+                        "averagePotassiumQuantity": 51,
+                        "productPrice": 2.09
+                     },
+                     {
+                        "productName": "Blueberry 2",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 18,
+                        "averageQuantity": 97.29,
+                        "averageNitrogenQuantity": 10,
+                        "averagePhosphorusQuantity": 5,
+                        "averagePotassiumQuantity": 20,
+                        "productPrice": 2.77
+                     }
+                  ],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": 168,
+                     "labourForPesticides": 48,
+                     "labourForFertilisation": 168,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": 278,
+                     "labourForFieldVisits": 500,
+                     "labourForGreenhouseManagement": 500,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": 700,
+                     "labourForStorage": null,
+                     "labourForAdministration": 20
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": 50,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": 5,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 0,
+                     "totalNumberOfLostWorkingHours": 0,
+                     "totalNumberOfWorkingHours": null,
+                     "numberOfWorkingWeeks": 46,
+                     "numberOfNewLocalEmployeesHired": 21,
+                     "numberOfNewEmployeesHired": 21
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 403.57731756756755,
+                     "percentageDifference": 7.314557085747082
+                  },
+                  {
+                     "indicatorName": "Land Productivity",
+                     "indicatorUnit": "t / ha",
+                     "absoluteDifference": -1.6385135135135123,
+                     "percentageDifference": -12.124999999999993
+                  },
+                  {
+                     "indicatorName": "Nitrogen applied",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": 19.501599999999996,
+                     "percentageDifference": 43.561083264088055
+                  },
+                  {
+                     "indicatorName": "Nitrogen use efficiency",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": 28.71197762421498,
+                     "percentageDifference": null
+                  },
+                  {
+                     "indicatorName": "Phosphorus applied",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": -23.412999999999997,
+                     "percentageDifference": -39.9246286854356
+                  },
+                  {
+                     "indicatorName": "Phosphorus use efficiency",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": 11.729711146818637,
+                     "percentageDifference": null
+                  },
+                  {
+                     "indicatorName": "Potassium applied",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": -13.431399999999982,
+                     "percentageDifference": -12.30980447505942
+                  },
+                  {
+                     "indicatorName": "pesticides, herbicides and fungicides use",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": 23.310000000000002,
+                     "percentageDifference": 250.9149623250807
+                  },
+                  {
+                     "indicatorName": "Water consumption ",
+                     "indicatorUnit": "",
+                     "absoluteDifference": -31.45270270270268,
+                     "percentageDifference": -14.787166454891986
+                  },
+                  {
+                     "indicatorName": "Irrigation water productivity",
+                     "indicatorUnit": "kg/m3",
+                     "absoluteDifference": 1.9848398545327086,
+                     "percentageDifference": 3.124137931034483
+                  },
+                  {
+                     "indicatorName": "Electricity consumption",
+                     "indicatorUnit": "kWh/ha",
+                     "absoluteDifference": 4792.381756756757,
+                     "percentageDifference": 147.76510416666667
+                  },
+                  {
+                     "indicatorName": "N2O GHG emission ",
+                     "indicatorUnit": "kg Co2e/ha",
+                     "absoluteDifference": 114.95140113599996,
+                     "percentageDifference": 7.377987034654546
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": -74.77195945945942,
+                     "percentageDifference": -19.704861111111104
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -9.719778542873538
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -44.95518990449117
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 19.704861111111104
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -7.314557085747082,
+                     "aggregatedImpactMaxRangeValue": -7.314557085747082
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -12.124999999999993,
+                     "aggregatedImpactMaxRangeValue": -12.124999999999993
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 8.955652192963235,
+                     "aggregatedImpactMaxRangeValue": 8.955652192963235
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -33.633320609606685,
+                     "aggregatedImpactMaxRangeValue": -33.633320609606685
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -147.76510416666667,
+                     "aggregatedImpactMaxRangeValue": -100.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -7.377987034654546,
+                     "aggregatedImpactMaxRangeValue": -7.377987034654546
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 19.704861111111104,
+                     "aggregatedImpactMaxRangeValue": 19.704861111111104
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Cost of water",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -16.984459459459444,
+                     "percentageDifference": -14.787166454891983,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED WATER CONSUMPTION",
+                     "mainImpactSubtitle": "due to more efficient irrigation"
+                  },
+                  {
+                     "mainImpactName": "Cost of pesticide ",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 578.9379,
+                     "percentageDifference": 76.64984646540769,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "mainImpactTitle": "DECREASD PESTICIDE CONSUMPTION",
+                     "mainImpactSubtitle": "due to an increase in the amount of plant protection products applied and in the related costs, but this may be partly due to the different phytosanitary conditions of the two plots analyzed "
+                  },
+                  {
+                     "mainImpactName": "Crop revenue",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -2255.0675675675593,
+                     "percentageDifference": -3.3374999999999884,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 0.0,
+                     "mainImpactTitle": "DECREASED REVENUES ",
+                     "mainImpactSubtitle": "due to a lower yield (despite the increase in sales price)"
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -2799.269885135127,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 0.0,
+                     "mainImpactTitle": "NET LOSS",
+                     "mainImpactSubtitle": "Due to lower revenues"
+                  },
+                  {
+                     "mainImpactName": "PAYBACK PERIOD",
+                     "mainImpactUnit": "years (n)",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "PAYBACK PERIOD NOT CALCULATED",
+                     "mainImpactSubtitle": "Due to net loss"
+                  },
+                  {
+                     "mainImpactName": "Working time",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": -74.77195945945942,
+                     "percentageDifference": -19.704861111111104,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED WORKING TIME",
+                     "mainImpactSubtitle": "due to the fact that DATS supports the overall agronomic management of blueberry"
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 140.625,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 18.75,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of water",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -16.984459459459444,
+                     "percentageDifference": -14.787166454891983,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of water: With the DATSs, a lower water consumption is observed, probably due to more efficient irrigation "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of electricity",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 335.466722972973,
+                     "percentageDifference": 147.76510416666665,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of electricity: The farm with DATSs experiences higher electricity consumption, probably partially due to the energy requirements of the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of pesticide ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 578.9379,
+                     "percentageDifference": 76.64984646540769,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of pesticides: The DATSs led to an increase in the amount of plant protection products applied and in the related costs, but this may be partly due to the different phytosanitary conditions of the two plots analyzed "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of fertiliser ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -209.70940000000007,
+                     "percentageDifference": -17.980443435991894,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of fertilizers: A decrease in fertilizer costs is observed thanks to the improved nutrient management efficiency of the DATSs "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for irrigation",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 148.08445945945948,
+                     "percentageDifference": 85.82589285714289,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for irrigation: Despite the goal that the DATSs should reduce the workload for this activity, it seems that more working hours are required, probably also to ensure the proper functioning of the technology "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for pesticide",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -7.734797297297291,
+                     "percentageDifference": -15.690104166666655,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for pesticides application: A decrease in the number of plant protection products and field interventions has reduced the work associated with this activity "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for fertilisation",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 148.08445945945948,
+                     "percentageDifference": 85.82589285714289,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for fertilization: Despite the goal that the DATSs should reduce the workload for this activity, it seems that more working hours are required, probably also to ensure the proper functioning of the technology"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for field visits ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -252.26351351351354,
+                     "percentageDifference": -49.125,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for field visits: The DATSs mimimize the frequency of physical field visits "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for greenhouse management",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -513.5135135135135,
+                     "percentageDifference": -100.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for greenhouse management: The DATSs reduce the need for manual intervention by automatically adjusting water, nutrients, pH, and EC "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 193.20945945945945,
+                     "percentageDifference": 940.625,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for administrative activities and data management: The DATSs can assist with data recording, but in this case, the farmer experiences a higher workload"
+                  },
+                  {
+                     "costRevenueImpactCategory": "OUTPUT",
+                     "costRevenueImpactName": "Crop revenue",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -2255.0675675675593,
+                     "percentageDifference": -3.3374999999999884,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Revenues: Despite a higher selling price, also due to the increased quality of the product, the lower yield has led to a negative balance "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -2799.269885135127,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Net Benefit: Despite the reduced costs thanks to the DATSs, the lower revenues in the plots with DATSs result in a negative balance"
+                  }
+               ]
+            },
+            {
+               "parcelAssessmentWithDATS": {
+                  "farmInformation": {
+                     "farmNumber": 0.24,
+                     "biogeographicalRegion": "Pannonian",
+                     "totalFarmSize": 0.24
+                  },
+                  "parcelInformation": {
+                     "parcelName": "Bačka Palanka",
+                     "parcelDimension": 0.24,
+                     "startMonth": 1,
+                     "endMonth": 6,
+                     "productType": "strawberry",
+                     "numberOfEmployees": null,
+                     "numberOfFulltimeEmployees": 1,
+                     "numberOfSeasonalEmployees": 8,
+                     "soilFractionSand": null,
+                     "soilFractionClay": null,
+                     "soilFractionSilt": null,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": null,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": 33000,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 200,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": null,
+                     "fuelUsageForFertilisation": 0,
+                     "fuelUsageForPesticides": 0,
+                     "fuelUsageForIrrigation": 0,
+                     "fuelUsageForSowing": 0,
+                     "fuelUsageForPruning": 0,
+                     "fuelUsageForTemperatureHumidityControl": 0,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 180,
+                     "electricityUsageForTemperatureHumidityControl": 0,
+                     "electricityUsageForIrrigation": 180,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [
+                     {
+                        "productName": "Metod 480 SC",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.72,
+                        "productPrice": 9
+                     },
+                     {
+                        "productName": "Akord",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.72,
+                        "productPrice": 27
+                     },
+                     {
+                        "productName": "Tonus",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.08,
+                        "productPrice": 9
+                     },
+                     {
+                        "productName": "Abastate",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.72,
+                        "productPrice": 9.5
+                     },
+                     {
+                        "productName": "Quadris",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.6,
+                        "productPrice": 20
+                     },
+                     {
+                        "productName": "SWICH",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.24,
+                        "productPrice": 350
+                     }
+                  ],
+                  "fertilizersUsageInformation": [
+                     {
+                        "productName": "Kalcium Nitrate",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.2,
+                        "averageNitrogenQuantity": 15.5,
+                        "averagePhosphorusQuantity": null,
+                        "averagePotassiumQuantity": null,
+                        "productPrice": 1
+                     },
+                     {
+                        "productName": "Kalium Nitrate",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.1,
+                        "averageNitrogenQuantity": 13,
+                        "averagePhosphorusQuantity": null,
+                        "averagePotassiumQuantity": 46,
+                        "productPrice": 2.5
+                     },
+                     {
+                        "productName": "Kalium Sulfate",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.1,
+                        "averageNitrogenQuantity": null,
+                        "averagePhosphorusQuantity": null,
+                        "averagePotassiumQuantity": 51,
+                        "productPrice": 2
+                     },
+                     {
+                        "productName": "Monokalium Phosphate",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.1,
+                        "averageNitrogenQuantity": null,
+                        "averagePhosphorusQuantity": 52,
+                        "averagePotassiumQuantity": 34,
+                        "productPrice": 4
+                     },
+                     {
+                        "productName": "Magnezium Nitrate",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.1,
+                        "averageNitrogenQuantity": 10.5,
+                        "averagePhosphorusQuantity": null,
+                        "averagePotassiumQuantity": null,
+                        "productPrice": 2
+                     }
+                  ],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": 60,
+                     "labourForPesticides": 10,
+                     "labourForFertilisation": 60,
+                     "labourForSowingOrPlanting": 650,
+                     "labourForPruning": 60,
+                     "labourForFieldVisits": 36,
+                     "labourForGreenhouseManagement": 0,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": 800,
+                     "labourForStorage": null,
+                     "labourForAdministration": 10
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": 6,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": 3500,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 0,
+                     "totalNumberOfLostWorkingHours": 0,
+                     "totalNumberOfWorkingHours": 1686,
+                     "numberOfWorkingWeeks": 24,
+                     "numberOfNewLocalEmployeesHired": 0,
+                     "numberOfNewEmployeesHired": 0
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "parcelAssessmentWithoutDATS": {
+                  "farmInformation": {
+                     "farmNumber": 14,
+                     "biogeographicalRegion": "Pannonian",
+                     "totalFarmSize": 0.3
+                  },
+                  "parcelInformation": {
+                     "parcelName": "Begeč",
+                     "parcelDimension": 0.3,
+                     "startMonth": 1,
+                     "endMonth": 6,
+                     "productType": "strawberry",
+                     "numberOfEmployees": 7,
+                     "numberOfFulltimeEmployees": 0,
+                     "numberOfSeasonalEmployees": 0,
+                     "soilFractionSand": null,
+                     "soilFractionClay": null,
+                     "soilFractionSilt": null,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": null,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": 11000,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 230,
+                     "waterUsageForIrrigation": 110,
+                     "waterUsageForFertigation": 110,
+                     "waterUsageForPestDilution": 10,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 2700,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 60,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [
+                     {
+                        "productName": "Ridomil",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 2.64,
+                        "productPrice": 37.6
+                     },
+                     {
+                        "productName": "Calipso",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.1,
+                        "productPrice": 341.88
+                     },
+                     {
+                        "productName": "Switch",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.04,
+                        "productPrice": 350
+                     },
+                     {
+                        "productName": "Cidely top",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.07,
+                        "productPrice": 67.69
+                     }
+                  ],
+                  "fertilizersUsageInformation": [
+                     {
+                        "productName": "Hakaphos 13-40-13",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 6,
+                        "averageQuantity": 0.0033,
+                        "averageNitrogenQuantity": 13,
+                        "averagePhosphorusQuantity": 40,
+                        "averagePotassiumQuantity": 13,
+                        "productPrice": 2.5
+                     },
+                     {
+                        "productName": "Basfoliar",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 0.0066,
+                        "averageNitrogenQuantity": null,
+                        "averagePhosphorusQuantity": 27,
+                        "averagePotassiumQuantity": 17,
+                        "productPrice": 11.53
+                     },
+                     {
+                        "productName": "Hakaphos® Calcidic K-Max 10-15-28",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 0.001,
+                        "averageNitrogenQuantity": 10,
+                        "averagePhosphorusQuantity": 15,
+                        "averagePotassiumQuantity": 28,
+                        "productPrice": 2.5
+                     },
+                     {
+                        "productName": "Nutricomplex 15:5:30",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 6,
+                        "averageQuantity": 0.005,
+                        "averageNitrogenQuantity": 15,
+                        "averagePhosphorusQuantity": 5,
+                        "averagePotassiumQuantity": 30,
+                        "productPrice": 2.87
+                     },
+                     {
+                        "productName": "Nutricomplex 7:12:40",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 5,
+                        "averageQuantity": 0.006,
+                        "averageNitrogenQuantity": 7,
+                        "averagePhosphorusQuantity": 12,
+                        "averagePotassiumQuantity": 40,
+                        "productPrice": 3.33
+                     }
+                  ],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": 30,
+                     "labourForPesticides": 24,
+                     "labourForFertilisation": 30,
+                     "labourForSowingOrPlanting": 48,
+                     "labourForPruning": 48,
+                     "labourForFieldVisits": 40,
+                     "labourForGreenhouseManagement": 240,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": 150,
+                     "labourForStorage": null,
+                     "labourForAdministration": 7
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": 2.4,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": 4.7,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 0,
+                     "totalNumberOfLostWorkingHours": 0,
+                     "totalNumberOfWorkingHours": 617,
+                     "numberOfWorkingWeeks": 32,
+                     "numberOfNewLocalEmployeesHired": 0,
+                     "numberOfNewEmployeesHired": 0
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 5439.793700000001,
+                     "percentageDifference": 19.24636912882119
+                  },
+                  {
+                     "indicatorName": "Land Productivity",
+                     "indicatorUnit": "t / ha",
+                     "absoluteDifference": 17.0,
+                     "percentageDifference": 212.5
+                  },
+                  {
+                     "indicatorName": "Labour productivity (arable and horticulture or silos)",
+                     "indicatorUnit": "t / h",
+                     "absoluteDifference": -0.0003310704418694522,
+                     "percentageDifference": -8.511269276393833
+                  },
+                  {
+                     "indicatorName": "Nitrogen applied",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": 4.530999999999992,
+                     "percentageDifference": 4.337171792589181
+                  },
+                  {
+                     "indicatorName": "Nitrogen use efficiency",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": 22.557387420402407,
+                     "percentageDifference": null
+                  },
+                  {
+                     "indicatorName": "Phosphorus applied",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": -89.02449999999999,
+                     "percentageDifference": -46.12082922116104
+                  },
+                  {
+                     "indicatorName": "Phosphorus use efficiency",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": 21.883300934098244,
+                     "percentageDifference": null
+                  },
+                  {
+                     "indicatorName": "Potassium applied",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": -35.25800000000004,
+                     "percentageDifference": -11.86107690962061
+                  },
+                  {
+                     "indicatorName": "Potassium use efficiency",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": 55.4908312356619,
+                     "percentageDifference": null
+                  },
+                  {
+                     "indicatorName": "pesticides, herbicides and fungicides use",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": -2.329999999999999,
+                     "percentageDifference": -28.24242424242423
+                  },
+                  {
+                     "indicatorName": "Water consumption ",
+                     "indicatorUnit": "",
+                     "absoluteDifference": 66.66666666666663,
+                     "percentageDifference": 8.695652173913038
+                  },
+                  {
+                     "indicatorName": "Irrigation water productivity",
+                     "indicatorUnit": "kg/m3",
+                     "absoluteDifference": 19.090909090909093,
+                     "percentageDifference": 175.00000000000006
+                  },
+                  {
+                     "indicatorName": "Electricity consumption",
+                     "indicatorUnit": "kWh/ha",
+                     "absoluteDifference": 550.0,
+                     "percentageDifference": 275.0
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": 2045.0000000000002,
+                     "percentageDifference": 146.4200477326969
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 41.37399811649095
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -41.46843230135415
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -146.4200477326969
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -19.24636912882119,
+                     "aggregatedImpactMaxRangeValue": -19.24636912882119
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 101.99436536180309,
+                     "aggregatedImpactMaxRangeValue": 100.0
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 83.15217391304351,
+                     "aggregatedImpactMaxRangeValue": 83.15217391304351
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 25.97409688153989,
+                     "aggregatedImpactMaxRangeValue": 25.97409688153989
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -275.0,
+                     "aggregatedImpactMaxRangeValue": -100.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -146.4200477326969,
+                     "aggregatedImpactMaxRangeValue": -100.0
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Cost of water",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 36.0,
+                     "percentageDifference": 8.695652173913043,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "mainImpactTitle": "INCREASED WATER CONSUPTION",
+                     "mainImpactSubtitle": "due to the need to better meet the crop's evapotranspirative demand"
+                  },
+                  {
+                     "mainImpactName": "Cost of fertiliser ",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -2212.9400000000005,
+                     "percentageDifference": -46.95455490627931,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED FERTILIZER CONSUMPTION",
+                     "mainImpactSubtitle": "due to improved nutrient management efficiency"
+                  },
+                  {
+                     "mainImpactName": "Crop revenue",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 59500.0,
+                     "percentageDifference": 212.5,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "INCREASED REVENUES",
+                     "mainImpactSubtitle": "due to a higher planting density allowing significantly higher yields"
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 52185.2063,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT ",
+                     "mainImpactSubtitle": "due to higher revenues"
+                  },
+                  {
+                     "mainImpactName": "Working time",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": 2045.0000000000002,
+                     "percentageDifference": 146.4200477326969,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "mainImpactTitle": "INCREASED WORKING TIME",
+                     "mainImpactSubtitle": "due to the greater need for technology monitoring by the farmer "
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 1875.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 250.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of water",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 36.0,
+                     "percentageDifference": 8.695652173913043,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of water: With the DATSs, an increase in irrigation water is observed, and thus the associated costs, probably to better meet the crop's evapotranspirative demand "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of electricity",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 38.50000000000001,
+                     "percentageDifference": 275.00000000000006,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of electricity: The farm with DATSs experiences higher electricity consumption, probably partially due to the energy requirements of the DATSs "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of pesticide ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -192.7663,
+                     "percentageDifference": -52.42113495825564,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of pesticides: The DATSs can affect the healthy growth of the crop, requiring fewer phytosanitary treatments"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of fertiliser ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -2212.9400000000005,
+                     "percentageDifference": -46.95455490627931,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of fertilizers: A decrease in fertilizer costs is observed thanks to the improved nutrient management efficiency of the DATSs "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for irrigation",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 570.0,
+                     "percentageDifference": 150.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for irrigation: Despite the goal that the DATSs should reduce the workload for this activity, it seems that more working hours are required, probably also to ensure the proper functioning of the technology "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for pesticide",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -145.66666666666666,
+                     "percentageDifference": -47.916666666666664,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for pesticides application: Despite an increase in the number of products and applications, in the case of the farm with the DATSs, it seems that efficiency in this activity increases "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for fertilisation",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 570.0,
+                     "percentageDifference": 150.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for fertilization: Despite the goal that the DATSs should reduce the workload for this activity, it seems that more working hours are required, probably also to ensure the proper functioning of the technology "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for sowing_planting ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 9683.666666666668,
+                     "percentageDifference": 1592.7083333333335,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for soil preparation and planting: The DATSs allow for a significantly higher plant density, and this impacts the amount of work "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for field visits ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 63.333333333333314,
+                     "percentageDifference": 12.499999999999995,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for field visits: Although the DATSs allow for the automation of certain tasks, it seems that field visits remain essential for crop monitoring "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for greenhouse management",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -3040.0,
+                     "percentageDifference": -100.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for greenhouse management: Thanks to automation, the DATSs allow for managing the greenhouse in a less labor- intensive way "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 69.66666666666669,
+                     "percentageDifference": 78.5714285714286,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for administrative activities and data management: The DATSs can assist with data recording, but in this case, the farmer experiences a higher workload "
+                  },
+                  {
+                     "costRevenueImpactCategory": "OUTPUT",
+                     "costRevenueImpactName": "Crop revenue",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 59500.0,
+                     "percentageDifference": 212.5,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Revenues: The higher planting density allowed by the DATSs enables significantly higher yields, while there are no changes in the selling price of the product, despite its higher quality being emphasized "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 52185.2063,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Net Benefit:Thanks to the higher revenues, the cost-benefit analysis results in a positive outcome"
+                  }
+               ]
+            }
+         ],
+         "marketInformation": {
+            "waterPrice": 0.54,
+            "fuelPrice": 1.66,
+            "electricityPrice": 0.07,
+            "averageSalary": 3.8,
+            "averageProfessionalSalary": 5.2
+         }
+      },
+      {
+         "cultivationYear": 2025,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "parcelInformation": {
+                     "productType": "blueberrys"
+                  }
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -15015.162839913512,
+                     "percentageDifference": -74.83985255113333
+                  },
+                  {
+                     "indicatorName": "Nitrogen applied",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": -15.162099999999999,
+                     "percentageDifference": -38.71902715319221
+                  },
+                  {
+                     "indicatorName": "Nitrogen use efficiency",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": 28.520940505669998,
+                     "percentageDifference": null
+                  },
+                  {
+                     "indicatorName": "Phosphorus applied",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": -22.406499999999994,
+                     "percentageDifference": -49.69779640904503
+                  },
+                  {
+                     "indicatorName": "Phosphorus use efficiency",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": -1.0184657779862931,
+                     "percentageDifference": null
+                  },
+                  {
+                     "indicatorName": "Potassium applied",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": 50.26228952400001,
+                     "percentageDifference": 176.56514814514884
+                  },
+                  {
+                     "indicatorName": "pesticides, herbicides and fungicides use",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": -4.8100000000000005,
+                     "percentageDifference": -84.23817863397548
+                  },
+                  {
+                     "indicatorName": "Water consumption ",
+                     "indicatorUnit": "m3/ha",
+                     "absoluteDifference": -66.55405405405406,
+                     "percentageDifference": -11.017897091722597
+                  },
+                  {
+                     "indicatorName": "Irrigation water productivity",
+                     "indicatorUnit": "kg/m3",
+                     "absoluteDifference": -8.559388169189948,
+                     "percentageDifference": -45.54817275747508
+                  },
+                  {
+                     "indicatorName": "Electricity consumption",
+                     "indicatorUnit": "kWh/ha",
+                     "absoluteDifference": 2597.972972972973,
+                     "percentageDifference": 85.82589285714285
+                  },
+                  {
+                     "indicatorName": "N2O GHG emission ",
+                     "indicatorUnit": "kg Co2e/ha",
+                     "absoluteDifference": -82.217396976,
+                     "percentageDifference": -38.719027153192215
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/ha",
+                     "absoluteDifference": -43.58108108108107,
+                     "percentageDifference": -18.859649122807014
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 37.41992627556667
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -15.109987185092237
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 18.859649122807014
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 74.83985255113333,
+                     "aggregatedImpactMaxRangeValue": 74.83985255113333
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -17.265137832876242,
+                     "aggregatedImpactMaxRangeValue": -17.265137832876242
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 3.932054796457931,
+                     "aggregatedImpactMaxRangeValue": 3.932054796457931
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -85.82589285714285,
+                     "aggregatedImpactMaxRangeValue": -85.82589285714285
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 38.719027153192215,
+                     "aggregatedImpactMaxRangeValue": 38.719027153192215
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 18.859649122807014,
+                     "aggregatedImpactMaxRangeValue": 18.859649122807014
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -15015.162839913512,
+                     "percentageDifference": -74.83985255113333,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECRESED COSTS",
+                     "mainImpactSubtitle": "thanks to substantial cost reductions in inputs and labour activities"
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 14902.662839913512,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT",
+                     "mainImpactSubtitle": "thanks to substantial cost reductions in inputs and labour activities"
+                  },
+                  {
+                     "mainImpactName": "Nitrogen applied",
+                     "mainImpactUnit": "kg/ha",
+                     "absoluteDifference": -15.162099999999999,
+                     "percentageDifference": -38.71902715319221,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECRESED NITROGEN CONSUMPTION",
+                     "mainImpactSubtitle": "thanks to more targeted fertigation decisions "
+                  },
+                  {
+                     "mainImpactName": "Phosphorus applied",
+                     "mainImpactUnit": "kg/ha",
+                     "absoluteDifference": -22.406499999999994,
+                     "percentageDifference": -49.69779640904503,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECRESED PHOSPHORUS CONSUMPTION",
+                     "mainImpactSubtitle": "thanks to improved nutrient targeting and avoidance of over-fertilization "
+                  },
+                  {
+                     "mainImpactName": "Water consumption ",
+                     "mainImpactUnit": "m3/ha",
+                     "absoluteDifference": -66.55405405405406,
+                     "percentageDifference": -11.017897091722597,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED WATER CONSUMPTION",
+                     "mainImpactSubtitle": "due to more efficient irrigation"
+                  },
+                  {
+                     "mainImpactName": "Working time",
+                     "mainImpactUnit": "h/ha",
+                     "absoluteDifference": -43.58108108108107,
+                     "percentageDifference": -18.859649122807014,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED WORKING TIME",
+                     "mainImpactSubtitle": "due to the fact that DATS supports the overall agronomic management of blueberry"
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 112.5,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 15000.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of water",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -56.57094594594594,
+                     "percentageDifference": -11.017897091722592,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "DATS enables programmable irrigation scheduling, helping to control water use. In this case, the result is lower water consumption and reduced costs "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of electricity",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 259.7972972972973,
+                     "percentageDifference": 85.82589285714286,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "The DATS increases electricity consumption due to the operation of fertigation equipment and digital monitoring systems, resulting in higher electricity costs. "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of pesticide ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -447.45000000000005,
+                     "percentageDifference": -80.99375509095846,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATS supports more precise crop monitoring and targeted input management, leading to a reduction in pesticide use "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of fertiliser ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -14574.8243264,
+                     "percentageDifference": -90.01761261455111,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "By enabling accurate fertigation and nutrient dosing based on pH and EC monitoring, the DATS improves nutrient management efficiency, resulting in a substantial reduction in fertilizer costs "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for irrigation",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 113.71621621621622,
+                     "percentageDifference": 85.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Although the DATS supports automated irrigation, additional labour was required probably to ensure proper working of the technology, increasing the cost "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for pesticide",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 33.75,
+                     "percentageDifference": 7,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "The slight increase is likely more attributable to monitoring and management practices, since less pesticides were used at farm level "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for fertilisation",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 228.34459459459458,
+                     "percentageDifference": 751.0000000000001,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Use of the DATS required additional labour for system oversight, adjustment of fertigation settings, and measuring levels in water drainage, resulting in higher labour costs "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for field visits ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -256.9256756756757,
+                     "percentageDifference": -60.357142857142854,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATS reduces the need for frequent physical field visits by enabling sensor monitoring at specific points and data-driven decisionmaking, leading to lower field inspections "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for greenhouse management",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -425.6756756756757,
+                     "percentageDifference": -100.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATS reduces manual intervention in routine management activities by supporting automated control and monitoring of fertigation parameters and irrigation timing "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 110.67567567567568,
+                     "percentageDifference": 455.00000000000006,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "The use of the DATS requires additional data handling, monitoring, and record-keeping, leading to higher labour costs for administrative activities "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 14902.662839913512,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Despite lower revenues, the overall net benefit remains positive due to substantial cost reductions in inputs and labour activities enabled by the DATS, resulting in a positive economic outcome at the farm level "
+                  }
+               ]
+            },
+            {
+               "parcelAssessmentWithDATS": {
+                  "parcelInformation": {
+                     "productType": "strawberry"
+                  }
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 796.9999999999995,
+                     "percentageDifference": null
+                  },
+                  {
+                     "indicatorName": "Land Productivity",
+                     "indicatorUnit": "t / ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": 262.5
+                  },
+                  {
+                     "indicatorName": "Labour productivity (arable and horticulture or silos)",
+                     "indicatorUnit": "t / h",
+                     "absoluteDifference": null,
+                     "percentageDifference": -205.9
+                  },
+                  {
+                     "indicatorName": "Nitrogen applied",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": 13.0
+                  },
+                  {
+                     "indicatorName": "Nitrogen use efficiency",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": null,
+                     "percentageDifference": -6.7
+                  },
+                  {
+                     "indicatorName": "Phosphorus applied",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -73.0
+                  },
+                  {
+                     "indicatorName": "Phosphorus use efficiency",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": null,
+                     "percentageDifference": 22.0
+                  },
+                  {
+                     "indicatorName": "Potassium applied",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -13.0
+                  },
+                  {
+                     "indicatorName": "Potassium use efficiency",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": null,
+                     "percentageDifference": 57.0
+                  },
+                  {
+                     "indicatorName": "pesticides, herbicides and fungicides use",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -61.8
+                  },
+                  {
+                     "indicatorName": "Water consumption ",
+                     "indicatorUnit": "m3/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -47.1
+                  },
+                  {
+                     "indicatorName": "Irrigation water productivity",
+                     "indicatorUnit": "kg/m3",
+                     "absoluteDifference": null,
+                     "percentageDifference": 193.0
+                  },
+                  {
+                     "indicatorName": "Electricity consumption",
+                     "indicatorUnit": "kWh/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": 446.8
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": 83.1
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 14.149999999999999
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -76.87321428571428
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -83.1
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 28.299999999999997,
+                     "aggregatedImpactMaxRangeValue": 28.299999999999997
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 120.05,
+                     "aggregatedImpactMaxRangeValue": 100.0
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 19.25714285714286,
+                     "aggregatedImpactMaxRangeValue": 19.25714285714286
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -446.8,
+                     "aggregatedImpactMaxRangeValue": -100.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -83.1,
+                     "aggregatedImpactMaxRangeValue": -83.1
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 796.9999999999995,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "mainImpactTitle": "HIGHER COSTS",
+                     "mainImpactSubtitle": "even though a high impact on this is generated by the planting activity"
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 56661.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT ",
+                     "mainImpactSubtitle": "due to higher revenues"
+                  },
+                  {
+                     "mainImpactName": "PAYBACK PERIOD",
+                     "mainImpactUnit": "years (n)",
+                     "absoluteDifference": 1.1,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "PBP OF AROUND 1 YEAR",
+                     "mainImpactSubtitle": "indicating that the investment is recovered relatively quickly"
+                  },
+                  {
+                     "mainImpactName": "NPV 5 years",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -6309.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "NEGATIVE NPV",
+                     "mainImpactSubtitle": "because of the high investment costs"
+                  },
+                  {
+                     "mainImpactName": "ROI",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": 94.5,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "ROI CLOSE TO 100%",
+                     "mainImpactSubtitle": "indicating that the investment almost doubles its initial cost in returns"
+                  },
+                  {
+                     "mainImpactName": "Water consumption ",
+                     "mainImpactUnit": "m3/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -47.1,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "DECREASED WATER CONSUMPTION",
+                     "mainImpactSubtitle": "due to more efficient irrigation"
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 450.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 60000.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of water",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -371.6,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "With the DATSs, a lower water consumption is observed due to more efficient irrigation "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of electricity",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 104.6,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "The farm with DATSs experiences higher electricity consumption, partially due to the energy requirements of the DATSs system"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of pesticide ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -258.7,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATSs can affect the healthy growth of the crop, requiring fewer phytosanitary treatments"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of fertiliser ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -689.5,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "A decrease in fertilizer costs is observed thanks to the improved nutrient management efficiency of the DATSs "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for irrigation",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 13.1,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Despite the goal that the DATSs should reduce the workload for this activity, it seems that more working hours are required, probably also to ensure the proper functioning of the technology "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for pesticide",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -185.5,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Thanks to the DATSs there is an easier management of crop protection"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for fertilisation",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 31.9,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Despite the reduction in fertilizers, it seems that more working hours are required for fertilization, probably also to ensure the proper functioning of the technology "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for sowing_planting ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 4858.9,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "The DATSs allow for a significantly higher plant density, and this impacts the amount of work "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for field visits ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -135.4,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The automation enabled by the DATSs reduce the field visits necessity"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for greenhouse management",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -2551.3,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Thanks to automation, the DATSs allow for managing the greenhouse in a less labor-intensive way "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -19.5,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATSs can assist with data recording, but in this case, the farmer experiences a higher workload "
+                  },
+                  {
+                     "costRevenueImpactCategory": "OUTPUT",
+                     "costRevenueImpactName": "Crop revenue",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 58066.7,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The higher planting density and better agronomic conditions enable significantly higher yields"
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 56661.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Thanks to the higher revenues, the cost-benefit analysis results in a positive outcome"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "cultivationYear": 2026,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "parcelInformation": {
+                     "productType": "blueberry"
+                  }
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -9515.6,
+                     "percentageDifference": -34.0
+                  },
+                  {
+                     "indicatorName": "Nitrogen applied",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": 2.7
+                  },
+                  {
+                     "indicatorName": "Nitrogen use efficiency",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": null,
+                     "percentageDifference": 28.6
+                  },
+                  {
+                     "indicatorName": "Phosphorus applied",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -44.9
+                  },
+                  {
+                     "indicatorName": "Phosphorus use efficiency",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": null,
+                     "percentageDifference": 5.4
+                  },
+                  {
+                     "indicatorName": "Potassium applied",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": 82.3
+                  },
+                  {
+                     "indicatorName": "pesticides, herbicides and fungicides use",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": 82.9
+                  },
+                  {
+                     "indicatorName": "Water consumption ",
+                     "indicatorUnit": "m3/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -20.6
+                  },
+                  {
+                     "indicatorName": "Irrigation water productivity",
+                     "indicatorUnit": "kg/m3",
+                     "absoluteDifference": null,
+                     "percentageDifference": -25.3
+                  },
+                  {
+                     "indicatorName": "Electricity consumption",
+                     "indicatorUnit": "kWh/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": 114.9
+                  },
+                  {
+                     "indicatorName": "N2O GHG emission ",
+                     "indicatorUnit": "kg Co2e/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": null
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -19.3
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 17.0
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -33.020833333333336
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 19.3
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 34.0,
+                     "aggregatedImpactMaxRangeValue": 34.0
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -2.3499999999999996,
+                     "aggregatedImpactMaxRangeValue": -2.3499999999999996
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -14.833333333333334,
+                     "aggregatedImpactMaxRangeValue": -14.833333333333334
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -114.9,
+                     "aggregatedImpactMaxRangeValue": -100.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 19.3,
+                     "aggregatedImpactMaxRangeValue": 19.3
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -9515.6,
+                     "percentageDifference": -34.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "REDUCED COSTS",
+                     "mainImpactSubtitle": "thanks to lower inputs use"
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -13690.7,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 0.0,
+                     "mainImpactTitle": "NET LOSS",
+                     "mainImpactSubtitle": "Due to lower revenues over the 3-years period"
+                  },
+                  {
+                     "mainImpactName": "NPV",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -79346.2,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "NEGATIVE NPV",
+                     "mainImpactSubtitle": "due to the net loss"
+                  },
+                  {
+                     "mainImpactName": "Water consumption ",
+                     "mainImpactUnit": "m3/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -20.6,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED WATER CONSUMPTION",
+                     "mainImpactSubtitle": "due to more efficient irrigation"
+                  },
+                  {
+                     "mainImpactName": "Working time",
+                     "mainImpactUnit": "h/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -19.3,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "DECREASED WORKING TIME",
+                     "mainImpactSubtitle": "DECREASED WATER CONSUMPTION"
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 112.5,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 15000.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of water",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -219.9,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "With the DATSs, a lower water consumption is observed due to more efficient irrigation "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of electricity",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 296.4,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "The farm with DATSs experiences higher electricity consumption, partially due to the energy requirements of the DATSs system"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of pesticide ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -2672.7,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATS supports more precise crop monitoring and targeted input management, leading to a reduction in pesticide use "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of fertiliser ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -4581.8,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "A decrease in fertilizer costs is observed thanks to the improved nutrient management efficiency of the DATSs "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for irrigation",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -2819.2,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The automation provided by the DATS helps save time and labour in irrigation activities"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for pesticide",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 12.9,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "The slight increase is likely more attributable to monitoring and management practices, since less pesticides were used at farm level "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for fertilisation",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 188.2,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Despite the goal that the DATSs should reduce the workload for this activity, it seems that more working hours are required, probably also to ensure the proper functioning of the technology"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for field visits ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 598.5,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Field visits require more working hours, possibly due to the need for additional monitoring and on-site checks linked to the use of the DATS"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for greenhouse management",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -469.8,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATSs reduce the need for manual intervention by automatically adjusting water, nutrients, pH, and EC "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 151.8,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "The DATSs can assist with data recording, but in this case, the farmer experiences a higher workload "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -13690.7,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Despite the reduced costs thanks to the DATSs, the lower revenues in the plots with DATSs result in a negative balance"
+                  }
+               ]
+            },
+            {
+               "parcelAssessmentWithDATS": {
+                  "parcelInformation": {
+                     "productType": "strawberry"
+                  }
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 796.9999999999995,
+                     "percentageDifference": null
+                  },
+                  {
+                     "indicatorName": "Land Productivity",
+                     "indicatorUnit": "t / ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": 262.5
+                  },
+                  {
+                     "indicatorName": "Labour productivity (arable and horticulture or silos)",
+                     "indicatorUnit": "t / h",
+                     "absoluteDifference": null,
+                     "percentageDifference": -205.9
+                  },
+                  {
+                     "indicatorName": "Nitrogen applied",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": 13.0
+                  },
+                  {
+                     "indicatorName": "Nitrogen use efficiency",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": null,
+                     "percentageDifference": -6.7
+                  },
+                  {
+                     "indicatorName": "Phosphorus applied",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -73.0
+                  },
+                  {
+                     "indicatorName": "Phosphorus use efficiency",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": null,
+                     "percentageDifference": 22.0
+                  },
+                  {
+                     "indicatorName": "Potassium applied",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -13.0
+                  },
+                  {
+                     "indicatorName": "Potassium use efficiency",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": null,
+                     "percentageDifference": 57.0
+                  },
+                  {
+                     "indicatorName": "pesticides, herbicides and fungicides use",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -61.8
+                  },
+                  {
+                     "indicatorName": "Water consumption ",
+                     "indicatorUnit": "m3/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -47.1
+                  },
+                  {
+                     "indicatorName": "Irrigation water productivity",
+                     "indicatorUnit": "kg/m3",
+                     "absoluteDifference": null,
+                     "percentageDifference": 193.0
+                  },
+                  {
+                     "indicatorName": "Electricity consumption",
+                     "indicatorUnit": "kWh/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": 446.8
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": 83.1
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 14.149999999999999
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -76.87321428571428
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -83.1
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 28.299999999999997,
+                     "aggregatedImpactMaxRangeValue": 28.299999999999997
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 120.05,
+                     "aggregatedImpactMaxRangeValue": 100.0
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 19.25714285714286,
+                     "aggregatedImpactMaxRangeValue": 19.25714285714286
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -446.8,
+                     "aggregatedImpactMaxRangeValue": -100.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -83.1,
+                     "aggregatedImpactMaxRangeValue": -83.1
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 796.9999999999995,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "mainImpactTitle": "HIGHER COSTS",
+                     "mainImpactSubtitle": "even though a high impact on this is generated by the planting activity"
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 56661.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT ",
+                     "mainImpactSubtitle": "due to higher revenues"
+                  },
+                  {
+                     "mainImpactName": "PAYBACK PERIOD",
+                     "mainImpactUnit": "years (n)",
+                     "absoluteDifference": 1.1,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "PBP OF AROUND 1 YEAR",
+                     "mainImpactSubtitle": "indicating that the investment is recovered relatively quickly"
+                  },
+                  {
+                     "mainImpactName": "NPV 5 years",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -6309.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "NEGATIVE NPV",
+                     "mainImpactSubtitle": "because of the high investment costs"
+                  },
+                  {
+                     "mainImpactName": "ROI",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": 94.5,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "ROI CLOSE TO 100%",
+                     "mainImpactSubtitle": "indicating that the investment almost doubles its initial cost in returns"
+                  },
+                  {
+                     "mainImpactName": "Water consumption ",
+                     "mainImpactUnit": "m3/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -47.1,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "DECREASED WATER CONSUMPTION",
+                     "mainImpactSubtitle": "due to more efficient irrigation"
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 450.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 60000.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of water",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -371.6,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "With the DATSs, a lower water consumption is observed due to more efficient irrigation "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of electricity",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 104.6,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "The farm with DATSs experiences higher electricity consumption, partially due to the energy requirements of the DATSs system"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of pesticide ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -258.7,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATSs can affect the healthy growth of the crop, requiring fewer phytosanitary treatments"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of fertiliser ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -689.5,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "A decrease in fertilizer costs is observed thanks to the improved nutrient management efficiency of the DATSs "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for irrigation",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 13.1,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Despite the goal that the DATSs should reduce the workload for this activity, it seems that more working hours are required, probably also to ensure the proper functioning of the technology "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for pesticide",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -185.5,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Thanks to the DATSs there is an easier management of crop protection"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for fertilisation",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 31.9,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Despite the reduction in fertilizers, it seems that more working hours are required for fertilization, probably also to ensure the proper functioning of the technology "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for sowing_planting ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 4858.9,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "The DATSs allow for a significantly higher plant density, and this impacts the amount of work "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for field visits ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -135.4,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The automation enabled by the DATSs reduce the field visits necessity"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for greenhouse management",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -2551.3,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Thanks to automation, the DATSs allow for managing the greenhouse in a less labor-intensive way "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -19.5,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATSs can assist with data recording, but in this case, the farmer experiences a higher workload "
+                  },
+                  {
+                     "costRevenueImpactCategory": "OUTPUT",
+                     "costRevenueImpactName": "Crop revenue",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 58066.7,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The higher planting density and better agronomic conditions enable significantly higher yields"
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 56661.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Thanks to the higher revenues, the cost-benefit analysis results in a positive outcome"
+                  }
+               ]
+            }
+         ]
+      }
+
+   ]
+}

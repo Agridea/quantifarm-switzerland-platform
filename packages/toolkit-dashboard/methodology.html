@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>QuantiFarm - Assessment Framework</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XH06Z9BF5S"></script>
+    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-XH06Z9BF5S');</script>
+
+    <!-- Favicons -->
+    <link href="assets/img/QuantiFarm-element-60x60.png" rel="icon" sizes="32x32">
+    <link href="assets/img/QuantiFarm-element-60x60.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Sofia+Sans:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- DigiAgriFoodCH Theme -->
+    <link href="assets/css/digiagrifood-theme.css" rel="stylesheet">
+
+</head>
+
+<body class="">
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+
+        <a href="index.html" class="logo d-flex xalign-items-center">
+            <span>Toolkit</span>
+        </a>
+
+        <nav class="navbar navbar-expand-md d-none d-md-flex align-items-center position-absolute start-0 end-0 h-100" style="pointer-events: none;">
+            <div class="container-fluid d-flex align-items-center" style="pointer-events: auto;">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-2 pt-3 h-100 ">
+                        <a class="nav-link text-primary pe-0 pb-3" href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item pe-2 pt-3 h-100">
+                        <a class="nav-link text-primary pe-0 pb-3" href="toolkit.html">
+                            Toolkit
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown pt-3 h-100 active">
+                        <a class="nav-link text-primary dropdown-toggle pb-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Test cases
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a id="mnuResults" class="dropdown-item" href="results.html">
+                                    Results
+                                </a>
+                            </li>
+                            <li>
+                                <a id="mnuMethodology" class="dropdown-item" href="methodology.html">
+                                    Methodology
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item pe-2 pt-3 h-100">
+                        <a class="nav-link text-primary pe-0 pb-3" href="faq.html">
+                            FAQ
+                        </a>
+                    </li>
+                    <li class="nav-item pe-2 pt-3 h-100" hidden>
+                        <a class="nav-link text-primary pe-0 pb-3" target="_blank" href="https://quantifarm.eu/contact-us/">
+                            Contacts
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown pt-3 h-100">
+                        <a class="nav-link text-primary dropdown-toggle pb-3" href="#" id="lngDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">DE</a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="lngDropdown">
+                        <li><a class="dropdown-item" href="#" onclick="setLanguage('DE');return false;">DE – Deutsch</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="setLanguage('FR');return false;">FR – Français</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="setLanguage('IT');return false;">IT – Italiano</a></li>
+                    </ul>
+                </li>
+                </ul>
+                <ul class="navbar-nav">
+                <li class="nav-item dropdown pe-2 pt-3 h-100" id="mnuLogin">
+                    <a class="nav-link d-flex align-items-center text-primary px-4" href="login.html">
+                        <i class="ri-login-box-line" style="font-size: 26px"></i>
+                        <span>Login</span>
+                    </a>
+                </li>
+
+                <li class="nav-item pe-2 h-100" id="mnuUser" hidden>
+
+                    <a class="nav-link d-flex align-items-center text-primary px-4" href="#" data-bs-toggle="dropdown">
+                        <i class="bi bi-gear" style="font-size: 26px"></i>
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                        <li class="dropdown-header">
+                            <h6 id="mnuUserName"></h6>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="profile.html">
+                                <i class="bi bi-person"></i>
+                                <span>My Profile</span>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="php/api.php?c=out">
+                                <i class="bi bi-box-arrow-right"></i>
+                                <span>Log out</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="header-nav ms-auto h-100 d-md-none d-sm-block">
+            <ul class="d-flex align-items-center h-100">
+
+                <li class="nav-item dropdown pe-1 pt-2 h-100">
+
+                    <a class="nav-link d-flex align-items-center text-primary px-4 " href="#" data-bs-toggle="dropdown">
+                        <i class="bi bi-list" style="font-size: 32px"></i>
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                        <li>
+                            <a class="dropdown-item" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="toolkit.html">Toolkit</a>
+                        </li>
+                        <li>
+                            <a id="mnuResults" class="dropdown-item" href="results.html">Test cases</a>
+                        </li>
+                        <li>
+                            <a id="mnuMethodology" class="dropdown-item" href="methodology.html">Methodology</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="faq.html">FAQ</a>
+                        </li>
+                        <li hidden>
+                            <a class="dropdown-item" target="_blank" href="https://quantifarm.eu/contact-us/">Contacts</a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li id="mnuLogin2">
+                            <a class="dropdown-item" href="login.html">Login</a>
+                        </li>
+                        <li id="mnuProfile2">
+                            <a class="dropdown-item" href="profile.html">My Profile</a>
+                        </li>
+                        <li id="mnuLogout2">
+                            <a class="dropdown-item" href="php/api.php?c=out">Log out</a>
+                        </li>
+
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+    </header><!-- End Header -->
+
+    <main>
+
+        <div class="d-flex justify-content-center">
+        <div class="tab-content" id="lngTabsContent" style="max-width: 1200px; width: 100%;">
+
+            <!-- ===== ENGLISH ===== -->
+            <div class="tab-pane fade show active" id="lngTabEN" role="tabpanel" aria-labelledby="lngBtnEN">
+                <div class="" style="max-width: 1200px;">
+
+                    <h2 class="fw-bold qf-color1 mt-4">The QuantiFarm Assessment Framework</h2>
+                    <p>The QuantiFarm Assessment Framework aims to evaluate the positive and negative impacts – costs and benefits - of Digital Agricultural Technology Solutions (DATSs) along the three sustainability dimensions: economic, environmental, and social. It uses a combined approach of quantitative and qualitative methodologies; its design has involved a top-down perspective, drawing from existing sustainability frameworks and indicators, and a bottom-up approach that tailored indicators to specific agricultural sectors, geographical locations and types of DATSs used.</p>
+                    <p>To prevent information overload and ensure relevance to European farmers, the framework focuses on core indicators while addressing the challenge of multiple metrics and stakeholders in sustainability assessment. The development process incorporated feedback from test cases, stakeholders, and agricultural partners to refine the framework's relevance and applicability.</p>
+                    <p>The framework comprises two interconnected components: monetary impacts and sustainability impacts.</p>
+                    <h5>Monetary impacts</h5>
+                    <p>It measures the costs and benefits associated with implementing DATSs in monetary terms. It's based on a cost-benefit analysis methodology adapted for the QuantiFarm project. This approach not only assesses profitability but also pinpoints which activities and processes are influenced by DATSs. The QuantiFarm Assessment Framework takes into account the following costs and revenues for both farmers using and not using DATSs.</p>
+                    <ul>
+                        <li>Costs:
+                            <ul>
+                                <li>Cost of production inputs (e.g., seeds, fertilizers, pesticides, feed, drugs etc.)</li>
+                                <li>Cost of water (for irrigation, fertigation, animal cleaning, etc.)</li>
+                                <li>Cost of fuel</li>
+                                <li>Cost of labour (for in-field /on-farm activities, as fertilization, treatments, pruning, etc.; for field visits; for administrative tasks)</li>
+                                <li>Cost of utilities (energy, gas)</li>
+                                <li>Other direct costs (related to agricultural production)</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p>The calculation of benefit is expressed as the difference between the total costs incurred with DATSs and those without them:</p>
+                    <p class="h5 text-center" style="font-family: 'Times New Roman', Times, serif;">&Delta;Cost = &sum;&nbsp;Cost<sub>with DATSs</sub> &nbsp;&ndash;&nbsp; &sum;&nbsp;Cost<sub>without DATSs</sub></p>
+                    <ul>
+                        <li>Revenues:
+                            <ul>
+                                <li>Direct revenues: <ul><li>Revenues from sales</li></ul></li>
+                                <li>Competitive / indirect revenues: <ul><li>Additional revenues from, e.g., improvement of quality, data valorisation (e.g., for traceability) etc.</li></ul></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p>The adoption of DATSs can impact revenue mainly in two ways:</p>
+                    <ol>
+                        <li>Boosting sales due to improved yield, productivity, etc;</li>
+                        <li>Commanding a higher selling price because of an enhanced final product quality.</li>
+                    </ol>
+                    <p>The increase in revenues can be calculated using the formula:</p>
+                    <p class="h5 text-center" style="font-family: 'Times New Roman', Times, serif;">&Delta;Revenues = &sum;&nbsp;Revenues<sub>with DATSs</sub> &nbsp;&ndash;&nbsp; &sum;&nbsp;Revenues<sub>without DATSs</sub></p>
+                    <p>The framework takes into account also the costs related to implementing the DATSs. These costs are categorized into i) investment costs and ii) current expenditures.</p>
+                    <ol style="list-style-type: lower-roman;">
+                        <li>Investment costs are further classified as follows:
+                            <ul>
+                                <li>Hardware costs: this encompasses the expenses associated with the tangible components of the DATSs. It covers items like sensors, accessories, weather stations, etc.</li>
+                                <li>Software costs: calculated by multiplying the number of software units by their respective price.</li>
+                                <li>Management costs: this includes installation expenses (labour costs for implementing the solution) and training costs.</li>
+                            </ul>
+                        </li>
+                        <li>Current expenditures. These cover recurrent expenses incurred by farmers while using DATSs. as for example the cost of IT services (that includes the housing service of the IT platform and related databases and the costs for SIMs on loan for use) or the annual subscription fee for software (e.g., many FMIS and DSS foresee an annual fee).</li>
+                    </ol>
+                    <h5>Sustainability impacts</h5>
+                    <p>The QuantiFarm Assessment Framework tackles the complexity of sustainability in agriculture, recognizing that a singular value can't capture its multi-dimensional nature. Starting from the review of existing sustainability frameworks for agricultural sector, it incorporates a selection of sustainability indicators across economic, environmental and social domains, following the Triple Bottom Line approach. The focus is on specific, direct sources of impact, ensuring a nuanced understanding of the influence of technology on sustainability.</p>
+                    <p>Sustainability KPIs for assessing the impact of DATSs fall under the following domains and categories.</p>
+                    <ul>
+                        <li>Economic <ul><li>Input productivity</li><li>Efficiency indicators</li><li>Product quality</li></ul></li>
+                        <li>Environmental <ul><li>N, P, K applied and efficiency</li><li>Water consumption</li><li>Water productivity</li><li>Animal welfare</li><li>GHG Emissions (from fuel)</li><li>N<sub>2</sub>O GHG Emissions (from fertilizers)</li></ul></li>
+                        <li>Social <ul><li>Injuries</li><li>Working time</li><li>Training hours</li><li>Contribution to local employment</li></ul></li>
+                    </ul>
+                    <p>Additionally, for the social domain, a questionnaire has been developed, addressing particularly farmers that implemented DATSs, to better understand the impact of digital solutions on aspects as work-life balance, gender equality and attractiveness of agriculture for young generation.</p>
+                    <p>The framework underwent refinement through consultations, workshops, and meetings with stakeholders, ensuring its relevance and usability. Furthermore, it was validated through 30 Test Cases, enabling the collection of necessary data for KPI calculation and testing.</p>
+                    <br>
+                </div>
+            </div>
+
+            <!-- ===== DEUTSCH ===== -->
+            <div class="tab-pane fade" id="lngTabDE" role="tabpanel" aria-labelledby="lngBtnDE">
+            </div>
+
+            <!-- ===== FRANÇAIS ===== -->
+            <div class="tab-pane fade" id="lngTabFR" role="tabpanel" aria-labelledby="lngBtnFR">
+            </div>
+
+            <!-- ===== ITALIANO ===== -->
+            <div class="tab-pane fade" id="lngTabIT" role="tabpanel" aria-labelledby="lngBtnIT">
+            </div>
+
+        </div>
+        </div>
+
+        <div hidden>
+            <ul class="nav nav-pills d-flex" id="lngTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active bg-white" id="lngBtnEN" data-bs-toggle="tab" data-bs-target="#lngTabEN" type="button" role="tab" aria-controls="lngTabEN" aria-selected="true" title="EN"><img src="assets/img/uk.png" width="32"></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link bg-white" id="lngBtnFR" data-bs-toggle="tab" data-bs-target="#lngTabFR" type="button" role="tab" aria-controls="lngTabFR" aria-selected="false" tabindex="-1" title="FR" onclick="LoadLanguageContent('FR')"><img src="assets/img/france.png" width="32"></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link bg-white" id="lngBtnIT" data-bs-toggle="tab" data-bs-target="#lngTabIT" type="button" role="tab" aria-controls="lngTabIT" aria-selected="false" tabindex="-1" title="IT" onclick="LoadLanguageContent('IT')"><img src="assets/img/italy.png" width="32"></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link bg-white" id="lngBtnDE" data-bs-toggle="tab" data-bs-target="#lngTabDE" type="button" role="tab" aria-controls="lngTabDE" aria-selected="false" tabindex="-1" title="DE" onclick="LoadLanguageContent('DE')"><img src="assets/img/germany.png" width="32"></button>
+                </li>
+            </ul>
+        </div>
+
+    </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+    <div class="d-flex justify-content-center px-3">
+        <footer class="footer py-2 w-100" style="max-width: 1300px;">
+            <div class="d-flex flex-column gap-2">
+                <div class="d-flex align-items-center justify-content-center gap-3">
+                    <img src="assets/img/EN-Funded-by-the-EU.png" style="max-height:51px;">
+                    <img src="assets/img/QuantiFarm.svg" style="max-height:51px;">
+                    <img src="assets/img/BLW.jpg" style="max-height:51px; mix-blend-mode:multiply;">
+                </div>
+                <div class="d-flex align-items-center justify-content-center gap-3">
+                    <img src="assets/img/Agroscope.png" style="max-height:51px; mix-blend-mode:multiply;">
+                    <img src="assets/img/AGRIDEA.png" style="max-height:51px; max-width:130px;">
+                    <img src="assets/img/LZSG.jpg" style="max-height:51px; mix-blend-mode:multiply;">
+                </div>
+            </div>
+            <hr class="my-2">
+            <div class="d-flex justify-content-between">
+                <div class="credits mx-2">
+                    Copyright &copy; 2023-2026 <a href="https://quantifarm.eu/" target="_blank">The QuantiFarm Consortium</a>. All Rights Reserved.
+                </div>
+                <div class="credits">
+                    <a class="mx-2" href="cookies.html">Cookies Policy</a>
+                    <a class="mx-2" href="privacy.html">Privacy Policy</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="js/uistrings.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
+
+
+
+

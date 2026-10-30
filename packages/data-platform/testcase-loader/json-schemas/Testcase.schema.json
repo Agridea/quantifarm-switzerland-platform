@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/Testcase.schema.json",
+  "title": "QuantiFarm testcase data",
+  "description": "Data collected in a QuantiFarm testcase to assess the functioning and performance of one or more DATS",
+  "type": "object",
+  "properties": {
+    "testcaseNumber": {
+      "description": "The unique number of the QuantiFarm testcase",
+      "type": "integer"
+    },
+    "testcaseLeader": {
+      "description": "The name of the leader of the QuantiFarm testcase",
+      "type": "string"
+    },
+    "cultivationType": {
+      "description": "The type of agricultural cultivation that is executed in the QuantiFarm testcase",
+      "type": "string",
+      "enum": ["Arable", "Horticulture", "Greenhouse", "Meat", "Milk", "Animals", "Oyster", "Bees", "Silos"]
+    },
+    "datsInformation": {
+      "description": "List of the DATSs being applied in the QuantiFarm testcase",
+      "type": "array",
+      "items": {
+        "description": "Generic information of a DATS being applied in the QuantiFarm testcase",
+        "minItems": 1,
+        "uniqueItems": true,
+        "$ref": "https://quantifarm.eu/ontology/DatsInformation.schema.json"
+      }
+    },
+    "yearlyAssessmentInformation": {
+      "description": "List of years with one or more parcel comparisons and market information",
+      "type": "array",
+      "items": {
+        "description": "Assessment information with parcel comparisons and market information for a single year",
+        "uniqueItems": true,
+        "$ref": "https://quantifarm.eu/ontology/YearlyAssessmentInformation.schema.json"
+      }
+    },
+    "threeYearAverages": {
+      "description": "List of three year averages of the main impact parameters that indicate how well the DATSs perform with respect to not using the DATSs",
+      "type": "array",
+      "items": {
+        "description": "A three year average impact parameter that indicates how well the DATSs perform with respect to not using the DATSs",
+        "uniqueItems": true,
+        "$ref": "https://quantifarm.eu/ontology/ThreeYearAverages.schema.json"
+      }
+    }
+  },
+  "required": [ "testcaseNumber", "testcaseLeader", "cultivationType", "datsInformation", "yearlyAssessmentInformation"]
+}

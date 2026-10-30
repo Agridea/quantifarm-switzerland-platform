@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/WaterUsageInformation.schema.json",
+  "title": "QuantiFarm water usage information",
+  "description": "Information about the usage of water during the cultivation in the specific year",
+  "type": "object",
+  "properties": {
+    "waterUsageForIrrigation": {
+      "description": "The amount of water used for irrigation in liters per hectare in the specific year of the cultivation",
+      "type": "number"
+    },
+    "waterUsageForFertigation": {
+      "description": "The amount of water used for fertigation in liters per hectare in the specific year of the cultivation",
+      "type": "number"
+    },
+    "waterUsageForPestDilution": {
+      "description": "The amount of water used for pest dilution in liters per hectare in the specific year of the cultivation",
+      "type": "number"
+    },
+    "waterUsageForCleaning": {
+      "description": "The amount of water used for cleaning in liters per hectare in the specific year of the cultivation",
+      "type": "number"
+    },
+    "waterUsageForDrinking": {
+      "description": "The amount of water used for drinking in liters per hectare in the specific year of the cultivation",
+      "type": "number"
+    },
+    "totalWaterUsage": {
+      "description": "The total amount of water used in liters per hectare in the specific year of the cultivation",
+      "type": "number"
+    }
+  },
+  "required": [ "totalWaterUsage"]
+}

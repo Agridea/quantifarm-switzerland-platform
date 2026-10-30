@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/CostRevenueImpactInformation.schema.json",
+  "title": "QuantiFarm cost revenue impact information for the performance of a DATS on a parcel",
+  "description": "Cost revenue impact information that indicates how well the DATS performed in the specific year",
+  "type": "object",
+  "properties": {
+    "costRevenueImpactCategory": {
+      "description": "The category of the cost revenue impact indicator",
+      "type": "string"
+    },
+    "costRevenueImpactName": {
+      "description": "The name of the cost revenue impact indicator",
+      "type": "string"
+    },
+    "costRevenueImpactUnit": {
+      "description": "The unit of the cost revenue impact indicator",
+      "type": "string"
+    },
+    "absoluteDifference": {
+      "description": "The absolute difference of the indicator between using the DATS and not using the DATS",
+      "type": "number"
+    },
+    "percentageDifference": {
+      "description": "The percentage difference of the indicator",
+      "type": "number"
+    },
+    "higherIsBetterMeaning": {
+      "description": "The meaning whether a higher value is a better one",
+      "type": "boolean"
+    },
+    "impactLevel": {
+      "description": "The level of the impact of the parameter, 0=negative, 1=positive, 2=neutral, 3=DATS",
+      "type": "number"
+    },
+    "costRevenueImpactShortDescription": {
+      "description": "A short description of the cost revenue impact indicator",
+      "type": "string"
+    }
+  },
+  "required": [ "costRevenueImpactCategory", "costRevenueImpactUnit", "absoluteDifference", "costRevenueImpactShortDescription"]
+}

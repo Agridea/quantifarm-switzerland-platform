@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/AdditionalFieldsInformation.schema.json",
+  "title": "QuantiFarm additional fields information",
+  "description": "Additional fields information of any kind with a field name and value",
+  "type": "object",
+  "properties": {
+    "fieldName": {
+      "description": "The name of the field",
+      "type": "string"
+    },
+    "fieldValue": {
+      "description": "The value of the field also as a string that can contain anything",
+      "type": "string"
+    }
+  },
+  "required": []
+}

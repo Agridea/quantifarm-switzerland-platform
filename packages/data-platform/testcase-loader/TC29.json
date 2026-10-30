@@ -1,0 +1,1065 @@
+{
+   "testcaseNumber": 29,
+   "testcaseLeader": "ART21",
+   "cultivationType": "Bees",
+   "datsInformation": [
+      {
+         "datsName": "ART 21",
+         "datsInitialInvestmentCosts": 700,
+         "datsAnnualFees": 25,
+         "datsMaintenanceCosts": 100,
+         "datsExpectedLifespan": 10,
+         "datsInstallationTime": 5,
+         "datsTrainingTime": 2,
+         "datsTrainers": 1,
+         "datsTrainingCosts": 0
+      }
+   ],
+   "yearlyAssessmentInformation": [
+      {
+         "cultivationYear": 2023,
+         "parcelComparison": [],
+         "marketInformation": {
+            "waterPrice": null,
+            "fuelPrice": null,
+            "electricityPrice": null,
+            "averageSalary": null,
+            "averageProfessionalSalary": null
+         }
+      },
+      {
+         "cultivationYear": 2024,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "farmInformation": {
+                     "farmNumber": null,
+                     "biogeographicalRegion": null,
+                     "totalFarmSize": null
+                  },
+                  "parcelInformation": {
+                     "parcelName": "1",
+                     "parcelDimension": 1,
+                     "startMonth": 5,
+                     "endMonth": 9,
+                     "productType": "Apiculture/Bees",
+                     "numberOfEmployees": null,
+                     "numberOfFulltimeEmployees": null,
+                     "numberOfSeasonalEmployees": null,
+                     "soilFractionSand": null,
+                     "soilFractionClay": null,
+                     "soilFractionSilt": null,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": null,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": 10,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [
+                     "ART 21"
+                  ],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": null,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": null,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": null,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [],
+                  "fertilizersUsageInformation": [],
+                  "feedUsageInformation": [
+                     {
+                        "productName": "Sugar water",
+                        "quantity": 0.5,
+                        "productPrice": 750
+                     }
+                  ],
+                  "drugsUsageInformation": [
+                     {
+                        "productName": "BeeVital",
+                        "quantity": 150,
+                        "productPrice": 0.2
+                     }
+                  ],
+                  "labourInformation": {
+                     "labourForIrrigation": null,
+                     "labourForPesticides": null,
+                     "labourForFertilisation": null,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": null,
+                     "labourForFieldVisits": null,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": null,
+                     "labourForStorage": null,
+                     "labourForAdministration": null
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": null,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": 262,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": null,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": 6
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": null,
+                     "totalNumberOfLostWorkingHours": null,
+                     "totalNumberOfWorkingHours": null,
+                     "numberOfWorkingWeeks": null,
+                     "numberOfNewLocalEmployeesHired": null,
+                     "numberOfNewEmployeesHired": null
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "parcelAssessmentWithoutDATS": {
+                  "farmInformation": {
+                     "farmNumber": null,
+                     "biogeographicalRegion": null,
+                     "totalFarmSize": null
+                  },
+                  "parcelInformation": {
+                     "parcelName": "2",
+                     "parcelDimension": 1,
+                     "startMonth": 5,
+                     "endMonth": 9,
+                     "productType": "Apiculture/Bees",
+                     "numberOfEmployees": null,
+                     "numberOfFulltimeEmployees": null,
+                     "numberOfSeasonalEmployees": null,
+                     "soilFractionSand": null,
+                     "soilFractionClay": null,
+                     "soilFractionSilt": null,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": null,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": 10,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": null,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": null,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": null,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [],
+                  "fertilizersUsageInformation": [],
+                  "feedUsageInformation": [
+                     {
+                        "productName": "Sugar water",
+                        "quantity": 0.5,
+                        "productPrice": 750
+                     }
+                  ],
+                  "drugsUsageInformation": [
+                     {
+                        "productName": "BeeVital",
+                        "quantity": 150,
+                        "productPrice": 0.2
+                     }
+                  ],
+                  "labourInformation": {
+                     "labourForIrrigation": null,
+                     "labourForPesticides": null,
+                     "labourForFertilisation": null,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": null,
+                     "labourForFieldVisits": null,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": null,
+                     "labourForStorage": null,
+                     "labourForAdministration": 1
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": null,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": 255,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": null,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": 6
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": null,
+                     "totalNumberOfLostWorkingHours": null,
+                     "totalNumberOfWorkingHours": null,
+                     "numberOfWorkingWeeks": null,
+                     "numberOfNewLocalEmployeesHired": null,
+                     "numberOfNewEmployeesHired": null
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Cost of feed",
+                     "indicatorUnit": "€/kg honey",
+                     "absoluteDifference": -0.03929052537045363,
+                     "percentageDifference": -2.671755725190847
+                  },
+                  {
+                     "indicatorName": "Labour for administrative activities, data collection, etc. ",
+                     "indicatorUnit": "€/kg honey",
+                     "absoluteDifference": -0.023529411764705882,
+                     "percentageDifference": -100.0
+                  },
+                  {
+                     "indicatorName": "Sum of costs of labour",
+                     "indicatorUnit": "€/kg honey",
+                     "absoluteDifference": -0.023529411764705882,
+                     "percentageDifference": -1.4598540145985401
+                  },
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/kg honey",
+                     "absoluteDifference": -0.06281993713515951,
+                     "percentageDifference": -3.8975873405025974
+                  },
+                  {
+                     "indicatorName": "Bees productivity",
+                     "indicatorUnit": "kg/beehives",
+                     "absoluteDifference": 0.6999999999999993,
+                     "percentageDifference": 2.7450980392156836
+                  },
+                  {
+                     "indicatorName": "Mortality rate (apiculture)",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": -150000.0,
+                     "percentageDifference": -100.0
+                  },
+                  {
+                     "indicatorName": "Drugs use in meat livestock   ",
+                     "indicatorUnit": "g/beehive",
+                     "absoluteDifference": -0.015716210148181475,
+                     "percentageDifference": -2.6717557251908506
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": -0.00392156862745098,
+                     "percentageDifference": -100.0
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 27.63506818005522
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 0.6679389312977126
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 100.0
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 3.8975873405025974,
+                     "aggregatedImpactMaxRangeValue": 3.8975873405025974
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 51.372549019607845,
+                     "aggregatedImpactMaxRangeValue": 51.372549019607845
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 2.6717557251908506,
+                     "aggregatedImpactMaxRangeValue": 2.6717557251908506
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 100.0,
+                     "aggregatedImpactMaxRangeValue": 100.0
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Cost of feed",
+                     "mainImpactUnit": "€/kg honey",
+                     "absoluteDifference": -0.03929052537045363,
+                     "percentageDifference": -2.671755725190847,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED FEED CONSUMPTION",
+                     "mainImpactSubtitle": "due to a decrease in sugar water consumption "
+                  },
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/kg honey",
+                     "absoluteDifference": -0.06281993713515951,
+                     "percentageDifference": -3.8975873405025974,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "COST SAVED",
+                     "mainImpactSubtitle": "due to more efficient hive management "
+                  },
+                  {
+                     "mainImpactName": "Honey revenue",
+                     "mainImpactUnit": "€/kg honey",
+                     "absoluteDifference": 4.199999999999989,
+                     "percentageDifference": 2.7450980392156787,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "INCREASED REVENUES ",
+                     "mainImpactSubtitle": "due to higher honey productivity "
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/kg honey",
+                     "absoluteDifference": -0.41,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 0.0,
+                     "mainImpactTitle": "NET LOSS",
+                     "mainImpactSubtitle": "due to the annual costs of DATS, which exceed the calculated monetary benefits. "
+                  },
+                  {
+                     "mainImpactName": "PAYBACK PERIOD",
+                     "mainImpactUnit": "years (n)",
+                     "absoluteDifference": -6.516477378514243,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "PAYBACK PERIOD ",
+                     "mainImpactSubtitle": "Not calculated as a net loss is recorded"
+                  },
+                  {
+                     "mainImpactName": "Working time",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": -0.00392156862745098,
+                     "percentageDifference": -100.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED WORKING TIME",
+                     "mainImpactSubtitle": "due to the remote monitoring system of the hives that facilitates control and reduces the time and frequency of control visits. "
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/kg honey",
+                     "absoluteDifference": 0.4770992366412214,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/kg honey",
+                     "absoluteDifference": 2.6717557251908395,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of feed",
+                     "costRevenueImpactUnit": "€/kg honey",
+                     "absoluteDifference": -0.03929052537045363,
+                     "percentageDifference": -2.671755725190847,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of feed: The decrease in the cots of feed (sugar water) per kg of honey produced is the result of the higher honey productivity in the beehives with DATS, rather than the outcome of a different feeding strategy"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/kg honey",
+                     "absoluteDifference": -0.023529411764705882,
+                     "percentageDifference": -100.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for administrative activities and data management: The implemented technology significantly improves data monitoring and management in beekeeping. This data is then processed and visualized through a dashboard, allowing beekeepers to remotely track colony health and activity in real time, saving time for the beekeeper "
+                  },
+                  {
+                     "costRevenueImpactCategory": "OUTPUT",
+                     "costRevenueImpactName": "Honey revenue",
+                     "costRevenueImpactUnit": "€/kg honey",
+                     "absoluteDifference": 4.199999999999989,
+                     "percentageDifference": 2.7450980392156787,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Revenues: The DATS could lead to higher revenues through increased honey productivity "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/kg honey",
+                     "absoluteDifference": -0.41,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Net Loss: The negative value is due to the annual costs of DATS, which exceed the calculated monetary benefits. However, in the long term, the advantages of this technology— in terms of bee welfare, productivity, and improved monitoring of the hives— would make it sustainable "
+                  }
+               ]
+            }
+         ],
+         "marketInformation": {
+            "waterPrice": null,
+            "fuelPrice": 1.5,
+            "electricityPrice": null,
+            "averageSalary": 6,
+            "averageProfessionalSalary": 8
+         }
+      },
+      {
+         "cultivationYear": 2025,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "parcelInformation": {
+                     "productType": "Apiculture/Bees"
+                  }
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Cost of feed",
+                     "indicatorUnit": "€/kg honey",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": 0.0
+                  },
+                  {
+                     "indicatorName": "Labour for administrative activities, data collection, etc. ",
+                     "indicatorUnit": "€/kg honey",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": 7
+                  },
+                  {
+                     "indicatorName": "Sum of costs of labour",
+                     "indicatorUnit": "€/kg honey",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": 0.0
+                  },
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/kg honey",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": 0.0
+                  },
+                  {
+                     "indicatorName": "Bees productivity",
+                     "indicatorUnit": "kg/beehives",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": 0.0
+                  },
+                  {
+                     "indicatorName": "Mortality rate (apiculture)",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": 7
+                  },
+                  {
+                     "indicatorName": "Drugs use (in apiculture)",
+                     "indicatorUnit": "g/beehive",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": 0.0
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/kg honey",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": 0.0
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 0.0
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 0.0
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 0.0
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Cost of feed",
+                     "mainImpactUnit": "€/kg honey",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": 0.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "DECREASED FEED CONSUMPTION",
+                     "mainImpactSubtitle": "due to a decrease in sugar water consumption "
+                  },
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/kg honey",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": 0.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "COST SAVED",
+                     "mainImpactSubtitle": "due to more efficient hive management "
+                  },
+                  {
+                     "mainImpactName": "(Honey) Revenue",
+                     "mainImpactUnit": "€/beehive",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": 0.0,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "INCREASED REVENUES ",
+                     "mainImpactSubtitle": "due to higher honey productivity "
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/kg honey",
+                     "absoluteDifference": -0.5530973451327433,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 0.0,
+                     "mainImpactTitle": "NET LOSS",
+                     "mainImpactSubtitle": "due to the annual costs of DATS, which exceed the calculated monetary benefits. "
+                  },
+                  {
+                     "mainImpactName": "NPV (5 year)",
+                     "mainImpactUnit": "€/kg honey",
+                     "absoluteDifference": -3.9,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "",
+                     "mainImpactSubtitle": "Negative NPV due to the Net Loss and the high investment costs"
+                  },
+                  {
+                     "mainImpactName": "Working time",
+                     "mainImpactUnit": "h/kg honey",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": 0.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "DECREASED WORKING TIME",
+                     "mainImpactSubtitle": "due to the remote monitoring system of the hives that facilitates control and reduces the time and frequency of control visits. "
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/kg honey",
+                     "absoluteDifference": 0.5530973451327433,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/kg honey",
+                     "absoluteDifference": 3.0973451327433628,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of feed",
+                     "costRevenueImpactUnit": "€/kg honey",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": 0.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "costRevenueImpactShortDescription": "The decrease in the cots of feed (sugar water) per kg of honey produced is the result of the higher honey productivity in the beehives with DATS, rather than the outcome of a different feeding strategy"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/kg honey",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": 7,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "costRevenueImpactShortDescription": "The implemented technology significantly improves data monitoring and management in beekeeping. This data is then processed and visualized through a dashboard, allowing beekeepers to remotely track colony health and activity in real time, saving time for the beekeeper "
+                  },
+                  {
+                     "costRevenueImpactCategory": "OUTPUT",
+                     "costRevenueImpactName": "(Honey) Revenue",
+                     "costRevenueImpactUnit": "€/beehive",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": 0.0,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 2.0,
+                     "costRevenueImpactShortDescription": "The DATS could lead to higher revenues through increased honey productivity "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/kg honey",
+                     "absoluteDifference": -0.5530973451327433,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "The negative value is due to the annual costs of DATS, which exceed the calculated monetary benefits. However, in the long term, the advantages of this technology— in terms of bee welfare, productivity, and improved monitoring of the hives— would make it sustainable "
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "cultivationYear": 2026,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "parcelInformation": {
+                     "productType": "Apiculture/Bees"
+                  }
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Cost of feed",
+                     "indicatorUnit": "€/kg honey",
+                     "absoluteDifference": -0.02,
+                     "percentageDifference": null
+                  },
+                  {
+                     "indicatorName": "Labour for administrative activities, data collection, etc. ",
+                     "indicatorUnit": "€/kg honey",
+                     "absoluteDifference": -0.01,
+                     "percentageDifference": null
+                  },
+                  {
+                     "indicatorName": "Sum of costs of labour",
+                     "indicatorUnit": "€/kg honey",
+                     "absoluteDifference": -0.01,
+                     "percentageDifference": null
+                  },
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/kg honey",
+                     "absoluteDifference": -0.03,
+                     "percentageDifference": null
+                  },
+                  {
+                     "indicatorName": "Bees productivity",
+                     "indicatorUnit": "kg/beehives",
+                     "absoluteDifference": 0.35,
+                     "percentageDifference": 1.35
+                  },
+                  {
+                     "indicatorName": "Drugs use (in apiculture)",
+                     "indicatorUnit": "g/beehive",
+                     "absoluteDifference": -0.01,
+                     "percentageDifference": -1.35
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/kg honey",
+                     "absoluteDifference": -0.002,
+                     "percentageDifference": -50.0
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 0.675
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 0.3375
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 50.0
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 1.35,
+                     "aggregatedImpactMaxRangeValue": 1.35
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 1.35,
+                     "aggregatedImpactMaxRangeValue": 1.35
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 50.0,
+                     "aggregatedImpactMaxRangeValue": 50.0
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Cost of feed",
+                     "mainImpactUnit": "€/kg honey",
+                     "absoluteDifference": -0.02,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED FEED CONSUMPTION",
+                     "mainImpactSubtitle": "due to a decrease in sugar water needs"
+                  },
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/kg honey",
+                     "absoluteDifference": -0.03,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "COST SAVED",
+                     "mainImpactSubtitle": "due to more efficient hive management and monitoring"
+                  },
+                  {
+                     "mainImpactName": "(Honey) Revenue",
+                     "mainImpactUnit": "€/beehive",
+                     "absoluteDifference": 2.1,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "INCREASED REVENUES ",
+                     "mainImpactSubtitle": "due to higher honey productivity "
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/kg honey",
+                     "absoluteDifference": -0.48,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 0.0,
+                     "mainImpactTitle": "NET LOSS",
+                     "mainImpactSubtitle": "due to the annual costs of DATS, which exceed the calculated monetary benefits. "
+                  },
+                  {
+                     "mainImpactName": "NPV (5 year)",
+                     "mainImpactUnit": "€/kg honey",
+                     "absoluteDifference": -4.5,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "",
+                     "mainImpactSubtitle": "Negative NPV due to the Net Loss and the high investment costs for the DATS"
+                  },
+                  {
+                     "mainImpactName": "Working time",
+                     "mainImpactUnit": "h/kg honey",
+                     "absoluteDifference": -0.002,
+                     "percentageDifference": -50.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED WORKING TIME",
+                     "mainImpactSubtitle": "due to the remote monitoring system that facilitates the control of the hives and reduces the time and frequency of visits. "
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/kg honey",
+                     "absoluteDifference": 0.51,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/kg honey",
+                     "absoluteDifference": 2.8,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of feed",
+                     "costRevenueImpactUnit": "€/kg honey",
+                     "absoluteDifference": -0.02,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The decrease in the cots of feed (sugar water) per kg of honey produced is the result of the higher honey productivity in the beehives with DATS, rather than the outcome of a different feeding strategy"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/kg honey",
+                     "absoluteDifference": -0.01,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The implemented technology significantly improves data monitoring and management in beekeeping. This data is then processed and visualized through a dashboard, allowing beekeepers to remotely track colony health and activity in real time, saving time for the beekeeper "
+                  },
+                  {
+                     "costRevenueImpactCategory": "OUTPUT",
+                     "costRevenueImpactName": "(Honey) Revenue",
+                     "costRevenueImpactUnit": "€/beehive",
+                     "absoluteDifference": 2.1,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATS could lead to higher revenues through increased honey productivity "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/kg honey",
+                     "absoluteDifference": -0.48,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "The negative value is due to the annual costs of DATS, which exceed the calculated monetary benefits. However, in the long term, the advantages of this technology— in terms of bee welfare, productivity, and improved monitoring of the hives— would make it sustainable "
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

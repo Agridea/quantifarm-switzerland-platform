@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>QuantiFarm Toolkit - Cookies Policy</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XH06Z9BF5S"></script>
+    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-XH06Z9BF5S');</script>
+
+    <!-- Favicons -->
+    <link href="assets/img/QuantiFarm-element-60x60.png" rel="icon" sizes="32x32">
+    <link href="assets/img/QuantiFarm-element-60x60.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Sofia+Sans:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- DigiAgriFoodCH Theme -->
+    <link href="assets/css/digiagrifood-theme.css" rel="stylesheet">
+
+</head>
+
+<body class="">
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+
+        <a href="index.html" class="logo d-flex xalign-items-center">
+            <span>Toolkit</span>
+        </a>
+
+        <nav class="navbar navbar-expand-md d-none d-md-flex align-items-center position-absolute start-0 end-0 h-100" style="pointer-events: none;">
+            <div class="container-fluid d-flex align-items-center" style="pointer-events: auto;">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-2 pt-3 h-100">
+                        <a class="nav-link text-primary pe-0 pb-3" href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item pe-2 pt-3 h-100">
+                        <a class="nav-link text-primary pe-0 pb-3" href="toolkit.html">
+                            Toolkit
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown pt-3 h-100">
+                        <a class="nav-link text-primary dropdown-toggle pb-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Test cases
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a id="mnuResults" class="dropdown-item" href="results.html">
+                                    Results
+                                </a>
+                            </li>
+                            <li>
+                                <a id="mnuMethodology" class="dropdown-item" href="methodology.html">
+                                    Methodology
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item pe-2 pt-3 h-100">
+                        <a class="nav-link text-primary pe-0 pb-3" href="faq.html">
+                            FAQ
+                        </a>
+                    </li>
+                    <li class="nav-item pe-2 pt-3 h-100" hidden>
+                        <a class="nav-link text-primary pe-0 pb-3" target="_blank" href="https://quantifarm.eu/contact-us/">
+                            Contacts
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown pt-3 h-100">
+                        <a class="nav-link text-primary dropdown-toggle pb-3" href="#" id="lngDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">DE</a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="lngDropdown">
+                        <li><a class="dropdown-item" href="#" onclick="setLanguage('DE');return false;">DE – Deutsch</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="setLanguage('FR');return false;">FR – Français</a></li>
+                        <li><a class="dropdown-item" href="#" onclick="setLanguage('IT');return false;">IT – Italiano</a></li>
+                    </ul>
+                </li>
+                </ul>
+                <ul class="navbar-nav">
+                <li class="nav-item dropdown pe-2 pt-3 h-100" id="mnuLogin">
+                    <a class="nav-link d-flex align-items-center text-primary px-4" href="login.html">
+                        <i class="ri-login-box-line" style="font-size: 26px"></i>
+                        <span>Login</span>
+                    </a>
+                </li>
+
+                <li class="nav-item pe-2 h-100" id="mnuUser" hidden>
+
+                    <a class="nav-link d-flex align-items-center text-primary px-4" href="#" data-bs-toggle="dropdown">
+                        <i class="bi bi-gear" style="font-size: 26px"></i>
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                        <li class="dropdown-header">
+                            <h6 id="mnuUserName"></h6>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="profile.html">
+                                <i class="bi bi-person"></i>
+                                <span>My Profile</span>
+                            </a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="php/api.php?c=out">
+                                <i class="bi bi-box-arrow-right"></i>
+                                <span>Log out</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="header-nav ms-auto h-100 d-md-none d-sm-block">
+            <ul class="d-flex align-items-center h-100">
+
+                <li class="nav-item dropdown pe-1 pt-2 h-100">
+
+                    <a class="nav-link d-flex align-items-center text-primary px-4 " href="#" data-bs-toggle="dropdown">
+                        <i class="bi bi-list" style="font-size: 32px"></i>
+                    </a>
+
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                        <li>
+                            <a class="dropdown-item" href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="toolkit.html">Toolkit</a>
+                        </li>
+                        <li>
+                            <a id="mnuResults" class="dropdown-item" href="results.html">Test cases</a>
+                        </li>
+                        <li>
+                            <a id="mnuMethodology" class="dropdown-item" href="methodology.html">Methodology</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="faq.html">FAQ</a>
+                        </li>
+                        <li hidden>
+                            <a class="dropdown-item" target="_blank" href="https://quantifarm.eu/contact-us/">Contacts</a>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li id="mnuLogin2">
+                            <a class="dropdown-item" href="login.html">Login</a>
+                        </li>
+                        <li id="mnuProfile2">
+                            <a class="dropdown-item" href="profile.html">My Profile</a>
+                        </li>
+                        <li id="mnuLogout2">
+                            <a class="dropdown-item" href="php/api.php?c=out">Log out</a>
+                        </li>
+
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+    </header><!-- End Header -->
+
+    <main>
+
+        <div hidden>
+            <ul class="nav nav-pills" id="lngTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="lngBtnEN" data-bs-toggle="tab" data-bs-target="#lngTabEN" type="button" role="tab" aria-controls="lngTabEN" aria-selected="false" tabindex="-1" title="EN" onclick="LoadLanguageContent('EN')"></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="lngBtnDE" data-bs-toggle="tab" data-bs-target="#lngTabDE" type="button" role="tab" aria-controls="lngTabDE" aria-selected="true" title="DE" onclick="LoadLanguageContent('DE')"></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="lngBtnFR" data-bs-toggle="tab" data-bs-target="#lngTabFR" type="button" role="tab" aria-controls="lngTabFR" aria-selected="false" tabindex="-1" title="FR" onclick="LoadLanguageContent('FR')"></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="lngBtnIT" data-bs-toggle="tab" data-bs-target="#lngTabIT" type="button" role="tab" aria-controls="lngTabIT" aria-selected="false" tabindex="-1" title="IT" onclick="LoadLanguageContent('IT')"></button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div class="tab-content" id="lngTabsContent" style="max-width: 1200px; width: 100%;">
+            <div class="tab-pane fade" id="lngTabEN" role="tabpanel" aria-labelledby="lngBtnEN">
+                <div class="" style="max-width: 1200px;">
+
+            <h2 class="fw-bold qf-color1 mt-4">Cookies Policy</h2>
+
+            <h5>1. What are Cookies?</h5>
+            <p>?Cookies? are small text files that are stored on your computer through the Internet browser, only retaining information related to your preferences and therefore not including your personal data.</p>
+
+            <h5>2. What are Cookies for?</h5>
+            <p>Cookies help determine the usefulness, interest and number of uses of your websites, allowing for faster and more efficient browsing, eliminating the need to repeatedly enter the same information.</p>
+
+            <h5>3. What type of Cookies do we use?</h5>
+            <p>There are two groups of cookies that can be used:</p>
+            <p><em>Permanent Cookies:</em> These are cookies that are stored in the browser in your access equipment (PC, mobile and tablet) and are used whenever you visit our website more than once. They are generally used to direct the browsing to the user?s interests, allowing us to provide a more personalised service.</p>
+            <p><em>Session Cookies:</em> These are temporary cookies that remain in your browser?s cookie file until you leave the website. The information obtained by these cookies serves to analyse patterns of web traffic, allowing us to identify problems and provide a better browsing experience.</p>
+
+            <h5>4. For what purposes do we use Cookies?</h5>
+            <p><em>Strictly necessary Cookies:</em> they allow you to browse the website and use its applications as well as to access secure areas of the website. Without these cookies, the services you have requested cannot be provided.</p>
+
+            <p><em>Functional Cookies:</em> they store user preferences for site usage so that you do not need to reconfigure the site each time you visit it.</p>
+
+            <p><em>Advertising Cookies:</em> they direct advertising according to the interests of each user so as to direct advertising campaigns, taking into account the tastes of users, and they also limit the number of times you see the ad, helping to measure the effectiveness of advertising and the success of the website organisation.</p>
+
+            <h5>5. How can you manage Cookies?</h5>
+
+            <p>Different browsers provide different methods to block and delete cookies used by websites. You can change the settings of your browser to block/delete the cookies. Listed below are the links to the support documents on how to manage and delete cookies from the major web browsers:</p>
+            <ul>
+                <li><a href="https://support.google.com/accounts/answer/32050">Chrome</a></li>
+
+                <li><a href="https://support.apple.com/en-in/guide/safari/sfri11471/mac">Safari</a></li>
+
+                <li><a href="https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox">Firefox</a></li>
+
+                <li><a href="https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09">Microsoft Edge</a></li>
+            </ul>
+            <p>If you are using any other web browser, please visit your browser?s official support documents.</p>
+
+            <p>Note, however, that by disabling cookies you can prevent certain web services from functioning properly, partially or totally affecting browsing of the website.</p>
+
+            <h5>6. What happens when Cookies are disabled?</h5>
+            <p>Certain functions and services may stop working or behave unexpectedly, such as identifying the user on certain pages or receiving information that takes into account the location of the user, among others.</p>
+
+            <p>If you disable the cookies on this web page, you may not have access to certain areas or the quality of your browsing experience may be considerably lower.</p>
+
+            <h5>7. The Cookies used on this web page</h5>
+            <p>We use tools like Google Analytics to better understand how visitors interact with our website. This provides us with important information to enable the site to work better. The information collected is not linked to your personal data.</p>
+
+            <p>For more information on the cookies set by Google Analytics, please visit: <a href="https://code.google.com/apis/analytics/docs/concepts/gaConceptsCookies.html">here</a></p>
+
+            <h5>8. Additional guarantees and withdrawal of acceptance</h5>
+            <p>QuantiFarm project will not be held liable for the content and veracity of the privacy policies of third party components that may be included in this web page.</p>
+            <p>As an additional guarantee, the recording of cookies on this website may be subject to users accepting the cookies during their visit to the web page and the installation or update of the browser used. This acceptance may be revoked at any time in the content and privacy settings, as defined above in point 5 of this policy, or by using the link at the bottom of this page.</p>
+
+            <h5>9. Cookie policy update</h5>
+            <p>QuantiFarm project may change this cookie policy in accordance with legal or regulatory requirements or adapt this policy to new instructions provided by law.</p>
+
+            <p>Whenever significant changes are made to this cookie policy, users of the web page will be notified.</p>
+
+            <h5>10. More information on Cookies</h5>
+            <p>More information about cookies can be found on this link: <a href="http://www.allaboutcookies.org">www.allaboutcookies.org</a></p>
+
+            <br>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="lngTabFR" role="tabpanel" aria-labelledby="lngBtnFR">
+            </div>
+            <div class="tab-pane fade" id="lngTabIT" role="tabpanel" aria-labelledby="lngBtnIT">
+            </div>
+            <div class="tab-pane fade active show" id="lngTabDE" role="tabpanel" aria-labelledby="lngBtnDE">
+            </div>
+            </div>
+        </div>
+
+    </main><!-- End #main -->
+    <!-- ======= Footer ======= -->
+    <div class="d-flex justify-content-center px-3">
+        <footer class="footer py-2 w-100" style="max-width: 1300px;">
+            <div class="d-flex flex-column gap-2">
+                <div class="d-flex align-items-center justify-content-center gap-3">
+                    <img src="assets/img/EN-Funded-by-the-EU.png" style="max-height:51px;">
+                    <img src="assets/img/QuantiFarm.svg" style="max-height:51px;">
+                    <img src="assets/img/BLW.jpg" style="max-height:51px; mix-blend-mode:multiply;">
+                </div>
+                <div class="d-flex align-items-center justify-content-center gap-3">
+                    <img src="assets/img/Agroscope.png" style="max-height:51px; mix-blend-mode:multiply;">
+                    <img src="assets/img/AGRIDEA.png" style="max-height:51px; max-width:130px;">
+                    <img src="assets/img/LZSG.jpg" style="max-height:51px; mix-blend-mode:multiply;">
+                </div>
+            </div>
+            <hr class="my-2">
+            <div class="d-flex justify-content-between">
+                <div class="credits mx-2">
+                    Copyright &copy; 2023-2026 <a href="https://quantifarm.eu/" target="_blank">The QuantiFarm Consortium</a>. All Rights Reserved.
+                </div>
+                <div class="credits">
+                    <a class="mx-2" href="cookies.html">Cookies Policy</a>
+                    <a class="mx-2" href="privacy.html">Privacy Policy</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="js/uistrings.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
+
+

@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv
+
+# IDE/Tool-generated files
+.pytest_cache/
+.vscode/
+.project/
+.pydevproject/
+
+# Local files
+local/
+.env
+.env.local
+uv.lock
+.project
+.pydevproject

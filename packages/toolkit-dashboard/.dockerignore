@@ -1,0 +1,13 @@
+.git
+.gitignore
+.env
+.env.*
+.devcontainer
+*.sql
+docker-compose*.yml
+Dockerfile
+.dockerignore
+php/db_view.php
+php/db_test.php
+php/info.php
+php/sparql_test.php

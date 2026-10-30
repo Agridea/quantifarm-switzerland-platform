@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/FarmInformation.schema.json",
+  "title": "QuantiFarm farm information",
+  "description": "Generic information about the farm where the parcel in the testcase is located",
+  "type": "object",
+  "properties": {
+    "farmNumber": {
+      "description": "Number of the farm the is unique in the QuantiFarm testcase",
+      "type": "integer"
+    },
+    "biogeographicalRegion": {
+      "description": "The biogeographical region in which the farm is located",
+      "type": "string"
+    },
+    "totalFarmSize": {
+      "description": "The total size of the farm area in square meters (possibly the under water area in case of aquaculture)",
+      "type": "number"
+    }
+  },
+  "required": [ "farmNumber" ]
+}

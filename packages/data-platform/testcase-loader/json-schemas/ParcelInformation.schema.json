@@ -1,0 +1,84 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/ParcelInformation.schema.json",
+  "title": "QuantiFarm generic parcel information",
+  "description": "Generic information about the parcel in the QuantiFarm testcase (elements filled with a value depending on type of cultivation)",
+  "type": "object",
+  "properties": {
+    "parcelName": {
+      "description": "The name of the parcel",
+      "type": "string"
+    },
+    "parcelDimension": {
+      "description": "The dimension or area of the parcel in hectares",
+      "type": "number"
+    },
+    "startMonth": {
+      "description": "The month in the calendar year in which the cultivation started",
+      "type": "string",
+      "format": "month"
+    },
+    "endMonth": {
+      "description": "The month in the calendar year in which the cultivation ended",
+      "type": "string",
+      "format": "month"
+    },
+    "productType": {
+      "description": "The type of product that is cultivated during the year on the parcel",
+      "type": "string"
+    },
+    "numberOfEmployees": {
+      "description": "The number of employees that worked on the parcel",
+      "type": "integer"
+    },
+    "numberOfFulltimeEmployees": {
+      "description": "The number of full-time employees that worked on the parcel",
+      "type": "integer"
+    },
+    "numberOfSeasonalEmployees": {
+      "description": "The number of seasonal employees that worked on the parcel",
+      "type": "integer"
+    },
+    "soilFractionSand": {
+      "description": "The percentage of sand in the soil of the parcel",
+      "type": "number"
+    },
+    "soilFractionClay": {
+      "description": "The percentage of clay in the soil of the parcel",
+      "type": "number"
+    },
+    "soilFractionSilt": {
+      "description": "The percentage of silt in the soil of the parcel",
+      "type": "number"
+    },
+    "bulkDensity": {
+      "description": "The bulk density of the parcel in kg/dm3 or g/cm3",
+      "type": "number"
+    },
+    "soilOrganicCarbon": {
+      "description": "The percentage of organic carbon in the soil of the parcel",
+      "type": "number"
+    },
+    "numberOfAnimals": {
+      "description": "The number of animals on the parcel",
+      "type": "integer"
+    },
+    "numberOfPlants": {
+      "description": "The number of plants on the parcel",
+      "type": "integer"
+    },
+    "livestockUnits": {
+      "description": "The livestock units on the parcel per hectare",
+      "type": "number"
+    },
+    "numberOfBeehives": {
+      "description": "The number of beehives on the parcel",
+      "type": "number"
+    },
+    "aquacultureArea": {
+      "description": "The area on the parcel used for aquaculture in square meters",
+      "type": "number"
+    }
+  },
+  "required": [ ]
+}

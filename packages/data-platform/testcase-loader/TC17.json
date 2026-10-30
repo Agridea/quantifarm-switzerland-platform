@@ -1,0 +1,988 @@
+{
+   "testcaseNumber": 17,
+   "testcaseLeader": "ANAMOB",
+   "cultivationType": "Horticulture",
+   "datsInformation": [
+      {
+         "datsName": "fms.agricloud.ro",
+         "datsInitialInvestmentCosts": 2500,
+         "datsAnnualFees": 4000,
+         "datsMaintenanceCosts": 4000,
+         "datsExpectedLifespan": 20000,
+         "datsInstallationTime": 60,
+         "datsTrainingTime": 100,
+         "datsTrainers": 8,
+         "datsTrainingCosts": 2000
+      },
+      {
+         "datsName": "fms.agricloud.ro",
+         "datsInitialInvestmentCosts": 3500,
+         "datsAnnualFees": 4500,
+         "datsMaintenanceCosts": 4500,
+         "datsExpectedLifespan": 24500,
+         "datsInstallationTime": 130,
+         "datsTrainingTime": 130,
+         "datsTrainers": 12,
+         "datsTrainingCosts": 2500
+      }
+   ],
+   "yearlyAssessmentInformation": [
+      {
+         "cultivationYear": 2023,
+         "parcelComparison": [],
+         "marketInformation": {
+            "waterPrice": null,
+            "fuelPrice": null,
+            "electricityPrice": null,
+            "averageSalary": null,
+            "averageProfessionalSalary": null
+         }
+      },
+      {
+         "cultivationYear": 2024,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "farmInformation": {
+                     "farmNumber": 2,
+                     "biogeographicalRegion": "Black See",
+                     "totalFarmSize": 25
+                  },
+                  "parcelInformation": {
+                     "parcelName": "Crama Histria",
+                     "parcelDimension": 25,
+                     "startMonth": 5,
+                     "endMonth": 9,
+                     "productType": "grapes",
+                     "numberOfEmployees": 10,
+                     "numberOfFulltimeEmployees": 6,
+                     "numberOfSeasonalEmployees": 10,
+                     "soilFractionSand": 60,
+                     "soilFractionClay": 25,
+                     "soilFractionSilt": 15,
+                     "bulkDensity": 1.3,
+                     "soilOrganicCarbon": 0,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [
+                     "fms.agricloud.ro"
+                  ],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 6,
+                     "waterUsageForIrrigation": 300,
+                     "waterUsageForFertigation": 300,
+                     "waterUsageForPestDilution": 300,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 0,
+                     "fuelUsageForFertilisation": 80,
+                     "fuelUsageForPesticides": 350,
+                     "fuelUsageForIrrigation": 450,
+                     "fuelUsageForSowing": 0,
+                     "fuelUsageForPruning": 200,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 60,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": 60,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [
+                     {
+                        "productName": "Flowbrics",
+                        "numberOfTreatments": 4,
+                        "averageQuantity": 2,
+                        "productPrice": 30
+                     }
+                  ],
+                  "fertilizersUsageInformation": [
+                     {
+                        "productName": "Almagerol",
+                        "productType": "Organic",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 2,
+                        "averageNitrogenQuantity": null,
+                        "averagePhosphorusQuantity": null,
+                        "averagePotassiumQuantity": null,
+                        "productPrice": 30
+                     }
+                  ],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": 0,
+                     "labourForPesticides": 6,
+                     "labourForFertilisation": 6,
+                     "labourForSowingOrPlanting": 48,
+                     "labourForPruning": 48,
+                     "labourForFieldVisits": 180,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": 107,
+                     "labourForStorage": null,
+                     "labourForAdministration": 180
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": 208,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": 0.5,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 0,
+                     "totalNumberOfLostWorkingHours": 0,
+                     "totalNumberOfWorkingHours": 1600,
+                     "numberOfWorkingWeeks": 36,
+                     "numberOfNewLocalEmployeesHired": 6,
+                     "numberOfNewEmployeesHired": 4
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "parcelAssessmentWithoutDATS": {},
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Cost of  fuel",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -1286.56,
+                     "percentageDifference": -94.6
+                  },
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -2127.5800000000004,
+                     "percentageDifference": -4.444634780701297
+                  },
+                  {
+                     "indicatorName": "pesticides, herbicides and fungicides use",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": 3.0,
+                     "percentageDifference": 60.0
+                  },
+                  {
+                     "indicatorName": "Arable and horticulture fuel consumption ",
+                     "indicatorUnit": "l/ha",
+                     "absoluteDifference": -756.8,
+                     "percentageDifference": -94.6
+                  },
+                  {
+                     "indicatorName": "GHG emissions",
+                     "indicatorUnit": "kg CO2 eq/ha",
+                     "absoluteDifference": -3357.1686720000002,
+                     "percentageDifference": -96.69017090368955
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": -110.12,
+                     "percentageDifference": -88.096
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 2.2223173903506486
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 32.82254272592239
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 88.096
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 4.444634780701297,
+                     "aggregatedImpactMaxRangeValue": 4.444634780701297
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -60.0,
+                     "aggregatedImpactMaxRangeValue": -60.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 94.6,
+                     "aggregatedImpactMaxRangeValue": 94.6
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 96.69017090368955,
+                     "aggregatedImpactMaxRangeValue": 96.69017090368955
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 88.096,
+                     "aggregatedImpactMaxRangeValue": 88.096
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Cost of  fuel",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -1286.56,
+                     "percentageDifference": -94.6,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED FUEL CONSUMPTION",
+                     "mainImpactSubtitle": "due to sensors installed on machinery and intuitive dashboards, it is possible to optimize the use of machinery, saving on costs, time and fuel"
+                  },
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -2127.5800000000004,
+                     "percentageDifference": -4.444634780701297,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "SAVED COSTS",
+                     "mainImpactSubtitle": "due to reduced time spent on activities such as monitoring, decision making and input management.Not impacted by DATS implementation"
+                  },
+                  {
+                     "mainImpactName": "Crop revenue",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 36800.0,
+                     "percentageDifference": 766.6666666666666,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "REVENUES",
+                     "mainImpactSubtitle": "not impacted by the implementation of DATS"
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 2082.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT",
+                     "mainImpactSubtitle": "due to savings on inputs and labor"
+                  },
+                  {
+                     "mainImpactName": "PAYBACK PERIOD",
+                     "mainImpactUnit": "years (n)",
+                     "absoluteDifference": 0.11527377521613832,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "PAYBACK PERIOD",
+                     "mainImpactSubtitle": "is expected in less than one year"
+                  },
+                  {
+                     "mainImpactName": "Working time",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": -110.12,
+                     "percentageDifference": -88.096,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED WORKING TIME",
+                     "mainImpactSubtitle": "due to improved work efficiency, reduced time spent on activities such as monitoring, decision making and input management."
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 351.4,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 240.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of  fuel",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -1286.56,
+                     "percentageDifference": -94.6,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of fuel: Thanks to RTK systems, sensors installed on machinery, and intuitive dashboards, the farmer can optimize machinery use, saving on costs, time, and fuel"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of pesticide ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 95.0,
+                     "percentageDifference": 65.51724137931035,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost for pesticides: The implementation of precision technologies allowed for more accurate and efficient application of inputs, including pesticides. In this TC, however, the increase in costs is due to the different products used in the parcels "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for pesticide",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -380.46,
+                     "percentageDifference": -99.46666666666667,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for pesticides application: The implementation of digital technologies significantly reduced the time and labour required for the distribution of agronomic inputs such as water, fertilizers, and pesticides. By enabling more precise and efficient applications, the system streamlined operations and minimized manual intervention."
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for fertilisation",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -40.46,
+                     "percentageDifference": -95.2,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for fertilization: The implementation of digital technologies significantly reduced the time and labour required for the distribution of agronomic inputs such as water, fertilizers, and pesticides. By enabling more precise and efficient applications, the system streamlined operations and minimized manual intervention."
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for field visits ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -448.8,
+                     "percentageDifference": -88.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for field visits: The DATSs reduced the need for frequent field visits. Since operations and input applications could be remotely tracked and analyzed through dashboards, farm managers gained better visibility without having to be physically present in the field "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -66.3,
+                     "percentageDifference": -52.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for administrative activities and data management: DATSs support data collection, management, and use, making production more transparent and simplifying administrative practices "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 2082.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Net Benefit: The overall balance is positive, thanks to savings on inputs and labour "
+                  }
+               ]
+            }
+         ],
+         "marketInformation": {
+            "waterPrice": 5,
+            "fuelPrice": 1.7,
+            "electricityPrice": 0.15,
+            "averageSalary": 8.5,
+            "averageProfessionalSalary": 15.5
+         }
+      },
+      {
+         "cultivationYear": 2025,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "parcelInformation": {
+                     "productType": "grapes"
+                  }
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -1761.8526315789475,
+                     "percentageDifference": -11.77950585839975
+                  },
+                  {
+                     "indicatorName": "pesticides, herbicides and fungicides use",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": -69.0,
+                     "percentageDifference": -92.0
+                  },
+                  {
+                     "indicatorName": "Arable and horticulture fuel consumption ",
+                     "indicatorUnit": "l/ha",
+                     "absoluteDifference": -133.68421052631578,
+                     "percentageDifference": -59.76470588235294
+                  },
+                  {
+                     "indicatorName": "GHG emissions",
+                     "indicatorUnit": "kg CO2 eq/ha",
+                     "absoluteDifference": -556.2601199999999,
+                     "percentageDifference": -56.44635706760781
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/ha",
+                     "absoluteDifference": -9.605263157894736,
+                     "percentageDifference": -43.45238095238095
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 5.889752929199875
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 52.05276573749018
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 43.45238095238095
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 11.77950585839975,
+                     "aggregatedImpactMaxRangeValue": 11.77950585839975
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 92.0,
+                     "aggregatedImpactMaxRangeValue": 92.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 59.76470588235294,
+                     "aggregatedImpactMaxRangeValue": 59.76470588235294
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 56.44635706760781,
+                     "aggregatedImpactMaxRangeValue": 56.44635706760781
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 43.45238095238095,
+                     "aggregatedImpactMaxRangeValue": 43.45238095238095
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Cost of  fuel",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -240.63157894736844,
+                     "percentageDifference": -59.76470588235294,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED FUEL CONSUMPTION",
+                     "mainImpactSubtitle": "due to sensors installed on machinery and intuitive dashboards, it is possible to optimize the use of machinery, saving on costs, time and fuel"
+                  },
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -1761.8526315789475,
+                     "percentageDifference": -11.77950585839975,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "SAVED COSTS",
+                     "mainImpactSubtitle": "due to reduced time spent on activities such as monitoring, decision making and input management.Not impacted by DATS implementation"
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 1542.2276315789475,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT",
+                     "mainImpactSubtitle": "due to savings on inputs and labor"
+                  },
+                  {
+                     "mainImpactName": "pesticides, herbicides and fungicides use",
+                     "mainImpactUnit": "kg/ha",
+                     "absoluteDifference": -69.0,
+                     "percentageDifference": -92.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED PESTICIDES CONSUMPTION",
+                     "mainImpactSubtitle": "thanks to more targeted and need-based applications"
+                  },
+                  {
+                     "mainImpactName": "Arable and horticulture fuel consumption ",
+                     "mainImpactUnit": "l/ha",
+                     "absoluteDifference": -133.68421052631578,
+                     "percentageDifference": -59.76470588235294,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED FUEL CONSUMPTION",
+                     "mainImpactSubtitle": "due to sensors installed on machinery and intuitive dashboards, it is possible to optimize the use of machinery, saving on costs, time and fuel"
+                  },
+                  {
+                     "mainImpactName": "Working time",
+                     "mainImpactUnit": "h/ha",
+                     "absoluteDifference": -9.605263157894736,
+                     "percentageDifference": -43.45238095238095,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED WORKING TIME",
+                     "mainImpactSubtitle": "due to improved work efficiency, reduced time spent on activities such as monitoring, decision making and input management."
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 219.625,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 150.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of  fuel",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -240.63157894736844,
+                     "percentageDifference": -59.76470588235294,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The decrease in fuel costs is mainly attributable to the use of RTK-guided steering and machinery monitoring enabled by the FMIS. These technologies improved route accuracy, reduced overlaps and unnecessary passes, and significantly lowered idle time, resulting in more efficient fuel use. "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of pesticide ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -1402.5,
+                     "percentageDifference": -86.97674418604652,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The FMIS enabled more targeted and timely pesticide applications, reducing unnecessary treatments and overall pesticide costs "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for pesticide",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -14.799473684210533,
+                     "percentageDifference": -30.333333333333343,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The implementation of digital technologies significantly reduced the time and labour required for the application of pesticides. By enabling more precise and efficient applications, the system streamlined operations and minimized manual intervention "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for field visits ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -52.692631578947356,
+                     "percentageDifference": -41.53846153846153,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATSs reduced the need for frequent field visits. Since operations and input applications could be remotely tracked and analyzed through dashboards, farm managers gained better visibility without having to be physically present in the field "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -51.22894736842105,
+                     "percentageDifference": -52.49999999999999,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "DATSs support data collection, management, and use, making production more transparent and simplifying administrative practices "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 1542.2276315789475,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The overall balance is positive, thanks to savings on inputs and labour "
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "cultivationYear": 2026,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "parcelInformation": {
+                     "productType": "grapes"
+                  }
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -2259.0,
+                     "percentageDifference": -8.0
+                  },
+                  {
+                     "indicatorName": "pesticides, herbicides and fungicides use",
+                     "indicatorUnit": "kg/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -16.0
+                  },
+                  {
+                     "indicatorName": "Arable and horticulture fuel consumption ",
+                     "indicatorUnit": "l/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -60.0
+                  },
+                  {
+                     "indicatorName": "GHG emissions",
+                     "indicatorUnit": "kg CO2 eq/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -55.0
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -67.0
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 4.0
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 32.75
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 67.0
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 8.0,
+                     "aggregatedImpactMaxRangeValue": 8.0
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 16.0,
+                     "aggregatedImpactMaxRangeValue": 16.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 60.0,
+                     "aggregatedImpactMaxRangeValue": 60.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 55.0,
+                     "aggregatedImpactMaxRangeValue": 55.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 67.0,
+                     "aggregatedImpactMaxRangeValue": 67.0
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -2259.0,
+                     "percentageDifference": -8.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "REDUCED COSTS",
+                     "mainImpactSubtitle": "due to reduced time spent on activities such as monitoring, decision making and input management"
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 1778.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT",
+                     "mainImpactSubtitle": "due to savings on inputs and laboUr"
+                  },
+                  {
+                     "mainImpactName": "PAYBACK PERIOD",
+                     "mainImpactUnit": "years (n)",
+                     "absoluteDifference": 0.1,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "VERY SHORT PBP",
+                     "mainImpactSubtitle": "indicating that the investment is recovered rapidly"
+                  },
+                  {
+                     "mainImpactName": "NPV 5 years",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 7469.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "POSITIVE NPV",
+                     "mainImpactSubtitle": "indicating that the investment generates substantial value over the assessed period"
+                  },
+                  {
+                     "mainImpactName": "ROI",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": 100.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "ROI > 100%",
+                     "mainImpactSubtitle": "indicating that the investment generates returns significantly higher than its cost"
+                  },
+                  {
+                     "mainImpactName": "pesticides, herbicides and fungicides use",
+                     "mainImpactUnit": "kg/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -16.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "DECREASED PESTICIDES CONSUMPTION",
+                     "mainImpactSubtitle": "thanks to more targeted and need-based applications"
+                  },
+                  {
+                     "mainImpactName": "Arable and horticulture fuel consumption ",
+                     "mainImpactUnit": "l/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -60.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "DECREASED FUEL CONSUMPTION",
+                     "mainImpactSubtitle": "due to sensors installed on machinery and intuitive dashboards, it is possible to optimize the use of machinery, saving on costs, time and fuel"
+                  },
+                  {
+                     "mainImpactName": "Working time",
+                     "mainImpactUnit": "h/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -67.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "DECREASED WORKING TIME",
+                     "mainImpactSubtitle": "due to improved work efficiency, reduced time spent on activities such as monitoring, decision making and input management."
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 220.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 150.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of  fuel",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -513.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Thanks to RTK systems, sensors installed on machinery, and intuitive dashboards, the farmer can optimize machinery use, saving on costs, time, and fuel"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of pesticide ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -654.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The implementation of precision technologies allowed for more accurate and efficient application of inputs, including pesticides. "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for pesticide",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -301.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The implementation of digital technologies significantly reduced the time and labour required for the distribution of agronomic inputs such as water, fertilizers, and pesticides. "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for field visits ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -748.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Since operations and input applications could be remotely tracked and analyzed through dashboards, farm managers gained better visibility without having to be physically present in the field "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -43.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "DATSs support data collection, management, and use, making production more transparent and simplifying administrative practices "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 1778.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The overall balance is positive, thanks to savings on inputs and labour "
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

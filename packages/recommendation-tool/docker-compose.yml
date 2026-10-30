@@ -1,0 +1,37 @@
+services:
+  recommendation-tool:
+    container_name: recommendation-tool
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      - SPARQL_QUERY_ENDPOINT=${SPARQL_QUERY_ENDPOINT}
+      - REFRESH_TOKEN=${REFRESH_TOKEN}
+      - PORT=8000
+    restart: unless-stopped
+    ports:
+      - "${PORT}:8000"
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+          cpus: "1.0"
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+    networks:
+      - quantifarm-network
+
+networks:
+  quantifarm-network:
+    name: quantifarm-network
+    external: true

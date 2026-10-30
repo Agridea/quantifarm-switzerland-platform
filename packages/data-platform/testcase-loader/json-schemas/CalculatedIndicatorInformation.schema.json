@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/CalculatedIndicatorInformation.schema.json",
+  "title": "QuantiFarm aggregated indicator calculation for the performance of a DATS on a parcel",
+  "description": "Indicator that indicates how well the DATS performed in the specific year",
+  "type": "object",
+  "properties": {
+    "indicatorName": {
+      "description": "The name of the indicator",
+      "type": "string"
+    },
+    "indicatorUnit": {
+      "description": "The unit of the indicator",
+      "type": "string"
+    },
+    "absoluteDifference": {
+      "description": "The absolute difference of the indicator between using the DATS and not using the DATS",
+      "type": "number"
+    },
+    "percentageDifference": {
+      "description": "The percentage difference of the indicator between using the DATS and not using the DATS",
+      "type": "number"
+    }
+  },
+  "required": [ "indicatorName", "indicatorUnit", "absoluteDifference", "percentageDifference"]
+}

@@ -1,0 +1,11 @@
+# CODEOWNERS
+/packages/recommendation-tool/localisation/sch @Agridea
+/packages/benchmarking-tool/localisation/sch @Agridea
+/packages/qcsm/localisation/sch @Agridea
+/packages/advanced-decision-support-tool/localisation/sch @Agridea
+/packages/assessment-tool/localisation/sch @Agridea
+/packages/cost-benefit-calculator-v1/localisation/sch @Agridea
+/packages/cost-benefit-calculator-v2/localisation/sch @Agridea
+/packages/data-platform/localisation/sch @Agridea
+/packages/toolkit-dashboard/localisation/sch @Agridea
+/packages/saref4agri/localisation/sch @Agridea

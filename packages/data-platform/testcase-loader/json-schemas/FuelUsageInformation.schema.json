@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/FuelUsageInformation.schema.json",
+  "title": "QuantiFarm fuel usage information",
+  "description": "Information about the usage of fuel during the cultivation in the specific year",
+  "type": "object",
+  "properties": {
+    "fuelUsageForFertilisation": {
+      "description": "The amount of fuel used for fertilisation in liters per hectare in the specific year of the cultivation",
+      "type": "number"
+    },
+    "fuelUsageForPesticides": {
+      "description": "The amount of fuel used for pesticides in liters per hectare in the specific year of the cultivation",
+      "type": "number"
+    },
+    "fuelUsageForIrrigation": {
+      "description": "The amount of fuel used for irrigation in liters per hectare in the specific year of the cultivation",
+      "type": "number"
+    },
+    "fuelUsageForSowing": {
+      "description": "The amount of fuel used for sowing or planting in liters per hectare in the specific year of the cultivation",
+      "type": "number"
+    },
+    "fuelUsageForTemperatureHumidityControl": {
+      "description": "The amount of fuel used for temperature and humidity control in liters per hectare in the specific year of the cultivation",
+      "type": "number"
+    },
+    "fuelUsageForPruning": {
+      "description": "The amount of fuel used for pruning in liters per hectare in the specific year of the cultivation",
+      "type": "number"
+    },
+    "fuelUsageForBeehivesVisits": {
+      "description": "The amount of fuel used for beehives visits in liters per hectare in the specific year of the cultivation",
+      "type": "number"
+    },
+    "fuelUsageForTransportingOysters": {
+      "description": "The amount of fuel used for transporting oysters to the laboratory in liters per hectare in the specific year of the cultivation",
+      "type": "number"
+    },
+    "fuelUsageForMilking": {
+      "description": "The amount of fuel used for milking in liters per hectare in the specific year of the cultivation",
+      "type": "number"
+    },
+    "fuelUsageForFeeding": {
+      "description": "The amount of fuel used for feeding in liters per hectare in the specific year of the cultivation",
+      "type": "number"
+    },
+    "totalFuelUsage": {
+      "description": "The total amount of fuel used in liters per hectare in the specific year of the cultivation",
+      "type": "number"
+    }
+  },
+  "required": [ "totalFuelUsage"]
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>QuantiFarm - Admin Users</title>
+
+    <link href="assets/img/QuantiFarm-element-60x60.png" rel="icon" sizes="32x32">
+    <link href="assets/img/QuantiFarm-element-60x60.png" rel="apple-touch-icon">
+
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/digiagrifood-theme.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center notranslate">
+        <div class="d-flex align-items-center justify-content-start">
+            <a href="index.html" class="logo d-flex align-items-center">
+                <span>Toolkit</span>
+            </a>
+            <i class="bi bi-list toggle-sidebar-btn"></i>
+        </div>
+
+        <nav class="header-nav ms-auto h-100">
+            <ul class="d-flex align-items-center h-100">
+                <li class="nav-item dropdown pe-2 pt-3 h-100" id="mnuLogin">
+                    <a class="nav-link d-flex align-items-center text-primary px-4" href="login.html?url=admin-users.html">
+                        <i class="ri-login-box-line" style="font-size: 26px"></i>
+                        <span>Login</span>
+                    </a>
+                </li>
+                <li class="nav-item pe-2 h-100" id="mnuUser" hidden>
+                    <a class="nav-link d-flex align-items-center text-primary px-4" href="#" data-bs-toggle="dropdown">
+                        <i class="bi bi-gear" style="font-size: 26px"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                        <li class="dropdown-header"><h6 id="mnuUserName"></h6></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item d-flex align-items-center" href="profile.html"><i class="bi bi-person"></i><span>My Profile</span></a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item d-flex align-items-center" href="php/api.php?c=out"><i class="bi bi-box-arrow-right"></i><span>Log out</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header><!-- End Header -->
+
+    <!-- ======= Sidebar ======= -->
+    <aside id="sidebar" class="sidebar">
+        <ul class="sidebar-nav" id="sidebar-nav"></ul>
+    </aside><!-- End Sidebar-->
+
+    <main id="main" class="main">
+
+        <div class="pagetitle">
+            <h1>Admin Users</h1>
+        </div>
+
+        <div id="divNotSuperAdmin" class="alert alert-danger" hidden>
+            This page is only available to the super-admin account.
+        </div>
+
+        <section class="section" id="divSuperAdmin" hidden>
+
+            <div class="alert alert-danger" id="divErr" hidden></div>
+            <div class="alert alert-success" id="divOk" hidden></div>
+
+            <table class="table table-striped">
+                <thead><tr><th>Name</th><th>Email</th><th>Registered on</th><th>Validated</th><th>Admin</th><th></th></tr></thead>
+                <tbody id="tblUsers"></tbody>
+            </table>
+
+        </section>
+
+    </main><!-- End #main -->
+
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="js/uistrings.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/adminusers.js"></script>
+</body>
+
+</html>

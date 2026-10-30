@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendation Tool – Herkunft der Farm-Types</title>
+    <style>
+        :root {
+            --bg: #ffffff;
+            --text: #1a1a2e;
+            --heading: #16213e;
+            --accent: #0f3460;
+            --border: #d0d7de;
+            --code-bg: #f6f8fa;
+            --pre-bg: #1e1e2e;
+            --pre-text: #cdd6f4;
+            --link: #0969da;
+            --subtle: #57606a;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            color: var(--text);
+            background: var(--bg);
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+        h1 { font-size: 2rem; color: var(--heading); margin-bottom: 0.5rem; border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; }
+        h2 { font-size: 1.5rem; color: var(--accent); margin: 2rem 0 0.75rem; }
+        p, li { margin-bottom: 0.5rem; }
+        ul { padding-left: 1.5rem; margin-bottom: 1rem; }
+        ol { padding-left: 1.5rem; margin-bottom: 1rem; }
+        code {
+            font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+            background: var(--code-bg);
+            padding: 0.15em 0.4em;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+        pre {
+            background: var(--pre-bg);
+            color: var(--pre-text);
+            padding: 1rem 1.25rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            margin: 1rem 0;
+            font-size: 0.85rem;
+            line-height: 1.5;
+        }
+        pre code { background: none; padding: 0; font-size: inherit; color: inherit; }
+        strong { color: var(--heading); }
+        hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+        a { color: var(--link); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+<h1>Recommendation Tool – Herkunft der Farm-Types</h1>
+
+<h2>Übersicht</h2>
+<p>Die Farm-Types im Recommendation Tool kommen aus <strong>zwei fest codierten Quellen</strong> (nicht dynamisch aus dem Triple Store).</p>
+
+<hr>
+
+<h2>1. Anzeige-Liste (<code>src/app.py</code>)</h2>
+<p>Der <code>/profile_entries/</code> Endpoint gibt eine hardcodierte Liste zurück, die im Frontend zur Auswahl angezeigt wird:</p>
+<ul>
+    <li><code>Arable farm</code></li>
+    <li><code>Dairy farm</code></li>
+    <li><code>Fruit farm</code></li>
+    <li><code>Egg farm</code></li>
+    <li><code>Arboriculture farm</code></li>
+    <li><code>Meat production</code></li>
+    <li><code>Flower farm</code></li>
+    <li><code>Other</code></li>
+</ul>
+
+<hr>
+
+<h2>2. Synonym-Mapping (<code>data/literals-mapping.json</code>)</h2>
+<p>Dieses File mappt jeden Farm-Type auf eine Liste synonymer Begriffe, wie sie in den DAT-Daten im Triple Store vorkommen können. Beispiel:</p>
+
+<pre><code>"farm_type": {
+    "Dairy farm": ["All agricultural sectors", "all", "Dairy (cattle, sheep, goats)", "cattle", "dairy cow", "Dairy"],
+    "Arable farm": ["All agricultural sectors", "all", "Vegetables", "Arable farming", "Arable", "arable", ...],
+    ...
+}</code></pre>
+
+<hr>
+
+<h2>Datenfluss</h2>
+<ol>
+    <li>Nutzer wählt einen Farm-Type aus der Liste im Frontend.</li>
+    <li>Das Mapping in <code>literals-mapping.json</code> expandiert den gewählten Wert auf alle synonymen Begriffe.</li>
+    <li><code>src/querybuilder.py</code> nutzt diese Synonyme, um passende DATs im Triple Store zu finden (Property: <code>saref4agri-new/hasFarmType</code>).</li>
+</ol>
+
+<hr>
+
+<h2>Status (Stand: April 2026)</h2>
+<p>Die Farm-Types sind in <code>main</code> und <code>dev</code> <strong>identisch</strong>.</p>
+
+</body>
+</html>

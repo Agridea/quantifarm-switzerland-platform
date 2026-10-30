@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/AggregatedImpactInformation.schema.json",
+  "title": "QuantiFarm aggregated impact parameter for the performance of a DATS on a parcel",
+  "description": "Aggregated impact parameter that indicates how well the DATS performed in the specific year",
+  "type": "object",
+  "properties": {
+    "aggregatedImpactName": {
+      "description": "The name of the aggregated impact parameter",
+      "type": "string"
+    },
+    "aggregatedImpactUnit": {
+      "description": "The unit of the aggregated impact parameter",
+      "type": "string"
+    },
+    "aggregatedImpactValue": {
+      "description": "The value of the aggregated impact parameter",
+      "type": "number"
+    },
+    "aggregatedImpactMaxRangeValue": {
+      "description": "The max range value of the aggregated impact parameter",
+      "type": "number"
+    }
+  },
+  "required": [ "aggregatedImpactName", "aggregatedImpactUnit", "aggregatedImpactValue", "aggregatedImpactMaxRangeValue"]
+}

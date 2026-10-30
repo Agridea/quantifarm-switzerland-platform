@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>QuantiFarm</title>
+
+    <link href="assets/img/QuantiFarm-element-60x60.png" rel="icon" sizes="32x32">
+    <link href="assets/img/QuantiFarm-element-60x60.png" rel="apple-touch-icon">
+
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Sofia+Sans:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/digiagrifood-theme.css" rel="stylesheet">
+
+    <style>
+        .tool-card {
+            border: 5px solid rgba(var(--bs-success-rgb), 0.6);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            color: inherit;
+            display: block;
+            text-decoration: none;
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, border-color 0.2s ease-in-out;
+        }
+
+        .tool-card:hover,
+        .tool-card:focus {
+            border-color: rgba(var(--bs-success-rgb), 1);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            color: inherit;
+            transform: translateY(-4px);
+        }
+
+        #lngTabsContent .tab-pane {
+            max-width: 1200px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <main classx="d-flex justify-content-center">
+        <div class="tab-content d-flex justify-content-center" id="lngTabsContent">
+            <div class="tab-pane fade active show" id="lngTabEN" role="tabpanel" aria-labelledby="lngBtnEN">
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-2 mt-2">
+                    <div class="col">
+                        <a class="card tool-card mb-0 p-1 h-100" href="tool1.html" target="_blank" rel="noopener">
+                            <div class="card-body pt-1">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-list-stars text-primary me-3" style="font-size: 32px;"></i>
+                                    <h3 class="fw-bold text-primary fs-3 mb-0">Recommendation Tool</h3>
+                                </div>
+                                <p>Interactive tool that allows farmers and advisors to request a recommendation for one or more DATSs given farm characteristics, required DATS parameter values and desired recommendation criteria.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col">
+                        <a class="card tool-card mb-0 p-1 h-100" href="tool2.html" target="_blank" rel="noopener">
+                            <div class="card-body pt-1">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-calculator-fill text-primary me-3" style="font-size: 32px;"></i>
+                                    <h3 class="fw-bold text-primary fs-3 mb-0">Cost-Benefit Tool</h3>
+                                </div>
+                                <p>This tool is designed to assist farmers and agricultural advisors in analysing the financial implications and potential benefits of integrating various DATSs into their farming operations.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="lngTabDE" role="tabpanel" aria-labelledby="lngBtnDE"></div>
+            <div class="tab-pane fade" id="lngTabFR" role="tabpanel" aria-labelledby="lngBtnFR"></div>
+            <div class="tab-pane fade" id="lngTabIT" role="tabpanel" aria-labelledby="lngBtnIT"></div>
+        </div>
+    </main>
+
+    <div hidden>
+        <ul class="nav nav-pills" id="lngTabs" role="tablist">
+            <li class="nav-item" role="presentation"><button class="nav-link active" id="lngBtnEN" data-bs-toggle="tab" data-bs-target="#lngTabEN" type="button" role="tab" aria-controls="lngTabEN" aria-selected="true">EN</button></li>
+            <li class="nav-item" role="presentation"><button class="nav-link" id="lngBtnDE" data-bs-toggle="tab" data-bs-target="#lngTabDE" type="button" role="tab" aria-controls="lngTabDE" aria-selected="false" onclick="LoadLanguageContent('DE')">DE</button></li>
+            <li class="nav-item" role="presentation"><button class="nav-link" id="lngBtnFR" data-bs-toggle="tab" data-bs-target="#lngTabFR" type="button" role="tab" aria-controls="lngTabFR" aria-selected="false" onclick="LoadLanguageContent('FR')">FR</button></li>
+            <li class="nav-item" role="presentation"><button class="nav-link" id="lngBtnIT" data-bs-toggle="tab" data-bs-target="#lngTabIT" type="button" role="tab" aria-controls="lngTabIT" aria-selected="false" onclick="LoadLanguageContent('IT')">IT</button></li>
+        </ul>
+    </div>
+
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

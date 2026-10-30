@@ -1,0 +1,1065 @@
+{
+   "testcaseNumber": 30,
+   "testcaseLeader": "Benco",
+   "cultivationType": "Oyster",
+   "datsInformation": [
+      {
+         "datsName": "BENCO",
+         "datsInitialInvestmentCosts": 0,
+         "datsAnnualFees": 0,
+         "datsMaintenanceCosts": 500,
+         "datsExpectedLifespan": 25,
+         "datsInstallationTime": 2,
+         "datsTrainingTime": 3,
+         "datsTrainers": 1,
+         "datsTrainingCosts": 300
+      }
+   ],
+   "yearlyAssessmentInformation": [
+      {
+         "cultivationYear": 2023,
+         "parcelComparison": [],
+         "marketInformation": {
+            "waterPrice": null,
+            "fuelPrice": null,
+            "electricityPrice": null,
+            "averageSalary": null,
+            "averageProfessionalSalary": null
+         }
+      },
+      {
+         "cultivationYear": 2024,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "farmInformation": {
+                     "farmNumber": 30,
+                     "biogeographicalRegion": "Mediterranean",
+                     "totalFarmSize": 4
+                  },
+                  "parcelInformation": {
+                     "parcelName": "1",
+                     "parcelDimension": 0.5,
+                     "startMonth": 1,
+                     "endMonth": 9,
+                     "productType": "Oyster",
+                     "numberOfEmployees": 1,
+                     "numberOfFulltimeEmployees": 1,
+                     "numberOfSeasonalEmployees": 0,
+                     "soilFractionSand": null,
+                     "soilFractionClay": null,
+                     "soilFractionSilt": null,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": null,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": 5000
+                  },
+                  "datsUsed": [
+                     "BENCO"
+                  ],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": null,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 110,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": 0,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": 0
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": null,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [],
+                  "fertilizersUsageInformation": [],
+                  "feedUsageInformation": [
+                     {
+                        "productName": "N/A",
+                        "quantity": 0,
+                        "productPrice": 0
+                     }
+                  ],
+                  "drugsUsageInformation": [
+                     {
+                        "productName": "N/A",
+                        "quantity": 0,
+                        "productPrice": 0
+                     }
+                  ],
+                  "labourInformation": {
+                     "labourForIrrigation": null,
+                     "labourForPesticides": null,
+                     "labourForFertilisation": null,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": null,
+                     "labourForFieldVisits": 0,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": 1,
+                     "labourForOysterTransportation": 0,
+                     "labourForHarvesting": 3,
+                     "labourForStorage": 10,
+                     "labourForAdministration": 0.5
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": null,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": 65000,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": null,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": 2,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": 5000,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 4,
+                     "totalNumberOfLostWorkingHours": 64,
+                     "totalNumberOfWorkingHours": 2000,
+                     "numberOfWorkingWeeks": 50,
+                     "numberOfNewLocalEmployeesHired": 0,
+                     "numberOfNewEmployeesHired": 0
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "parcelAssessmentWithoutDATS": {
+                  "farmInformation": {
+                     "farmNumber": 30,
+                     "biogeographicalRegion": "Mediterranean",
+                     "totalFarmSize": 4
+                  },
+                  "parcelInformation": {
+                     "parcelName": "2",
+                     "parcelDimension": 0.5,
+                     "startMonth": 1,
+                     "endMonth": 9,
+                     "productType": "Oyster",
+                     "numberOfEmployees": 1,
+                     "numberOfFulltimeEmployees": 1,
+                     "numberOfSeasonalEmployees": 0,
+                     "soilFractionSand": null,
+                     "soilFractionClay": null,
+                     "soilFractionSilt": null,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": null,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": 5000
+                  },
+                  "datsUsed": [],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": null,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 120,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": 20,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": 0
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": null,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [],
+                  "fertilizersUsageInformation": [],
+                  "feedUsageInformation": [
+                     {
+                        "productName": "N/A",
+                        "quantity": 0,
+                        "productPrice": 0
+                     }
+                  ],
+                  "drugsUsageInformation": [
+                     {
+                        "productName": "N/A",
+                        "quantity": 0,
+                        "productPrice": 0
+                     }
+                  ],
+                  "labourInformation": {
+                     "labourForIrrigation": null,
+                     "labourForPesticides": null,
+                     "labourForFertilisation": null,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": null,
+                     "labourForFieldVisits": 0,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": 1,
+                     "labourForOysterTransportation": 2,
+                     "labourForHarvesting": 3,
+                     "labourForStorage": 10,
+                     "labourForAdministration": 0.5
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": null,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": 40000,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": null,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": 2,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": 15000,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 4,
+                     "totalNumberOfLostWorkingHours": 64,
+                     "totalNumberOfWorkingHours": 2000,
+                     "numberOfWorkingWeeks": 50,
+                     "numberOfNewLocalEmployeesHired": 0,
+                     "numberOfNewEmployeesHired": 0
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Cost of  fuel",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -28.600000000000023,
+                     "percentageDifference": -8.333333333333341
+                  },
+                  {
+                     "indicatorName": "Labour for transporting oysters to the laboratory  ",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -50.0,
+                     "percentageDifference": -100.0
+                  },
+                  {
+                     "indicatorName": "Labour productivity  (aquaculture)",
+                     "indicatorUnit": "pieces/h",
+                     "absoluteDifference": 2058.516196447231,
+                     "percentageDifference": 84.91379310344827
+                  },
+                  {
+                     "indicatorName": "Oyster productivity",
+                     "indicatorUnit": "number of oysters/m2",
+                     "absoluteDifference": 5.0,
+                     "percentageDifference": 62.5
+                  },
+                  {
+                     "indicatorName": "Mortality rate (aquaculture)",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": -2.0,
+                     "percentageDifference": -66.66666666666667
+                  },
+                  {
+                     "indicatorName": "Fuel GHG emission ",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": -53.2038,
+                     "percentageDifference": -8.333333333333334
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/ha",
+                     "absoluteDifference": -4.0,
+                     "percentageDifference": -100.0
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 42.05392465537775
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 2.0833333333333335
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 100.0
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 10.400952759031364,
+                     "aggregatedImpactMaxRangeValue": 10.400952759031364
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 73.70689655172413,
+                     "aggregatedImpactMaxRangeValue": 73.70689655172413
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 8.333333333333334,
+                     "aggregatedImpactMaxRangeValue": 8.333333333333334
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 100.0,
+                     "aggregatedImpactMaxRangeValue": 100.0
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Cost of  fuel",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -28.600000000000023,
+                     "percentageDifference": -8.333333333333341,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED FUEL CONSUMPTION",
+                     "mainImpactSubtitle": "due to streamlined operations, reduced transport and improved overall efficiency in oyster farming. "
+                  },
+                  {
+                     "mainImpactName": "Oyster revenue",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 100000.0,
+                     "percentageDifference": 62.5,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "INCREASED REVENUES",
+                     "mainImpactSubtitle": "due to the increased production capacity of aquaculture systems."
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 98472.6,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT ",
+                     "mainImpactSubtitle": "due to the increased productivity of the compared systems. "
+                  },
+                  {
+                     "mainImpactName": "PAYBACK PERIOD",
+                     "mainImpactUnit": "years (n)",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "PAYBACK PERIOD NOT CALCULATED",
+                     "mainImpactSubtitle": "the initial investment for the DATSs is zero"
+                  },
+                  {
+                     "mainImpactName": "Mortality rate (aquaculture)",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": -2.0,
+                     "percentageDifference": -66.66666666666667,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED OF MORTALITY RATE ",
+                     "mainImpactSubtitle": "due to the easier and accurate monitoring of oysters "
+                  },
+                  {
+                     "mainImpactName": "Fuel GHG emission ",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": -53.2038,
+                     "percentageDifference": -8.333333333333334,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED GHG EMISSIONS ",
+                     "mainImpactSubtitle": "due to a lower consuption of fuel "
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 1606.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of  fuel",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -28.600000000000023,
+                     "percentageDifference": -8.333333333333341,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of fuel: The DATS could lead to a decrease in fuel consumption by streamlining operations, reducing transportation, and improving overall efficiency in oyster farming "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for transporting oysters to the laboratory  ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -50.0,
+                     "percentageDifference": -100.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for transporting oysters to the laboratory: The DATS allows to avoid frequent transportation of oysters to the laboratory "
+                  },
+                  {
+                     "costRevenueImpactCategory": "OUTPUT",
+                     "costRevenueImpactName": "Oyster revenue",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 100000.0,
+                     "percentageDifference": 62.5,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Revenues: Although there are many factors that can affect productivity, the DATR can also increase the production capacity of aquaculture systems "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 98472.6,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Net Benefit: Even considering the cost of the DATS, there is a great net benefit, primarily resulting from the increased productivity of the compared systems "
+                  }
+               ]
+            }
+         ],
+         "marketInformation": {
+            "waterPrice": null,
+            "fuelPrice": 1.43,
+            "electricityPrice": null,
+            "averageSalary": 12.5,
+            "averageProfessionalSalary": 15
+         }
+      },
+      {
+         "cultivationYear": 2025,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "parcelInformation": {
+                     "productType": "Oyster"
+                  }
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -184.0,
+                     "percentageDifference": -19.934994582881906
+                  },
+                  {
+                     "indicatorName": "Labour productivity  (aquaculture)",
+                     "indicatorUnit": "pieces/h",
+                     "absoluteDifference": 3079.9220272904486,
+                     "percentageDifference": 146.2962962962963
+                  },
+                  {
+                     "indicatorName": "Oyster productivity",
+                     "indicatorUnit": "number of oysters/m2",
+                     "absoluteDifference": 6.0,
+                     "percentageDifference": 75.0
+                  },
+                  {
+                     "indicatorName": "Mortality rate (aquaculture)",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": -0.8,
+                     "percentageDifference": -40.0
+                  },
+                  {
+                     "indicatorName": "Fuel GHG emission ",
+                     "indicatorUnit": "kg CO2 eq/ha",
+                     "absoluteDifference": -159.6114,
+                     "percentageDifference": -18.75
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/ha",
+                     "absoluteDifference": -8.0,
+                     "percentageDifference": -80.0
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 65.29157136551503
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 4.6875
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 80.0
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 19.934994582881906,
+                     "aggregatedImpactMaxRangeValue": 19.934994582881906
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 110.64814814814815,
+                     "aggregatedImpactMaxRangeValue": 100.0
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 18.75,
+                     "aggregatedImpactMaxRangeValue": 18.75
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 80.0,
+                     "aggregatedImpactMaxRangeValue": 80.0
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Cost of  fuel",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -84.0,
+                     "percentageDifference": -18.75,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED FUEL CONSUMPTION",
+                     "mainImpactSubtitle": "due to streamlined operations, reduced transport and improved overall efficiency in oyster farming. "
+                  },
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -184.0,
+                     "percentageDifference": -19.934994582881906,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "COST SAVED",
+                     "mainImpactSubtitle": "due to more efficient hive management"
+                  },
+                  {
+                     "mainImpactName": "Oyster revenue",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 120000.0,
+                     "percentageDifference": 75.0,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "INCREASED REVENUES",
+                     "mainImpactSubtitle": "due to the increased production capacity of aquaculture systems."
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 118584.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT ",
+                     "mainImpactSubtitle": "due to the increased productivity of the compared systems. "
+                  },
+                  {
+                     "mainImpactName": "Labour productivity  (aquaculture)",
+                     "mainImpactUnit": "pieces/h",
+                     "absoluteDifference": 3079.9220272904486,
+                     "percentageDifference": 146.2962962962963,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "INCREASED LABOUR PRODUCTIVITY",
+                     "mainImpactSubtitle": "thanks to the reduction of time needed for sampling and analysing the growth and quality of oysters"
+                  },
+                  {
+                     "mainImpactName": "Oyster productivity",
+                     "mainImpactUnit": "number of oysters/m2",
+                     "absoluteDifference": 6.0,
+                     "percentageDifference": 75.0,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "INCREASED OYSTER PRODUCTIVITY",
+                     "mainImpactSubtitle": "Although there are many factors that can affect productivity, the DATS can also increase the production capacity of aquaculture systems"
+                  },
+                  {
+                     "mainImpactName": "Mortality rate (aquaculture)",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": -0.8,
+                     "percentageDifference": -40.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECREASED OF MORTALITY RATE ",
+                     "mainImpactSubtitle": "due to the easier and accurate monitoring of oysters "
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 1600.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of  fuel",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -84.0,
+                     "percentageDifference": -18.75,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATS could lead to a decrease in fuel consumption by streamlining operations, reducing transportation, and improving overall efficiency in oyster farming "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for sampling of oysters ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -12.5,
+                     "percentageDifference": -50.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATS reduces sampling costs by enabling rapid on-site quality assessment, decreasing the need for repeated manual sampling and laboratory procedures "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for transporting oysters to the laboratory  ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -50.0,
+                     "percentageDifference": -100.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATS allows to avoid frequent transportation of oysters to the laboratory "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -37.5,
+                     "percentageDifference": -75.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": ""
+                  },
+                  {
+                     "costRevenueImpactCategory": "OUTPUT",
+                     "costRevenueImpactName": "Oyster revenue",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 120000.0,
+                     "percentageDifference": 75.0,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Although there are many factors that can affect productivity, the DATR can also increase the production capacity of aquaculture systems "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 118584.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The net benefit increased mainly due to higher production and revenues, while also being supported by minor savings in operating costs enabled by the DATS "
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "cultivationYear": 2026,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "parcelInformation": {
+                     "productType": "Oyster"
+                  }
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -107.0,
+                     "percentageDifference": -15.0
+                  },
+                  {
+                     "indicatorName": "Labour productivity  (aquaculture)",
+                     "indicatorUnit": "pieces/h",
+                     "absoluteDifference": null,
+                     "percentageDifference": 83.0
+                  },
+                  {
+                     "indicatorName": "Mortality rate (aquaculture)",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": null,
+                     "percentageDifference": -40.0
+                  },
+                  {
+                     "indicatorName": "GHG emissions",
+                     "indicatorUnit": "kg CO2 eq/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -13.0
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -80.0
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 49.0
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 3.25
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 80.0
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 15.0,
+                     "aggregatedImpactMaxRangeValue": 15.0
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 83.0,
+                     "aggregatedImpactMaxRangeValue": 83.0
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 13.0,
+                     "aggregatedImpactMaxRangeValue": 13.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 80.0,
+                     "aggregatedImpactMaxRangeValue": 80.0
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -107.0,
+                     "percentageDifference": -15.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "REDUCED COSTS",
+                     "mainImpactSubtitle": "thanks to better oysters monitoring"
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 81019.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT ",
+                     "mainImpactSubtitle": "due to the increased productivity"
+                  },
+                  {
+                     "mainImpactName": "NPV 5 years",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 346652.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "POSITIVE NPV",
+                     "mainImpactSubtitle": "indicating that the investment generates substantial value over the assessed period"
+                  },
+                  {
+                     "mainImpactName": "Labour productivity  (aquaculture)",
+                     "mainImpactUnit": "pieces/h",
+                     "absoluteDifference": null,
+                     "percentageDifference": 83.0,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "HIGHER OYSTERS PRODUCTIVITY",
+                     "mainImpactSubtitle": "thanks to the better monitoring offered by the DATS "
+                  },
+                  {
+                     "mainImpactName": "Mortality rate (aquaculture)",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": null,
+                     "percentageDifference": -40.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "DECREASED OF MORTALITY RATE ",
+                     "mainImpactSubtitle": "due to the easier and accurate monitoring of oysters health"
+                  },
+                  {
+                     "mainImpactName": "Working time",
+                     "mainImpactUnit": "h/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -80.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "REDUCED WORKING TIME",
+                     "mainImpactSubtitle": "the system significantly reduceS the time spent on manual sampling, laboratory visits, and administrative tasks"
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 1600.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of  fuel",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -57.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATS could lead to a decrease in fuel consumption by streamlining operations, reducing transportation, and improving overall efficiency in oyster farming "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for transporting oysters to the laboratory  ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -50.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATS allows to avoid frequent transportation of oysters to the laboratory "
+                  },
+                  {
+                     "costRevenueImpactCategory": "OUTPUT",
+                     "costRevenueImpactName": "Oyster revenue",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 83333.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Although there are many factors that can affect productivity, the DATS can increase the production capacity of aquaculture systems "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 81019.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Even considering the cost of the DATS, there is a great net benefit, primarily resulting from the increased productivity "
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

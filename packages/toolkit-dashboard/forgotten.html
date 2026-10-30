@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>QuantiFarm Toolkit - Forgotten</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XH06Z9BF5S"></script>
+    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-XH06Z9BF5S');</script>
+
+    <!-- Favicons -->
+    <link href="assets/img/QuantiFarm-element-60x60.png" rel="icon" sizes="32x32">
+    <link href="assets/img/QuantiFarm-element-60x60.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Sofia+Sans:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- DigiAgriFoodCH Theme -->
+    <link href="assets/css/digiagrifood-theme.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+
+            <section class="section register min-vh-100 d-flex flex-column align-items-center justify-content-start pt-5">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
+
+                            <div class="d-flex justify-content-center py-4">
+                                <a href="index.html" class="logo d-flex align-items-center w-auto">
+                                    <span class="d-none d-lg-block">Toolkit</span>
+                                </a>
+                            </div><!-- End Logo -->
+
+                            <div class="card mb-3">
+
+                                <div class="card-body">
+
+                                    <div class="pt-2 pb-2">
+                                        <h5 class="card-title text-center pb-0 fs-4" id="fgtCardTitle">Forgotten password</h5>
+                                        <p class="text-center small" id="fgtCardSubtitle">Enter your email you use to log in</p>
+                                    </div>
+
+                                    <form id="formMain" class="row g-3 needs-validation" novalidate onsubmit="return false;">
+
+                                        <div class="col-12">
+                                            <div class="form-floating">
+                                                <input type="text" name="email" class="form-control" id="yourEmail" placeholder="Email" required>
+                                                <label for="yourEmail" id="fgtEmailLabel">Email</label>
+                                                <div class="invalid-feedback" id="fgtEmailInvalid">Please enter a valid Email address!</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <p class="text-center small" id="fgtHint">You will receive an email with new password. Check your spam folder as well.</p>
+                                        </div>
+
+                                        <div class="col-12 text-end">
+                                            <button class="btn btn-primary" type="submit" id="btnSubmit" onclick="Forgotten()"><span id="fgtBtnSend">Send</span></button>
+                                            <a class="btn btn-secondary" href="index.html" id="fgtBtnBack">Back</a>
+                                        </div>
+                                        <div class="col-12" id="divErr">
+                                        </div>
+                                        <div class="col-12">
+                                            <p class="small mb-0"><span id="fgtHasAccount">Already have an account? </span><a href="login.html" id="fgtLoginLink">Log in</a></p>
+                                            <p class="small mb-0"><span id="fgtNoAccount">Don't have account? </span><a href="register.html" id="fgtCreateAccount">Create an account</a></p>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+    </main><!-- End #main -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Hidden language tab infrastructure -->
+    <div hidden>
+        <ul class="nav nav-pills" id="lngTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="lngBtnEN" data-bs-toggle="tab" data-bs-target="#lngTabEN" type="button" role="tab" aria-controls="lngTabEN" aria-selected="false" tabindex="-1" title="EN" onclick="LoadLanguageContent('EN', ApplyForgottenTranslations)"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="lngBtnDE" data-bs-toggle="tab" data-bs-target="#lngTabDE" type="button" role="tab" aria-controls="lngTabDE" aria-selected="true" title="DE" onclick="LoadLanguageContent('DE', ApplyForgottenTranslations)"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="lngBtnFR" data-bs-toggle="tab" data-bs-target="#lngTabFR" type="button" role="tab" aria-controls="lngTabFR" aria-selected="false" tabindex="-1" title="FR" onclick="LoadLanguageContent('FR', ApplyForgottenTranslations)"></button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="lngBtnIT" data-bs-toggle="tab" data-bs-target="#lngTabIT" type="button" role="tab" aria-controls="lngTabIT" aria-selected="false" tabindex="-1" title="IT" onclick="LoadLanguageContent('IT', ApplyForgottenTranslations)"></button>
+            </li>
+        </ul>
+        <div class="tab-content" id="lngTabsContent">
+            <div class="tab-pane fade" id="lngTabEN" role="tabpanel" aria-labelledby="lngBtnEN"></div>
+            <div class="tab-pane fade" id="lngTabFR" role="tabpanel" aria-labelledby="lngBtnFR"></div>
+            <div class="tab-pane fade" id="lngTabIT" role="tabpanel" aria-labelledby="lngBtnIT"></div>
+            <div class="tab-pane fade active show" id="lngTabDE" role="tabpanel" aria-labelledby="lngBtnDE"></div>
+        </div>
+    </div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+    <script src="js/uistrings.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/usr.js"></script>
+
+    <script>
+        function ApplyForgottenTranslations(lng) {
+            const tab = document.getElementById('lngTab' + lng);
+            const val = (key) => {
+                const el = tab ? tab.querySelector('[data-fgt-key="' + key + '"]') : null;
+                return el ? el.textContent : null;
+            };
+            const setTxt = (id, txt) => { if (txt !== null) { const el = document.getElementById(id); if (el) el.textContent = txt; } };
+            const setAttr = (id, attr, txt) => { if (txt !== null) { const el = document.getElementById(id); if (el) el.setAttribute(attr, txt); } };
+
+            setTxt('fgtCardTitle', val('card-title'));
+            setTxt('fgtCardSubtitle', val('card-subtitle'));
+            const emailLabel = val('email-label');
+            setTxt('fgtEmailLabel', emailLabel);
+            setAttr('yourEmail', 'placeholder', emailLabel);
+            setTxt('fgtEmailInvalid', val('email-invalid'));
+            setTxt('fgtHint', val('hint'));
+            setTxt('fgtBtnSend', val('btn-send'));
+            setTxt('fgtBtnBack', val('btn-back'));
+            setTxt('fgtHasAccount', val('has-account'));
+            setTxt('fgtLoginLink', val('login-link'));
+            setTxt('fgtNoAccount', val('no-account'));
+            setTxt('fgtCreateAccount', val('create-account'));
+        }
+    </script>
+
+</body>
+
+</html>

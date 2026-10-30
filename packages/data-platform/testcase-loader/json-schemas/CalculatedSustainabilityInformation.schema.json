@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/CalculatedSustainabilityInformation.schema.json",
+  "title": "QuantiFarm calculated sustainability parameter for the performance of a DATS on a parcel",
+  "description": "Sustainability parameter that indicates how well the DATS performed in the specific year",
+  "type": "object",
+  "properties": {
+    "sustainabilityParameterName": {
+      "description": "The name of the sustainability parameter",
+      "type": "string"
+    },
+    "sustainabilityParameterUnit": {
+      "description": "The unit of the sustainability parameter",
+      "type": "string"
+    },
+    "absoluteDifference": {
+      "description": "The absolute difference of the sustainability parameter between using the DATS and not using the DATS",
+      "type": "number"
+    },
+    "percentageDifference": {
+      "description": "The percentage difference of the sustainability parameter between using the DATS and not using the DATS",
+      "type": "number"
+    }
+  },
+  "required": [ "sustainabilityParameterName", "sustainabilityParameterUnit", "absoluteDifference", "percentageDifference"]
+}

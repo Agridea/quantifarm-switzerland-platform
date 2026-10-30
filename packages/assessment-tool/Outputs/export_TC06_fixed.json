@@ -1,0 +1,152 @@
+{
+    "sust_kpis_dats": {
+        "productivity_": {
+            "yield": "71.00000000000001",
+            "labour_productivity_arable_and_horticulture": "26.463636363636365",
+            "labour_productivity_dairy_livestock": "0.0",
+            "labour_productivity__meat_livestock": "0.0",
+            "labour_productivity__aquaculture": "0.0",
+            "labour_productivity__apiculture": "0.0",
+            "labour_productivity_silos": "0.0"
+        },
+        "efficiency_": {
+            "number_of_wrong_orders": "0"
+        },
+        "product_quality__": {
+            "protein_%_dry_matter": "0",
+            "humidity": "0",
+            "test_weight": "0"
+        },
+        "fertiliser": {
+            "nitrogen_applied": "522.412",
+            "nitrogen_use_efficiency": "40.772417172653",
+            "phosphorus_applied": "39.97",
+            "phosphorus_use_efficiency": "213.1598699024268",
+            "_potassium_applied": "198.052",
+            "potassium_use_efficiency": "143.39668369923052",
+            "indirect_leaching/runoff": "1.3791676800000001",
+            "indirect_volatilisation": "0.5746532000000001",
+            "direct": "5.22412",
+            "n2o_ghg_emission": "3079.336636680181"
+        },
+        "pesticide_": {
+            "pesticides_herbicides_and_fungicides_use": "0"
+        },
+        "water_": {
+            "water_consumption": "318.5365853658537",
+            "irrigation_water_productivity": "222.89433384379785"
+        },
+        "electricity": {
+            "electricity_consumption": "17.073170731707318"
+        },
+        "animal_": {},
+        "drugs_": {
+            "drugs_use_in_dairy_livestock": "0.0",
+            "drugs_use_in_meat_livestock": "0.0"
+        },
+        "fuel_": {
+            "fuel_ghg_emission": "0.0",
+            "arable_and_horticulture_fuel_consumption": "0.0"
+        },
+        "ghg": {
+            "total_ghg_emissions": "3079.336636680181"
+        },
+        "social_kpis": {
+            "training_hours_for_the_use_of_dats": "1.0"
+        }
+    },
+    "sust_kpis_no_dats": {
+        "productivity_": {
+            "labour_productivity_arable_and_horticulture": "21.32",
+            "labour_productivity_dairy_livestock": "0.0",
+            "labour_productivity__meat_livestock": "0.0",
+            "labour_productivity__aquaculture": "0.0",
+            "labour_productivity__apiculture": "0.0",
+            "labour_productivity_silos": "0.0"
+        },
+        "efficiency_": {
+            "number_of_wrong_orders": "0"
+        },
+        "product_quality__": {
+            "protein_%_dry_matter": "0",
+            "humidity": "0",
+            "test_weight": "0"
+        },
+        "fertiliser": {
+            "nitrogen_applied": "522.412",
+            "phosphorus_applied": "39.97",
+            "potassium_applied": "198.052",
+            "indirect_leaching/runoff": "1.3791676800000001",
+            "indirect_volatilisation": "0.5746532000000001",
+            "direct": "5.22412",
+            "n2o_ghg_emission": "3079.336636680181"
+        },
+        "pesticide_": {
+            "pesticides_herbicides_and_fungicides_use": "0"
+        },
+        "water_": {
+            "irrigation_water_productivity": "58.5392641405821"
+        },
+        "electricity": {},
+        "animal_": {},
+        "drugs_": {},
+        "fuel_": {},
+        "ghg": {
+            "total_ghg_emissions": "3079.336636680181"
+        },
+        "social_kpis": {}
+    },
+    "cost_revenue_dats": {
+        "cost_analysis": {
+            "water_|cost_of_water": "0.0",
+            "fuel_|cost_of__fuel": "0.0",
+            "electricity|cost_of_electricity": "2.5609756097560976",
+            "pesticide_|cost_for_pesticide": "0",
+            "fertiliser|cost_of_fertiliser": "1371.47",
+            "feed|cost_of_feed": "0.0",
+            "drugs_|_cost_of_drugs": "0.0",
+            "labour|cost_of_labour_for_irrigation": "134.14634146341464",
+            "labour|cost_of_labour_for_pesticide_application": "0.0",
+            "labour|cost_of_labour_for_fertilisation": "0.0",
+            "labour": "0.0",
+            "labour|cost_of_labour_for_pruning": "0.0",
+            "labour|cost_of_labour_for_field_visits": "0.0",
+            "labour|cost_of_labour_for_greenhouse_maintenance": "0.0",
+            "labour|cost_of_labour_for_assessing_product_quality": "0.0",
+            "labour|cost_of_labour_for_controlling_purchase_and_sale_prices_and_quantities": "0.0",
+            "labour|cost_of_labour_for_organise_logistics": "0.0",
+            "labour|cost_of_labour_for_cleaning": "0.0",
+            "labour|cost_of_labour_for_stable_visits": "0.0",
+            "labour|cost_of_labour_for_heat_detection": "0.0",
+            "labour|cost_of_labour_for_calving_detection": "0.0",
+            "labour|cost_of_labour_for_pigsty_management": "0.0",
+            "labour|cost_of_milking": "0.0",
+            "labour|cost_of_labour_for_milk_quality_assessment": "0.0",
+            "labour|cost_of_labour_for_feeding": "0.0",
+            "labour|cost_of_labour_for_harvesting": "0.0",
+            "labour|cost_of_labour_for_storage": "0.0",
+            "labour|cost_of_administrative_activities_data_collection_etc": "0.0",
+            "cost|tot_cost": "1508.1773170731708",
+            "datss|cost_of_datss": "236.58536585365854",
+            "datss|cost_of_training": "0.0"
+        },
+        "revenues_analysis": {
+            "output|crop_revenue": "12070.000000000002",
+            "output|milk_revenue": "0.0",
+            "output|meat_revenue": "0.0",
+            "output|grain_silos_revenue": "0.0",
+            "additional_revenues|additional_revenues": "0"
+        }
+    },
+    "cost_revenue_no_dats": {
+        "cost_analysis": {
+            "pesticide_|cost_for_pesticide": "0",
+            "fertiliser|cost_of_fertiliser": "1371.47",
+            "cost|tot_cost": "1371.47"
+        },
+        "revenues_analysis": {
+            "output|grain_silos_revenue": "0",
+            "additional_revenues|additional_revenues": "0"
+        }
+    }
+}

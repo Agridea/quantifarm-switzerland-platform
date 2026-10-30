@@ -1,0 +1,53 @@
+tests:
+  image: python:3.11.2-alpine
+  before_script:
+    - pip install -U pip
+    - pip install pytest rdflib
+  script:
+    - pytest --junitxml ./tests/rspec.xml
+  artifacts:
+    paths:
+      - tests/rspec.xml
+    reports:
+      junit: tests/rspec.xml
+
+serialization:
+  image: eclipse-temurin:20-jre
+  stage: deploy
+  before_script:
+    - wget https://dlcdn.apache.org/jena/binaries/apache-jena-4.9.0.tar.gz
+    - tar -xvzf apache-jena-4.9.0.tar.gz
+    - mkdir ./serializations
+    - export PATH="${PATH}:${PWD}/apache-jena-4.9.0/bin"
+  script:
+    - riot --output=ttl *.ttl > ./serializations/qcsm.ttl
+    - riot --output=jsonld *.ttl > ./serializations/qcsm.jsonld
+  artifacts:
+    paths:
+      - ./serializations
+
+documentation:
+  image: python:3.11.2-alpine
+  before_script:
+    - pip install -U pip
+    - pip install pylode
+    - mkdir ./documentation
+  script:
+    - python -m pylode ./qcsm.ttl -o ./documentation/index.html
+  artifacts:
+    paths:
+      - ./documentation
+
+pages:
+  stage: deploy
+  needs:
+    - serialization
+    - documentation
+  script:
+    - cp -a ./documentation/. ./public
+    - cp -r ./serializations ./public
+  artifacts:
+    paths:
+      - public/
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/AdditionalAnimalInformation.schema.json",
+  "title": "QuantiFarm additional animal information",
+  "description": "Additional animal information that influences the assessment of the performance of the cultivation in the specific year",
+  "type": "object",
+  "properties": {
+    "numberOfDeathAnimals": {
+      "description": "The number of death animals during the specific year",
+      "type": "number"
+    },
+    "calvesDiedInFirst24Hours": {
+      "description": "The number of calves that died in the first 24 hours after birth in the specific year",
+      "type": "number"
+    },
+    "totalNumberOfCalvesBorn": {
+      "description": "The total number of calves born in the specific year",
+      "type": "number"
+    },
+    "numberOfDaysWithPastureAccess": {
+      "description": "The number of days during the year with access to pasture",
+      "type": "number"
+    },
+    "outdoorLoafingArea": {
+      "description": "The outdoor loafing area during the specific year",
+      "type": "number"
+    },
+    "herdSize": {
+      "description": "The average herd size during the specific year",
+      "type": "number"
+    },
+    "numberOfCowsWithHighSCCMilk": {
+      "description": "The number of cows producing high SCC milk",
+      "type": "number"
+    }
+  },
+  "required": []
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/AdditionalLabourInformation.schema.json",
+  "title": "QuantiFarm additional labour information",
+  "description": "Additional labour-related information that influences the assessment of the performance of the cultivation in the specific year",
+  "type": "object",
+  "properties": {
+    "numberOfNewInjuryCases": {
+      "description": "The number of new injury cases that occurred during the specific year",
+      "type": "number"
+    },
+    "totalNumberOfLostWorkingHours": {
+      "description": "The total number of hours that were lost due to occupational injuries during the specific year",
+      "type": "number"
+    },
+    "totalNumberOfWorkingHours": {
+      "description": "The total number of working hours in the specific year",
+      "type": "number"
+    },
+    "numberOfWorkingWeeks": {
+      "description": "The number of working weeks in the specific year",
+      "type": "number"
+    },
+    "numberOfNewLocalEmployeesHired": {
+      "description": "The number of new local employees hired in the specific year",
+      "type": "number"
+    },
+    "numberOfNewEmployeesHired": {
+      "description": "The number of new employees hired in the specific year",
+      "type": "number"
+    }
+  },
+  "required": []
+}

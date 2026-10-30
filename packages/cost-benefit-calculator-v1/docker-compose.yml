@@ -1,0 +1,41 @@
+services:
+    db:
+        container_name: quantifarm-cost-benefit-calculator-v1-tool-postgresql
+        image: postgresql-amanos
+        build: './build/postgresql'
+        restart: unless-stopped
+        environment:
+            POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+        volumes:
+            - ../databases/cost-benefit-calculator-v1-tool:/var/lib/postgresql/data
+            # - cost-benefit-calculator-v1-tool:/var/lib/postgresql/data
+        ports:
+            - "127.0.0.1:5558:5432"
+        networks:
+            - quantifarm-network
+    api:
+        container_name: quantifarm-cost-benefit-calculator-v1-tool-api
+        image: fastapi-amanos
+        build: './build/fastapi'
+        restart: unless-stopped
+        depends_on:
+            db: 
+                condition: service_started
+        environment:
+            POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+            API_ADMIN_USERNAME: ${API_ADMIN_USERNAME:-}
+            API_ADMIN_PASSWORD: ${API_ADMIN_PASSWORD:-}
+        volumes:
+            - ./volume/fastapi-app/app:/app
+        ports:
+            - "127.0.0.1:8688:8686"
+        networks:
+            - quantifarm-network
+volumes:
+  cost-benefit-calculator-v1-tool:
+    external: false
+
+networks:
+  quantifarm-network:
+    name: quantifarm-network
+    external: true

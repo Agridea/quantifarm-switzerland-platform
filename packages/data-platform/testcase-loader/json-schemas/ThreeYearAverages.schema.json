@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://quantifarm.eu/ontology/ThreeYearAverages.schema.json",
+  "title": "QuantiFarm three year average impact parameter for the performance of a DATS on a parcel",
+  "description": "Three year average impact parameter that indicates how well the DATS performed in the specific year",
+  "type": "object",
+  "properties": {
+    "threeYearAverageCategory": {
+      "description": "The category of the parameter",
+      "type": "string"
+    },
+    "threeYearAverageImpactName": {
+      "description": "The unit of the main impact parameter",
+      "type": "string"
+    },
+    "threeYearAverageImpactUnit": {
+      "description": "The absolute difference of the main impact parameter",
+      "type": "string"
+    },
+    "threeYearAverageImpactValue": {
+      "description": "The percentage difference of the main impact parameter",
+      "type": "number"
+    },
+    "threeYearAverageImpactStandardDeviation": {
+      "description": "The meaning whether a higher value is a better one",
+      "type": "number"
+    }
+  },
+  "required": [ "threeYearAverageCategory" ]
+}

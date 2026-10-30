@@ -1,0 +1,3629 @@
+{
+   "testcaseNumber": 7,
+   "testcaseLeader": "FFP2",
+   "cultivationType": "Arable",
+   "datsInformation": [
+      {
+         "datsName": "QMS Water Software",
+         "datsInitialInvestmentCosts": null,
+         "datsAnnualFees": null,
+         "datsMaintenanceCosts": null,
+         "datsExpectedLifespan": null,
+         "datsInstallationTime": null,
+         "datsTrainingTime": null,
+         "datsTrainers": null,
+         "datsTrainingCosts": null
+      },
+      {
+         "datsName": "QMS Water Software",
+         "datsInitialInvestmentCosts": null,
+         "datsAnnualFees": null,
+         "datsMaintenanceCosts": null,
+         "datsExpectedLifespan": null,
+         "datsInstallationTime": null,
+         "datsTrainingTime": null,
+         "datsTrainers": null,
+         "datsTrainingCosts": null
+      },
+      {
+         "datsName": "QMS Water Software",
+         "datsInitialInvestmentCosts": null,
+         "datsAnnualFees": null,
+         "datsMaintenanceCosts": null,
+         "datsExpectedLifespan": null,
+         "datsInstallationTime": null,
+         "datsTrainingTime": null,
+         "datsTrainers": null,
+         "datsTrainingCosts": null
+      }
+   ],
+   "yearlyAssessmentInformation": [
+      {
+         "cultivationYear": 2023,
+         "parcelComparison": [],
+         "marketInformation": {
+            "waterPrice": null,
+            "fuelPrice": null,
+            "electricityPrice": null,
+            "averageSalary": null,
+            "averageProfessionalSalary": null
+         }
+      },
+      {
+         "cultivationYear": 2024,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "farmInformation": {
+                     "farmNumber": 1,
+                     "biogeographicalRegion": "Pomerania",
+                     "totalFarmSize": 2500
+                  },
+                  "parcelInformation": {
+                     "parcelName": "100 (FFPDwa-L3-FO-43,86",
+                     "parcelDimension": 43.86,
+                     "startMonth": 4,
+                     "endMonth": 10,
+                     "productType": "Potatoes",
+                     "numberOfEmployees": 5,
+                     "numberOfFulltimeEmployees": 5,
+                     "numberOfSeasonalEmployees": 0,
+                     "soilFractionSand": 70,
+                     "soilFractionClay": 10,
+                     "soilFractionSilt": 20,
+                     "bulkDensity": 2.6,
+                     "soilOrganicCarbon": 2,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 152.8,
+                     "waterUsageForIrrigation": 150,
+                     "waterUsageForFertigation": 0,
+                     "waterUsageForPestDilution": 2.8,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 220.8,
+                     "fuelUsageForFertilisation": 11.2,
+                     "fuelUsageForPesticides": 21.6,
+                     "fuelUsageForIrrigation": 160,
+                     "fuelUsageForSowing": 28,
+                     "fuelUsageForPruning": 0,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 0,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": 0,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [
+                     {
+                        "productName": "Aztek 250 SC",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.5,
+                        "productPrice": 10.6
+                     },
+                     {
+                        "productName": "Azuleo",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.3,
+                        "productPrice": 23.3
+                     },
+                     {
+                        "productName": "Carial Star 500 SC",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.6,
+                        "productPrice": 50.7
+                     },
+                     {
+                        "productName": "Carnadine 200 SL",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.18,
+                        "productPrice": 60.5
+                     },
+                     {
+                        "productName": "Chanon 600",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 2.5,
+                        "productPrice": 15.7
+                     },
+                     {
+                        "productName": "Citation 70 WG",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.3,
+                        "productPrice": 32.1
+                     },
+                     {
+                        "productName": "Decis Mega 50  EW",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.075,
+                        "productPrice": 30.9
+                     },
+                     {
+                        "productName": "Diprospero ",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 2,
+                        "productPrice": 10.7
+                     },
+                     {
+                        "productName": "Leimay 200 SC",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.5,
+                        "productPrice": 35.8
+                     },
+                     {
+                        "productName": "Moxato 450 WG",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.2,
+                        "productPrice": 17.7
+                     },
+                     {
+                        "productName": "Porter 20 EC",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 0.5,
+                        "productPrice": 15.1
+                     },
+                     {
+                        "productName": "Ranman Top 160 SC",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.5,
+                        "productPrice": 49.3
+                     },
+                     {
+                        "productName": "Reactor Plus 480 EC",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.12,
+                        "productPrice": 15.2
+                     },
+                     {
+                        "productName": "Sacron WG",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.21,
+                        "productPrice": 24.9
+                     },
+                     {
+                        "productName": "Valor",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.3,
+                        "productPrice": 15.1
+                     },
+                     {
+                        "productName": "Voliam",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.062,
+                        "productPrice": 251
+                     },
+                     {
+                        "productName": "Zorvec Enicade",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.15,
+                        "productPrice": 223.3
+                     }
+                  ],
+                  "fertilizersUsageInformation": [
+                     {
+                        "productName": "Sól potasowa 60%",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.283,
+                        "averageNitrogenQuantity": 0,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 60,
+                        "productPrice": 0.4233
+                     },
+                     {
+                        "productName": "Fosforan amonu 10-46",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.176,
+                        "averageNitrogenQuantity": 10,
+                        "averagePhosphorusQuantity": 46,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.662
+                     },
+                     {
+                        "productName": "RSM 32",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 0.143,
+                        "averageNitrogenQuantity": 32,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.334
+                     }
+                  ],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": 21,
+                     "labourForPesticides": 2.5,
+                     "labourForFertilisation": 1.2,
+                     "labourForSowingOrPlanting": 1.8,
+                     "labourForPruning": 0,
+                     "labourForFieldVisits": 1,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": 6,
+                     "labourForStorage": null,
+                     "labourForAdministration": 0.2
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": 33,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": 300,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 0,
+                     "totalNumberOfLostWorkingHours": 0,
+                     "totalNumberOfWorkingHours": 0,
+                     "numberOfWorkingWeeks": 0,
+                     "numberOfNewLocalEmployeesHired": 0,
+                     "numberOfNewEmployeesHired": 0
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "parcelAssessmentWithoutDATS": {},
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Cost of water",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -54.133333333333326,
+                     "percentageDifference": -11.358231920548327
+                  },
+                  {
+                     "indicatorName": "Labour for administrative activities, data collection, etc. ",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 0.8000000000000002,
+                     "percentageDifference": 7
+                  },
+                  {
+                     "indicatorName": "Sum of costs of labour",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 0.8000000000000002,
+                     "percentageDifference": 0.05349453018428866
+                  },
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -53.33333333333333,
+                     "percentageDifference": -3.5663020122859095
+                  },
+                  {
+                     "indicatorName": "Water consumption ",
+                     "indicatorUnit": "",
+                     "absoluteDifference": -54.4,
+                     "percentageDifference": -11.41418380193034
+                  },
+                  {
+                     "indicatorName": "Irrigation water productivity",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": 35.693171810183344,
+                     "percentageDifference": 39.976352427405345
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/ha",
+                     "absoluteDifference": 0.039999999999999855,
+                     "percentageDifference": 0.17241379310344765
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 1.7831510061429547
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 6.423817028666961
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -0.17241379310344765
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 3.5663020122859095,
+                     "aggregatedImpactMaxRangeValue": 3.5663020122859095
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 25.695268114667844,
+                     "aggregatedImpactMaxRangeValue": 25.695268114667844
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -0.17241379310344765,
+                     "aggregatedImpactMaxRangeValue": -0.17241379310344765
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Cost of water",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -54.133333333333326,
+                     "percentageDifference": -11.358231920548327,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "REDUCED WATER CONSUMPTION",
+                     "mainImpactSubtitle": "due to precise assessment of the crop's water requirements, allowing for optimized irrigation scheduling"
+                  },
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -53.33333333333333,
+                     "percentageDifference": -3.5663020122859095,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "SAVED COSTS",
+                     "mainImpactSubtitle": "due to cost savings associated with irrigation and significant benefits in resource use efficiency, fewer field visits, and improved crop monitoring "
+                  },
+                  {
+                     "mainImpactName": "Crop revenue",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -700.0,
+                     "percentageDifference": -5.645161290322581,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "REVENUES",
+                     "mainImpactSubtitle": "The observed decrease in revenues has not been included in the cost-benefit analysis due to the difficulty in isolating the specific impact of the DATS on crop productivity "
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 3.3333333333333286,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT",
+                     "mainImpactSubtitle": "due to cost savings associated with irrigation"
+                  },
+                  {
+                     "mainImpactName": "PAYBACK PERIOD",
+                     "mainImpactUnit": "years (n)",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "PAYBACK PERIOD NOT CALCULATED",
+                     "mainImpactSubtitle": "the initial investment for the DATSs is zero"
+                  },
+                  {
+                     "mainImpactName": "Irrigation water productivity",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": 35.693171810183344,
+                     "percentageDifference": 39.976352427405345,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "INCREASED WATER PRODUCTIVITY ",
+                     "mainImpactSubtitle": "due to the efficient use of water and the consequent reduction in waste and better overall irrigation effectiveness."
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 50.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of water",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -54.133333333333326,
+                     "percentageDifference": -11.358231920548327,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of water: The DATS enables precise assessment of the crop's water requirements, allowing for optimized irrigation scheduling. This ensures efficient water use, reduces waste, and enhances overall irrigation effectiveness. The reduction of water use translates in lower costs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 0.8000000000000002,
+                     "percentageDifference": 7,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for data management and administrative activities: A slight increase in costs for data management and administrative activities could be attributed to the need to interpret the data from the DATSs and reschedule the irrigation strategies "
+                  },
+                  {
+                     "costRevenueImpactCategory": "OUTPUT",
+                     "costRevenueImpactName": "Crop revenue",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -700.0,
+                     "percentageDifference": -5.645161290322581,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 2.0,
+                     "costRevenueImpactShortDescription": "Revenues: The observed decrease in revenues has not been included in the cost-benefit analysis due to the difficulty in isolating the specific impact of the DATS on crop productivity "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 3.3333333333333286,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Net Benefit: The cost savings associated with irrigation result in only a modest monetary benefit, despite the significant advantages in terms of resource use efficiency, less field visits, better crop monitoring and potential improvements in product quality"
+                  }
+               ]
+            },
+            {
+               "parcelAssessmentWithDATS": {
+                  "farmInformation": {
+                     "farmNumber": 1,
+                     "biogeographicalRegion": "Pomerania",
+                     "totalFarmSize": 2500
+                  },
+                  "parcelInformation": {
+                     "parcelName": "101 (FFPDwa-S-FO-65,2)",
+                     "parcelDimension": 65.2,
+                     "startMonth": 4,
+                     "endMonth": 10,
+                     "productType": "Potatoes",
+                     "numberOfEmployees": 5,
+                     "numberOfFulltimeEmployees": 5,
+                     "numberOfSeasonalEmployees": 0,
+                     "soilFractionSand": 70,
+                     "soilFractionClay": 10,
+                     "soilFractionSilt": 20,
+                     "bulkDensity": 2.6,
+                     "soilOrganicCarbon": 2,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [
+                     "QMS Water Software"
+                  ],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 637.8,
+                     "waterUsageForIrrigation": 635,
+                     "waterUsageForFertigation": 0,
+                     "waterUsageForPestDilution": 2.8,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 220.8,
+                     "fuelUsageForFertilisation": 11.2,
+                     "fuelUsageForPesticides": 21.6,
+                     "fuelUsageForIrrigation": 160,
+                     "fuelUsageForSowing": 28,
+                     "fuelUsageForPruning": 0,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 0,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": 0,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [
+                     {
+                        "productName": "Aztek 250 SC",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.5,
+                        "productPrice": 10.6
+                     },
+                     {
+                        "productName": "Azuleo",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.4,
+                        "productPrice": 23.3
+                     },
+                     {
+                        "productName": "Cariar Star 500 SC",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 0.6,
+                        "productPrice": 50.7
+                     },
+                     {
+                        "productName": "Carnadine 200 SL",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.18,
+                        "productPrice": 60.5
+                     },
+                     {
+                        "productName": "Chanon 600",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 2.5,
+                        "productPrice": 15.7
+                     },
+                     {
+                        "productName": "Citation 70 WG",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.3,
+                        "productPrice": 32.1
+                     },
+                     {
+                        "productName": "Decis Mega 50 EW",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.075,
+                        "productPrice": 30.9
+                     },
+                     {
+                        "productName": "Diprospero",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 2,
+                        "productPrice": 10.7
+                     },
+                     {
+                        "productName": "Infinito 687,5 SC",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 1.6,
+                        "productPrice": 21.7
+                     },
+                     {
+                        "productName": "Moncut 460 SC",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.2,
+                        "productPrice": 87.4
+                     },
+                     {
+                        "productName": "Moxato 450 WG",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.2,
+                        "productPrice": 17.7
+                     },
+                     {
+                        "productName": "Porter 250 EC",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 0.5,
+                        "productPrice": 15.1
+                     },
+                     {
+                        "productName": "Ranman Top 160 SC",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.5,
+                        "productPrice": 49.3
+                     },
+                     {
+                        "productName": "Reactor Plus 480 EC",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.12,
+                        "productPrice": 15.2
+                     },
+                     {
+                        "productName": "Roundup 360 Plus",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 2.5,
+                        "productPrice": 3.4
+                     },
+                     {
+                        "productName": "Sacron WG",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.21,
+                        "productPrice": 24.9
+                     },
+                     {
+                        "productName": "Valor 250 EC",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.3,
+                        "productPrice": 15.1
+                     },
+                     {
+                        "productName": "Voliam",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.062,
+                        "productPrice": 251.2
+                     },
+                     {
+                        "productName": "Zorvec Enicade",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.15,
+                        "productPrice": 223.3
+                     }
+                  ],
+                  "fertilizersUsageInformation": [
+                     {
+                        "productName": "Sól potasowa 60%",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.493,
+                        "averageNitrogenQuantity": 0,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 60,
+                        "productPrice": 0.4233
+                     },
+                     {
+                        "productName": "Fosforan amonu 10-46",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.208,
+                        "averageNitrogenQuantity": 10,
+                        "averagePhosphorusQuantity": 46,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.662
+                     },
+                     {
+                        "productName": "Siarczan amonu 21-0-0",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.368,
+                        "averageNitrogenQuantity": 21,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.283
+                     },
+                     {
+                        "productName": "RSM 32",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 4,
+                        "averageQuantity": 0.005,
+                        "averageNitrogenQuantity": 32,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.334
+                     }
+                  ],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": 21,
+                     "labourForPesticides": 2.5,
+                     "labourForFertilisation": 1.2,
+                     "labourForSowingOrPlanting": 1.8,
+                     "labourForPruning": 0,
+                     "labourForFieldVisits": 1,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": 2,
+                     "labourForStorage": null,
+                     "labourForAdministration": 0
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": 42,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": 300,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 0,
+                     "totalNumberOfLostWorkingHours": 0,
+                     "totalNumberOfWorkingHours": 0,
+                     "numberOfWorkingWeeks": 0,
+                     "numberOfNewLocalEmployeesHired": 0,
+                     "numberOfNewEmployeesHired": 0
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "parcelAssessmentWithoutDATS": {},
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Cost of water",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -54.133333333333326,
+                     "percentageDifference": -11.358231920548327
+                  },
+                  {
+                     "indicatorName": "Labour for administrative activities, data collection, etc. ",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 0.8000000000000002,
+                     "percentageDifference": 7
+                  },
+                  {
+                     "indicatorName": "Sum of costs of labour",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 0.8000000000000002,
+                     "percentageDifference": 0.05349453018428866
+                  },
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -53.33333333333333,
+                     "percentageDifference": -3.5663020122859095
+                  },
+                  {
+                     "indicatorName": "Water consumption ",
+                     "indicatorUnit": "",
+                     "absoluteDifference": -54.4,
+                     "percentageDifference": -11.41418380193034
+                  },
+                  {
+                     "indicatorName": "Irrigation water productivity",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": 35.693171810183344,
+                     "percentageDifference": 39.976352427405345
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/ha",
+                     "absoluteDifference": 0.039999999999999855,
+                     "percentageDifference": 0.17241379310344765
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 1.7831510061429547
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 6.423817028666961
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -0.17241379310344765
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 3.5663020122859095,
+                     "aggregatedImpactMaxRangeValue": 3.5663020122859095
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 25.695268114667844,
+                     "aggregatedImpactMaxRangeValue": 25.695268114667844
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -0.17241379310344765,
+                     "aggregatedImpactMaxRangeValue": -0.17241379310344765
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Cost of water",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -54.133333333333326,
+                     "percentageDifference": -11.358231920548327,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "REDUCED WATER CONSUMPTION",
+                     "mainImpactSubtitle": "due to precise assessment of the crop's water requirements, allowing for optimized irrigation scheduling"
+                  },
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -53.33333333333333,
+                     "percentageDifference": -3.5663020122859095,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "SAVED COSTS",
+                     "mainImpactSubtitle": "due to cost savings associated with irrigation and significant benefits in resource use efficiency, fewer field visits, and improved crop monitoring "
+                  },
+                  {
+                     "mainImpactName": "Crop revenue",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -700.0,
+                     "percentageDifference": -5.645161290322581,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "REVENUES",
+                     "mainImpactSubtitle": "The observed decrease in revenues has not been included in the cost-benefit analysis due to the difficulty in isolating the specific impact of the DATS on crop productivity "
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 3.3333333333333286,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT",
+                     "mainImpactSubtitle": "due to cost savings associated with irrigation"
+                  },
+                  {
+                     "mainImpactName": "PAYBACK PERIOD",
+                     "mainImpactUnit": "years (n)",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "PAYBACK PERIOD NOT CALCULATED",
+                     "mainImpactSubtitle": "the initial investment for the DATSs is zero"
+                  },
+                  {
+                     "mainImpactName": "Irrigation water productivity",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": 35.693171810183344,
+                     "percentageDifference": 39.976352427405345,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "INCREASED WATER PRODUCTIVITY ",
+                     "mainImpactSubtitle": "due to the efficient use of water and the consequent reduction in waste and better overall irrigation effectiveness."
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 50.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of water",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -54.133333333333326,
+                     "percentageDifference": -11.358231920548327,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of water: The DATS enables precise assessment of the crop's water requirements, allowing for optimized irrigation scheduling. This ensures efficient water use, reduces waste, and enhances overall irrigation effectiveness. The reduction of water use translates in lower costs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 0.8000000000000002,
+                     "percentageDifference": 7,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for data management and administrative activities: A slight increase in costs for data management and administrative activities could be attributed to the need to interpret the data from the DATSs and reschedule the irrigation strategies "
+                  },
+                  {
+                     "costRevenueImpactCategory": "OUTPUT",
+                     "costRevenueImpactName": "Crop revenue",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -700.0,
+                     "percentageDifference": -5.645161290322581,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 2.0,
+                     "costRevenueImpactShortDescription": "Revenues: The observed decrease in revenues has not been included in the cost-benefit analysis due to the difficulty in isolating the specific impact of the DATS on crop productivity "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 3.3333333333333286,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Net Benefit: The cost savings associated with irrigation result in only a modest monetary benefit, despite the significant advantages in terms of resource use efficiency, less field visits, better crop monitoring and potential improvements in product quality"
+                  }
+               ]
+            },
+            {
+               "parcelAssessmentWithDATS": {
+                  "farmInformation": {
+                     "farmNumber": 1,
+                     "biogeographicalRegion": "Pomerania",
+                     "totalFarmSize": 2500
+                  },
+                  "parcelInformation": {
+                     "parcelName": "102 (FFPDwa-S-QUI-3)",
+                     "parcelDimension": 3,
+                     "startMonth": 4,
+                     "endMonth": 10,
+                     "productType": "Potatoes",
+                     "numberOfEmployees": 5,
+                     "numberOfFulltimeEmployees": 5,
+                     "numberOfSeasonalEmployees": 0,
+                     "soilFractionSand": 70,
+                     "soilFractionClay": 10,
+                     "soilFractionSilt": 20,
+                     "bulkDensity": 2.6,
+                     "soilOrganicCarbon": 2,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [
+                     "QMS Water Software"
+                  ],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 476,
+                     "waterUsageForIrrigation": 473,
+                     "waterUsageForFertigation": 0,
+                     "waterUsageForPestDilution": 3,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 220.8,
+                     "fuelUsageForFertilisation": 11.2,
+                     "fuelUsageForPesticides": 21.6,
+                     "fuelUsageForIrrigation": 160,
+                     "fuelUsageForSowing": 28,
+                     "fuelUsageForPruning": 0,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 0,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": 0,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [
+                     {
+                        "productName": "Apis 200 SE",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.1,
+                        "productPrice": 126.7
+                     },
+                     {
+                        "productName": "Aztek 250 SC",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.5,
+                        "productPrice": 10.6
+                     },
+                     {
+                        "productName": "Azuleo ",
+                        "numberOfTreatments": 4,
+                        "averageQuantity": 0.4,
+                        "productPrice": 23.3
+                     },
+                     {
+                        "productName": "Carial Star 500 SC",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.6,
+                        "productPrice": 50.7
+                     },
+                     {
+                        "productName": "Carnadine 200 SL",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.18,
+                        "productPrice": 60.5
+                     },
+                     {
+                        "productName": "Chanon 600",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 2.5,
+                        "productPrice": 15.7
+                     },
+                     {
+                        "productName": "Decis Mega 50 EW",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.075,
+                        "productPrice": 30.9
+                     },
+                     {
+                        "productName": "Delmetros 100 SC",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.05,
+                        "productPrice": 35.9
+                     },
+                     {
+                        "productName": "Diprospero",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 2,
+                        "productPrice": 10.7
+                     },
+                     {
+                        "productName": "Electis CX",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.45,
+                        "productPrice": 41.9
+                     },
+                     {
+                        "productName": "Fidox 800 EC",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 3,
+                        "productPrice": 6.2
+                     },
+                     {
+                        "productName": "Infinito 687,5 SC",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 1.6,
+                        "productPrice": 21.7
+                     },
+                     {
+                        "productName": "Leimay 200 SC",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.5,
+                        "productPrice": 35.8
+                     },
+                     {
+                        "productName": "Moxato 450 WG",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.2,
+                        "productPrice": 17.7
+                     },
+                     {
+                        "productName": "Porter 250 EC",
+                        "numberOfTreatments": 7,
+                        "averageQuantity": 0.5,
+                        "productPrice": 15.1
+                     },
+                     {
+                        "productName": "Ranman Top 160 SC",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.5,
+                        "productPrice": 49.3
+                     },
+                     {
+                        "productName": "Reactor Plus 480 EC",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.12,
+                        "productPrice": 15.2
+                     },
+                     {
+                        "productName": "Sacron WG",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.22,
+                        "productPrice": 24.9
+                     },
+                     {
+                        "productName": "Spotlight Plus 060 EO",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 1,
+                        "productPrice": 35.8
+                     },
+                     {
+                        "productName": "Voliam",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.062,
+                        "productPrice": 251.2
+                     },
+                     {
+                        "productName": "Zorvec Entecta",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.25,
+                        "productPrice": 181.9
+                     },
+                     {
+                        "productName": "Zorvec Enicade",
+                        "numberOfTreatments": 4,
+                        "averageQuantity": 0.15,
+                        "productPrice": 223.3
+                     }
+                  ],
+                  "fertilizersUsageInformation": [
+                     {
+                        "productName": "Sól potasowa 60%",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.493,
+                        "averageNitrogenQuantity": 0,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 60,
+                        "productPrice": 0.4233
+                     },
+                     {
+                        "productName": "Fosforan amonu 10-46",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.208,
+                        "averageNitrogenQuantity": 10,
+                        "averagePhosphorusQuantity": 46,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.662
+                     },
+                     {
+                        "productName": "Saletra Amonowa Anwil N-34%",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.142,
+                        "averageNitrogenQuantity": 34,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.29
+                     },
+                     {
+                        "productName": "RSM 32",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 6,
+                        "averageQuantity": 0.05416,
+                        "averageNitrogenQuantity": 32,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.334
+                     }
+                  ],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": 21,
+                     "labourForPesticides": 205,
+                     "labourForFertilisation": 1.2,
+                     "labourForSowingOrPlanting": 1.8,
+                     "labourForPruning": 0,
+                     "labourForFieldVisits": 1,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": 2,
+                     "labourForStorage": null,
+                     "labourForAdministration": 0
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": 58,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": 300,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 0,
+                     "totalNumberOfLostWorkingHours": 0,
+                     "totalNumberOfWorkingHours": 0,
+                     "numberOfWorkingWeeks": 0,
+                     "numberOfNewLocalEmployeesHired": 0,
+                     "numberOfNewEmployeesHired": 0
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "parcelAssessmentWithoutDATS": {},
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Cost of water",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -54.133333333333326,
+                     "percentageDifference": -11.358231920548327
+                  },
+                  {
+                     "indicatorName": "Labour for administrative activities, data collection, etc. ",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 0.8000000000000002,
+                     "percentageDifference": 7
+                  },
+                  {
+                     "indicatorName": "Sum of costs of labour",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 0.8000000000000002,
+                     "percentageDifference": 0.05349453018428866
+                  },
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -53.33333333333333,
+                     "percentageDifference": -3.5663020122859095
+                  },
+                  {
+                     "indicatorName": "Water consumption ",
+                     "indicatorUnit": "",
+                     "absoluteDifference": -54.4,
+                     "percentageDifference": -11.41418380193034
+                  },
+                  {
+                     "indicatorName": "Irrigation water productivity",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": 35.693171810183344,
+                     "percentageDifference": 39.976352427405345
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/ha",
+                     "absoluteDifference": 0.039999999999999855,
+                     "percentageDifference": 0.17241379310344765
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 1.7831510061429547
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 6.423817028666961
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -0.17241379310344765
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 3.5663020122859095,
+                     "aggregatedImpactMaxRangeValue": 3.5663020122859095
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 25.695268114667844,
+                     "aggregatedImpactMaxRangeValue": 25.695268114667844
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -0.17241379310344765,
+                     "aggregatedImpactMaxRangeValue": -0.17241379310344765
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Cost of water",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -54.133333333333326,
+                     "percentageDifference": -11.358231920548327,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "REDUCED WATER CONSUMPTION",
+                     "mainImpactSubtitle": "due to precise assessment of the crop's water requirements, allowing for optimized irrigation scheduling"
+                  },
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -53.33333333333333,
+                     "percentageDifference": -3.5663020122859095,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "SAVED COSTS",
+                     "mainImpactSubtitle": "due to cost savings associated with irrigation and significant benefits in resource use efficiency, fewer field visits, and improved crop monitoring "
+                  },
+                  {
+                     "mainImpactName": "Crop revenue",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -700.0,
+                     "percentageDifference": -5.645161290322581,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "REVENUES",
+                     "mainImpactSubtitle": "The observed decrease in revenues has not been included in the cost-benefit analysis due to the difficulty in isolating the specific impact of the DATS on crop productivity "
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 3.3333333333333286,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT",
+                     "mainImpactSubtitle": "due to cost savings associated with irrigation"
+                  },
+                  {
+                     "mainImpactName": "PAYBACK PERIOD",
+                     "mainImpactUnit": "years (n)",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "PAYBACK PERIOD NOT CALCULATED",
+                     "mainImpactSubtitle": "the initial investment for the DATSs is zero"
+                  },
+                  {
+                     "mainImpactName": "Irrigation water productivity",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": 35.693171810183344,
+                     "percentageDifference": 39.976352427405345,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "INCREASED WATER PRODUCTIVITY ",
+                     "mainImpactSubtitle": "due to the efficient use of water and the consequent reduction in waste and better overall irrigation effectiveness."
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 50.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of water",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -54.133333333333326,
+                     "percentageDifference": -11.358231920548327,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of water: The DATS enables precise assessment of the crop's water requirements, allowing for optimized irrigation scheduling. This ensures efficient water use, reduces waste, and enhances overall irrigation effectiveness. The reduction of water use translates in lower costs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 0.8000000000000002,
+                     "percentageDifference": 7,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for data management and administrative activities: A slight increase in costs for data management and administrative activities could be attributed to the need to interpret the data from the DATSs and reschedule the irrigation strategies "
+                  },
+                  {
+                     "costRevenueImpactCategory": "OUTPUT",
+                     "costRevenueImpactName": "Crop revenue",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -700.0,
+                     "percentageDifference": -5.645161290322581,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 2.0,
+                     "costRevenueImpactShortDescription": "Revenues: The observed decrease in revenues has not been included in the cost-benefit analysis due to the difficulty in isolating the specific impact of the DATS on crop productivity "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 3.3333333333333286,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Net Benefit: The cost savings associated with irrigation result in only a modest monetary benefit, despite the significant advantages in terms of resource use efficiency, less field visits, better crop monitoring and potential improvements in product quality"
+                  }
+               ]
+            },
+            {
+               "parcelAssessmentWithDATS": {},
+               "parcelAssessmentWithoutDATS": {
+                  "farmInformation": {
+                     "farmNumber": 1,
+                     "biogeographicalRegion": "Pomerania",
+                     "totalFarmSize": 2500
+                  },
+                  "parcelInformation": {
+                     "parcelName": "103 (RZ2-FO-45)",
+                     "parcelDimension": 45,
+                     "startMonth": 4,
+                     "endMonth": 10,
+                     "productType": "Potatoes",
+                     "numberOfEmployees": 5,
+                     "numberOfFulltimeEmployees": 5,
+                     "numberOfSeasonalEmployees": 0,
+                     "soilFractionSand": 70,
+                     "soilFractionClay": 10,
+                     "soilFractionSilt": 20,
+                     "bulkDensity": 2.6,
+                     "soilOrganicCarbon": 2,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 423.2,
+                     "waterUsageForIrrigation": 420,
+                     "waterUsageForFertigation": 0,
+                     "waterUsageForPestDilution": 3.2,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 220.8,
+                     "fuelUsageForFertilisation": 11.2,
+                     "fuelUsageForPesticides": 21.6,
+                     "fuelUsageForIrrigation": 60,
+                     "fuelUsageForSowing": 28,
+                     "fuelUsageForPruning": 0,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 0,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": 0,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [
+                     {
+                        "productName": "Aztek 250 SC",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.5,
+                        "productPrice": 10.6
+                     },
+                     {
+                        "productName": "Carial Star 500 SC",
+                        "numberOfTreatments": 4,
+                        "averageQuantity": 0.6,
+                        "productPrice": 50.7
+                     },
+                     {
+                        "productName": "Chanon 600",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 2,
+                        "productPrice": 15.7
+                     },
+                     {
+                        "productName": "Citation 70 WG",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.3,
+                        "productPrice": 32.1
+                     },
+                     {
+                        "productName": "Diprospero",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 2,
+                        "productPrice": 10.7
+                     },
+                     {
+                        "productName": "Infinito 687,5 SC",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 1.6,
+                        "productPrice": 21.7
+                     },
+                     {
+                        "productName": "Leimay 200 SC",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.5,
+                        "productPrice": 35.8
+                     },
+                     {
+                        "productName": "Moxato 450 WG",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.2,
+                        "productPrice": 17.7
+                     },
+                     {
+                        "productName": "Porter 250 EC",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 0.5,
+                        "productPrice": 15.1
+                     },
+                     {
+                        "productName": "Propluse 250 SC",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.5,
+                        "productPrice": 45.1
+                     },
+                     {
+                        "productName": "Ranman Top 160 SC",
+                        "numberOfTreatments": 4,
+                        "averageQuantity": 0.5,
+                        "productPrice": 49.3
+                     },
+                     {
+                        "productName": "Reactor plus 480 EC",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.12,
+                        "productPrice": 15.2
+                     },
+                     {
+                        "productName": "Roundup 360 plus ",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 1.5,
+                        "productPrice": 3.4
+                     },
+                     {
+                        "productName": "Sacron WG",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.2,
+                        "productPrice": 24.9
+                     },
+                     {
+                        "productName": "Spotlight Plus 060 EO",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 1,
+                        "productPrice": 35.8
+                     },
+                     {
+                        "productName": "Voliam",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.062,
+                        "productPrice": 251.2
+                     },
+                     {
+                        "productName": "Zorvec Entecta",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.25,
+                        "productPrice": 181.9
+                     },
+                     {
+                        "productName": "Zorvec Enicade",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.15,
+                        "productPrice": 223.3
+                     }
+                  ],
+                  "fertilizersUsageInformation": [
+                     {
+                        "productName": "Sól Potasowa 60%",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.286,
+                        "averageNitrogenQuantity": 0,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 60,
+                        "productPrice": 0.4233
+                     },
+                     {
+                        "productName": "Fosforan amonu 18-46",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.25,
+                        "averageNitrogenQuantity": 18,
+                        "averagePhosphorusQuantity": 46,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.681
+                     },
+                     {
+                        "productName": "Saletra amonowa Anwil N-34%",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.141,
+                        "averageNitrogenQuantity": 34,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.29
+                     },
+                     {
+                        "productName": "RSM 32",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 0.096,
+                        "averageNitrogenQuantity": 32,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.334
+                     }
+                  ],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": 21,
+                     "labourForPesticides": 2.5,
+                     "labourForFertilisation": 1.2,
+                     "labourForSowingOrPlanting": 1.8,
+                     "labourForPruning": 0,
+                     "labourForFieldVisits": 1,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": 2,
+                     "labourForStorage": null,
+                     "labourForAdministration": 0
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": 39,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": 300,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 0,
+                     "totalNumberOfLostWorkingHours": 0,
+                     "totalNumberOfWorkingHours": 0,
+                     "numberOfWorkingWeeks": 0,
+                     "numberOfNewLocalEmployeesHired": 0,
+                     "numberOfNewEmployeesHired": 0
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Cost of water",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -54.133333333333326,
+                     "percentageDifference": -11.358231920548327
+                  },
+                  {
+                     "indicatorName": "Labour for administrative activities, data collection, etc. ",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 0.8000000000000002,
+                     "percentageDifference": 7
+                  },
+                  {
+                     "indicatorName": "Sum of costs of labour",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 0.8000000000000002,
+                     "percentageDifference": 0.05349453018428866
+                  },
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -53.33333333333333,
+                     "percentageDifference": -3.5663020122859095
+                  },
+                  {
+                     "indicatorName": "Water consumption ",
+                     "indicatorUnit": "",
+                     "absoluteDifference": -54.4,
+                     "percentageDifference": -11.41418380193034
+                  },
+                  {
+                     "indicatorName": "Irrigation water productivity",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": 35.693171810183344,
+                     "percentageDifference": 39.976352427405345
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/ha",
+                     "absoluteDifference": 0.039999999999999855,
+                     "percentageDifference": 0.17241379310344765
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 1.7831510061429547
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 6.423817028666961
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -0.17241379310344765
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 3.5663020122859095,
+                     "aggregatedImpactMaxRangeValue": 3.5663020122859095
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 25.695268114667844,
+                     "aggregatedImpactMaxRangeValue": 25.695268114667844
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -0.17241379310344765,
+                     "aggregatedImpactMaxRangeValue": -0.17241379310344765
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Cost of water",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -54.133333333333326,
+                     "percentageDifference": -11.358231920548327,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "REDUCED WATER CONSUMPTION",
+                     "mainImpactSubtitle": "due to precise assessment of the crop's water requirements, allowing for optimized irrigation scheduling"
+                  },
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -53.33333333333333,
+                     "percentageDifference": -3.5663020122859095,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "SAVED COSTS",
+                     "mainImpactSubtitle": "due to cost savings associated with irrigation and significant benefits in resource use efficiency, fewer field visits, and improved crop monitoring "
+                  },
+                  {
+                     "mainImpactName": "Crop revenue",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -700.0,
+                     "percentageDifference": -5.645161290322581,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "REVENUES",
+                     "mainImpactSubtitle": "The observed decrease in revenues has not been included in the cost-benefit analysis due to the difficulty in isolating the specific impact of the DATS on crop productivity "
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 3.3333333333333286,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT",
+                     "mainImpactSubtitle": "due to cost savings associated with irrigation"
+                  },
+                  {
+                     "mainImpactName": "PAYBACK PERIOD",
+                     "mainImpactUnit": "years (n)",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "PAYBACK PERIOD NOT CALCULATED",
+                     "mainImpactSubtitle": "the initial investment for the DATSs is zero"
+                  },
+                  {
+                     "mainImpactName": "Irrigation water productivity",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": 35.693171810183344,
+                     "percentageDifference": 39.976352427405345,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "INCREASED WATER PRODUCTIVITY ",
+                     "mainImpactSubtitle": "due to the efficient use of water and the consequent reduction in waste and better overall irrigation effectiveness."
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 50.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of water",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -54.133333333333326,
+                     "percentageDifference": -11.358231920548327,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of water: The DATS enables precise assessment of the crop's water requirements, allowing for optimized irrigation scheduling. This ensures efficient water use, reduces waste, and enhances overall irrigation effectiveness. The reduction of water use translates in lower costs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 0.8000000000000002,
+                     "percentageDifference": 7,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for data management and administrative activities: A slight increase in costs for data management and administrative activities could be attributed to the need to interpret the data from the DATSs and reschedule the irrigation strategies "
+                  },
+                  {
+                     "costRevenueImpactCategory": "OUTPUT",
+                     "costRevenueImpactName": "Crop revenue",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -700.0,
+                     "percentageDifference": -5.645161290322581,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 2.0,
+                     "costRevenueImpactShortDescription": "Revenues: The observed decrease in revenues has not been included in the cost-benefit analysis due to the difficulty in isolating the specific impact of the DATS on crop productivity "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 3.3333333333333286,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Net Benefit: The cost savings associated with irrigation result in only a modest monetary benefit, despite the significant advantages in terms of resource use efficiency, less field visits, better crop monitoring and potential improvements in product quality"
+                  }
+               ]
+            },
+            {
+               "parcelAssessmentWithDATS": {},
+               "parcelAssessmentWithoutDATS": {
+                  "farmInformation": {
+                     "farmNumber": 1,
+                     "biogeographicalRegion": "Pomerania",
+                     "totalFarmSize": 2500
+                  },
+                  "parcelInformation": {
+                     "parcelName": "104 (FF2-RZ-RZ1-FO-27,4)",
+                     "parcelDimension": 27.4,
+                     "startMonth": 4,
+                     "endMonth": 10,
+                     "productType": "Potatoes",
+                     "numberOfEmployees": 5,
+                     "numberOfFulltimeEmployees": 5,
+                     "numberOfSeasonalEmployees": 0,
+                     "soilFractionSand": 70,
+                     "soilFractionClay": 10,
+                     "soilFractionSilt": 20,
+                     "bulkDensity": 2.6,
+                     "soilOrganicCarbon": 2,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 403.2,
+                     "waterUsageForIrrigation": 400,
+                     "waterUsageForFertigation": 0,
+                     "waterUsageForPestDilution": 3.2,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 220.8,
+                     "fuelUsageForFertilisation": 11.2,
+                     "fuelUsageForPesticides": 21.6,
+                     "fuelUsageForIrrigation": 160,
+                     "fuelUsageForSowing": 28,
+                     "fuelUsageForPruning": 0,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 0,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": 0,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [
+                     {
+                        "productName": "Aurelit 70 WG",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.3,
+                        "productPrice": 32.1
+                     },
+                     {
+                        "productName": "Aztek 250 SC",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.5,
+                        "productPrice": 10.6
+                     },
+                     {
+                        "productName": "Carial Star 500 SC",
+                        "numberOfTreatments": 4,
+                        "averageQuantity": 0.6,
+                        "productPrice": 50.7
+                     },
+                     {
+                        "productName": "Chanon 600",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 2.5,
+                        "productPrice": 15.7
+                     },
+                     {
+                        "productName": "Citation 70 WG",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.3,
+                        "productPrice": 32.1
+                     },
+                     {
+                        "productName": "Diprospero ",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 2,
+                        "productPrice": 10.7
+                     },
+                     {
+                        "productName": "Electis CX",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.45,
+                        "productPrice": 41.9
+                     },
+                     {
+                        "productName": "Infinito 687,5 SC",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 1.6,
+                        "productPrice": 21.7
+                     },
+                     {
+                        "productName": "Leinay 200 SC",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.5,
+                        "productPrice": 35.8
+                     },
+                     {
+                        "productName": "Moxato 450 WG",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.2,
+                        "productPrice": 17.7
+                     },
+                     {
+                        "productName": "Porter 250 EC",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 0.5,
+                        "productPrice": 15.1
+                     },
+                     {
+                        "productName": "Propulse 250 SE",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.5,
+                        "productPrice": 45.1
+                     },
+                     {
+                        "productName": "Ranman Top 160 SC",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 0.5,
+                        "productPrice": 49.3
+                     },
+                     {
+                        "productName": "Reactor Plus 480 EC",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.12,
+                        "productPrice": 15.2
+                     },
+                     {
+                        "productName": "Roundup 360 Plus",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 1.5,
+                        "productPrice": 3.4
+                     },
+                     {
+                        "productName": "Sacron WG",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.2,
+                        "productPrice": 24.9
+                     },
+                     {
+                        "productName": "Spotlight Plus 060 EO",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 1,
+                        "productPrice": 35.8
+                     },
+                     {
+                        "productName": "Valor 250 EC",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.3,
+                        "productPrice": 15.1
+                     },
+                     {
+                        "productName": "Voliam",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.062,
+                        "productPrice": 251.2
+                     },
+                     {
+                        "productName": "Zorvec Entecta",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.25,
+                        "productPrice": 181.9
+                     },
+                     {
+                        "productName": "Zorvec Enicade",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.15,
+                        "productPrice": 223.3
+                     }
+                  ],
+                  "fertilizersUsageInformation": [
+                     {
+                        "productName": "Sól Potasowa 60%",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.339,
+                        "averageNitrogenQuantity": 0,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 60,
+                        "productPrice": 0.4233
+                     },
+                     {
+                        "productName": "Fosforan amonu 18-46",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.164,
+                        "averageNitrogenQuantity": 18,
+                        "averagePhosphorusQuantity": 46,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.681
+                     },
+                     {
+                        "productName": "Fosforan amonu 10-46",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.128,
+                        "averageNitrogenQuantity": 10,
+                        "averagePhosphorusQuantity": 46,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.662
+                     },
+                     {
+                        "productName": "RSM 32",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 0.128,
+                        "averageNitrogenQuantity": 32,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.334
+                     }
+                  ],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": 21,
+                     "labourForPesticides": 2.5,
+                     "labourForFertilisation": 1.2,
+                     "labourForSowingOrPlanting": 1.8,
+                     "labourForPruning": 0,
+                     "labourForFieldVisits": 1,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": 2,
+                     "labourForStorage": null,
+                     "labourForAdministration": 0
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": 40,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": 300,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": null,
+                     "totalNumberOfLostWorkingHours": null,
+                     "totalNumberOfWorkingHours": null,
+                     "numberOfWorkingWeeks": null,
+                     "numberOfNewLocalEmployeesHired": null,
+                     "numberOfNewEmployeesHired": null
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Cost of water",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -54.133333333333326,
+                     "percentageDifference": -11.358231920548327
+                  },
+                  {
+                     "indicatorName": "Labour for administrative activities, data collection, etc. ",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 0.8000000000000002,
+                     "percentageDifference": 7
+                  },
+                  {
+                     "indicatorName": "Sum of costs of labour",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 0.8000000000000002,
+                     "percentageDifference": 0.05349453018428866
+                  },
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -53.33333333333333,
+                     "percentageDifference": -3.5663020122859095
+                  },
+                  {
+                     "indicatorName": "Water consumption ",
+                     "indicatorUnit": "",
+                     "absoluteDifference": -54.4,
+                     "percentageDifference": -11.41418380193034
+                  },
+                  {
+                     "indicatorName": "Irrigation water productivity",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": 35.693171810183344,
+                     "percentageDifference": 39.976352427405345
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/ha",
+                     "absoluteDifference": 0.039999999999999855,
+                     "percentageDifference": 0.17241379310344765
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 1.7831510061429547
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 6.423817028666961
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -0.17241379310344765
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 3.5663020122859095,
+                     "aggregatedImpactMaxRangeValue": 3.5663020122859095
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 25.695268114667844,
+                     "aggregatedImpactMaxRangeValue": 25.695268114667844
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -0.17241379310344765,
+                     "aggregatedImpactMaxRangeValue": -0.17241379310344765
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Cost of water",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -54.133333333333326,
+                     "percentageDifference": -11.358231920548327,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "REDUCED WATER CONSUMPTION",
+                     "mainImpactSubtitle": "due to precise assessment of the crop's water requirements, allowing for optimized irrigation scheduling"
+                  },
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -53.33333333333333,
+                     "percentageDifference": -3.5663020122859095,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "SAVED COSTS",
+                     "mainImpactSubtitle": "due to cost savings associated with irrigation and significant benefits in resource use efficiency, fewer field visits, and improved crop monitoring "
+                  },
+                  {
+                     "mainImpactName": "Crop revenue",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -700.0,
+                     "percentageDifference": -5.645161290322581,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "REVENUES",
+                     "mainImpactSubtitle": "The observed decrease in revenues has not been included in the cost-benefit analysis due to the difficulty in isolating the specific impact of the DATS on crop productivity "
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 3.3333333333333286,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT",
+                     "mainImpactSubtitle": "due to cost savings associated with irrigation"
+                  },
+                  {
+                     "mainImpactName": "PAYBACK PERIOD",
+                     "mainImpactUnit": "years (n)",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "PAYBACK PERIOD NOT CALCULATED",
+                     "mainImpactSubtitle": "the initial investment for the DATSs is zero"
+                  },
+                  {
+                     "mainImpactName": "Irrigation water productivity",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": 35.693171810183344,
+                     "percentageDifference": 39.976352427405345,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "INCREASED WATER PRODUCTIVITY ",
+                     "mainImpactSubtitle": "due to the efficient use of water and the consequent reduction in waste and better overall irrigation effectiveness."
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 50.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of water",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -54.133333333333326,
+                     "percentageDifference": -11.358231920548327,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of water: The DATS enables precise assessment of the crop's water requirements, allowing for optimized irrigation scheduling. This ensures efficient water use, reduces waste, and enhances overall irrigation effectiveness. The reduction of water use translates in lower costs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 0.8000000000000002,
+                     "percentageDifference": 7,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for data management and administrative activities: A slight increase in costs for data management and administrative activities could be attributed to the need to interpret the data from the DATSs and reschedule the irrigation strategies "
+                  },
+                  {
+                     "costRevenueImpactCategory": "OUTPUT",
+                     "costRevenueImpactName": "Crop revenue",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -700.0,
+                     "percentageDifference": -5.645161290322581,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 2.0,
+                     "costRevenueImpactShortDescription": "Revenues: The observed decrease in revenues has not been included in the cost-benefit analysis due to the difficulty in isolating the specific impact of the DATS on crop productivity "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 3.3333333333333286,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Net Benefit: The cost savings associated with irrigation result in only a modest monetary benefit, despite the significant advantages in terms of resource use efficiency, less field visits, better crop monitoring and potential improvements in product quality"
+                  }
+               ]
+            },
+            {
+               "parcelAssessmentWithDATS": {},
+               "parcelAssessmentWithoutDATS": {
+                  "farmInformation": {
+                     "farmNumber": 1,
+                     "biogeographicalRegion": "Pomerania",
+                     "totalFarmSize": 2500
+                  },
+                  "parcelInformation": {
+                     "parcelName": "105 (FFU-BO-B3-IN-66)",
+                     "parcelDimension": 66,
+                     "startMonth": 4,
+                     "endMonth": 10,
+                     "productType": "Potatoes",
+                     "numberOfEmployees": 5,
+                     "numberOfFulltimeEmployees": 5,
+                     "numberOfSeasonalEmployees": 0,
+                     "soilFractionSand": 70,
+                     "soilFractionClay": 10,
+                     "soilFractionSilt": 20,
+                     "bulkDensity": 2.6,
+                     "soilOrganicCarbon": 2,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 603.4,
+                     "waterUsageForIrrigation": 600,
+                     "waterUsageForFertigation": 0,
+                     "waterUsageForPestDilution": 3.4,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 220.8,
+                     "fuelUsageForFertilisation": 11.2,
+                     "fuelUsageForPesticides": 21.6,
+                     "fuelUsageForIrrigation": 160,
+                     "fuelUsageForSowing": 28,
+                     "fuelUsageForPruning": 0,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 0,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": 0,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [
+                     {
+                        "productName": "Aztek 250 SC",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.5,
+                        "productPrice": 10.6
+                     },
+                     {
+                        "productName": "Azuleo",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.3,
+                        "productPrice": 23.3
+                     },
+                     {
+                        "productName": "Carial Star 500 SC",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.6,
+                        "productPrice": 50.7
+                     },
+                     {
+                        "productName": "Diprospero",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 2,
+                        "productPrice": 10.7
+                     },
+                     {
+                        "productName": "Fidox 800 EC",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 3,
+                        "productPrice": 6.2
+                     },
+                     {
+                        "productName": "Infinito 687,5 SC",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 1.5,
+                        "productPrice": 21.7
+                     },
+                     {
+                        "productName": "Kenofen 600 SC",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 2.5,
+                        "productPrice": 15.7
+                     },
+                     {
+                        "productName": "Leimay 200 SC",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.5,
+                        "productPrice": 35.8
+                     },
+                     {
+                        "productName": "Moxato 450 WG",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.2,
+                        "productPrice": 17.7
+                     },
+                     {
+                        "productName": "Porter 250 EC",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 0.5,
+                        "productPrice": 15.1
+                     },
+                     {
+                        "productName": "Propulse 250 SE",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.5,
+                        "productPrice": 45.1
+                     },
+                     {
+                        "productName": "Ranman Top 160 SC",
+                        "numberOfTreatments": 4,
+                        "averageQuantity": 0.5,
+                        "productPrice": 49.3
+                     },
+                     {
+                        "productName": "Reactor Plus 480 EC",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.12,
+                        "productPrice": 15.2
+                     },
+                     {
+                        "productName": "Revus 250 SC",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.6,
+                        "productPrice": 44.2
+                     },
+                     {
+                        "productName": "Roundup 360 Plus",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 1.5,
+                        "productPrice": 3.4
+                     },
+                     {
+                        "productName": "Spotlight Plus 060 EO",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 1,
+                        "productPrice": 35.8
+                     },
+                     {
+                        "productName": "Valor 250 EC",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.3,
+                        "productPrice": 15.1
+                     },
+                     {
+                        "productName": "Voliam",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.056,
+                        "productPrice": 251.2
+                     },
+                     {
+                        "productName": "Zorvec Enicade",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 0.15,
+                        "productPrice": 223.3
+                     }
+                  ],
+                  "fertilizersUsageInformation": [
+                     {
+                        "productName": "Sól potasowa 60%",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.485,
+                        "averageNitrogenQuantity": 0,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 60,
+                        "productPrice": 0.4233
+                     },
+                     {
+                        "productName": "Fosforan amonu 18-46",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.125,
+                        "averageNitrogenQuantity": 18,
+                        "averagePhosphorusQuantity": 46,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.6819
+                     },
+                     {
+                        "productName": "Saletra amonowa Procam N-33,5",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.141,
+                        "averageNitrogenQuantity": 33.5,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.6628
+                     },
+                     {
+                        "productName": "RSM 32",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 0.12,
+                        "averageNitrogenQuantity": 32,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.3349
+                     }
+                  ],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": 21,
+                     "labourForPesticides": 2.5,
+                     "labourForFertilisation": 1.2,
+                     "labourForSowingOrPlanting": 1.8,
+                     "labourForPruning": 0,
+                     "labourForFieldVisits": 1,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": 2,
+                     "labourForStorage": null,
+                     "labourForAdministration": 0
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": 45,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": 300,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 0,
+                     "totalNumberOfLostWorkingHours": 0,
+                     "totalNumberOfWorkingHours": 0,
+                     "numberOfWorkingWeeks": 0,
+                     "numberOfNewLocalEmployeesHired": 0,
+                     "numberOfNewEmployeesHired": 0
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Cost of water",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -54.133333333333326,
+                     "percentageDifference": -11.358231920548327
+                  },
+                  {
+                     "indicatorName": "Labour for administrative activities, data collection, etc. ",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 0.8000000000000002,
+                     "percentageDifference": 7
+                  },
+                  {
+                     "indicatorName": "Sum of costs of labour",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 0.8000000000000002,
+                     "percentageDifference": 0.05349453018428866
+                  },
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -53.33333333333333,
+                     "percentageDifference": -3.5663020122859095
+                  },
+                  {
+                     "indicatorName": "Water consumption ",
+                     "indicatorUnit": "",
+                     "absoluteDifference": -54.4,
+                     "percentageDifference": -11.41418380193034
+                  },
+                  {
+                     "indicatorName": "Irrigation water productivity",
+                     "indicatorUnit": "%",
+                     "absoluteDifference": 35.693171810183344,
+                     "percentageDifference": 39.976352427405345
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/ha",
+                     "absoluteDifference": 0.039999999999999855,
+                     "percentageDifference": 0.17241379310344765
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 1.7831510061429547
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 6.423817028666961
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -0.17241379310344765
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 3.5663020122859095,
+                     "aggregatedImpactMaxRangeValue": 3.5663020122859095
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 25.695268114667844,
+                     "aggregatedImpactMaxRangeValue": 25.695268114667844
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -0.17241379310344765,
+                     "aggregatedImpactMaxRangeValue": -0.17241379310344765
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Cost of water",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -54.133333333333326,
+                     "percentageDifference": -11.358231920548327,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "REDUCED WATER CONSUMPTION",
+                     "mainImpactSubtitle": "due to precise assessment of the crop's water requirements, allowing for optimized irrigation scheduling"
+                  },
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -53.33333333333333,
+                     "percentageDifference": -3.5663020122859095,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "SAVED COSTS",
+                     "mainImpactSubtitle": "due to cost savings associated with irrigation and significant benefits in resource use efficiency, fewer field visits, and improved crop monitoring "
+                  },
+                  {
+                     "mainImpactName": "Crop revenue",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -700.0,
+                     "percentageDifference": -5.645161290322581,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "REVENUES",
+                     "mainImpactSubtitle": "The observed decrease in revenues has not been included in the cost-benefit analysis due to the difficulty in isolating the specific impact of the DATS on crop productivity "
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 3.3333333333333286,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT",
+                     "mainImpactSubtitle": "due to cost savings associated with irrigation"
+                  },
+                  {
+                     "mainImpactName": "PAYBACK PERIOD",
+                     "mainImpactUnit": "years (n)",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "PAYBACK PERIOD NOT CALCULATED",
+                     "mainImpactSubtitle": "the initial investment for the DATSs is zero"
+                  },
+                  {
+                     "mainImpactName": "Irrigation water productivity",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": 35.693171810183344,
+                     "percentageDifference": 39.976352427405345,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "INCREASED WATER PRODUCTIVITY ",
+                     "mainImpactSubtitle": "due to the efficient use of water and the consequent reduction in waste and better overall irrigation effectiveness."
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 50.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of water",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -54.133333333333326,
+                     "percentageDifference": -11.358231920548327,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of water: The DATS enables precise assessment of the crop's water requirements, allowing for optimized irrigation scheduling. This ensures efficient water use, reduces waste, and enhances overall irrigation effectiveness. The reduction of water use translates in lower costs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 0.8000000000000002,
+                     "percentageDifference": 7,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for data management and administrative activities: A slight increase in costs for data management and administrative activities could be attributed to the need to interpret the data from the DATSs and reschedule the irrigation strategies "
+                  },
+                  {
+                     "costRevenueImpactCategory": "OUTPUT",
+                     "costRevenueImpactName": "Crop revenue",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -700.0,
+                     "percentageDifference": -5.645161290322581,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 2.0,
+                     "costRevenueImpactShortDescription": "Revenues: The observed decrease in revenues has not been included in the cost-benefit analysis due to the difficulty in isolating the specific impact of the DATS on crop productivity "
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 3.3333333333333286,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Net Benefit: The cost savings associated with irrigation result in only a modest monetary benefit, despite the significant advantages in terms of resource use efficiency, less field visits, better crop monitoring and potential improvements in product quality"
+                  }
+               ]
+            }
+         ],
+         "marketInformation": {
+            "waterPrice": 0.001,
+            "fuelPrice": 1.1,
+            "electricityPrice": 0.3,
+            "averageSalary": 12,
+            "averageProfessionalSalary": 28
+         }
+      },
+      {
+         "cultivationYear": 2025,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "parcelInformation": {
+                     "productType": "Potatoes"
+                  }
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 1.9016887605169812,
+                     "percentageDifference": 0.11495424322026869
+                  },
+                  {
+                     "indicatorName": "Water consumption ",
+                     "indicatorUnit": "m3/ha",
+                     "absoluteDifference": 2.3957211117249733,
+                     "percentageDifference": 86.13371337299759
+                  },
+                  {
+                     "indicatorName": "Irrigation water productivity",
+                     "indicatorUnit": "kg/m3",
+                     "absoluteDifference": -136736.96676231467,
+                     "percentageDifference": -93.88749598881803
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/ha",
+                     "absoluteDifference": -0.038002488554460916,
+                     "percentageDifference": -65.27370443421655
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -0.057477121610134345
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -22.502651170226954
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 65.27370443421655
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -0.11495424322026869,
+                     "aggregatedImpactMaxRangeValue": -0.11495424322026869
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -90.01060468090782,
+                     "aggregatedImpactMaxRangeValue": -90.01060468090782
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 65.27370443421655,
+                     "aggregatedImpactMaxRangeValue": 65.27370443421655
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Cost of water",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 2.3957211117249733,
+                     "percentageDifference": 86.13371337299759,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "mainImpactTitle": "HIGHER COST OF WATER",
+                     "mainImpactSubtitle": "due to precise assessment of the crop's water requirements"
+                  },
+                  {
+                     "mainImpactName": "Labour for field visits ",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -0.4541772861373789,
+                     "percentageDifference": -67.46516968836795,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "LOWER COST OF LABOUR FOR FIELD VISITS",
+                     "mainImpactSubtitle": ""
+                  },
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 1.9016887605169812,
+                     "percentageDifference": 0.11495424322026869,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "mainImpactTitle": "INCREASED COSTS",
+                     "mainImpactSubtitle": "due to higher costs for irrigation and input"
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -51.90168876051698,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 0.0,
+                     "mainImpactTitle": "NET LOSS",
+                     "mainImpactSubtitle": "due to higher costs for irrigation, the lower revenues and the running costs of the DATSs"
+                  },
+                  {
+                     "mainImpactName": "Irrigation water productivity",
+                     "mainImpactUnit": "kg/m3",
+                     "absoluteDifference": -136736.96676231467,
+                     "percentageDifference": -93.88749598881803,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 0.0,
+                     "mainImpactTitle": "LOWER IRRIGATION WATER PRODUCTIVITY",
+                     "mainImpactSubtitle": "mainly driven by lower average yields in DATS parcels"
+                  },
+                  {
+                     "mainImpactName": "Working time",
+                     "mainImpactUnit": "h/ha",
+                     "absoluteDifference": -0.038002488554460916,
+                     "percentageDifference": -65.27370443421655,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "DECRESED WORKING HOURS",
+                     "mainImpactSubtitle": "thanks to remote access to soil and field conditions"
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 50.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of water",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 2.3957211117249733,
+                     "percentageDifference": 86.13371337299759,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "The DATS enables precise assessment of the crop's water requirements, allowing for optimized irrigation scheduling. This ensures efficient water use, reduces waste, and enhances overall irrigation effectiveness. The water usage impacts directly onto costs. "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for field visits ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -0.4541772861373789,
+                     "percentageDifference": -67.46516968836795,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATS enables remote monitoring of soil moisture and field conditions, reducing the need for frequent manual field visits for crop monitoring. Field visits are still required, but they can be less frequent and more targeted. "
+                  }
+               ]
+            }
+         ],
+         "marketInformation": {
+            "waterPrice": null,
+            "fuelPrice": null,
+            "electricityPrice": null,
+            "averageSalary": null,
+            "averageProfessionalSalary": null
+         }
+      },
+      {
+         "cultivationYear": 2026,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "parcelInformation": {
+                     "productType": "Potatoes"
+                  }
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -25.3,
+                     "percentageDifference": null
+                  },
+                  {
+                     "indicatorName": "Water consumption ",
+                     "indicatorUnit": "m3/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": 56.1
+                  },
+                  {
+                     "indicatorName": "Irrigation water productivity",
+                     "indicatorUnit": "kg/m3",
+                     "absoluteDifference": null,
+                     "percentageDifference": -27.0
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -32.6
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 0.0
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -10.3875
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 32.6
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -41.55,
+                     "aggregatedImpactMaxRangeValue": -41.55
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 32.6,
+                     "aggregatedImpactMaxRangeValue": 32.6
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Cost of water",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -25.8,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "LOWER WATER COSTS",
+                     "mainImpactSubtitle": "due to precise assessment of the crop's water requirements"
+                  },
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -25.3,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "REDUCED COSTS",
+                     "mainImpactSubtitle": "thanks to water savings"
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -39.3,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 0.0,
+                     "mainImpactTitle": "NET LOSS",
+                     "mainImpactSubtitle": "due to savings not offsetting DATS costs."
+                  },
+                  {
+                     "mainImpactName": "NPV 5 years",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -221.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "Negative NPV",
+                     "mainImpactSubtitle": "The NPV over 5 years remains negative, as the generated savings do not offset the costs of the DATS."
+                  },
+                  {
+                     "mainImpactName": "Water consumption ",
+                     "mainImpactUnit": "m3/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": 56.1,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "HIGHER WATER USE",
+                     "mainImpactSubtitle": "Higher average irrigation water consumption with DATS over 3 years"
+                  },
+                  {
+                     "mainImpactName": "Working time",
+                     "mainImpactUnit": "h/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -32.6,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "DECRESED WORKING HOURS",
+                     "mainImpactSubtitle": "thanks to remote access to soil and field conditions"
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 50.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": ""
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 0.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": ""
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of water",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -25.8,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The DATS enables precise assessment of the crop's water requirements, allowing for optimized irrigation scheduling."
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 0.5,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "A small increase in data management and administrative costs is observed"
+                  }
+               ]
+            }
+         ],
+         "marketInformation": {
+            "waterPrice": null,
+            "fuelPrice": null,
+            "electricityPrice": null,
+            "averageSalary": null,
+            "averageProfessionalSalary": null
+         }
+      }
+   ]
+}

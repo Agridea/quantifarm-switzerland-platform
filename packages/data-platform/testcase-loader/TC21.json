@@ -1,0 +1,1886 @@
+{
+   "testcaseNumber": 21,
+   "testcaseLeader": "LUKE",
+   "cultivationType": "Greenhouse",
+   "datsInformation": [
+      {
+         "datsName": "Kathari UF1",
+         "datsInitialInvestmentCosts": 56000,
+         "datsAnnualFees": 0,
+         "datsMaintenanceCosts": 0,
+         "datsExpectedLifespan": 10,
+         "datsInstallationTime": 16,
+         "datsTrainingTime": 2,
+         "datsTrainers": 2,
+         "datsTrainingCosts": 100
+      },
+      {
+         "datsName": "Signum",
+         "datsInitialInvestmentCosts": 1523000,
+         "datsAnnualFees": 0,
+         "datsMaintenanceCosts": 3000,
+         "datsExpectedLifespan": 6,
+         "datsInstallationTime": 100,
+         "datsTrainingTime": 0,
+         "datsTrainers": 2,
+         "datsTrainingCosts": 0
+      }
+   ],
+   "yearlyAssessmentInformation": [
+      {
+         "cultivationYear": 2023,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "farmInformation": {
+                     "farmNumber": 2,
+                     "biogeographicalRegion": "Boreal",
+                     "totalFarmSize": 1.5
+                  },
+                  "parcelInformation": {
+                     "parcelName": "TC 21-2 Blockhouse",
+                     "parcelDimension": 1.2,
+                     "startMonth": 6,
+                     "endMonth": 5,
+                     "productType": "Tomato",
+                     "numberOfEmployees": 9,
+                     "numberOfFulltimeEmployees": 8,
+                     "numberOfSeasonalEmployees": 1,
+                     "soilFractionSand": 0,
+                     "soilFractionClay": 0,
+                     "soilFractionSilt": 0,
+                     "bulkDensity": 0.11,
+                     "soilOrganicCarbon": 76,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": 24180,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [
+                     "Kathari UF1",
+                     "Signum"
+                  ],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 11398,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 35200,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": 35200,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 3652000,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [
+                     {
+                        "productName": "Propane",
+                        "quantity": 63137.3,
+                        "productPrice": 1.71
+                     },
+                     {
+                        "productName": "Light fuel oil",
+                        "quantity": 35.2,
+                        "productPrice": 1300
+                     },
+                     {
+                        "productName": "District heat  in MWh",
+                        "quantity": 4286,
+                        "productPrice": 36
+                     }
+                  ],
+                  "pesticidesUsageInformation": [
+                     {
+                        "productName": "Floramite",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.1565,
+                        "productPrice": 560
+                     },
+                     {
+                        "productName": "Nissorun",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.0589,
+                        "productPrice": 168.1
+                     },
+                     {
+                        "productName": "Switch",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 1.019,
+                        "productPrice": 169.5
+                     },
+                     {
+                        "productName": "Signum",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.544,
+                        "productPrice": 108.6
+                     }
+                  ],
+                  "fertilizersUsageInformation": [
+                     {
+                        "productName": "Yara Tera calcinit",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1500,
+                        "averageQuantity": 0.00632,
+                        "averageNitrogenQuantity": 15.5,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.796
+                     },
+                     {
+                        "productName": "Haifa Multi-K GG 13-0-38",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1500,
+                        "averageQuantity": 0.00592,
+                        "averageNitrogenQuantity": 13,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 38,
+                        "productPrice": 1.616
+                     },
+                     {
+                        "productName": "Kekkilä Strong Superex 0-12-20",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1500,
+                        "averageQuantity": 0.0029,
+                        "averageNitrogenQuantity": 0,
+                        "averagePhosphorusQuantity": 12,
+                        "averagePotassiumQuantity": 20,
+                        "productPrice": 2.4
+                     },
+                     {
+                        "productName": "Yara Tera Krista Mag 11-0-0",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1500,
+                        "averageQuantity": 0.0011,
+                        "averageNitrogenQuantity": 11,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 1.04
+                     },
+                     {
+                        "productName": "Bitter salt K+S ",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1500,
+                        "averageQuantity": 0.0011,
+                        "averageNitrogenQuantity": 0,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.632
+                     },
+                     {
+                        "productName": "CO2",
+                        "productType": "Organic",
+                        "numberOfTreatments": 330,
+                        "averageQuantity": 0.713,
+                        "averageNitrogenQuantity": 0,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.17
+                     }
+                  ],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": 165,
+                     "labourForPesticides": 10,
+                     "labourForFertilisation": 82.5,
+                     "labourForSowingOrPlanting": 208,
+                     "labourForPruning": 8448,
+                     "labourForFieldVisits": 1155,
+                     "labourForGreenhouseManagement": 1424,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": 4536,
+                     "labourForStorage": null,
+                     "labourForAdministration": 300
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": 1034.6,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": 2770,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 0,
+                     "totalNumberOfLostWorkingHours": 0,
+                     "totalNumberOfWorkingHours": 17552,
+                     "numberOfWorkingWeeks": 52,
+                     "numberOfNewLocalEmployeesHired": 0,
+                     "numberOfNewEmployeesHired": 0
+                  },
+                  "additionalFieldsInformation": [
+                     {
+                        "fieldName": "Percentage of first class tomatoes of mass",
+                        "fieldValue": 96.52
+                     }
+                  ]
+               },
+               "parcelAssessmentWithoutDATS": {
+                  "farmInformation": {
+                     "farmNumber": 1,
+                     "biogeographicalRegion": "Boreal",
+                     "totalFarmSize": 1.452
+                  },
+                  "parcelInformation": {
+                     "parcelName": "TC 21-1 Blockhouse",
+                     "parcelDimension": 1.287,
+                     "startMonth": 8,
+                     "endMonth": 2,
+                     "productType": "Tomato",
+                     "numberOfEmployees": 8,
+                     "numberOfFulltimeEmployees": 8,
+                     "numberOfSeasonalEmployees": 0,
+                     "soilFractionSand": 0,
+                     "soilFractionClay": 0,
+                     "soilFractionSilt": 0,
+                     "bulkDensity": 0.09,
+                     "soilOrganicCarbon": 0,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": 28501,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 7719.7,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": 7719.7,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 0,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 3739000,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [
+                     {
+                        "productName": "Peat",
+                        "quantity": 2637,
+                        "productPrice": 21.5
+                     },
+                     {
+                        "productName": "Wood chip",
+                        "quantity": 942,
+                        "productPrice": 24
+                     }
+                  ],
+                  "pesticidesUsageInformation": [
+                     {
+                        "productName": "Amistar",
+                        "numberOfTreatments": 5,
+                        "averageQuantity": 0.048,
+                        "productPrice": 42
+                     }
+                  ],
+                  "fertilizersUsageInformation": [
+                     {
+                        "productName": "Yara Tera Calcinit",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 750,
+                        "averageQuantity": 0.0079,
+                        "averageNitrogenQuantity": 15.5,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.72
+                     },
+                     {
+                        "productName": "Yara Tera Krista-K+ 14-0-38",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 750,
+                        "averageQuantity": 0.0068,
+                        "averageNitrogenQuantity": 14,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 38,
+                        "productPrice": 1.6
+                     },
+                     {
+                        "productName": "Yara Ferticare OTL SG 3-27-33",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 750,
+                        "averageQuantity": 0.0027,
+                        "averageNitrogenQuantity": 3,
+                        "averagePhosphorusQuantity": 27,
+                        "averagePotassiumQuantity": 33,
+                        "productPrice": 2
+                     },
+                     {
+                        "productName": "Yara Tera Krista Mag 11-0-0",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 780,
+                        "averageQuantity": 1.0007,
+                        "averageNitrogenQuantity": 11,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 1.8
+                     },
+                     {
+                        "productName": "Yara Tera Krista MgS",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 750,
+                        "averageQuantity": 0.0013,
+                        "averageNitrogenQuantity": 0,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.63
+                     },
+                     {
+                        "productName": "CO2",
+                        "productType": "Organic",
+                        "numberOfTreatments": 180,
+                        "averageQuantity": 0.76,
+                        "averageNitrogenQuantity": 0,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.125
+                     }
+                  ],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": 5,
+                     "labourForPesticides": 10,
+                     "labourForFertilisation": 45,
+                     "labourForSowingOrPlanting": 208,
+                     "labourForPruning": 5168,
+                     "labourForFieldVisits": 26,
+                     "labourForGreenhouseManagement": 712,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": 1176,
+                     "labourForStorage": null,
+                     "labourForAdministration": 150
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": 240.4,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": 2770,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 0,
+                     "totalNumberOfLostWorkingHours": 0,
+                     "totalNumberOfWorkingHours": 7000,
+                     "numberOfWorkingWeeks": 26,
+                     "numberOfNewLocalEmployeesHired": 1,
+                     "numberOfNewEmployeesHired": 1
+                  },
+                  "additionalFieldsInformation": [
+                     {
+                        "fieldName": "Percentage of first class tomatoes of mass",
+                        "fieldValue": 98.3
+                     }
+                  ]
+               }
+            }
+         ],
+         "marketInformation": {
+            "waterPrice": 1.05,
+            "fuelPrice": 1.3,
+            "electricityPrice": 0.12,
+            "averageSalary": 13.7,
+            "averageProfessionalSalary": 0
+         }
+      },
+      {
+         "cultivationYear": 2024,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "farmInformation": {
+                     "farmNumber": 2,
+                     "biogeographicalRegion": "Boreal",
+                     "totalFarmSize": 1.5
+                  },
+                  "parcelInformation": {
+                     "parcelName": "TC 21-2 Blockhouse",
+                     "parcelDimension": 1.2,
+                     "startMonth": 7,
+                     "endMonth": 6,
+                     "productType": "Tomato",
+                     "numberOfEmployees": 9,
+                     "numberOfFulltimeEmployees": 8,
+                     "numberOfSeasonalEmployees": 1,
+                     "soilFractionSand": null,
+                     "soilFractionClay": null,
+                     "soilFractionSilt": null,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": null,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": 24180,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [
+                     "Kathari UF1",
+                     "Signum"
+                  ],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 11179.8,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": null,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 201300,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": 201300,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 5630000,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [
+                     {
+                        "productName": "Propane",
+                        "quantity": 5546.7,
+                        "productPrice": 18.29
+                     },
+                     {
+                        "productName": "Light fuel oil",
+                        "quantity": 201.3,
+                        "productPrice": 1160
+                     },
+                     {
+                        "productName": "District heat   MWh",
+                        "quantity": 5563,
+                        "productPrice": 39.9
+                     }
+                  ],
+                  "pesticidesUsageInformation": [
+                     {
+                        "productName": "Switch",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 1.0417,
+                        "productPrice": 197
+                     }
+                  ],
+                  "fertilizersUsageInformation": [
+                     {
+                        "productName": "Yara Tera Calcinit",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1500,
+                        "averageQuantity": 0.006,
+                        "averageNitrogenQuantity": 15.5,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.608
+                     },
+                     {
+                        "productName": "Haifa Multi-K GG 13-0-38",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1500,
+                        "averageQuantity": 0.008,
+                        "averageNitrogenQuantity": 13,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 1.26
+                     },
+                     {
+                        "productName": "Kekkilä Strong superex 0-12-20",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1500,
+                        "averageQuantity": 0.004,
+                        "averageNitrogenQuantity": 0,
+                        "averagePhosphorusQuantity": 12,
+                        "averagePotassiumQuantity": 20,
+                        "productPrice": 2.4
+                     },
+                     {
+                        "productName": "Yara Tera Krista Mag 11-0-0",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1500,
+                        "averageQuantity": 0.001,
+                        "averageNitrogenQuantity": 11,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.832
+                     },
+                     {
+                        "productName": "Bitter Salt K+S ",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1500,
+                        "averageQuantity": 0.001,
+                        "averageNitrogenQuantity": 0,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.632
+                     },
+                     {
+                        "productName": "CO2",
+                        "productType": "Organic",
+                        "numberOfTreatments": 330,
+                        "averageQuantity": 0.32,
+                        "averageNitrogenQuantity": 0,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.2
+                     }
+                  ],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": 165,
+                     "labourForPesticides": 5,
+                     "labourForFertilisation": 85,
+                     "labourForSowingOrPlanting": 220,
+                     "labourForPruning": 8594,
+                     "labourForFieldVisits": 1155,
+                     "labourForGreenhouseManagement": 1424,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": 4836,
+                     "labourForStorage": null,
+                     "labourForAdministration": 300
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": 1015.7,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": 2300,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": 0,
+                     "totalNumberOfLostWorkingHours": 0,
+                     "totalNumberOfWorkingHours": 16784,
+                     "numberOfWorkingWeeks": 52,
+                     "numberOfNewLocalEmployeesHired": 0,
+                     "numberOfNewEmployeesHired": 0
+                  },
+                  "additionalFieldsInformation": [
+                     {
+                        "fieldName": "Percentage of first class tomatoes of mass",
+                        "fieldValue": 94.1
+                     }
+                  ]
+               },
+               "parcelAssessmentWithoutDATS": {
+                  "farmInformation": {
+                     "farmNumber": 1,
+                     "biogeographicalRegion": "Boreal",
+                     "totalFarmSize": 1.452
+                  },
+                  "parcelInformation": {
+                     "parcelName": "TC 21-1 Blockhouse",
+                     "parcelDimension": 1.287,
+                     "startMonth": 5,
+                     "endMonth": 5,
+                     "productType": "Tomato",
+                     "numberOfEmployees": 8,
+                     "numberOfFulltimeEmployees": 8,
+                     "numberOfSeasonalEmployees": 0,
+                     "soilFractionSand": null,
+                     "soilFractionClay": null,
+                     "soilFractionSilt": null,
+                     "bulkDensity": 0.09,
+                     "soilOrganicCarbon": 0,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": 28501,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 22042,
+                     "waterUsageForIrrigation": null,
+                     "waterUsageForFertigation": 22042,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 17727,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 10098623,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [
+                     {
+                        "productName": "Light fuel oil",
+                        "quantity": 17.7,
+                        "productPrice": 1.16
+                     },
+                     {
+                        "productName": "Peat",
+                        "quantity": 6251.5,
+                        "productPrice": 28
+                     },
+                     {
+                        "productName": "Wood chip",
+                        "quantity": 1899,
+                        "productPrice": 24
+                     }
+                  ],
+                  "pesticidesUsageInformation": [
+                     {
+                        "productName": "Floramite",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.185,
+                        "productPrice": 560
+                     },
+                     {
+                        "productName": "Switch",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.597,
+                        "productPrice": 175
+                     },
+                     {
+                        "productName": "Amistar",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.286,
+                        "productPrice": 42
+                     }
+                  ],
+                  "fertilizersUsageInformation": [
+                     {
+                        "productName": "Yara Tera Calcinit",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1500,
+                        "averageQuantity": 0.01,
+                        "averageNitrogenQuantity": 15.5,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.592
+                     },
+                     {
+                        "productName": "Yara Tera Krista-K+ 14-0-38",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1500,
+                        "averageQuantity": 0.0079,
+                        "averageNitrogenQuantity": 14,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 38,
+                        "productPrice": 1.14
+                     },
+                     {
+                        "productName": "Yara Ferticare OTL SG 3-27-33",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1500,
+                        "averageQuantity": 0.0049,
+                        "averageNitrogenQuantity": 3,
+                        "averagePhosphorusQuantity": 27,
+                        "averagePotassiumQuantity": 33,
+                        "productPrice": 2.2
+                     },
+                     {
+                        "productName": "Yara Tera Krista Mag 11-0-0",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1500,
+                        "averageQuantity": 0.0028,
+                        "averageNitrogenQuantity": 11,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.708
+                     },
+                     {
+                        "productName": "Yara Tera Krista MgS",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1500,
+                        "averageQuantity": 0.0007,
+                        "averageNitrogenQuantity": 0,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.632
+                     },
+                     {
+                        "productName": "CO2",
+                        "productType": "Organic",
+                        "numberOfTreatments": 340,
+                        "averageQuantity": 0.996,
+                        "averageNitrogenQuantity": 0,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 150
+                     }
+                  ],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": 10,
+                     "labourForPesticides": 10,
+                     "labourForFertilisation": 120,
+                     "labourForSowingOrPlanting": 373,
+                     "labourForPruning": 9706,
+                     "labourForFieldVisits": 52,
+                     "labourForGreenhouseManagement": 1274,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": 3864,
+                     "labourForStorage": null,
+                     "labourForAdministration": 300
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": 796.2,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": 1950,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": null,
+                     "totalNumberOfLostWorkingHours": null,
+                     "totalNumberOfWorkingHours": null,
+                     "numberOfWorkingWeeks": null,
+                     "numberOfNewLocalEmployeesHired": null,
+                     "numberOfNewEmployeesHired": null
+                  },
+                  "additionalFieldsInformation": [
+                     {
+                        "fieldName": "Percentage of first class tomatoes of mass",
+                        "fieldValue": 97.5
+                     }
+                  ]
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Cost of water",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -199953.1296969697,
+                     "percentageDifference": -95.71854009516072
+                  },
+                  {
+                     "indicatorName": "Cost of  fuel",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 139694.28438228436,
+                     "percentageDifference": 874.3069893382974
+                  },
+                  {
+                     "indicatorName": "Cost of electricity",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -302904.7692307692,
+                     "percentageDifference": -52.166368754881226
+                  },
+                  {
+                     "indicatorName": "Labour for irrigation",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 1400.5508935508935,
+                     "percentageDifference": 1315.7
+                  },
+                  {
+                     "indicatorName": "Labour for field visits ",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 9995.464646464647,
+                     "percentageDifference": 1805.75
+                  },
+                  {
+                     "indicatorName": "Labour for greenhouse management",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -555.7494949494958,
+                     "percentageDifference": -4.097959183673475
+                  },
+                  {
+                     "indicatorName": "Labour for administrative activities, data collection, etc. ",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -453.47319347319353,
+                     "percentageDifference": -14.200000000000001
+                  },
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -352776.8216938616,
+                     "percentageDifference": -33.082731914834625
+                  },
+                  {
+                     "indicatorName": "Crop revenue",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 351043.0303030303,
+                     "percentageDifference": 29.099271539814115
+                  },
+                  {
+                     "indicatorName": "Land Productivity",
+                     "indicatorUnit": "t / ha",
+                     "absoluteDifference": 58.48531468531462,
+                     "percentageDifference": 9.453730218538045
+                  },
+                  {
+                     "indicatorName": "Labour productivity (arable and horticulture)",
+                     "indicatorUnit": "t / h",
+                     "absoluteDifference": 0.009831646498358097,
+                     "percentageDifference": 19.397806435908986
+                  },
+                  {
+                     "indicatorName": "Water consumption ",
+                     "indicatorUnit": "m3/ha",
+                     "absoluteDifference": -166627.60808080807,
+                     "percentageDifference": -95.71854009516072
+                  },
+                  {
+                     "indicatorName": "Electricity consumption",
+                     "indicatorUnit": "kWh/ha",
+                     "absoluteDifference": -4093307.6923076925,
+                     "percentageDifference": -52.16636875488123
+                  },
+                  {
+                     "indicatorName": "Fuel GHG emission ",
+                     "indicatorUnit": "kg CO2 eq/ha",
+                     "absoluteDifference": 320356.32618181815,
+                     "percentageDifference": 874.3069893382975
+                  },
+                  {
+                     "indicatorName": "Arable and horticulture fuel consumption ",
+                     "indicatorUnit": "l/ha",
+                     "absoluteDifference": 120426.10722610723,
+                     "percentageDifference": 874.3069893382975
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/ha",
+                     "absoluteDifference": 758.1600621600619,
+                     "percentageDifference": 59.64254278728604
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 23.75425012102907
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -297.4146898837112
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -59.64254278728604
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 33.082731914834625,
+                     "aggregatedImpactMaxRangeValue": 33.082731914834625
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 14.425768327223516,
+                     "aggregatedImpactMaxRangeValue": 14.425768327223516
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 95.71854009516072,
+                     "aggregatedImpactMaxRangeValue": 95.71854009516072
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -411.07031029170815,
+                     "aggregatedImpactMaxRangeValue": -100.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -874.3069893382975,
+                     "aggregatedImpactMaxRangeValue": -100.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -59.64254278728604,
+                     "aggregatedImpactMaxRangeValue": -59.64254278728604
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Cost of water",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -199953.1296969697,
+                     "percentageDifference": -95.71854009516072,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "REDUCED WATER CONSUMPTION",
+                     "mainImpactSubtitle": "due to lower water demand"
+                  },
+                  {
+                     "mainImpactName": "Cost of electricity",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -302904.7692307692,
+                     "percentageDifference": -52.166368754881226,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "REDUCED ELECTRICITY CONSUMPTION",
+                     "mainImpactSubtitle": "thanks to a greater efficiency of the lighting system"
+                  },
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -352776.8216938616,
+                     "percentageDifference": -33.082731914834625,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "COSTS SAVED",
+                     "mainImpactSubtitle": "thanks to a greater efficiency of the lighting system anda lower water demand"
+                  },
+                  {
+                     "mainImpactName": "Crop revenue",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 351043.0303030303,
+                     "percentageDifference": 29.099271539814115,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "INCREASED REVENUES",
+                     "mainImpactSubtitle": "due to higher yields"
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 701819.8519968919,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT",
+                     "mainImpactSubtitle": "due to improved production and costs reduction"
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 2000.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Maintenance costs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 1052666.6666666667,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "DATS investment cost"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of water",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -199953.1296969697,
+                     "percentageDifference": -95.71854009516072,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of water: a decrease in water usage has been recorded, partly attributable to the effect that DATSs has on crop evapotranspiration"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of  fuel",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 139694.28438228436,
+                     "percentageDifference": 874.3069893382974,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of fuel: higher cost of fuel due to different fuel utilization rate (different greenhouse structure) and different heat provided by lighting systems"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of electricity",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -302904.7692307692,
+                     "percentageDifference": -52.166368754881226,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of electricity: lower cost of electricity thanks to the DATSs lower electricity requirements. LED lights are more efficient and can be adjusted according ot crop needs and environmental conditions"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for irrigation",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 1400.5508935508935,
+                     "percentageDifference": 1315.7,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for irrigation: it seems that the technology requires more time to ensure its proper functioning"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for field visits ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 9995.464646464647,
+                     "percentageDifference": 1805.75,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for field visits: the management of the greenhouse with DATSs requires more visits and controlling activities "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for greenhouse management",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -555.7494949494958,
+                     "percentageDifference": -4.097959183673475,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for greenhouse management: an overall reduction of time spent for the management of the greenhouse environment is observed thanks to the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -453.47319347319353,
+                     "percentageDifference": -14.200000000000001,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for data management and administrative activities: the DATSs support better data management and administrative tasks"
+                  },
+                  {
+                     "costRevenueImpactCategory": "OUTPUT",
+                     "costRevenueImpactName": "Crop revenue",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 351043.0303030303,
+                     "percentageDifference": 29.099271539814115,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The increase in revenue is driven by higher yields achieved through DATS and a higher selling price for the product"
+                  },
+                  {
+                     "costRevenueImpactCategory": "CBA",
+                     "costRevenueImpactName": "NET BENEFIT",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 701819.8519968919,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The use of this DATS has brought to farmers a net benefit due to increase of revenues and reduction in total costs"
+                  }
+               ]
+            }
+         ],
+         "marketInformation": {
+            "waterPrice": 1.2,
+            "fuelPrice": 1.16,
+            "electricityPrice": 0.074,
+            "averageSalary": 13.7,
+            "averageProfessionalSalary": 1
+         }
+      },
+      {
+         "cultivationYear": 2025,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "parcelInformation": {
+                     "productType": "Tomato"
+                  }
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 245751.01493317785,
+                     "percentageDifference": 29.257166185335837
+                  },
+                  {
+                     "indicatorName": "Crop revenue",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 651341.1094930072,
+                     "percentageDifference": 52.10141201164209
+                  },
+                  {
+                     "indicatorName": "NET BENEFIT",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 403006.761226496,
+                     "percentageDifference": null
+                  },
+                  {
+                     "indicatorName": "Land Productivity",
+                     "indicatorUnit": "t / ha",
+                     "absoluteDifference": 231.9863073038074,
+                     "percentageDifference": 37.07650933660844
+                  },
+                  {
+                     "indicatorName": "Labour productivity (arable and horticulture or silos)",
+                     "indicatorUnit": "t / h",
+                     "absoluteDifference": 0.00835005173890245,
+                     "percentageDifference": 15.763325207885924
+                  },
+                  {
+                     "indicatorName": "Water consumption ",
+                     "indicatorUnit": "m3/ha",
+                     "absoluteDifference": -2513.181818181818,
+                     "percentageDifference": -18.98912421293646
+                  },
+                  {
+                     "indicatorName": "Electricity consumption",
+                     "indicatorUnit": "kWh/ha",
+                     "absoluteDifference": 3523248.2517482517,
+                     "percentageDifference": 57.6864375147415
+                  },
+                  {
+                     "indicatorName": "Arable and horticulture fuel consumption ",
+                     "indicatorUnit": "l/ha",
+                     "absoluteDifference": 13074142.592851596,
+                     "percentageDifference": 204.05556047780746
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/ha",
+                     "absoluteDifference": 1214.2113442113443,
+                     "percentageDifference": 91.81492361927145
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -1.4186244565443271
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -27.9704686958345
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -91.81492361927145
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -29.257166185335837,
+                     "aggregatedImpactMaxRangeValue": -29.257166185335837
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 26.419917272247183,
+                     "aggregatedImpactMaxRangeValue": 26.419917272247183
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 18.98912421293646,
+                     "aggregatedImpactMaxRangeValue": 18.98912421293646
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -130.87099899627447,
+                     "aggregatedImpactMaxRangeValue": -100.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -91.81492361927145,
+                     "aggregatedImpactMaxRangeValue": -91.81492361927145
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 245751.01493317785,
+                     "percentageDifference": 29.257166185335837,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "mainImpactTitle": "COSTS SAVED",
+                     "mainImpactSubtitle": "thanks to a greater efficiency of the lighting system anda lower water demand"
+                  },
+                  {
+                     "mainImpactName": "Crop revenue",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 651341.1094930072,
+                     "percentageDifference": 52.10141201164209,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "INCREASED REVENUES",
+                     "mainImpactSubtitle": "thanks to higher yields"
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 403006.761226496,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT",
+                     "mainImpactSubtitle": "due to improved production and costs reduction"
+                  },
+                  {
+                     "mainImpactName": "Land Productivity",
+                     "mainImpactUnit": "t / ha",
+                     "absoluteDifference": 231.9863073038074,
+                     "percentageDifference": 37.07650933660844,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "INCREASED YIELD",
+                     "mainImpactSubtitle": "thanks to improved crop productivity "
+                  },
+                  {
+                     "mainImpactName": "Water consumption ",
+                     "mainImpactUnit": "m3/ha",
+                     "absoluteDifference": -2513.181818181818,
+                     "percentageDifference": -18.98912421293646,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "REDUCED WATER CONSUMPTION",
+                     "mainImpactSubtitle": "thanks to improved control of irrigation and recirculation"
+                  },
+                  {
+                     "mainImpactName": "Working time",
+                     "mainImpactUnit": "h/ha",
+                     "absoluteDifference": 1214.2113442113443,
+                     "percentageDifference": 91.81492361927145,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "mainImpactTitle": "INCREASED WORKING TIME",
+                     "mainImpactSubtitle": "due to additional monitoring and management activities and to external factors"
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 2583.3333333333335,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 1315833.3333333335,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of water",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -2638.84090909091,
+                     "percentageDifference": -18.989124212936467,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "A decrease in water usage has been recorded, partly attributable to the effect that DATSs has on crop evapotranspiration and on the water management efficiency "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of  fuel",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 17541.666720279725,
+                     "percentageDifference": 10.335667942045134,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of fuel: higher cost of fuel due to different fuel utilization rate (different greenhouse structure) and different heat provided by lighting systems"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of electricity",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 214213.49370629364,
+                     "percentageDifference": 57.68643751474147,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Electricity consumption increased despite LED efficiency due to changes in the overall energy strategy and energy mix "
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for irrigation",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 499.91161616161617,
+                     "percentageDifference": 36.125,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "The irrigation scheduling is different, also thanks to DATS. This translates in differences in working hours used to control and manage the irrigation system"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for field visits ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 11568.223581973582,
+                     "percentageDifference": 714.9588815789473,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for field visits: the management of the greenhouse with DATSs requires more visits and controlling activities"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for greenhouse management",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 2418.9494949494947,
+                     "percentageDifference": 17.479999999999997,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "The adoption of DATSs simplifies overall farm management by enabling easier regulation of lighting and improved control of growing conditions, but an higher time for greenhouse management is observed"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 2147.6107226107224,
+                     "percentageDifference": 168.12499999999997,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "The increase in administrative management costs in the farm adopting the DATSs can be attributed to the higher complexity of monitoring, data handling, and coordination required by the technology. "
+                  },
+                  {
+                     "costRevenueImpactCategory": "OUTPUT",
+                     "costRevenueImpactName": "Crop revenue",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 651341.1094930072,
+                     "percentageDifference": 52.10141201164209,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": ""
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "cultivationYear": 2026,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "parcelInformation": {
+                     "productType": "Tomato"
+                  }
+               },
+               "calculatedIndicatorInformation": [
+                  {
+                     "indicatorName": "Sum of costs",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": -48696.0,
+                     "percentageDifference": null
+                  },
+                  {
+                     "indicatorName": "Crop revenue",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 785263.0,
+                     "percentageDifference": null
+                  },
+                  {
+                     "indicatorName": "NET BENEFIT",
+                     "indicatorUnit": "€/ha",
+                     "absoluteDifference": 822461.0,
+                     "percentageDifference": null
+                  },
+                  {
+                     "indicatorName": "Land Productivity",
+                     "indicatorUnit": "t / ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": 59.0
+                  },
+                  {
+                     "indicatorName": "Water consumption ",
+                     "indicatorUnit": "m3/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -45.0
+                  },
+                  {
+                     "indicatorName": "Electricity consumption",
+                     "indicatorUnit": "kWh/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -14.0
+                  },
+                  {
+                     "indicatorName": "Working time",
+                     "indicatorUnit": "h/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": 52.0
+                  }
+               ],
+               "calculatedSustainabilityInformation": [
+                  {
+                     "sustainabilityParameterName": "economic sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 29.5
+                  },
+                  {
+                     "sustainabilityParameterName": "envionmental sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": 14.75
+                  },
+                  {
+                     "sustainabilityParameterName": "social sustainability",
+                     "sustainabilityParameterUnit": "percentage",
+                     "absoluteDifference": null,
+                     "percentageDifference": -52.0
+                  }
+               ],
+               "aggregatedImpactInformation": [
+                  {
+                     "aggregatedImpactName": "total COSTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total PRODUCTIVITY ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 59.0,
+                     "aggregatedImpactMaxRangeValue": 59.0
+                  },
+                  {
+                     "aggregatedImpactName": "total WATER ",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 45.0,
+                     "aggregatedImpactMaxRangeValue": 45.0
+                  },
+                  {
+                     "aggregatedImpactName": "total INPUTS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total ENERGY",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 14.0,
+                     "aggregatedImpactMaxRangeValue": 14.0
+                  },
+                  {
+                     "aggregatedImpactName": "total GHG EMISSIONS",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": 0.0,
+                     "aggregatedImpactMaxRangeValue": 0.0
+                  },
+                  {
+                     "aggregatedImpactName": "total LABOUR",
+                     "aggregatedImpactUnit": "percentage",
+                     "aggregatedImpactValue": -52.0,
+                     "aggregatedImpactMaxRangeValue": -52.0
+                  }
+               ],
+               "mainImpactInformation": [
+                  {
+                     "mainImpactName": "Sum of costs",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": -48696.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "REDUCED COSTS ",
+                     "mainImpactSubtitle": "thanks to a greater efficiency of the lighting system and a lower water and electricity demand"
+                  },
+                  {
+                     "mainImpactName": "NET BENEFIT",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 822461.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "mainImpactTitle": "NET BENEFIT",
+                     "mainImpactSubtitle": "due to improved production and costs reduction"
+                  },
+                  {
+                     "mainImpactName": "PAYBACK PERIOD",
+                     "mainImpactUnit": "years (n)",
+                     "absoluteDifference": 1.6,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "PBP OF AROUND 2 YEARS",
+                     "mainImpactSubtitle": "indicating that the investment is recovered in a relatively short time"
+                  },
+                  {
+                     "mainImpactName": "NPV 5 years",
+                     "mainImpactUnit": "€/ha",
+                     "absoluteDifference": 2287603.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "POSITIVE NPV",
+                     "mainImpactSubtitle": "as the expected benefits significantly outweigh the associated costs"
+                  },
+                  {
+                     "mainImpactName": "ROI",
+                     "mainImpactUnit": "%",
+                     "absoluteDifference": 63.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "ROI OF 63%",
+                     "mainImpactSubtitle": "with returns exceeding the investment cost"
+                  },
+                  {
+                     "mainImpactName": "Land Productivity",
+                     "mainImpactUnit": "t / ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": 59.0,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "HIGHER YIELDS",
+                     "mainImpactSubtitle": "thanks to a better water and nutrient management, together with better climate conditions for the crop"
+                  },
+                  {
+                     "mainImpactName": "Water consumption ",
+                     "mainImpactUnit": "m3/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -45.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "REDUCED WATER CONSUMPTION",
+                     "mainImpactSubtitle": "thanks to improved control of irrigation and recirculation"
+                  },
+                  {
+                     "mainImpactName": "Electricity consumption",
+                     "mainImpactUnit": "kWh/ha",
+                     "absoluteDifference": null,
+                     "percentageDifference": -14.0,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 2.0,
+                     "mainImpactTitle": "REDUCED ELECTRICITY CONSUMPTION",
+                     "mainImpactSubtitle": "LED lights are more efficient and can be adjusted according ot crop needs and environmental conditions"
+                  }
+               ],
+               "costRevenueImpactInformation": [
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Cost of DATSs (maintenance + annual fees)",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 2583.3333333333335,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Cost of DATSs (maintenance + annual fees)"
+                  },
+                  {
+                     "costRevenueImpactCategory": "DATSs COSTS",
+                     "costRevenueImpactName": "Initial investment for the DATSs",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 1315833.3333333335,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 3.0,
+                     "costRevenueImpactShortDescription": "Initial investment for the DATSs"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of water",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -68405.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of water: a decrease in water usage has been recorded, partly attributable to the effect that DATSs has on crop evapotranspiration and better water management"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of  fuel",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 105263.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of fuel: higher cost of fuel due to different fuel utilization rate (different greenhouse structure) and different heat provided by lighting systems"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Cost of electricity",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": -87750.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "Cost of electricity: lower cost of electricity thanks to the DATSs lower electricity requirements. LED lights are more efficient and can be adjusted according ot crop needs and environmental conditions"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for irrigation",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 1164.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "Cost of labour for irrigation: it seems that the technology requires more time to ensure its proper functioning"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for greenhouse management",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 466.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "The adoption of DATSs simplifies overall farm management by enabling easier regulation of lighting and improved control of growing conditions, but an higher time for greenhouse management is observed"
+                  },
+                  {
+                     "costRevenueImpactCategory": "COSTS",
+                     "costRevenueImpactName": "Labour for administrative activities, data collection, etc. ",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 566.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "false",
+                     "impactLevel": 0.0,
+                     "costRevenueImpactShortDescription": "The increase in administrative management costs in the farm adopting the DATSs can be attributed to the higher complexity of monitoring, data handling, and coordination required by the technology. "
+                  },
+                  {
+                     "costRevenueImpactCategory": "OUTPUT",
+                     "costRevenueImpactName": "Crop revenue",
+                     "costRevenueImpactUnit": "€/ha",
+                     "absoluteDifference": 785263.0,
+                     "percentageDifference": null,
+                     "higherIsBetterMeaning": "true",
+                     "impactLevel": 1.0,
+                     "costRevenueImpactShortDescription": "The increase in revenue is driven by higher yields achieved through DATS and a higher selling price for the product"
+                  }
+               ]               
+            }
+         ]
+      }
+   ]
+}

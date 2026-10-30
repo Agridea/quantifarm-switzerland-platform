@@ -1,0 +1,1178 @@
+{
+   "testcaseNumber": 6,
+   "testcaseLeader": "Delphy",
+   "cultivationType": "Arable",
+   "crop" : "Onion",
+   "datsInformation": [
+      {
+         "datsName": "QMS Water Software",
+         "datsInitialInvestmentCosts": 0,
+         "datsAnnualFees": 300,
+         "datsMaintenanceCosts": 0,
+         "datsExpectedLifespan": 1,
+         "datsInstallationTime": 1,
+         "datsTrainingTime": 2,
+         "datsTrainers": 2,
+         "datsTrainingCosts": 0
+      },
+      {
+         "datsName": "Estede",
+         "datsInitialInvestmentCosts": 600,
+         "datsAnnualFees": 70,
+         "datsMaintenanceCosts": 15,
+         "datsExpectedLifespan": 1,
+         "datsInstallationTime": 1,
+         "datsTrainingTime": 2,
+         "datsTrainers": 1,
+         "datsTrainingCosts": 0
+      }
+   ],
+   "yearlyAssessmentInformation": [
+      {
+         "cultivationYear": 2024,
+         "parcelComparison": [
+            {
+               "parcelAssessmentWithDATS": {
+                  "farmInformation": {
+                     "farmNumber": null,
+                     "biogeographicalRegion": "Atlantic",
+                     "totalFarmSize": 43
+                  },
+                  "parcelInformation": {
+                     "parcelName": "Onions - DAT",
+                     "parcelDimension": 1,
+                     "startMonth": 5,
+                     "endMonth": 9,
+                     "productType": "Onions",
+                     "numberOfEmployees": 2,
+                     "numberOfFulltimeEmployees": 2,
+                     "numberOfSeasonalEmployees": 0,
+                     "soilFractionSand": 37,
+                     "soilFractionClay": 22,
+                     "soilFractionSilt": 31,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": 1,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [
+                     "Estede",
+                     "QMS Water Software"
+                  ],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 1306,
+                     "waterUsageForIrrigation": 936,
+                     "waterUsageForFertigation": 370,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 0,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 236,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [
+                     {
+                        "productName": "Amistar",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 1,
+                        "productPrice": 53
+                     },
+                     {
+                        "productName": "AZ",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.2,
+                        "productPrice": 145
+                     },
+                     {
+                        "productName": "Basagran",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.2,
+                        "productPrice": 35
+                     },
+                     {
+                        "productName": "Batavia",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 0.75,
+                        "productPrice": 105
+                     },
+                     {
+                        "productName": "Dual Gold",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.55,
+                        "productPrice": 33
+                     },
+                     {
+                        "productName": "Fandango",
+                        "numberOfTreatments": 4,
+                        "averageQuantity": 1.25,
+                        "productPrice": 56
+                     },
+                     {
+                        "productName": "Luna Experience",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.5,
+                        "productPrice": 87
+                     },
+                     {
+                        "productName": "Orondis plus",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.15,
+                        "productPrice": 25
+                     },
+                     {
+                        "productName": "Roundup Dynamic",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 1.83,
+                        "productPrice": 15
+                     },
+                     {
+                        "productName": "Stomp",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.75,
+                        "productPrice": 17
+                     },
+                     {
+                        "productName": "Starane Top",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.1,
+                        "productPrice": 60
+                     },
+                     {
+                        "productName": "Wing P",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 0.9,
+                        "productPrice": 22
+                     },
+                     {
+                        "productName": "Zorvec Endavia",
+                        "numberOfTreatments": 4,
+                        "averageQuantity": 0.4,
+                        "productPrice": 118
+                     }
+                  ],
+                  "fertilizersUsageInformation": [
+                     {
+                        "productName": "26-14-0",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.173,
+                        "averageNitrogenQuantity": 26,
+                        "averagePhosphorusQuantity": 14,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.35
+                     },
+                     {
+                        "productName": "Superstart",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.045,
+                        "averageNitrogenQuantity": 10,
+                        "averagePhosphorusQuantity": 35,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 2.2
+                     },
+                     {
+                        "productName": "Kaliumsulfaat (English potassium sulfate)",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.134,
+                        "averageNitrogenQuantity": 0,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 50,
+                        "productPrice": 0.68
+                     },
+                     {
+                        "productName": "Urean (mixture of ammonium nitrate and urea)",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 0.62,
+                        "averageNitrogenQuantity": 24,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.3
+                     },
+                     {
+                        "productName": "Teon B",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 6,
+                        "averageQuantity": 0.067,
+                        "averageNitrogenQuantity": 6.6,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 32.6,
+                        "productPrice": 1.4
+                     }
+                  ],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": 11,
+                     "labourForPesticides": null,
+                     "labourForFertilisation": null,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": null,
+                     "labourForFieldVisits": null,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": null,
+                     "labourForStorage": null,
+                     "labourForAdministration": null
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": 71,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": 170,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": null,
+                     "totalNumberOfLostWorkingHours": null,
+                     "totalNumberOfWorkingHours": null,
+                     "numberOfWorkingWeeks": null,
+                     "numberOfNewLocalEmployeesHired": null,
+                     "numberOfNewEmployeesHired": null
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "parcelAssessmentWithoutDATS": {
+                  "farmInformation": {
+                     "farmNumber": null,
+                     "biogeographicalRegion": "Atlantic",
+                     "totalFarmSize": 43
+                  },
+                  "parcelInformation": {
+                     "parcelName": "Onions - NONDAT",
+                     "parcelDimension": 3,
+                     "startMonth": 5,
+                     "endMonth": 9,
+                     "productType": "Onions",
+                     "numberOfEmployees": 2,
+                     "numberOfFulltimeEmployees": 2,
+                     "numberOfSeasonalEmployees": 0,
+                     "soilFractionSand": 37,
+                     "soilFractionClay": 22,
+                     "soilFractionSilt": 31,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": 1,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 3642,
+                     "waterUsageForIrrigation": 2619,
+                     "waterUsageForFertigation": 1023,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 0,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 657,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [
+                     {
+                        "productName": "Amistar",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 1,
+                        "productPrice": 53
+                     },
+                     {
+                        "productName": "AZ",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.2,
+                        "productPrice": 145
+                     },
+                     {
+                        "productName": "Basagran",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.2,
+                        "productPrice": 35
+                     },
+                     {
+                        "productName": "Batavia",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 0.75,
+                        "productPrice": 105
+                     },
+                     {
+                        "productName": "Dual Gold",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.55,
+                        "productPrice": 33
+                     },
+                     {
+                        "productName": "Fandango",
+                        "numberOfTreatments": 4,
+                        "averageQuantity": 1.25,
+                        "productPrice": 56
+                     },
+                     {
+                        "productName": "Luna Experience",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.5,
+                        "productPrice": 87
+                     },
+                     {
+                        "productName": "Orondis plus",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.15,
+                        "productPrice": 25
+                     },
+                     {
+                        "productName": "Roundup Dynamic",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 1.83,
+                        "productPrice": 15
+                     },
+                     {
+                        "productName": "Stomp",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.75,
+                        "productPrice": 17
+                     },
+                     {
+                        "productName": "Starane Top",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.1,
+                        "productPrice": 60
+                     },
+                     {
+                        "productName": "Wing P",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 0.9,
+                        "productPrice": 22
+                     },
+                     {
+                        "productName": "Zorvec Endavia",
+                        "numberOfTreatments": 4,
+                        "averageQuantity": 0.4,
+                        "productPrice": 118
+                     }
+                  ],
+                  "fertilizersUsageInformation": [
+                     {
+                        "productName": "26-14-0",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.173,
+                        "averageNitrogenQuantity": 26,
+                        "averagePhosphorusQuantity": 14,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.35
+                     },
+                     {
+                        "productName": "Superstart",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.045,
+                        "averageNitrogenQuantity": 10,
+                        "averagePhosphorusQuantity": 35,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 2.2
+                     },
+                     {
+                        "productName": "Kaliumsulfaat (English potassium sulfate)",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.134,
+                        "averageNitrogenQuantity": 0,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 50,
+                        "productPrice": 0.68
+                     },
+                     {
+                        "productName": "Urean (mixture of ammonium nitrate and urea)",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 0.62,
+                        "averageNitrogenQuantity": 24,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.3
+                     },
+                     {
+                        "productName": "Teon B",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 6,
+                        "averageQuantity": 0.067,
+                        "averageNitrogenQuantity": 6.6,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 32.6,
+                        "productPrice": 1.4
+                     }
+                  ],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": 10,
+                     "labourForPesticides": null,
+                     "labourForFertilisation": null,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": null,
+                     "labourForFieldVisits": null,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": null,
+                     "labourForStorage": null,
+                     "labourForAdministration": null
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": 156,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": 170,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": null,
+                     "totalNumberOfLostWorkingHours": null,
+                     "totalNumberOfWorkingHours": null,
+                     "numberOfWorkingWeeks": null,
+                     "numberOfNewLocalEmployeesHired": null,
+                     "numberOfNewEmployeesHired": null
+                  },
+                  "additionalFieldsInformation": []
+               }
+            },
+            {
+               "parcelAssessmentWithDATS": {
+                  "farmInformation": {
+                     "farmNumber": null,
+                     "biogeographicalRegion": "Atlantic",
+                     "totalFarmSize": 43
+                  },
+                  "parcelInformation": {
+                     "parcelName": "Potato - DAT",
+                     "parcelDimension": 1.4,
+                     "startMonth": 5,
+                     "endMonth": 9,
+                     "productType": "Potato",
+                     "numberOfEmployees": 2,
+                     "numberOfFulltimeEmployees": 2,
+                     "numberOfSeasonalEmployees": 0,
+                     "soilFractionSand": 29,
+                     "soilFractionClay": 23,
+                     "soilFractionSilt": 34,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": 1.2,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [
+                     "QMS Water Software",
+                     "Estede"
+                  ],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 426,
+                     "waterUsageForIrrigation": 426,
+                     "waterUsageForFertigation": 0,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 0,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 140,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [
+                     {
+                        "productName": "Boxer",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 1,
+                        "productPrice": 13.6
+                     },
+                     {
+                        "productName": "Canvas",
+                        "numberOfTreatments": 4,
+                        "averageQuantity": 0.39,
+                        "productPrice": 63.88
+                     },
+                     {
+                        "productName": "Clinic",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 4,
+                        "productPrice": 8.79
+                     },
+                     {
+                        "productName": "Coragen",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.06,
+                        "productPrice": 434.75
+                     },
+                     {
+                        "productName": "Crown MH",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 10.5,
+                        "productPrice": 16.18
+                     },
+                     {
+                        "productName": "Curzate Partner",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 0.16,
+                        "productPrice": 71.57
+                     },
+                     {
+                        "productName": "Cymbal",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.25,
+                        "productPrice": 38.7
+                     },
+                     {
+                        "productName": "Enervin",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 1.2,
+                        "productPrice": 17.44
+                     },
+                     {
+                        "productName": "Infinto",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 1.3,
+                        "productPrice": 22.8
+                     },
+                     {
+                        "productName": "Levanta",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.35,
+                        "productPrice": 36
+                     },
+                     {
+                        "productName": "Mangaan Magnesium",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 2.17,
+                        "productPrice": 3.77
+                     },
+                     {
+                        "productName": "Narita",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.5,
+                        "productPrice": 34.53
+                     },
+                     {
+                        "productName": "Propulse",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.5,
+                        "productPrice": 62.22
+                     },
+                     {
+                        "productName": "Proxanil",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 2,
+                        "productPrice": 14.45
+                     },
+                     {
+                        "productName": "Quick down",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.8,
+                        "productPrice": 58
+                     },
+                     {
+                        "productName": "Ranman Top",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.5,
+                        "productPrice": 60
+                     },
+                     {
+                        "productName": "Revus",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.27,
+                        "productPrice": 46.39
+                     },
+                     {
+                        "productName": "Sencor",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.05,
+                        "productPrice": 58.59
+                     },
+                     {
+                        "productName": "Vendetta",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.45,
+                        "productPrice": 54.35
+                     },
+                     {
+                        "productName": "Zorvec Endiva",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.15,
+                        "productPrice": 117.8
+                     },
+                     {
+                        "productName": "Zorvec Enicade",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.15,
+                        "productPrice": 117.8
+                     }
+                  ],
+                  "fertilizersUsageInformation": [
+                     {
+                        "productName": "26-14-0",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.6,
+                        "averageNitrogenQuantity": 26,
+                        "averagePhosphorusQuantity": 14,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.35
+                     },
+                     {
+                        "productName": "Kalisulfaat",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.35,
+                        "averageNitrogenQuantity": 0,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 50,
+                        "productPrice": 0.68
+                     },
+                     {
+                        "productName": "Urean",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 0.225,
+                        "averageNitrogenQuantity": 39,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.3
+                     },
+                     {
+                        "productName": "Fertigatie B",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 4,
+                        "averageQuantity": 0.29,
+                        "averageNitrogenQuantity": 0.066,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0.326,
+                        "productPrice": 1.4
+                     }
+                  ],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": 16,
+                     "labourForPesticides": null,
+                     "labourForFertilisation": null,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": null,
+                     "labourForFieldVisits": null,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": null,
+                     "labourForStorage": null,
+                     "labourForAdministration": null
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": 55,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": 240,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": null,
+                     "totalNumberOfLostWorkingHours": null,
+                     "totalNumberOfWorkingHours": null,
+                     "numberOfWorkingWeeks": null,
+                     "numberOfNewLocalEmployeesHired": null,
+                     "numberOfNewEmployeesHired": null
+                  },
+                  "additionalFieldsInformation": []
+               },
+               "parcelAssessmentWithoutDATS": {
+                  "farmInformation": {
+                     "farmNumber": null,
+                     "biogeographicalRegion": "Atlantic",
+                     "totalFarmSize": 43
+                  },
+                  "parcelInformation": {
+                     "parcelName": "Potato - NONDAT",
+                     "parcelDimension": 1.6,
+                     "startMonth": 5,
+                     "endMonth": 9,
+                     "productType": "Potato",
+                     "numberOfEmployees": 2,
+                     "numberOfFulltimeEmployees": 2,
+                     "numberOfSeasonalEmployees": 0,
+                     "soilFractionSand": 29,
+                     "soilFractionClay": 23,
+                     "soilFractionSilt": 34,
+                     "bulkDensity": null,
+                     "soilOrganicCarbon": 1.2,
+                     "numberOfAnimals": null,
+                     "numberOfPlants": null,
+                     "livestockUnits": null,
+                     "numberOfBeehives": null,
+                     "aquacultureArea": null
+                  },
+                  "datsUsed": [],
+                  "waterUsageInformation": {
+                     "totalWaterUsage": 531,
+                     "waterUsageForIrrigation": 531,
+                     "waterUsageForFertigation": 0,
+                     "waterUsageForPestDilution": null,
+                     "waterUsageForCleaning": null,
+                     "waterUsageForDrinking": null
+                  },
+                  "fuelUsageInformation": {
+                     "totalFuelUsage": 0,
+                     "fuelUsageForFertilisation": null,
+                     "fuelUsageForPesticides": null,
+                     "fuelUsageForIrrigation": null,
+                     "fuelUsageForSowing": null,
+                     "fuelUsageForPruning": null,
+                     "fuelUsageForTemperatureHumidityControl": null,
+                     "fuelUsageForBeehivesVisits": null,
+                     "fuelUsageForTransportingOysters": null,
+                     "fuelUsageForMilking": null,
+                     "fuelUsageForFeeding": null
+                  },
+                  "electricityUsageInformation": {
+                     "totalElectricityUsage": 118,
+                     "electricityUsageForTemperatureHumidityControl": null,
+                     "electricityUsageForIrrigation": null,
+                     "electricityUsageForMilking": null,
+                     "electricityUsageForHeatDetection": null,
+                     "electricityUsageForCalvingDetection": null,
+                     "electricityUsageForFeeding": null
+                  },
+                  "fuelForTemperatureControlInformation": [],
+                  "pesticidesUsageInformation": [
+                     {
+                        "productName": "Boxer",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 1,
+                        "productPrice": 13.6
+                     },
+                     {
+                        "productName": "Canvas",
+                        "numberOfTreatments": 4,
+                        "averageQuantity": 0.39,
+                        "productPrice": 63.88
+                     },
+                     {
+                        "productName": "Clinic",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 4,
+                        "productPrice": 8.79
+                     },
+                     {
+                        "productName": "Coragen",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.06,
+                        "productPrice": 434.75
+                     },
+                     {
+                        "productName": "Crown MH",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 10.5,
+                        "productPrice": 16.18
+                     },
+                     {
+                        "productName": "Curzate Partner",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 0.16,
+                        "productPrice": 71.57
+                     },
+                     {
+                        "productName": "Cymbal",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.25,
+                        "productPrice": 38.7
+                     },
+                     {
+                        "productName": "Enervin",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 1.2,
+                        "productPrice": 17.44
+                     },
+                     {
+                        "productName": "Infinto",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 1.3,
+                        "productPrice": 22.8
+                     },
+                     {
+                        "productName": "Levanta",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.35,
+                        "productPrice": 36
+                     },
+                     {
+                        "productName": "Mangaan Magnesium",
+                        "numberOfTreatments": 3,
+                        "averageQuantity": 2.17,
+                        "productPrice": 3.77
+                     },
+                     {
+                        "productName": "Narita",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.5,
+                        "productPrice": 34.53
+                     },
+                     {
+                        "productName": "Propulse",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.5,
+                        "productPrice": 62.22
+                     },
+                     {
+                        "productName": "Proxanil",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 2,
+                        "productPrice": 14.45
+                     },
+                     {
+                        "productName": "Quick down",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.8,
+                        "productPrice": 58
+                     },
+                     {
+                        "productName": "Ranman Top",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.5,
+                        "productPrice": 60
+                     },
+                     {
+                        "productName": "Revus",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.27,
+                        "productPrice": 46.39
+                     },
+                     {
+                        "productName": "Sencor",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.05,
+                        "productPrice": 58.59
+                     },
+                     {
+                        "productName": "Vendetta",
+                        "numberOfTreatments": 2,
+                        "averageQuantity": 0.45,
+                        "productPrice": 54.35
+                     },
+                     {
+                        "productName": "Zorvec Endiva",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.15,
+                        "productPrice": 117.8
+                     },
+                     {
+                        "productName": "Zorvec Enicade",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.15,
+                        "productPrice": 117.8
+                     }
+                  ],
+                  "fertilizersUsageInformation": [
+                     {
+                        "productName": "26-14-0",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.6,
+                        "averageNitrogenQuantity": 26,
+                        "averagePhosphorusQuantity": 14,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.35
+                     },
+                     {
+                        "productName": "Kalisulfaat",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.35,
+                        "averageNitrogenQuantity": 0,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 50,
+                        "productPrice": 0.68
+                     },
+                     {
+                        "productName": "Spuiwater",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 1.3,
+                        "averageNitrogenQuantity": 0.06,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 0,
+                        "productPrice": 0.02
+                     },
+                     {
+                        "productName": "Kali 60",
+                        "productType": "Mineral",
+                        "numberOfTreatments": 1,
+                        "averageQuantity": 0.175,
+                        "averageNitrogenQuantity": 0,
+                        "averagePhosphorusQuantity": 0,
+                        "averagePotassiumQuantity": 60,
+                        "productPrice": 0.6
+                     }
+                  ],
+                  "feedUsageInformation": [],
+                  "drugsUsageInformation": [],
+                  "labourInformation": {
+                     "labourForIrrigation": 14,
+                     "labourForPesticides": null,
+                     "labourForFertilisation": null,
+                     "labourForSowingOrPlanting": null,
+                     "labourForPruning": null,
+                     "labourForFieldVisits": null,
+                     "labourForGreenhouseManagement": null,
+                     "labourForQuantityTracking": null,
+                     "labourForGrainQualityAssessment": null,
+                     "labourForControllingPricesAndQuantities": null,
+                     "labourForOrganisingLogistics": null,
+                     "labourForCleaning": null,
+                     "labourForStableVisits": null,
+                     "labourForHeatDetection": null,
+                     "labourForCalvingDetection": null,
+                     "labourForPigstyManagement": null,
+                     "labourForMilking": null,
+                     "labourForMilkQualityAssessment": null,
+                     "labourForFeeding": null,
+                     "labourForBeehiveVisits": null,
+                     "labourForOysterSampling": null,
+                     "labourForOysterTransportation": null,
+                     "labourForHarvesting": null,
+                     "labourForStorage": null,
+                     "labourForAdministration": null
+                  },
+                  "economicInformation": {
+                     "numberOfFulfilledOrders": null,
+                     "numberOfOrdersReceived": null,
+                     "numberOfWrongOrders": null,
+                     "additionalRevenues": null,
+                     "percentageProteinInDryMatter": null,
+                     "humidity": null,
+                     "testWeight": null
+                  },
+                  "outputInformation": {
+                     "cropProduction": 68.8,
+                     "milkProduction": null,
+                     "meatProduction": null,
+                     "oysterProduction": null,
+                     "honeyProduction": null,
+                     "silosProduction": null,
+                     "productMarketPrice": null,
+                     "cropMarketPrice": 240,
+                     "meatMarketPrice": null,
+                     "milkMarketPrice": null,
+                     "oysterMarketPrice": null,
+                     "honeyMarketPrice": null
+                  },
+                  "additionalAnimalInformation": {
+                     "numberOfDeathAnimals": null,
+                     "calvesDiedInFirst24Hours": null,
+                     "totalNumberOfCalvesBorn": null,
+                     "numberOfDaysWithPastureAccess": null,
+                     "outdoorLoafingArea": null,
+                     "herdSize": null,
+                     "numberOfCowsWithHighSCCMilk": null
+                  },
+                  "additionalLabourInformation": {
+                     "numberOfNewInjuryCases": null,
+                     "totalNumberOfLostWorkingHours": null,
+                     "totalNumberOfWorkingHours": null,
+                     "numberOfWorkingWeeks": null,
+                     "numberOfNewLocalEmployeesHired": null,
+                     "numberOfNewEmployeesHired": null
+                  },
+                  "additionalFieldsInformation": []
+               }
+            }
+         ],
+         "marketInformation": {
+            "waterPrice": 0,
+            "fuelPrice": 1.18,
+            "electricityPrice": 0.15,
+            "averageSalary": 50,
+            "averageProfessionalSalary": 100
+         }
+      },
+      {
+         "cultivationYear": 2025,
+         "parcelComparison": []
+      }
+   ]
+}
